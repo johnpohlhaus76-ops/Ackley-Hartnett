@@ -1,24 +1,34 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Sidebar } from "@/components/Sidebar";
 
 export const metadata: Metadata = {
-  title: "Ackley Hartnett — Sales Portal",
+  metadataBase: new URL("https://ackleyhartnett.com"),
+  title: {
+    default: "Ackley Hartnett — Pharmaceutical Tablet & Capsule Marking Systems",
+    template: "%s · Ackley Hartnett",
+  },
   description:
-    "Global sales operations portal for Ackley Hartnett pharmaceutical & confectionery printing, laser drilling and marking equipment.",
+    "The world leader in pharmaceutical tablet and capsule identification: edible-ink rotogravure printing, CO2 & UV laser marking, precision laser drilling and inline inspection — engineered for GMP, safety, efficacy and cleanliness.",
+  keywords: [
+    "pharmaceutical tablet printing",
+    "capsule laser marking",
+    "laser drilling osmotic tablets",
+    "GMP pharmaceutical equipment",
+    "tablet identification",
+    "rotogravure pharmaceutical printer",
+  ],
+  openGraph: {
+    title: "Ackley Hartnett — Pharmaceutical Marking Systems",
+    description:
+      "Edible-ink printing, CO2 & UV laser marking, precision laser drilling and inline inspection — engineered for GMP.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body>
-        <div className="flex min-h-screen">
-          <Sidebar />
-          <main className="flex-1 min-w-0 lg:pl-64">
-            <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">{children}</div>
-          </main>
-        </div>
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

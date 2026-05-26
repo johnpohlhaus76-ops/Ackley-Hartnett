@@ -17,7 +17,7 @@ export default function DashboardPage() {
         title="Sales Operations Dashboard"
         subtitle="Global view of accounts, installed base, pipeline targets and equipment catalog."
         action={
-          <Link href="/quote" className="btn-primary">
+          <Link href="/portal/quote" className="btn-primary">
             <FileText size={16} /> New Quote
           </Link>
         }
@@ -42,7 +42,7 @@ export default function DashboardPage() {
         <div className="card p-5 lg:col-span-2">
           <div className="mb-3 flex items-center justify-between">
             <h2 className="font-semibold text-ink">Priority Targets</h2>
-            <Link href="/accounts" className="flex items-center gap-1 text-sm text-brand-600 hover:underline">
+            <Link href="/portal/accounts" className="flex items-center gap-1 text-sm text-brand-600 hover:underline">
               All accounts <ArrowRight size={14} />
             </Link>
           </div>
@@ -89,9 +89,9 @@ export default function DashboardPage() {
           </div>
 
           <div className="mt-5 grid grid-cols-3 gap-2">
-            <QuickLink href="/map" icon={Globe2} label="Map" />
-            <QuickLink href="/catalog" icon={Boxes} label="Catalog" />
-            <QuickLink href="/accounts" icon={Building2} label="Accounts" />
+            <QuickLink href="/portal/map" icon={Globe2} label="Map" />
+            <QuickLink href="/portal/catalog" icon={Boxes} label="Catalog" />
+            <QuickLink href="/portal/accounts" icon={Building2} label="Accounts" />
           </div>
         </div>
       </div>

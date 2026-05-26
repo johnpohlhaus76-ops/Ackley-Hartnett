@@ -12,16 +12,17 @@ import {
   BookOpen,
   Menu,
   X,
+  ExternalLink,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const NAV = [
-  { href: "/", label: "Dashboard", icon: LayoutDashboard },
-  { href: "/accounts", label: "Accounts 360", icon: Building2 },
-  { href: "/map", label: "Global Map", icon: Globe2 },
-  { href: "/catalog", label: "Equipment Catalog", icon: Boxes },
-  { href: "/quote", label: "Quote Builder", icon: FileText },
-  { href: "/datasheets", label: "Datasheets", icon: BookOpen },
+  { href: "/portal", label: "Dashboard", icon: LayoutDashboard },
+  { href: "/portal/accounts", label: "Accounts 360", icon: Building2 },
+  { href: "/portal/map", label: "Global Map", icon: Globe2 },
+  { href: "/portal/catalog", label: "Equipment Catalog", icon: Boxes },
+  { href: "/portal/quote", label: "Quote Builder", icon: FileText },
+  { href: "/portal/datasheets", label: "Datasheets", icon: BookOpen },
 ];
 
 export function Sidebar() {
@@ -29,7 +30,7 @@ export function Sidebar() {
   const [open, setOpen] = useState(false);
 
   const isActive = (href: string) =>
-    href === "/" ? pathname === "/" : pathname.startsWith(href);
+    href === "/portal" ? pathname === "/portal" : pathname.startsWith(href);
 
   return (
     <>
@@ -69,9 +70,17 @@ export function Sidebar() {
               </Link>
             ))}
           </nav>
-          <div className="border-t border-slate-200 px-5 py-4 text-xs text-slate-400">
-            <p className="font-medium text-slate-500">Ackley Hartnett</p>
-            <p>215-969-9190 · info@ackleyhartnett.com</p>
+          <div className="space-y-3 border-t border-slate-200 px-5 py-4 text-xs text-slate-400">
+            <Link
+              href="/"
+              className="inline-flex items-center gap-1.5 font-medium text-brand-600 hover:text-brand-700"
+            >
+              <ExternalLink size={13} /> View public site
+            </Link>
+            <div>
+              <p className="font-medium text-slate-500">Ackley Hartnett</p>
+              <p>215-969-9190 · info@ackleyhartnett.com</p>
+            </div>
           </div>
         </div>
       </aside>
@@ -88,7 +97,7 @@ export function Sidebar() {
 
 function Brand() {
   return (
-    <Link href="/" className="flex items-center gap-2">
+    <Link href="/portal" className="flex items-center gap-2">
       <span className="grid h-9 w-9 place-items-center rounded-lg bg-brand-600 font-bold text-white">
         AH
       </span>
