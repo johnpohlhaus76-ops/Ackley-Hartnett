@@ -49,7 +49,7 @@ export default async function AccountPage({ params }: { params: Promise<{ id: st
 
   return (
     <div>
-      <Link href="/accounts" className="mb-4 inline-flex items-center gap-1 pt-12 text-sm text-slate-500 hover:text-ink lg:pt-0">
+      <Link href="/portal/accounts" className="mb-4 inline-flex items-center gap-1 pt-12 text-sm text-slate-500 hover:text-ink lg:pt-0">
         <ArrowLeft size={15} /> Accounts
       </Link>
 
