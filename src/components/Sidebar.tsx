@@ -10,6 +10,7 @@ import {
   FileText,
   Globe2,
   BookOpen,
+  Contact,
   Menu,
   X,
   ExternalLink,
@@ -18,6 +19,7 @@ import { cn } from "@/lib/utils";
 
 const NAV = [
   { href: "/portal", label: "Dashboard", icon: LayoutDashboard },
+  { href: "/portal/crm", label: "CRM (HubSpot)", icon: Contact },
   { href: "/portal/accounts", label: "Accounts 360", icon: Building2 },
   { href: "/portal/map", label: "Global Map", icon: Globe2 },
   { href: "/portal/catalog", label: "Equipment Catalog", icon: Boxes },
