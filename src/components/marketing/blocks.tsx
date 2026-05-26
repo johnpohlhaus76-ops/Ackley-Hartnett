@@ -94,9 +94,11 @@ export function ProductCard({ product }: { product: Product }) {
         <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-laser-700">
           View machine <ArrowRight size={15} className="transition-transform group-hover:translate-x-0.5" />
         </span>
-        <span className="inline-flex items-center gap-1 text-xs text-slate-400">
-          <FileText size={13} /> Datasheet
-        </span>
+        {product.datasheet && (
+          <span className="inline-flex items-center gap-1 text-xs text-slate-400">
+            <FileText size={13} /> Datasheet
+          </span>
+        )}
       </div>
     </Link>
   );

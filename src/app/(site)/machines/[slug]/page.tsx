@@ -87,14 +87,16 @@ export default async function MachineDetailPage({
                 <Link href={`/contact?machine=${product.slug}`} className="btn-laser">
                   Request a quote <ArrowRight size={16} />
                 </Link>
-                <a
-                  href={product.datasheet}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="btn-outline-light"
-                >
-                  <Download size={16} /> Datasheet (PDF)
-                </a>
+                {product.datasheet && (
+                  <a
+                    href={product.datasheet}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="btn-outline-light"
+                  >
+                    <Download size={16} /> Datasheet (PDF)
+                  </a>
+                )}
               </div>
             </div>
 
@@ -169,35 +171,54 @@ export default async function MachineDetailPage({
             </div>
           </div>
 
-          <div>
-            <div className="flex items-center justify-between">
-              <h2 className="text-2xl font-bold tracking-tight text-ink">Datasheet</h2>
-              <a
-                href={product.datasheet}
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center gap-1.5 text-sm font-semibold text-laser-700 hover:text-laser-800"
-              >
-                <Download size={15} /> Download
-              </a>
+          {product.datasheet ? (
+            <div>
+              <div className="flex items-center justify-between">
+                <h2 className="text-2xl font-bold tracking-tight text-ink">Datasheet</h2>
+                <a
+                  href={product.datasheet}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex items-center gap-1.5 text-sm font-semibold text-laser-700 hover:text-laser-800"
+                >
+                  <Download size={15} /> Download
+                </a>
+              </div>
+              <div className="mt-4 overflow-hidden rounded-2xl border border-slate-200 bg-white">
+                <object
+                  data={`${product.datasheet}#view=FitH`}
+                  type="application/pdf"
+                  className="h-[560px] w-full"
+                >
+                  <div className="grid h-[560px] place-items-center p-8 text-center text-sm text-slate-500">
+                    <span>
+                      Your browser can&apos;t preview PDFs.{" "}
+                      <a href={product.datasheet} className="font-semibold text-laser-700 underline">
+                        Open the datasheet
+                      </a>
+                    </span>
+                  </div>
+                </object>
+              </div>
             </div>
-            <div className="mt-4 overflow-hidden rounded-2xl border border-slate-200 bg-white">
-              <object
-                data={`${product.datasheet}#view=FitH`}
-                type="application/pdf"
-                className="h-[560px] w-full"
-              >
-                <div className="grid h-[560px] place-items-center p-8 text-center text-sm text-slate-500">
-                  <span>
-                    Your browser can&apos;t preview PDFs.{" "}
-                    <a href={product.datasheet} className="font-semibold text-laser-700 underline">
-                      Open the datasheet
-                    </a>
-                  </span>
-                </div>
-              </object>
+          ) : (
+            <div className="flex flex-col justify-center rounded-2xl border border-slate-200 bg-white p-8">
+              <h2 className="text-2xl font-bold tracking-tight text-ink">Full specifications</h2>
+              <p className="mt-3 text-sm leading-relaxed text-slate-600">
+                A detailed datasheet for the {product.name} is available on request. Our engineers
+                will share full specifications, footprint and validation documentation tailored to
+                your dosage form and throughput target.
+              </p>
+              <div className="mt-6 flex flex-wrap gap-3">
+                <Link href={`/contact?machine=${product.slug}`} className="btn-primary">
+                  Request full spec <ArrowRight size={15} />
+                </Link>
+                <a href="mailto:info@ackleyhartnett.com" className="btn-ghost">
+                  Email us
+                </a>
+              </div>
             </div>
-          </div>
+          )}
         </div>
       </section>
 
