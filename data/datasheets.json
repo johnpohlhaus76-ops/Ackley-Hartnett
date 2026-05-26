@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "delta-ink",
+    "name": "Delta Printer",
+    "file": "/datasheets/delta-ink.pdf",
+    "hero": "Ink Printing Tablets Capsules LCT\u2019s Softgels Up to 70,000 PPH Delta Printer One or Two-Sided Rotogravure Printing Single-Lane Carrier Link Feed System"
+  },
+  {
+    "slug": "delta-laser",
+    "name": "Delta Laser Writer",
+    "file": "/datasheets/delta-laser.pdf",
+    "hero": "Laser Marking Tablets Capsules LCT\u2019s Softgels Up to 70,000 PPH Delta Laser Writer One or Two-Sided C02 or UV Laser Single-Lane Carrier Link Feed System"
+  },
+  {
+    "slug": "delta-uv",
+    "name": "Delta UV Laser",
+    "file": "/datasheets/delta-uv.pdf",
+    "hero": "Laser Marking Tablets Capsules LCT\u2019s Softgels Up to 70,000 PPH Delta UV Laser One or Two-Sided UV Laser Single-Lane Carrier Link Feed System"
+  },
+  {
+    "slug": "delta-co2",
+    "name": "Delta CO2 Laser",
+    "file": "/datasheets/delta-co2.pdf",
+    "hero": "Laser Marking Tablets Capsules LCT\u2019s Softgels Up to 60,000 PPH Delta C02 Laser One or Two-Sided C02 Laser Writer Single-Lane Carrier Link Feed System"
+  },
+  {
+    "slug": "vip-ink-printer",
+    "name": "VIP Printer",
+    "file": "/datasheets/vip-ink-printer.pdf",
+    "hero": "Ink Printing Tablets Capsules LCT\u2019s Softgels Up to 60,000 PPH VIP Printer One or Two-Sided Rotogravure Printing Single-Lane Carrier Link Feed System"
+  },
+  {
+    "slug": "vip-laser-drill",
+    "name": "VIP Laser Drill",
+    "file": "/datasheets/vip-laser-drill.pdf",
+    "hero": "Laser Drilling Tablets Capsules LCT\u2019s Up to 60,000 PPH VIP Laser Drill One or Two-Sided CO2 Laser Drilling Single-Lane Carrier Link Feed System"
+  },
+  {
+    "slug": "vip-uv-laser",
+    "name": "VIP UV Laser",
+    "file": "/datasheets/vip-uv-laser.pdf",
+    "hero": "Laser Marking Tablets Capsules LCT\u2019s Softgels Up to 60,000 PPH VIP UV Laser One or Two-Sided UV Laser Marking Single-Lane Carrier Link Feed System"
+  },
+  {
+    "slug": "adjustable-angle-ramp",
+    "name": "Adjustable Angle Ramp Printer",
+    "file": "/datasheets/adjustable-angle-ramp.pdf",
+    "hero": "Ink Printing Tablets Capsules LCT\u2019s Softgels Up to 1,200,000 PPH Adjustable Angle Ramp Printer One Sided Rotogravure Printing Multi-Lane Pocket Carrier Bar System"
+  },
+  {
+    "slug": "servo-drum-laser-drill",
+    "name": "Servo Drum Laser Drill",
+    "file": "/datasheets/servo-drum-laser-drill.pdf",
+    "hero": "Laser Drilling Tablets Capsules LCT\u2019s Up to 150,000 PPH Servo Laser Drill One or Two-Sided CO2 Laser Drilling Multi-Lane Pocket Drum Feed System"
+  },
+  {
+    "slug": "cantilever-ink",
+    "name": "Cantilever Printer",
+    "file": "/datasheets/cantilever-ink.pdf",
+    "hero": "Ink Printing Tablets Capsules LCT\u2019s Softgels Up to 250,000 PPH Cantilever Printer One Sided Rotogravure Printing Multi-Lane Pocket Carrier Bar System"
+  },
+  {
+    "slug": "ibm-co2-laser",
+    "name": "IBM CO2 Laser",
+    "file": "/datasheets/ibm-co2-laser.pdf",
+    "hero": "Laser Marking Tablets Capsules LCT\u2019s Softgels Up to 300,000 PPH IBM C02 Laser One Sided CO2 Laser Writer Bulk Hopper & Floor Feeder"
+  },
+  {
+    "slug": "ibm-ink-printer",
+    "name": "IBM Ink Printer",
+    "file": "/datasheets/ibm-ink-printer.pdf",
+    "hero": "Ink Printing Tablets Capsules LCT\u2019s Softgels Up to 300,000 PPH IBM Ink Printer One Sided Flatbed Printing Bulk Hopper & Floor Feeder"
+  },
+  {
+    "slug": "rd-laser-drill",
+    "name": "R&D Laser",
+    "file": "/datasheets/rd-laser-drill.pdf",
+    "hero": "Laser Mark/Drill Tablets Capsules LCT\u2019s Softgels Up to 25 Products Per Paddle R&D Laser One-sided CO2 Laser Drill & Marking Manual Feed Paddle System"
+  },
+  {
+    "slug": "ldi-system",
+    "name": "LDI Hole-Depth Inspection",
+    "file": "/datasheets/ldi-system.pdf",
+    "hero": "Laser Drilling Tablets Capsules LCT\u2019s LDI System Laser Drill Hole Depth Inspection Manual Feed System"
+  },
+  {
+    "slug": "arc-roll-cleaning",
+    "name": "ARC Automated Roll Cleaning",
+    "file": "/datasheets/arc-roll-cleaning.pdf",
+    "hero": "Automated Roll Cleaning \u2022 Hazardous Fume Control \u2022 Automated Roll Cleaning \u2022 Safety Switch Integration \u2022 Programmable Cleaning Options \u2022 Networked Machine Control ARC System \u2022 Safety Innovation: The ARC Systems address h"
+  }
+]
