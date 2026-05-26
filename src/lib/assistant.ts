@@ -20,7 +20,7 @@ export function buildKnowledgeBase(): string {
       `Feed system: ${p.feed}`,
       `Summary: ${p.blurb}`,
       `Highlights: ${p.highlights.join("; ")}`,
-      `Datasheet: ${p.datasheet}`,
+      `Datasheet: ${p.datasheet ?? "available on request"}`,
       `Page: /machines/${p.slug}`,
     ].join("\n");
   }).join("\n\n");

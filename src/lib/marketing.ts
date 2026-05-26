@@ -1,4 +1,5 @@
-import { datasheets, allMachines } from "./data";
+import { catalog, datasheets } from "./data";
+import type { CatalogItem } from "./types";
 
 export type MachineCategorySlug =
   | "ink-printing"
@@ -77,232 +78,12 @@ export interface Product {
   technology: string;
   sides: string;
   feed: string;
-  datasheet: string;
+  inspection: boolean;
+  datasheet: string | null;
   video?: string;
   highlights: string[];
   featured?: boolean;
 }
-
-export const PRODUCTS: Product[] = [
-  {
-    slug: "delta-ink",
-    name: "Delta Printer",
-    category: "ink-printing",
-    tagline: "Single-lane two-sided ink printing",
-    blurb:
-      "A compact, validation-ready rotogravure printer for tablets, capsules, softgels and LCTs. Single-lane carrier-link feed delivers gentle, oriented handling for crisp one or two-sided printing.",
-    throughput: "70,000 PPH",
-    technology: "Rotogravure edible ink",
-    sides: "One or Two-Sided",
-    feed: "Single-Lane Carrier Link",
-    datasheet: "/datasheets/delta-ink.pdf",
-    highlights: ["Two-sided in a single pass", "Gentle carrier-link transport", "Quick-change design rolls"],
-    featured: true,
-  },
-  {
-    slug: "vip-ink-printer",
-    name: "VIP Printer",
-    category: "ink-printing",
-    tagline: "Versatile single-lane production printer",
-    blurb:
-      "The VIP platform brings high-uptime rotogravure printing to mid-volume lines with fast format changeover and an intuitive HMI built for GMP environments.",
-    throughput: "60,000 PPH",
-    technology: "Rotogravure edible ink",
-    sides: "One or Two-Sided",
-    feed: "Single-Lane Carrier Link",
-    datasheet: "/datasheets/vip-ink-printer.pdf",
-    video: "/media/vip-printer.mp4",
-    highlights: ["Live process video", "Two-sided capability", "Tool-light changeover"],
-    featured: true,
-  },
-  {
-    slug: "cantilever-ink",
-    name: "Cantilever Printer",
-    category: "ink-printing",
-    tagline: "Multi-lane high-throughput printing",
-    blurb:
-      "A cantilevered, multi-lane pocket-carrier-bar printer engineered for open access and fast cleaning between batches — built to keep high-volume lines running.",
-    throughput: "250,000 PPH",
-    technology: "Rotogravure edible ink",
-    sides: "One Sided",
-    feed: "Multi-Lane Pocket Carrier Bar",
-    datasheet: "/datasheets/cantilever-ink.pdf",
-    highlights: ["Open cantilever access", "Multi-lane pocket carriers", "Rapid wash-down"],
-  },
-  {
-    slug: "adjustable-angle-ramp",
-    name: "Adjustable Angle Ramp Printer",
-    category: "ink-printing",
-    tagline: "The highest-throughput printer we build",
-    blurb:
-      "An adjustable ramp-feed printer that orients and prints at extraordinary speed — the workhorse for the world's largest confectionery and pharmaceutical lines.",
-    throughput: "1,200,000 PPH",
-    technology: "Rotogravure edible ink",
-    sides: "One Sided",
-    feed: "Multi-Lane Pocket Carrier Bar",
-    datasheet: "/datasheets/adjustable-angle-ramp.pdf",
-    highlights: ["Up to 1.2M pieces/hour", "Adjustable feed angle", "Proven at global scale"],
-    featured: true,
-  },
-  {
-    slug: "ibm-ink-printer",
-    name: "IBM Ink Printer",
-    category: "ink-printing",
-    tagline: "Bulk-fed flatbed printing",
-    blurb:
-      "Bulk-hopper, floor-fed flatbed printing for ultra-high volume identification where orientation isn't required — simple, robust and fast.",
-    throughput: "300,000 PPH",
-    technology: "Flatbed ink",
-    sides: "One Sided",
-    feed: "Bulk Hopper & Floor Feeder",
-    datasheet: "/datasheets/ibm-ink-printer.pdf",
-    highlights: ["Bulk hopper feed", "High throughput", "Minimal operator load"],
-  },
-  {
-    slug: "delta-laser",
-    name: "Delta Laser Writer",
-    category: "laser-marking",
-    tagline: "CO2 or UV in one platform",
-    blurb:
-      "Inkless laser marking on the Delta single-lane platform — switch between CO2 and UV sources to permanently mark virtually any dosage form, one or two-sided.",
-    throughput: "70,000 PPH",
-    technology: "CO2 or 355nm UV laser",
-    sides: "One or Two-Sided",
-    feed: "Single-Lane Carrier Link",
-    datasheet: "/datasheets/delta-laser.pdf",
-    highlights: ["Zero ink, zero solvents", "CO2 or UV", "Permanent & tamper-evident"],
-    featured: true,
-  },
-  {
-    slug: "delta-uv",
-    name: "Delta UV Laser",
-    category: "laser-marking",
-    tagline: "Cold-marking for sensitive actives",
-    blurb:
-      "355nm UV laser marking delivers high-contrast marks at low thermal load — ideal for heat-sensitive coatings and delicate softgels.",
-    throughput: "70,000 PPH",
-    technology: "355nm UV laser",
-    sides: "One or Two-Sided",
-    feed: "Single-Lane Carrier Link",
-    datasheet: "/datasheets/delta-uv.pdf",
-    highlights: ["Low thermal impact", "High-contrast marks", "Two-sided capable"],
-  },
-  {
-    slug: "delta-co2",
-    name: "Delta CO2 Laser",
-    category: "laser-marking",
-    tagline: "Fast, clean CO2 marking",
-    blurb:
-      "A CO2 laser writer on the Delta platform for durable, high-speed marking of tablets, capsules and softgels without a single drop of ink.",
-    throughput: "60,000 PPH",
-    technology: "CO2 laser",
-    sides: "One or Two-Sided",
-    feed: "Single-Lane Carrier Link",
-    datasheet: "/datasheets/delta-co2.pdf",
-    highlights: ["Consumable-free", "Durable marks", "Two-sided capable"],
-  },
-  {
-    slug: "vip-uv-laser",
-    name: "VIP UV Laser",
-    category: "laser-marking",
-    tagline: "Production UV marking",
-    blurb:
-      "UV laser marking on the rugged VIP platform — permanent identification for mid-volume lines with the cleanliness benefits of an inkless process.",
-    throughput: "60,000 PPH",
-    technology: "355nm UV laser",
-    sides: "One or Two-Sided",
-    feed: "Single-Lane Carrier Link",
-    datasheet: "/datasheets/vip-uv-laser.pdf",
-    highlights: ["Inkless cleanliness", "Mid-volume ready", "Two-sided capable"],
-  },
-  {
-    slug: "ibm-co2-laser",
-    name: "IBM CO2 Laser",
-    category: "laser-marking",
-    tagline: "Bulk-fed high-speed marking",
-    blurb:
-      "Bulk-hopper CO2 laser marking for the highest-volume identification needs — clean, permanent and consumable-free at 300,000 pieces per hour.",
-    throughput: "300,000 PPH",
-    technology: "CO2 laser",
-    sides: "One Sided",
-    feed: "Bulk Hopper & Floor Feeder",
-    datasheet: "/datasheets/ibm-co2-laser.pdf",
-    highlights: ["Highest-volume marking", "Bulk hopper feed", "Zero ink"],
-  },
-  {
-    slug: "vip-laser-drill",
-    name: "VIP Laser Drill",
-    category: "laser-drilling",
-    tagline: "Two-sided controlled-orifice drilling",
-    blurb:
-      "CO2 laser drilling of precision delivery orifices for modified-release dosage forms — one or two-sided on the proven VIP single-lane platform.",
-    throughput: "60,000 PPH",
-    technology: "10.6µm CO2 laser",
-    sides: "One or Two-Sided",
-    feed: "Single-Lane Carrier Link",
-    datasheet: "/datasheets/vip-laser-drill.pdf",
-    highlights: ["Precision orifices", "Two-sided drilling", "Repeatable release profile"],
-    featured: true,
-  },
-  {
-    slug: "servo-drum-laser-drill",
-    name: "Servo Drum Laser Drill",
-    category: "laser-drilling",
-    tagline: "Multi-lane high-speed drilling",
-    blurb:
-      "A servo-driven, multi-lane pocket-drum laser drilling system that scales controlled-orifice production to 150,000 pieces per hour with validated consistency.",
-    throughput: "150,000 PPH",
-    technology: "10.6µm CO2 laser",
-    sides: "One or Two-Sided",
-    feed: "Multi-Lane Pocket Drum",
-    datasheet: "/datasheets/servo-drum-laser-drill.pdf",
-    highlights: ["Servo-precise indexing", "Multi-lane scale", "Two-sided drilling"],
-  },
-  {
-    slug: "ldi-system",
-    name: "LDI Hole-Depth Inspection",
-    category: "inspection",
-    tagline: "Closed-loop drill verification",
-    blurb:
-      "Laser Drill Inspection measures drilled hole depth on every tablet, closing the loop on controlled-release efficacy and providing documented quality evidence.",
-    throughput: "Inline / manual feed",
-    technology: "Laser depth metrology",
-    sides: "—",
-    feed: "Manual Feed",
-    datasheet: "/datasheets/ldi-system.pdf",
-    highlights: ["Per-dose hole-depth data", "Efficacy assurance", "Audit-ready records"],
-    featured: true,
-  },
-  {
-    slug: "arc-roll-cleaning",
-    name: "ARC Automated Roll Cleaning",
-    category: "cleaning-safety",
-    tagline: "Operator safety + fast changeover",
-    blurb:
-      "The ARC system automates design-roll cleaning with hazardous-fume control, safety-switch integration and programmable cycles — protecting operators and accelerating product changeover.",
-    throughput: "Programmable cycles",
-    technology: "Automated cleaning + fume control",
-    sides: "—",
-    feed: "Networked machine control",
-    datasheet: "/datasheets/arc-roll-cleaning.pdf",
-    highlights: ["Hazardous-fume control", "Safety-switch integration", "Programmable cleaning"],
-    featured: true,
-  },
-  {
-    slug: "rd-laser-drill",
-    name: "R&D Laser",
-    category: "rd-lab",
-    tagline: "Lab-scale drill & mark",
-    blurb:
-      "A manual-feed paddle system that brings production laser drilling and marking physics to the lab — perfect for formulation development and logo proofing.",
-    throughput: "Up to 25 / paddle",
-    technology: "CO2 laser drill & mark",
-    sides: "One Sided",
-    feed: "Manual Feed Paddle",
-    datasheet: "/datasheets/rd-laser-drill.pdf",
-    highlights: ["Bench-scale R&D", "Drill and mark", "Same process physics"],
-  },
-];
 
 export const GMP_PILLARS = [
   {
@@ -327,6 +108,268 @@ export const GMP_PILLARS = [
   },
 ] as const;
 
+/* ------------------------------------------------------------------ *
+ * Build the full machine lineup from the price list (source of truth),
+ * de-duplicated, with derived specs and datasheet links where they exist.
+ * ------------------------------------------------------------------ */
+
+function slugify(s: string): string {
+  return s
+    .toLowerCase()
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+function formatThroughput(raw: string | null): string {
+  if (!raw) return "On request";
+  const s = String(raw).replace(/\s+/g, " ").trim();
+  if (/^\d+$/.test(s)) return `${Number(s).toLocaleString("en-US")} PPH`;
+  return s.replace(/approx\./i, "~").replace(/manual feed/i, "· manual feed");
+}
+
+function isLabScale(name: string): boolean {
+  return /lab\s*scale|lab\s+laser/i.test(name);
+}
+
+function mapCategory(catalogSlug: string, name: string): MachineCategorySlug | null {
+  if (isLabScale(name)) return "rd-lab";
+  if (catalogSlug.startsWith("offset-rotogravure")) return "ink-printing";
+  if (catalogSlug.startsWith("laser-drilling")) return "laser-drilling";
+  if (catalogSlug.startsWith("laser-marking")) return "laser-marking";
+  return null;
+}
+
+function inferSides(name: string): string {
+  const n = name.toLowerCase();
+  if (/two[\s-]?side/.test(n)) return "Two-Sided";
+  if (/one[\s-]?side/.test(n)) return "One-Sided";
+  return "—";
+}
+
+function inferTechnology(category: MachineCategorySlug, name: string): string {
+  const n = name.toLowerCase();
+  if (category === "ink-printing") return n.includes("ibm") ? "Flatbed ink" : "Rotogravure ink";
+  if (n.includes("combo")) return "CO2 + UV laser + ink";
+  const isUV = /\buv\b/.test(n);
+  const isDrill = n.includes("drill");
+  if (isDrill) return isUV ? "UV laser drilling" : "10.6µm CO2 laser drilling";
+  return isUV ? "355nm UV laser" : "CO2 laser";
+}
+
+const CATEGORY_NOUN: Record<MachineCategorySlug, string> = {
+  "ink-printing": "rotogravure ink-printing",
+  "laser-marking": "laser-marking",
+  "laser-drilling": "laser-drilling",
+  inspection: "inspection",
+  "cleaning-safety": "cleaning",
+  "rd-lab": "lab-scale",
+};
+
+function generateBlurb(p: {
+  name: string;
+  category: MachineCategorySlug;
+  throughput: string;
+  sides: string;
+  inspection: boolean;
+}): string {
+  const noun = CATEGORY_NOUN[p.category];
+  const tp =
+    p.throughput && p.throughput !== "On request" ? ` running at up to ${p.throughput}` : "";
+  const parts = [
+    `The ${p.name} is a ${noun} system for pharmaceutical tablets, capsules, softgels and LCTs${tp}.`,
+  ];
+  if (p.sides !== "—") parts.push(`${p.sides} processing.`);
+  if (p.inspection) parts.push("Includes inline print-quality and defect inspection.");
+  return parts.join(" ");
+}
+
+function generateHighlights(p: {
+  technology: string;
+  throughput: string;
+  sides: string;
+  inspection: boolean;
+}): string[] {
+  const h: string[] = [];
+  if (p.sides === "Two-Sided") h.push("Two-sided in one pass");
+  else if (p.sides === "One-Sided") h.push("Single-sided processing");
+  if (p.inspection) h.push("Inline vision inspection");
+  h.push(p.technology);
+  if (/PPH/.test(p.throughput)) h.push(`Up to ${p.throughput}`);
+  return Array.from(new Set(h)).slice(0, 4);
+}
+
+/** Curated copy / datasheet / video / featured overrides, keyed by exact price-list name. */
+interface Override {
+  datasheet?: string;
+  video?: string;
+  featured?: boolean;
+  tagline?: string;
+  blurb?: string;
+  feed?: string;
+}
+
+const OVERRIDES: Record<string, Override> = {
+  "Adjustable Angle Ramp Feed Printer": {
+    datasheet: "/datasheets/adjustable-angle-ramp.pdf",
+    featured: true,
+    tagline: "The highest-throughput printer we build",
+    feed: "Multi-Lane Pocket Carrier Bar",
+    blurb:
+      "An adjustable ramp-feed rotogravure printer that orients and prints at extraordinary speed — the workhorse for the world's largest confectionery and pharmaceutical lines, at up to 1.2 million pieces per hour.",
+  },
+  "VIP-6S Printer": {
+    datasheet: "/datasheets/vip-ink-printer.pdf",
+    video: "/media/vip-printer.mp4",
+    featured: true,
+    feed: "Single-Lane Carrier Link",
+    tagline: "Versatile single-lane production printer",
+    blurb:
+      "The VIP platform brings high-uptime rotogravure printing to mid-volume lines with fast format changeover and an intuitive HMI built for GMP environments.",
+  },
+  "Servo Drum Two-Side Laser Drilling System": {
+    datasheet: "/datasheets/servo-drum-laser-drill.pdf",
+    featured: true,
+    feed: "Multi-Lane Pocket Drum",
+    tagline: "Multi-lane high-speed controlled-orifice drilling",
+    blurb:
+      "A servo-driven, multi-lane pocket-drum laser drilling system that scales controlled-orifice production with validated, repeatable hole geometry — one or two-sided.",
+  },
+  "Delta Two Side Combo Laser Writer and Ink Printer": {
+    featured: true,
+    tagline: "Laser marking and ink printing in one platform",
+    blurb:
+      "A combination Delta platform that pairs CO2/UV laser writing with rotogravure ink printing in a single two-sided machine — maximum identification flexibility on one footprint.",
+  },
+  "Variable Ramp CO2 Laser Marking System": {
+    featured: true,
+    tagline: "High-speed inkless marking",
+    blurb:
+      "A high-throughput variable-ramp CO2 laser marking system that permanently identifies tablets and capsules with zero ink or solvents — at up to 400,000 pieces per hour.",
+  },
+  "Servo Variable Ramp Printer with Print Quality Inspection": {
+    featured: true,
+    tagline: "High-volume printing with inline vision",
+    blurb:
+      "A servo variable-ramp rotogravure printer with integrated print-quality inspection — pairing very high throughput with 100% inline verification and automatic defect rejection.",
+  },
+  // Datasheet links for machines that map to existing collateral
+  "Delta Ink Printer": { datasheet: "/datasheets/delta-ink.pdf", feed: "Single-Lane Carrier Link" },
+  "Delta Ink Printer with Two Side Print Quality Inspection": {
+    datasheet: "/datasheets/delta-ink.pdf",
+  },
+  "VIP-X Printer with One-Side Print Quality Inspection": {
+    datasheet: "/datasheets/vip-ink-printer.pdf",
+  },
+  "VIP-X Printer with Two-Side Print Quality Inspection": {
+    datasheet: "/datasheets/vip-ink-printer.pdf",
+  },
+  "Servo Cantilever Ramp Printer": { datasheet: "/datasheets/cantilever-ink.pdf" },
+  "Servo Cantilever Ramp Printer with Print Quality Inspection": {
+    datasheet: "/datasheets/cantilever-ink.pdf",
+  },
+  "IBM Ink Printing Machine with One Side Print Quality Inspection": {
+    datasheet: "/datasheets/ibm-ink-printer.pdf",
+  },
+  "VIP Two-Side Laser Drilling System": { datasheet: "/datasheets/vip-laser-drill.pdf" },
+  "Delta Two Side CO2 Laser Writer": { datasheet: "/datasheets/delta-co2.pdf" },
+  "Delta Two Side UV laser Writer": { datasheet: "/datasheets/delta-uv.pdf" },
+  "IBM Co2 Laser marker": { datasheet: "/datasheets/ibm-co2-laser.pdf" },
+  "VIP One-Side UV Laser Marking System": { datasheet: "/datasheets/vip-uv-laser.pdf" },
+  "VIP Two-Side UV Laser Marking System": { datasheet: "/datasheets/vip-uv-laser.pdf" },
+  "R&D Lab Scale Laser Drilling System": { datasheet: "/datasheets/rd-laser-drill.pdf" },
+};
+
+/** Datasheet-only products with no price-list entry of their own. */
+const EXTRA_PRODUCTS: Product[] = [
+  {
+    slug: "ldi-system",
+    name: "LDI Hole-Depth Inspection",
+    category: "inspection",
+    tagline: "Closed-loop drill verification",
+    blurb:
+      "Laser Drill Inspection measures drilled hole depth on every tablet, closing the loop on controlled-release efficacy and providing documented quality evidence.",
+    throughput: "Inline / manual feed",
+    technology: "Laser depth metrology",
+    sides: "—",
+    feed: "Manual Feed",
+    inspection: true,
+    datasheet: "/datasheets/ldi-system.pdf",
+    highlights: ["Per-dose hole-depth data", "Efficacy assurance", "Audit-ready records"],
+    featured: true,
+  },
+  {
+    slug: "arc-roll-cleaning",
+    name: "ARC Automated Roll Cleaning",
+    category: "cleaning-safety",
+    tagline: "Operator safety + fast changeover",
+    blurb:
+      "The ARC system automates design-roll cleaning with hazardous-fume control, safety-switch integration and programmable cycles — protecting operators and accelerating product changeover.",
+    throughput: "Programmable cycles",
+    technology: "Automated cleaning + fume control",
+    sides: "—",
+    feed: "Networked machine control",
+    inspection: false,
+    datasheet: "/datasheets/arc-roll-cleaning.pdf",
+    highlights: ["Hazardous-fume control", "Safety-switch integration", "Programmable cleaning"],
+    featured: true,
+  },
+];
+
+function buildProducts(): Product[] {
+  const out: Product[] = [];
+  const seen = new Set<string>();
+
+  for (const cat of catalog.categories) {
+    for (const item of cat.items as CatalogItem[]) {
+      if (item.kind !== "machine") continue;
+      const category = mapCategory(cat.slug, item.name);
+      if (!category) continue;
+
+      const inspection =
+        cat.slug.includes("with-vision-inspection") || /inspection/i.test(item.name);
+
+      // Disambiguate inspection variants whose name doesn't already say so.
+      const displayName =
+        inspection && !/inspection/i.test(item.name)
+          ? `${item.name} (Vision Inspection)`
+          : item.name;
+
+      const slug = slugify(displayName);
+      if (seen.has(slug)) continue; // drop exact duplicates
+      seen.add(slug);
+
+      const sides = inferSides(item.name);
+      const technology = inferTechnology(category, item.name);
+      const throughput = formatThroughput(item.throughput);
+      const ov = OVERRIDES[item.name] ?? {};
+
+      const base = { name: displayName, category, throughput, sides, inspection };
+
+      out.push({
+        slug,
+        name: displayName,
+        category,
+        tagline: ov.tagline ?? `${technology}${sides !== "—" ? ` · ${sides}` : ""}`,
+        blurb: ov.blurb ?? generateBlurb(base),
+        throughput,
+        technology,
+        sides,
+        feed: ov.feed ?? "Configurable feed",
+        inspection,
+        datasheet: ov.datasheet ?? null,
+        video: ov.video,
+        highlights: generateHighlights({ technology, throughput, sides, inspection }),
+        featured: ov.featured,
+      });
+    }
+  }
+
+  return [...out, ...EXTRA_PRODUCTS];
+}
+
+export const PRODUCTS: Product[] = buildProducts();
+
 export function getProduct(slug: string): Product | undefined {
   return PRODUCTS.find((p) => p.slug === slug);
 }
@@ -336,26 +379,14 @@ export function productsByCategory(slug: MachineCategorySlug): Product[] {
 }
 
 export function featuredProducts(): Product[] {
-  return PRODUCTS.filter((p) => p.featured);
+  const featured = PRODUCTS.filter((p) => p.featured);
+  return featured.slice(0, 6);
 }
 
 export function getCategory(slug: MachineCategorySlug): CategoryMeta | undefined {
   return CATEGORIES.find((c) => c.slug === slug);
 }
 
-/** Match a marketing product back to its catalog pricing entry, if present. */
-export function priceForProduct(p: Product): number | null {
-  const machines = allMachines();
-  const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9]/g, "");
-  const target = norm(p.name);
-  const hit = machines.find((m) => {
-    const n = norm(m.name);
-    return n.includes(target) || target.includes(n);
-  });
-  return hit?.basePrice ?? null;
-}
-
-/** Datasheets that have a matching marketing product (for cross-linking). */
 export function datasheetsWithProducts() {
   return datasheets.map((d) => ({ datasheet: d, product: getProduct(d.slug) }));
 }
