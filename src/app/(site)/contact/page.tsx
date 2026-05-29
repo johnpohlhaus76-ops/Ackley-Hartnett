@@ -48,7 +48,7 @@ export default function ContactPage() {
                   </a>
                 </ContactRow>
                 <ContactRow icon={MapPin} label="Locations">
-                  <span className="font-semibold text-ink">Langhorne &amp; Moorestown, USA</span>
+                  <span className="font-semibold text-ink">Langhorne, PA, USA</span>
                 </ContactRow>
                 <ContactRow icon={Clock} label="Response time">
                   <span className="font-semibold text-ink">Within one business day</span>

@@ -77,7 +77,7 @@ export const STANDARD_TERMS = {
     "10% balance due Net 30 days after shipment.",
   ],
   leadTime: "Shipment in 18–20 weeks after receipt of a firm Purchase Order and machine deposit.",
-  shipping: "ExWorks Langhorne, PA / Moorestown, NJ, USA. Exclusive of taxes, duties, and freight.",
+  shipping: "ExWorks Langhorne, PA, USA. Exclusive of taxes, duties, and freight.",
   requirements: [
     "100 kg of the actual product to be printed (2 weeks after PO).",
     "4 kg of the actual ink, including manufacturer, formulation and solvent specs (4 weeks after PO).",

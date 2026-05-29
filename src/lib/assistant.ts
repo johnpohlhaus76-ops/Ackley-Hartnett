@@ -59,7 +59,7 @@ edible-ink rotogravure printing, CO2 and UV laser marking, precision laser drill
 vision/depth inspection. Equipment serves pharmaceutical, confectionery, and battery & energy
 manufacturers worldwide, and is engineered for GMP environments.
 
-Contact: phone 215-969-9190 · email info@ackleyhartnett.com · locations Langhorne & Moorestown, USA.
+Contact: phone 215-969-9190 · email info@ackleyhartnett.com · location Langhorne, PA, USA.
 
 ## Why it matters (safety, efficacy, cleanliness, GMP)
 ${pillars}

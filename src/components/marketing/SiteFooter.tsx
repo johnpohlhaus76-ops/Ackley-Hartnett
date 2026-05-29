@@ -62,7 +62,7 @@ export function SiteFooter() {
               </li>
               <li className="flex items-start gap-2.5 text-slate-400">
                 <MapPin size={15} className="mt-0.5 shrink-0 text-laser-400" />
-                <span>Langhorne &amp; Moorestown, USA</span>
+                <span>Langhorne, PA, USA</span>
               </li>
             </ul>
           </div>
