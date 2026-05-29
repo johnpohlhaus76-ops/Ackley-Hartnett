@@ -62,7 +62,35 @@ function nearestAirports(lat: number, lng: number, airports: Airport[], n = 3): 
 
 declare global { interface Window { L?: any; __initTerritoryMap?: () => void; } }
 
-export function TerritoryPlanner({ accounts, airports }: { accounts: TripAccount[]; airports: Airport[] }) {
+const NA_AIRPORTS: Airport[] = [
+  { code: "EWR", name: "Newark Liberty", city: "Newark, NJ", lat: 40.6895, lng: -74.1745 },
+  { code: "PHL", name: "Philadelphia Intl", city: "Philadelphia, PA", lat: 39.8729, lng: -75.2437 },
+  { code: "JFK", name: "John F. Kennedy", city: "New York, NY", lat: 40.6413, lng: -73.7781 },
+  { code: "BOS", name: "Logan Intl", city: "Boston, MA", lat: 42.3656, lng: -71.0096 },
+  { code: "BWI", name: "BWI Marshall", city: "Baltimore, MD", lat: 39.1754, lng: -76.6682 },
+  { code: "IAD", name: "Dulles Intl", city: "Washington, DC", lat: 38.9531, lng: -77.4565 },
+  { code: "RDU", name: "Raleigh-Durham", city: "Raleigh, NC", lat: 35.8776, lng: -78.7875 },
+  { code: "CLT", name: "Charlotte Douglas", city: "Charlotte, NC", lat: 35.2140, lng: -80.9431 },
+  { code: "ATL", name: "Hartsfield-Jackson", city: "Atlanta, GA", lat: 33.6407, lng: -84.4277 },
+  { code: "ORD", name: "O'Hare Intl", city: "Chicago, IL", lat: 41.9742, lng: -87.9073 },
+  { code: "DTW", name: "Detroit Metro", city: "Detroit, MI", lat: 42.2162, lng: -83.3554 },
+  { code: "CLE", name: "Cleveland Hopkins", city: "Cleveland, OH", lat: 41.4117, lng: -81.8498 },
+  { code: "PIT", name: "Pittsburgh Intl", city: "Pittsburgh, PA", lat: 40.4915, lng: -80.2329 },
+  { code: "IND", name: "Indianapolis Intl", city: "Indianapolis, IN", lat: 39.7173, lng: -86.2944 },
+  { code: "MSP", name: "Minneapolis-St. Paul", city: "Minneapolis, MN", lat: 44.8848, lng: -93.2223 },
+  { code: "DFW", name: "Dallas/Fort Worth", city: "Dallas, TX", lat: 32.8998, lng: -97.0403 },
+  { code: "IAH", name: "George Bush Intercontinental", city: "Houston, TX", lat: 29.9902, lng: -95.3368 },
+  { code: "LAX", name: "Los Angeles Intl", city: "Los Angeles, CA", lat: 33.9425, lng: -118.4081 },
+  { code: "SFO", name: "San Francisco Intl", city: "San Francisco, CA", lat: 37.6213, lng: -122.3790 },
+  { code: "SEA", name: "Seattle-Tacoma", city: "Seattle, WA", lat: 47.4502, lng: -122.3088 },
+  { code: "DEN", name: "Denver Intl", city: "Denver, CO", lat: 39.8561, lng: -104.6737 },
+  { code: "MIA", name: "Miami Intl", city: "Miami, FL", lat: 25.7959, lng: -80.2870 },
+  { code: "YYZ", name: "Toronto Pearson", city: "Toronto, ON", lat: 43.6777, lng: -79.6248 },
+  { code: "SJU", name: "Luis Munoz Marin", city: "San Juan, PR", lat: 18.4394, lng: -66.0018 },
+];
+
+export function TerritoryPlanner({ accounts }: { accounts: TripAccount[] }) {
+  const airports = NA_AIRPORTS;
   const mapRef = useRef<HTMLDivElement>(null);
   const leafletMap = useRef<any>(null);
   const markersRef = useRef<Map<string, any>>(new Map());
