@@ -72,7 +72,7 @@ export default function HomePage() {
             <div className="glass relative overflow-hidden rounded-3xl p-2 shadow-2xl">
               <div className="relative overflow-hidden rounded-2xl bg-black">
                 <video
-                  className="aspect-[4/3] w-full object-cover"
+                  className="w-full object-contain bg-black"
                   autoPlay
                   muted
                   loop
