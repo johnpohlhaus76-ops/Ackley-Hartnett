@@ -14,6 +14,8 @@ import {
   Menu,
   X,
   ExternalLink,
+  Target,
+  Navigation,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -21,6 +23,8 @@ const NAV = [
   { href: "/portal", label: "Dashboard", icon: LayoutDashboard },
   { href: "/portal/crm", label: "CRM (HubSpot)", icon: Contact },
   { href: "/portal/accounts", label: "Accounts 360", icon: Building2 },
+  { href: "/portal/prospects", label: "Prospects", icon: Target },
+  { href: "/portal/territory", label: "Territory Planner", icon: Navigation },
   { href: "/portal/map", label: "Global Map", icon: Globe2 },
   { href: "/portal/catalog", label: "Equipment Catalog", icon: Boxes },
   { href: "/portal/quote", label: "Quote Builder", icon: FileText },
