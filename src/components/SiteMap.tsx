@@ -1,8 +1,8 @@
 "use client";
 
-import { useEffect, useRef, useState, useCallback } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import { MapPin, Users, Factory, Tag, ExternalLink, Globe2, AlertCircle } from "lucide-react";
+import { MapPin, Users, Factory, Tag, ExternalLink, Globe2 } from "lucide-react";
 import { cn, INDUSTRY_STYLES } from "@/lib/utils";
 
 export interface MapSite {
@@ -27,17 +27,9 @@ const INDUSTRY_DOT: Record<string, string> = {
   Other: "#64748b",
 };
 
-declare global {
-  interface Window {
-    google?: any;
-    __initAHMap?: () => void;
-  }
-}
-
 export function SiteMap({ sites, apiKey }: { sites: MapSite[]; apiKey: string | null }) {
   const [selected, setSelected] = useState<MapSite | null>(null);
   const [industry, setIndustry] = useState<string | null>(null);
-
   const shown = sites.filter((s) => !industry || s.industry === industry);
 
   return (
@@ -55,25 +47,19 @@ export function SiteMap({ sites, apiKey }: { sites: MapSite[]; apiKey: string | 
             );
           })}
         </div>
-        {apiKey ? (
-          <GoogleMap sites={shown} apiKey={apiKey} onSelect={setSelected} selectedId={selected?.id ?? null} />
-        ) : (
-          <FallbackMap sites={shown} onSelect={setSelected} selectedId={selected?.id ?? null} />
-        )}
+        <LeafletMap sites={shown} onSelect={setSelected} selectedId={selected?.id ?? null} />
       </div>
       <SitePanel site={selected} />
     </div>
   );
 }
 
-function GoogleMap({
+function LeafletMap({
   sites,
-  apiKey,
   onSelect,
   selectedId,
 }: {
   sites: MapSite[];
-  apiKey: string;
   onSelect: (s: MapSite) => void;
   selectedId: string | null;
 }) {
@@ -81,180 +67,106 @@ function GoogleMap({
   const mapRef = useRef<any>(null);
   const markersRef = useRef<any[]>([]);
   const [ready, setReady] = useState(false);
-  const [error, setError] = useState<string | null>(null);
 
-  const init = useCallback(() => {
-    if (!ref.current || !window.google?.maps) return;
-    try {
-      mapRef.current = new window.google.maps.Map(ref.current, {
-        center: { lat: 25, lng: 15 },
-        zoom: 2,
-        mapTypeId: "satellite",
-        streetViewControl: false,
-        mapTypeControl: true,
-        mapTypeControlOptions: {
-          mapTypeIds: ["satellite", "hybrid", "roadmap"],
-        },
-        fullscreenControl: true,
-        zoomControl: true,
-        gestureHandling: "cooperative",
-        styles: [],
-      });
-
-      // Listen for errors (e.g. billing not enabled)
-      window.google.maps.event.addListenerOnce(mapRef.current, "tilesloaded", () => {
-        setReady(true);
-      });
-
-      setReady(true);
-    } catch (e: any) {
-      setError(e.message ?? "Map failed to load");
+  // Load Leaflet CSS + JS once
+  useEffect(() => {
+    if (document.getElementById("leaflet-css")) {
+      if ((window as any).L) { setReady(true); }
+      return;
     }
+
+    const css = document.createElement("link");
+    css.id = "leaflet-css";
+    css.rel = "stylesheet";
+    css.href = "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";
+    document.head.appendChild(css);
+
+    const js = document.createElement("script");
+    js.src = "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js";
+    js.onload = () => setReady(true);
+    document.head.appendChild(js);
   }, []);
 
+  // Init map once Leaflet is ready
   useEffect(() => {
-    if (window.google?.maps) {
-      init();
-      return;
-    }
+    if (!ready || !ref.current || mapRef.current) return;
+    const L = (window as any).L;
 
-    const id = "ah-gmaps";
-    if (document.getElementById(id)) {
-      window.__initAHMap = init;
-      return;
-    }
+    const map = L.map(ref.current, {
+      center: [25, 15],
+      zoom: 2,
+      zoomControl: true,
+    });
 
-    const sc = document.createElement("script");
-    sc.id = id;
-    sc.async = true;
-    sc.defer = true;
-    sc.onerror = () => setError("Failed to load Google Maps. Check your API key and billing.");
-    sc.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&callback=__initAHMap&v=weekly`;
-    window.__initAHMap = init;
-    document.head.appendChild(sc);
-  }, [apiKey, init]);
+    // Esri satellite tiles — free, no API key
+    L.tileLayer(
+      "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+      {
+        attribution: "Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community",
+        maxZoom: 18,
+      }
+    ).addTo(map);
 
+    // Labels layer on top
+    L.tileLayer(
+      "https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}",
+      { maxZoom: 18, opacity: 0.7 }
+    ).addTo(map);
+
+    mapRef.current = map;
+  }, [ready]);
+
+  // Add/update markers whenever sites change
   useEffect(() => {
-    if (!ready || !mapRef.current || !window.google?.maps) return;
+    if (!ready || !mapRef.current) return;
+    const L = (window as any).L;
 
-    // Clear old markers
-    markersRef.current.forEach((m) => m.setMap(null));
+    markersRef.current.forEach((m) => m.remove());
     markersRef.current = [];
 
     markersRef.current = sites.map((s) => {
-      const isSelected = selectedId === s.id;
       const color = INDUSTRY_DOT[s.industry] ?? "#64748b";
-      const size = 8 + Math.min(s.installCount * 1.5, 12);
+      const size = 10 + Math.min(s.installCount * 1.5, 14);
+      const isSelected = selectedId === s.id;
 
-      const marker = new window.google.maps.Marker({
-        position: { lat: s.coords[0], lng: s.coords[1] },
-        map: mapRef.current,
-        title: s.name,
-        icon: {
-          path: window.google.maps.SymbolPath.CIRCLE,
-          scale: isSelected ? size + 4 : size,
-          fillColor: color,
-          fillOpacity: 0.95,
-          strokeColor: isSelected ? "#fff" : "rgba(255,255,255,0.8)",
-          strokeWeight: isSelected ? 3 : 1.5,
-        },
-        zIndex: isSelected ? 999 : undefined,
+      const icon = L.divIcon({
+        className: "",
+        html: `<div style="
+          width:${size}px;height:${size}px;
+          background:${color};
+          border:${isSelected ? "3px solid #fff" : "2px solid rgba(255,255,255,0.85)"};
+          border-radius:50%;
+          box-shadow:0 1px 4px rgba(0,0,0,0.5);
+          ${isSelected ? "outline:2px solid " + color + ";" : ""}
+        "></div>`,
+        iconSize: [size, size],
+        iconAnchor: [size / 2, size / 2],
       });
 
-      // Info window on click
-      const infoWindow = new window.google.maps.InfoWindow({
-        content: `<div style="font-family:sans-serif;padding:4px 2px;min-width:140px">
-          <strong style="font-size:13px">${s.name}</strong><br/>
-          <span style="color:#64748b;font-size:11px">${s.country ?? ""} · ${s.installCount} machine${s.installCount !== 1 ? "s" : ""}</span>
-        </div>`,
-      });
-
-      marker.addListener("click", () => {
-        infoWindow.open(mapRef.current, marker);
-        onSelect(s);
-      });
+      const marker = L.marker([s.coords[0], s.coords[1]], { icon })
+        .addTo(mapRef.current)
+        .bindPopup(
+          `<div style="font-family:sans-serif;min-width:150px">
+            <strong style="font-size:13px">${s.name}</strong><br/>
+            <span style="color:#64748b;font-size:11px">${s.country ?? ""}</span><br/>
+            <span style="font-size:11px">${s.installCount} machine${s.installCount !== 1 ? "s" : ""} · ${s.contactCount} contact${s.contactCount !== 1 ? "s" : ""}</span>
+          </div>`,
+          { maxWidth: 220 }
+        )
+        .on("click", () => {
+          onSelect(s);
+        });
 
       return marker;
     });
   }, [ready, sites, onSelect, selectedId]);
 
-  if (error) {
-    return (
-      <div className="flex h-[600px] w-full flex-col items-center justify-center gap-3 rounded-xl border border-red-200 bg-red-50 text-sm text-red-700">
-        <AlertCircle size={28} />
-        <p className="font-semibold">Google Maps failed to load</p>
-        <p className="max-w-xs text-center text-xs text-red-500">{error}</p>
-        <p className="max-w-xs text-center text-xs text-red-400">
-          Make sure <strong>Maps JavaScript API</strong> is enabled and billing is active in Google Cloud Console.
-        </p>
-      </div>
-    );
-  }
-
   return (
-    <div className="relative">
-      <div ref={ref} className="h-[600px] w-full overflow-hidden rounded-xl border border-slate-200 bg-slate-100" />
-      {!ready && (
-        <div className="absolute inset-0 flex items-center justify-center rounded-xl bg-slate-900/60">
-          <div className="text-sm font-medium text-white">Loading satellite map…</div>
-        </div>
-      )}
-    </div>
-  );
-}
-
-/** Equirectangular projection fallback */
-function FallbackMap({
-  sites,
-  onSelect,
-  selectedId,
-}: {
-  sites: MapSite[];
-  onSelect: (s: MapSite) => void;
-  selectedId: string | null;
-}) {
-  return (
-    <div>
-      <div
-        className="relative w-full overflow-hidden rounded-xl border border-slate-200 bg-gradient-to-b from-sky-900 to-slate-900"
-        style={{ aspectRatio: "2 / 1" }}
-      >
-        <div
-          className="absolute inset-0 opacity-20"
-          style={{
-            backgroundImage:
-              "linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg, #fff 1px, transparent 1px)",
-            backgroundSize: "8.33% 16.66%",
-          }}
-        />
-        <span className="absolute left-2 top-1 text-[10px] text-white/40">
-          Add a Google Maps key for satellite view
-        </span>
-        {sites.map((s) => {
-          const x = ((s.coords[1] + 180) / 360) * 100;
-          const y = ((90 - s.coords[0]) / 180) * 100;
-          const active = selectedId === s.id;
-          return (
-            <button
-              key={s.id}
-              onClick={() => onSelect(s)}
-              title={s.name}
-              className={cn(
-                "absolute -translate-x-1/2 -translate-y-1/2 rounded-full border border-white/80 transition hover:z-10 hover:scale-150",
-                active && "z-10 ring-2 ring-white"
-              )}
-              style={{
-                left: `${x}%`,
-                top: `${y}%`,
-                width: 8 + Math.min(s.installCount, 8) * 1.5,
-                height: 8 + Math.min(s.installCount, 8) * 1.5,
-                background: INDUSTRY_DOT[s.industry] ?? "#64748b",
-              }}
-            />
-          );
-        })}
-      </div>
-    </div>
+    <div
+      ref={ref}
+      className="h-[600px] w-full overflow-hidden rounded-xl border border-slate-200"
+      style={{ background: "#1e293b" }}
+    />
   );
 }
 
@@ -281,12 +193,8 @@ function SitePanel({ site }: { site: MapSite | null }) {
       </div>
 
       <div className="mt-3 grid grid-cols-2 gap-2 text-sm">
-        <span className="flex items-center gap-1 text-slate-500">
-          <Users size={14} /> {site.contactCount} people
-        </span>
-        <span className="flex items-center gap-1 text-slate-500">
-          <Factory size={14} /> {site.installCount} machines
-        </span>
+        <span className="flex items-center gap-1 text-slate-500"><Users size={14} /> {site.contactCount} people</span>
+        <span className="flex items-center gap-1 text-slate-500"><Factory size={14} /> {site.installCount} machines</span>
       </div>
 
       {site.machines.length > 0 && (
@@ -318,18 +226,13 @@ function SitePanel({ site }: { site: MapSite | null }) {
           </p>
           <div className="flex flex-wrap gap-1">
             {site.logos.map((l) => (
-              <span key={l} className="badge bg-slate-100 text-slate-600">
-                {l}
-              </span>
+              <span key={l} className="badge bg-slate-100 text-slate-600">{l}</span>
             ))}
           </div>
         </div>
       )}
 
-      <Link
-        href={`/accounts/${site.id}`}
-        className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-brand-600 hover:underline"
-      >
+      <Link href={`/accounts/${site.id}`} className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-brand-600 hover:underline">
         Open Account 360 <ExternalLink size={13} />
       </Link>
     </div>
