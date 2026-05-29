@@ -5,6 +5,7 @@ import { portalStats } from "@/lib/data";
 import { formatNumber } from "@/lib/utils";
 import { Icon } from "@/components/marketing/Icon";
 import { Reveal } from "@/components/marketing/Reveal";
+import { AskBotsSection } from "@/components/marketing/ChatWidget";
 import { ProductCard, SectionHeading, StatBig } from "@/components/marketing/blocks";
 
 const MARQUEE = [
@@ -72,7 +73,7 @@ export default function HomePage() {
             <div className="glass relative overflow-hidden rounded-3xl p-2 shadow-2xl">
               <div className="relative overflow-hidden rounded-2xl bg-black">
                 <video
-                  className="w-full object-contain bg-black"
+                  className="aspect-[4/3] w-full object-cover"
                   autoPlay
                   muted
                   loop
@@ -290,6 +291,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* ---------- ASK TIM / KYLE ---------- */}
+      <AskBotsSection />
 
       {/* ---------- FINAL CTA ---------- */}
       <section className="bg-gradient-to-br from-brand-700 via-brand-600 to-laser-600 py-20 sm:py-24">
