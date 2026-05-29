@@ -5,6 +5,8 @@ import { portalStats } from "@/lib/data";
 import { formatNumber } from "@/lib/utils";
 import { Icon } from "@/components/marketing/Icon";
 import { Reveal } from "@/components/marketing/Reveal";
+import { AskBotsSection } from "@/components/marketing/ChatWidget";
+import { RefreshButton } from "@/components/marketing/RefreshButton";
 import { ProductCard, SectionHeading, StatBig } from "@/components/marketing/blocks";
 
 const MARQUEE = [
@@ -55,7 +57,6 @@ export default function HomePage() {
               <Link href="/contact" className="btn-outline-light">
                 Request a quote
               </Link>
-              <RefreshButton />
             </div>
             <div className="mt-10 flex flex-wrap gap-x-8 gap-y-3 text-sm text-slate-400">
               {["Inkless laser processes", "Two-sided in one pass", "IQ/OQ validation included"].map(
