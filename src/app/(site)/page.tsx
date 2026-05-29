@@ -5,7 +5,6 @@ import { portalStats } from "@/lib/data";
 import { formatNumber } from "@/lib/utils";
 import { Icon } from "@/components/marketing/Icon";
 import { Reveal } from "@/components/marketing/Reveal";
-import { AskBotsSection } from "@/components/marketing/ChatWidget";
 import { ProductCard, SectionHeading, StatBig } from "@/components/marketing/blocks";
 
 const MARQUEE = [
@@ -123,6 +122,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* ---------- ASK TIM / KYLE ---------- */}
+      <AskBotsSection />
 
       {/* ---------- CAPABILITY MARQUEE ---------- */}
       <div className="border-b border-slate-200 bg-white py-5">
@@ -291,9 +293,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* ---------- ASK TIM / KYLE ---------- */}
-      <AskBotsSection />
 
       {/* ---------- FINAL CTA ---------- */}
       <section className="bg-gradient-to-br from-brand-700 via-brand-600 to-laser-600 py-20 sm:py-24">
