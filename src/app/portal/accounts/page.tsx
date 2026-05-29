@@ -3,7 +3,9 @@ import { PageHeader } from "@/components/ui";
 import { AccountsExplorer, type SlimAccount } from "@/components/AccountsExplorer";
 
 export default function AccountsPage() {
-  const slim: SlimAccount[] = accounts.map((a) => ({
+  const slim: SlimAccount[] = accounts
+    .filter((a) => a.industry !== "Battery & Energy" && a.industry !== "Distribution / MRO")
+    .map((a) => (({
     id: a.id,
     name: a.name,
     domain: a.domain,
@@ -15,7 +17,7 @@ export default function AccountsPage() {
     priorityLevel: a.priority?.level ?? null,
     priorityScore: a.priority?.score ?? null,
     sources: a.sources,
-  }));
+  })))
 
   return (
     <div>
