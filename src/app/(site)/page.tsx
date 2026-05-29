@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, Play, CheckCircle2, FileText, Globe2 } from "lucide-react";
+import { ArrowRight, Play, CheckCircle2, FileText, Globe2, RefreshCw } from "lucide-react";
 import { CATEGORIES, GMP_PILLARS, featuredProducts } from "@/lib/marketing";
 import { portalStats } from "@/lib/data";
 import { formatNumber } from "@/lib/utils";
@@ -55,6 +55,12 @@ export default function HomePage() {
               <Link href="/contact" className="btn-outline-light">
                 Request a quote
               </Link>
+              <button
+                onClick={() => window.location.reload()}
+                className="inline-flex items-center gap-2 rounded-lg border border-laser-400/40 bg-laser-400/10 px-5 py-2.5 text-sm font-semibold text-laser-300 transition hover:bg-laser-400/20 hover:text-white"
+              >
+                <RefreshCw size={16} /> Refresh Page
+              </button>
             </div>
             <div className="mt-10 flex flex-wrap gap-x-8 gap-y-3 text-sm text-slate-400">
               {["Inkless laser processes", "Two-sided in one pass", "IQ/OQ validation included"].map(
@@ -122,9 +128,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* ---------- ASK TIM / KYLE ---------- */}
-      <AskBotsSection />
 
       {/* ---------- CAPABILITY MARQUEE ---------- */}
       <div className="border-b border-slate-200 bg-white py-5">
