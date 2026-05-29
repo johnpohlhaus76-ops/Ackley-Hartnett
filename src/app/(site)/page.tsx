@@ -5,9 +5,9 @@ import { portalStats } from "@/lib/data";
 import { formatNumber } from "@/lib/utils";
 import { Icon } from "@/components/marketing/Icon";
 import { Reveal } from "@/components/marketing/Reveal";
+import { ProductCard, SectionHeading, StatBig } from "@/components/marketing/blocks";
 import { AskBotsSection } from "@/components/marketing/ChatWidget";
 import { RefreshButton } from "@/components/marketing/RefreshButton";
-import { ProductCard, SectionHeading, StatBig } from "@/components/marketing/blocks";
 
 const MARQUEE = [
   "10.6µm CO2 Laser",
