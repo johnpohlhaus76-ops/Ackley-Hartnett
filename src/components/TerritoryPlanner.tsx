@@ -177,43 +177,44 @@ export function TerritoryPlanner({ accounts }: { accounts: TripAccount[] }) {
     };
   }, [ready, shown, inTrip, accounts]);
 
-  // Draw route line + airports
+  // Draw ALL airports as base markers whenever the toggle is on (independent of any trip)
   useEffect(() => {
     if (!ready || !leafletMap.current) return;
     const L = window.L;
 
-    // Clear old route
-    if (routeLayerRef.current) { routeLayerRef.current.remove(); routeLayerRef.current = null; }
     airportLayersRef.current.forEach((l) => l.remove());
     airportLayersRef.current = [];
 
+    if (!showAirports) return;
+
+    airports.forEach((ap) => {
+      const apIcon = L.divIcon({
+        className: "",
+        html: `<div style="background:#0f172a;color:#f59e0b;border:1px solid #f59e0b;border-radius:4px;padding:1px 5px;font-size:10px;font-weight:700;white-space:nowrap;box-shadow:0 1px 3px rgba(0,0,0,0.35)">${ap.code}</div>`,
+        iconSize: [36, 18], iconAnchor: [18, 9],
+      });
+      const m = L.marker([ap.lat, ap.lng], { icon: apIcon })
+        .addTo(leafletMap.current)
+        .bindPopup(`<strong>${ap.code}</strong> ${ap.name}<br/>${ap.city}`);
+      airportLayersRef.current.push(m);
+    });
+  }, [ready, showAirports, airports]);
+
+  // Draw the route line for the current trip
+  useEffect(() => {
+    if (!ready || !leafletMap.current) return;
+    const L = window.L;
+
+    if (routeLayerRef.current) { routeLayerRef.current.remove(); routeLayerRef.current = null; }
+
     if (trip.length < 2) return;
 
-    // Draw route
     const latlngs = trip.map((a) => [a.coords[0], a.coords[1]]);
     routeLayerRef.current = L.polyline(latlngs, { color: rep.color, weight: 3, dashArray: "6,8", opacity: 0.8 }).addTo(leafletMap.current);
 
-    // Show nearest airports per stop if enabled
-    if (showAirports) {
-      trip.forEach((a) => {
-        const near = nearestAirports(a.coords[0], a.coords[1], airports, 2);
-        near.forEach((ap) => {
-          const apIcon = L.divIcon({
-            className: "",
-            html: `<div style="background:#0f172a;color:#f59e0b;border:1px solid #f59e0b;border-radius:4px;padding:1px 5px;font-size:10px;font-weight:700;white-space:nowrap">${ap.code}</div>`,
-            iconSize: [36, 18], iconAnchor: [18, 9],
-          });
-          const m = L.marker([ap.lat, ap.lng], { icon: apIcon })
-            .addTo(leafletMap.current)
-            .bindPopup(`<strong>${ap.code}</strong> ${ap.name}<br/>${ap.city}<br/>${ap.miles}mi · ${driveTime(ap.miles)} from ${a.name}`);
-          airportLayersRef.current.push(m);
-        });
-      });
-    }
-
     // Fit map to route
     leafletMap.current.fitBounds(L.latLngBounds(latlngs as any), { padding: [40, 40] });
-  }, [ready, trip, showAirports, airports, rep.color]);
+  }, [ready, trip, rep.color]);
 
   // Total trip stats
   const totalMiles = trip.reduce((sum, a, i) => {
