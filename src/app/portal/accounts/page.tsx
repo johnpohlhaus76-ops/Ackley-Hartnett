@@ -5,19 +5,19 @@ import { AccountsExplorer, type SlimAccount } from "@/components/AccountsExplore
 export default function AccountsPage() {
   const slim: SlimAccount[] = accounts
     .filter((a) => a.industry !== "Battery & Energy" && a.industry !== "Distribution / MRO")
-    .map((a) => (({
-    id: a.id,
-    name: a.name,
-    domain: a.domain,
-    industry: a.industry,
-    country: a.country,
-    contactCount: a.contactCount,
-    installCount: a.installCount,
-    machineFamilies: a.machineFamilies,
-    priorityLevel: a.priority?.level ?? null,
-    priorityScore: a.priority?.score ?? null,
-    sources: a.sources,
-  })))
+    .map((a) => ({
+      id: a.id,
+      name: a.name,
+      domain: a.domain,
+      industry: a.industry,
+      country: a.country,
+      contactCount: a.contactCount,
+      installCount: a.installCount,
+      machineFamilies: a.machineFamilies,
+      priorityLevel: a.priority?.level ?? null,
+      priorityScore: a.priority?.score ?? null,
+      sources: a.sources,
+    }));
 
   return (
     <div>
