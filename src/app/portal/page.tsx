@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { AskBotsSection } from "@/components/marketing/ChatWidget";
 import { ArrowRight, Building2, Users, Factory, Globe2, FileText, Boxes } from "lucide-react";
 import { portalStats, accounts } from "@/lib/data";
 import { PageHeader, Stat, Bar, CompanyLogo } from "@/components/ui";
@@ -50,7 +51,7 @@ export default function DashboardPage() {
             {s.topPriority.map((a) => (
               <Link
                 key={a.id}
-                href={`/accounts/${a.id}`}
+                href={`/portal/accounts/${a.id}`}
                 className="flex items-center gap-3 py-2.5 hover:bg-slate-50"
               >
                 <CompanyLogo name={a.name} domain={a.domain} size={36} />
@@ -114,6 +115,9 @@ export default function DashboardPage() {
           </div>
         </div>
       </div>
+    <div className="mt-8">
+      <AskBotsSection />
+    </div>
     </div>
   );
 }
