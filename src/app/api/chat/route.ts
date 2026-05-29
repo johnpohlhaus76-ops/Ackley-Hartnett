@@ -1,18 +1,38 @@
 import Anthropic from "@anthropic-ai/sdk";
-import { SYSTEM_PROMPT, buildKnowledgeBase } from "@/lib/assistant";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-const MODEL = "claude-opus-4-7";
+const MODEL = "claude-sonnet-4-6";
 const MAX_TURNS = 20;
 const MAX_CHARS = 4000;
 
 type ChatMessage = { role: "user" | "assistant"; content: string };
 
+const TIM_PROMPT = `You are TIM (Technical Intelligence Module), Ackley Hartnett's AI maintenance and technical support specialist. You help pharma plant engineers with:
+- Troubleshooting tablet/capsule marking machines (ink printers, CO2/UV lasers, laser drills)
+- Preventive maintenance schedules and procedures
+- Spare parts identification
+- IQ/OQ/PQ validation support
+- GMP compliance
+- Changeover procedures
+
+Be concise and technical. Recommend Ackley Hartnett service at 215-969-9190 for complex issues.`;
+
+const KYLE_PROMPT = `You are Kyle, Ackley Hartnett's AI sales specialist. Help pharma and confectionery manufacturers find the right tablet and capsule identification equipment.
+
+Machine lineup:
+- Ink Printers: IBM Ramp (1.2M PPH), Cantilever (250K PPH), H-Track, Drum, VIP (60K PPH)
+- CO2 Laser Markers: IBM, Delta, Cantilever Ramp, VIP, R&D
+- UV Laser Markers: Delta UV, VIP UV (requires TiO2 in formulation)
+- Laser Drills: Servo Drum (150K PPH), VIP (60K PPH) for OROS osmotic drug delivery
+- Inspection: NIR spectroscopy, vision systems, ARC roll cleaner
+
+Match customers to machines based on product (tablets/capsules/softgels/LCTs), throughput, and marking type. All machines are FDA 21 CFR 210/211/11 and CE compliant. Direct quote requests to 215-969-9190.`;
+
 function sanitize(body: unknown): ChatMessage[] | null {
   if (typeof body !== "object" || body === null) return null;
-  const raw = (body as { messages?: unknown }).messages;
+  const raw = (body as Record<string, unknown>).messages;
   if (!Array.isArray(raw)) return null;
   const out: ChatMessage[] = [];
   for (const m of raw) {
@@ -28,23 +48,12 @@ function sanitize(body: unknown): ChatMessage[] | null {
   return out.slice(-MAX_TURNS);
 }
 
-function textStream(text: string): Response {
-  return new Response(
-    new ReadableStream<Uint8Array>({
-      start(controller) {
-        controller.enqueue(new TextEncoder().encode(text));
-        controller.close();
-      },
-    }),
-    { headers: { "Content-Type": "text/plain; charset=utf-8" } },
-  );
-}
-
 export async function POST(req: Request) {
   const apiKey = process.env.ANTHROPIC_API_KEY;
   if (!apiKey) {
-    return textStream(
-      "The assistant isn't configured yet. Please reach our team at 215-969-9190 or info@ackleyhartnett.com, or use the Request a Quote form.",
+    return new Response(
+      "Assistant not configured. Call 215-969-9190 or email info@ackleyhartnett.com.",
+      { headers: { "Content-Type": "text/plain" } }
     );
   }
 
@@ -60,6 +69,9 @@ export async function POST(req: Request) {
     return new Response("Invalid messages", { status: 400 });
   }
 
+  const bot = (body as Record<string, unknown>).bot === "tim" ? "tim" : "kyle";
+  const systemPrompt = bot === "tim" ? TIM_PROMPT : KYLE_PROMPT;
+
   const client = new Anthropic({ apiKey });
   const encoder = new TextEncoder();
 
@@ -68,16 +80,8 @@ export async function POST(req: Request) {
       try {
         const llm = client.messages.stream({
           model: MODEL,
-          max_tokens: 1500,
-          output_config: { effort: "medium" },
-          system: [
-            { type: "text", text: SYSTEM_PROMPT },
-            {
-              type: "text",
-              text: buildKnowledgeBase(),
-              cache_control: { type: "ephemeral" },
-            },
-          ],
+          max_tokens: 1024,
+          system: systemPrompt,
           messages,
         });
 
@@ -88,24 +92,16 @@ export async function POST(req: Request) {
         await llm.finalMessage();
         controller.close();
       } catch (err) {
-        const msg =
-          err instanceof Anthropic.APIError
-            ? "The assistant is briefly unavailable. Please try again, or contact info@ackleyhartnett.com."
-            : "Something went wrong. Please try again.";
-        try {
-          controller.enqueue(encoder.encode(msg));
-        } catch {
-          /* stream already closed */
-        }
+        const msg = err instanceof Anthropic.APIError
+          ? `API error: ${err.message}`
+          : "Something went wrong. Please try again.";
+        controller.enqueue(encoder.encode(msg));
         controller.close();
       }
     },
   });
 
   return new Response(stream, {
-    headers: {
-      "Content-Type": "text/plain; charset=utf-8",
-      "Cache-Control": "no-store",
-    },
+    headers: { "Content-Type": "text/plain; charset=utf-8" },
   });
 }
