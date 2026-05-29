@@ -1,8 +1,8 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useCallback } from "react";
 import Link from "next/link";
-import { MapPin, Users, Factory, Tag, ExternalLink, Globe2 } from "lucide-react";
+import { MapPin, Users, Factory, Tag, ExternalLink, Globe2, AlertCircle } from "lucide-react";
 import { cn, INDUSTRY_STYLES } from "@/lib/utils";
 
 export interface MapSite {
@@ -61,7 +61,6 @@ export function SiteMap({ sites, apiKey }: { sites: MapSite[]; apiKey: string | 
           <FallbackMap sites={shown} onSelect={setSelected} selectedId={selected?.id ?? null} />
         )}
       </div>
-
       <SitePanel site={selected} />
     </div>
   );
@@ -82,62 +81,129 @@ function GoogleMap({
   const mapRef = useRef<any>(null);
   const markersRef = useRef<any[]>([]);
   const [ready, setReady] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
-  useEffect(() => {
-    function init() {
-      if (!ref.current || !window.google) return;
+  const init = useCallback(() => {
+    if (!ref.current || !window.google?.maps) return;
+    try {
       mapRef.current = new window.google.maps.Map(ref.current, {
-        center: { lat: 30, lng: -20 },
+        center: { lat: 25, lng: 15 },
         zoom: 2,
-        mapTypeId: "hybrid",
+        mapTypeId: "satellite",
         streetViewControl: false,
         mapTypeControl: true,
+        mapTypeControlOptions: {
+          mapTypeIds: ["satellite", "hybrid", "roadmap"],
+        },
+        fullscreenControl: true,
+        zoomControl: true,
+        gestureHandling: "cooperative",
+        styles: [],
       });
+
+      // Listen for errors (e.g. billing not enabled)
+      window.google.maps.event.addListenerOnce(mapRef.current, "tilesloaded", () => {
+        setReady(true);
+      });
+
       setReady(true);
+    } catch (e: any) {
+      setError(e.message ?? "Map failed to load");
     }
+  }, []);
+
+  useEffect(() => {
     if (window.google?.maps) {
       init();
       return;
     }
+
     const id = "ah-gmaps";
-    if (!document.getElementById(id)) {
-      const sc = document.createElement("script");
-      sc.id = id;
-      sc.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&callback=__initAHMap`;
-      sc.async = true;
+    if (document.getElementById(id)) {
       window.__initAHMap = init;
-      document.head.appendChild(sc);
-    } else {
-      window.__initAHMap = init;
+      return;
     }
-  }, [apiKey]);
+
+    const sc = document.createElement("script");
+    sc.id = id;
+    sc.async = true;
+    sc.defer = true;
+    sc.onerror = () => setError("Failed to load Google Maps. Check your API key and billing.");
+    sc.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&callback=__initAHMap&v=weekly`;
+    window.__initAHMap = init;
+    document.head.appendChild(sc);
+  }, [apiKey, init]);
 
   useEffect(() => {
-    if (!ready || !mapRef.current || !window.google) return;
+    if (!ready || !mapRef.current || !window.google?.maps) return;
+
+    // Clear old markers
     markersRef.current.forEach((m) => m.setMap(null));
+    markersRef.current = [];
+
     markersRef.current = sites.map((s) => {
+      const isSelected = selectedId === s.id;
+      const color = INDUSTRY_DOT[s.industry] ?? "#64748b";
+      const size = 8 + Math.min(s.installCount * 1.5, 12);
+
       const marker = new window.google.maps.Marker({
         position: { lat: s.coords[0], lng: s.coords[1] },
         map: mapRef.current,
         title: s.name,
         icon: {
           path: window.google.maps.SymbolPath.CIRCLE,
-          scale: 6 + Math.min(s.installCount, 6),
-          fillColor: INDUSTRY_DOT[s.industry] ?? "#64748b",
-          fillOpacity: 0.9,
-          strokeColor: "#fff",
-          strokeWeight: 1.5,
+          scale: isSelected ? size + 4 : size,
+          fillColor: color,
+          fillOpacity: 0.95,
+          strokeColor: isSelected ? "#fff" : "rgba(255,255,255,0.8)",
+          strokeWeight: isSelected ? 3 : 1.5,
         },
+        zIndex: isSelected ? 999 : undefined,
       });
-      marker.addListener("click", () => onSelect(s));
+
+      // Info window on click
+      const infoWindow = new window.google.maps.InfoWindow({
+        content: `<div style="font-family:sans-serif;padding:4px 2px;min-width:140px">
+          <strong style="font-size:13px">${s.name}</strong><br/>
+          <span style="color:#64748b;font-size:11px">${s.country ?? ""} · ${s.installCount} machine${s.installCount !== 1 ? "s" : ""}</span>
+        </div>`,
+      });
+
+      marker.addListener("click", () => {
+        infoWindow.open(mapRef.current, marker);
+        onSelect(s);
+      });
+
       return marker;
     });
-  }, [ready, sites, onSelect]);
+  }, [ready, sites, onSelect, selectedId]);
 
-  return <div ref={ref} className="h-[600px] w-full overflow-hidden rounded-xl border border-slate-200" />;
+  if (error) {
+    return (
+      <div className="flex h-[600px] w-full flex-col items-center justify-center gap-3 rounded-xl border border-red-200 bg-red-50 text-sm text-red-700">
+        <AlertCircle size={28} />
+        <p className="font-semibold">Google Maps failed to load</p>
+        <p className="max-w-xs text-center text-xs text-red-500">{error}</p>
+        <p className="max-w-xs text-center text-xs text-red-400">
+          Make sure <strong>Maps JavaScript API</strong> is enabled and billing is active in Google Cloud Console.
+        </p>
+      </div>
+    );
+  }
+
+  return (
+    <div className="relative">
+      <div ref={ref} className="h-[600px] w-full overflow-hidden rounded-xl border border-slate-200 bg-slate-100" />
+      {!ready && (
+        <div className="absolute inset-0 flex items-center justify-center rounded-xl bg-slate-900/60">
+          <div className="text-sm font-medium text-white">Loading satellite map…</div>
+        </div>
+      )}
+    </div>
+  );
 }
 
-/** Equirectangular projection fallback (no API key required). */
+/** Equirectangular projection fallback */
 function FallbackMap({
   sites,
   onSelect,
@@ -149,10 +215,21 @@ function FallbackMap({
 }) {
   return (
     <div>
-      <div className="relative w-full overflow-hidden rounded-xl border border-slate-200 bg-gradient-to-b from-sky-900 to-slate-900" style={{ aspectRatio: "2 / 1" }}>
-        {/* graticule */}
-        <div className="absolute inset-0 opacity-20" style={{ backgroundImage: "linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg, #fff 1px, transparent 1px)", backgroundSize: "8.33% 16.66%" }} />
-        <span className="absolute left-2 top-1 text-[10px] text-white/40">Equirectangular · add a Google Maps key for satellite view</span>
+      <div
+        className="relative w-full overflow-hidden rounded-xl border border-slate-200 bg-gradient-to-b from-sky-900 to-slate-900"
+        style={{ aspectRatio: "2 / 1" }}
+      >
+        <div
+          className="absolute inset-0 opacity-20"
+          style={{
+            backgroundImage:
+              "linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg, #fff 1px, transparent 1px)",
+            backgroundSize: "8.33% 16.66%",
+          }}
+        />
+        <span className="absolute left-2 top-1 text-[10px] text-white/40">
+          Add a Google Maps key for satellite view
+        </span>
         {sites.map((s) => {
           const x = ((s.coords[1] + 180) / 360) * 100;
           const y = ((90 - s.coords[0]) / 180) * 100;
@@ -164,7 +241,7 @@ function FallbackMap({
               title={s.name}
               className={cn(
                 "absolute -translate-x-1/2 -translate-y-1/2 rounded-full border border-white/80 transition hover:z-10 hover:scale-150",
-                active && "z-10 ring-2 ring-white",
+                active && "z-10 ring-2 ring-white"
               )}
               style={{
                 left: `${x}%`,
@@ -195,14 +272,21 @@ function SitePanel({ site }: { site: MapSite | null }) {
       <div className="flex items-start justify-between gap-2">
         <div>
           <h3 className="font-semibold text-ink">{site.name}</h3>
-          <p className="flex items-center gap-1 text-xs text-slate-400"><MapPin size={12} />{site.country ?? "—"}</p>
+          <p className="flex items-center gap-1 text-xs text-slate-400">
+            <MapPin size={12} />
+            {site.country ?? "—"}
+          </p>
         </div>
         <span className={cn("badge", INDUSTRY_STYLES[site.industry])}>{site.industry}</span>
       </div>
 
       <div className="mt-3 grid grid-cols-2 gap-2 text-sm">
-        <span className="flex items-center gap-1 text-slate-500"><Users size={14} /> {site.contactCount} people</span>
-        <span className="flex items-center gap-1 text-slate-500"><Factory size={14} /> {site.installCount} machines</span>
+        <span className="flex items-center gap-1 text-slate-500">
+          <Users size={14} /> {site.contactCount} people
+        </span>
+        <span className="flex items-center gap-1 text-slate-500">
+          <Factory size={14} /> {site.installCount} machines
+        </span>
       </div>
 
       {site.machines.length > 0 && (
@@ -229,16 +313,23 @@ function SitePanel({ site }: { site: MapSite | null }) {
 
       {site.logos.length > 0 && (
         <div className="mt-3">
-          <p className="mb-1 flex items-center gap-1 text-xs font-semibold uppercase tracking-wide text-slate-400"><Tag size={12} /> Logos / products</p>
+          <p className="mb-1 flex items-center gap-1 text-xs font-semibold uppercase tracking-wide text-slate-400">
+            <Tag size={12} /> Logos / products
+          </p>
           <div className="flex flex-wrap gap-1">
             {site.logos.map((l) => (
-              <span key={l} className="badge bg-slate-100 text-slate-600">{l}</span>
+              <span key={l} className="badge bg-slate-100 text-slate-600">
+                {l}
+              </span>
             ))}
           </div>
         </div>
       )}
 
-      <Link href={`/accounts/${site.id}`} className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-brand-600 hover:underline">
+      <Link
+        href={`/accounts/${site.id}`}
+        className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-brand-600 hover:underline"
+      >
         Open Account 360 <ExternalLink size={13} />
       </Link>
     </div>
@@ -270,7 +361,7 @@ function FilterChip({
       onClick={onClick}
       className={cn(
         "flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-medium transition",
-        active ? "bg-brand-600 text-white" : "bg-white text-slate-600 ring-1 ring-slate-200 hover:bg-slate-50",
+        active ? "bg-brand-600 text-white" : "bg-white text-slate-600 ring-1 ring-slate-200 hover:bg-slate-50"
       )}
     >
       {dot && <span className="h-2 w-2 rounded-full" style={{ background: dot }} />}
