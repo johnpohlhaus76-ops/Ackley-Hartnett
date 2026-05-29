@@ -60,7 +60,7 @@ function nearestAirports(lat: number, lng: number, airports: Airport[], n = 3): 
     .slice(0, n);
 }
 
-declare global { interface Window { L?: any; __initTerritoryMap?: () => void; } }
+declare global { interface Window { L?: any; __initTerritoryMap?: () => void; __addToTrip?: (id: string) => void; } }
 
 const NA_AIRPORTS: Airport[] = [
   { code: "EWR", name: "Newark Liberty", city: "Newark, NJ", lat: 40.6895, lng: -74.1745 },
