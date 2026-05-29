@@ -105,7 +105,7 @@ export function AccountsExplorer({ accounts }: { accounts: SlimAccount[] }) {
 
       <div className="card divide-y divide-slate-100">
         {filtered.slice(0, 200).map((a) => (
-          <Link key={a.id} href={`/accounts/${a.id}`} className="flex items-center gap-3 p-3 hover:bg-slate-50">
+          <Link key={a.id} href={`/portal/accounts/${a.id}`} className="flex items-center gap-3 p-3 hover:bg-slate-50">
             <CompanyLogo name={a.name} domain={a.domain} size={40} />
             <div className="min-w-0 flex-1">
               <p className="truncate font-medium text-ink">{a.name}</p>
