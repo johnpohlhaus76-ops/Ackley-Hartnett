@@ -1,5 +1,4 @@
 import Anthropic from "@anthropic-ai/sdk";
-import { buildKnowledgeBase } from "@/lib/assistant";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -10,48 +9,29 @@ const MAX_CHARS = 4000;
 
 type ChatMessage = { role: "user" | "assistant"; content: string };
 
-const TIM_PROMPT = `You are TIM — the Technical Intelligence Module for Ackley Hartnett pharmaceutical machinery.
+const TIM_PROMPT = `You are TIM (Technical Intelligence Module), Ackley Hartnett's AI maintenance and technical support specialist. You help pharma plant engineers and technicians with:
+- Troubleshooting tablet/capsule marking machines (ink printers, CO2/UV lasers, laser drills)
+- Preventive maintenance schedules and procedures
+- Spare parts identification and ordering
+- IQ/OQ/PQ validation support
+- GMP compliance questions
+- Changeover procedures between product runs
 
-Your role: maintenance, troubleshooting, calibration, validation, and technical support for Ackley Hartnett machines.
+Be concise, technical, and practical. Always recommend contacting Ackley Hartnett service at 215-969-9190 for complex issues or parts orders.`;
 
-You help customers and operators with:
-- Troubleshooting machine issues (print quality, laser alignment, ink system problems, inspection failures)
-- Routine and preventive maintenance procedures
-- Calibration of print rolls, laser optics, vision systems
-- IQ/OQ/PQ validation documentation questions
-- 21 CFR Part 11 compliance questions
-- Machine changeover and cleaning procedures
-- Spare parts identification
-- Safety interlocks and fume control systems
-- OPC-UA data integration and historian setup
+const KYLE_PROMPT = `You are Kyle, Ackley Hartnett's AI sales specialist. You help pharmaceutical and confectionery manufacturers find the right tablet and capsule identification equipment. You know every machine in the Ackley Hartnett line:
 
-Tone: precise, technical, calm. You are a senior field service engineer with 20+ years on AH equipment.
-Always recommend contacting Ackley Hartnett at 215-969-9190 or service@ackleyhartnett.com for on-site issues or parts orders.
-Never discuss pricing. Keep answers focused and actionable.`;
+- Ink Printers: IBM (1.2M PPH ramp), Cantilever (250K PPH), H-Track, Drum, VIP
+- CO2 Laser Markers: IBM, Delta, Cantilever Ramp, VIP, R&D
+- UV Laser Markers: Delta UV, VIP UV
+- Laser Drills: Servo Drum (150K PPH), VIP (60K PPH) — for OROS osmotic drug delivery
+- Inspection: NIR spectroscopy, vision systems, ARC roll cleaner
 
-const KYLE_PROMPT = `You are Kyle — the machine selection specialist for Ackley Hartnett pharmaceutical and confectionery marking systems.
+Help customers match their product (tablets, capsules, softgels, LCTs), throughput requirement, and marking type (logo, code, barcode) to the right machine. Mention FDA 21 CFR 210/211/11, CE, GMP compliance. Direct quote requests to the Quote Builder or 215-969-9190.`;
 
-Your role: help customers find the right machine for their application, product, and throughput.
-
-You help customers with:
-- Choosing between ink printing (rotogravure), CO2 laser marking, UV laser marking, and laser drilling
-- Selecting the right model based on throughput requirements (pieces per hour)
-- One-sided vs two-sided marking options
-- Tablet vs capsule vs softgel vs LCT applications
-- Inline vision and inspection integration
-- Lab/R&D systems vs production systems
-- Confectionery and candy coating applications
-- Comparing machines head-to-head (specs, throughput, technology)
-- Understanding what makes each platform unique
-
-Tone: consultative, knowledgeable, enthusiastic. You help customers make the right investment.
-Always offer to connect them with the sales team for a formal quote: 215-969-9190 or quotes@ackleyhartnett.com.
-Never discuss final pricing — direct all pricing to the Request a Quote form.`;
-
-function sanitize(body: unknown): { messages: ChatMessage[]; bot: string } | null {
+function sanitize(body: unknown): ChatMessage[] | null {
   if (typeof body !== "object" || body === null) return null;
-  const raw = (body as { messages?: unknown; bot?: unknown }).messages;
-  const bot = (body as { bot?: unknown }).bot;
+  const raw = (body as Record<string, unknown>).messages;
   if (!Array.isArray(raw)) return null;
   const out: ChatMessage[] = [];
   for (const m of raw) {
@@ -64,26 +44,15 @@ function sanitize(body: unknown): { messages: ChatMessage[]; bot: string } | nul
     }
   }
   if (out.length === 0 || out[out.length - 1].role !== "user") return null;
-  return { messages: out.slice(-MAX_TURNS), bot: typeof bot === "string" ? bot : "kyle" };
-}
-
-function textStream(text: string): Response {
-  return new Response(
-    new ReadableStream<Uint8Array>({
-      start(controller) {
-        controller.enqueue(new TextEncoder().encode(text));
-        controller.close();
-      },
-    }),
-    { headers: { "Content-Type": "text/plain; charset=utf-8" } },
-  );
+  return out.slice(-MAX_TURNS);
 }
 
 export async function POST(req: Request) {
   const apiKey = process.env.ANTHROPIC_API_KEY;
   if (!apiKey) {
-    return textStream(
-      "The assistant isn't configured yet. Please reach our team at 215-969-9190 or info@ackleyhartnett.com.",
+    return new Response(
+      "Assistant not configured. Call 215-969-9190 or email info@ackleyhartnett.com.",
+      { headers: { "Content-Type": "text/plain" } }
     );
   }
 
@@ -94,10 +63,15 @@ export async function POST(req: Request) {
     return new Response("Invalid request", { status: 400 });
   }
 
-  const parsed = sanitize(body);
-  if (!parsed) return new Response("Invalid messages", { status: 400 });
+  const messages = sanitize(body);
+  if (!messages) {
+    return new Response("Invalid messages", { status: 400 });
+  }
 
-  const { messages, bot } = parsed;
+  const bot = typeof (body as Record<string, unknown>).bot === "string"
+    ? (body as Record<string, unknown>).bot
+    : "kyle";
+
   const systemPrompt = bot === "tim" ? TIM_PROMPT : KYLE_PROMPT;
 
   const client = new Anthropic({ apiKey });
@@ -108,15 +82,8 @@ export async function POST(req: Request) {
       try {
         const llm = client.messages.stream({
           model: MODEL,
-          max_tokens: 1500,
-          system: [
-            { type: "text", text: systemPrompt },
-            {
-              type: "text",
-              text: buildKnowledgeBase(),
-              cache_control: { type: "ephemeral" },
-            },
-          ],
+          max_tokens: 1024,
+          system: systemPrompt,
           messages,
         });
 
@@ -129,15 +96,15 @@ export async function POST(req: Request) {
       } catch (err) {
         const msg =
           err instanceof Anthropic.APIError
-            ? "The assistant is briefly unavailable. Please try again or contact info@ackleyhartnett.com."
+            ? "Assistant briefly unavailable. Please try again or contact info@ackleyhartnett.com."
             : "Something went wrong. Please try again.";
-        try { controller.enqueue(encoder.encode(msg)); } catch { /* closed */ }
+        controller.enqueue(encoder.encode(msg));
         controller.close();
       }
     },
   });
 
   return new Response(stream, {
-    headers: { "Content-Type": "text/plain; charset=utf-8", "Cache-Control": "no-store" },
+    headers: { "Content-Type": "text/plain; charset=utf-8" },
   });
 }
