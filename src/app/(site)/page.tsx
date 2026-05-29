@@ -55,6 +55,7 @@ export default function HomePage() {
               <Link href="/contact" className="btn-outline-light">
                 Request a quote
               </Link>
+              <RefreshButton />
             </div>
             <div className="mt-10 flex flex-wrap gap-x-8 gap-y-3 text-sm text-slate-400">
               {["Inkless laser processes", "Two-sided in one pass", "IQ/OQ validation included"].map(
