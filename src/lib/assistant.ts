@@ -1,7 +1,29 @@
 import { CATEGORIES, PRODUCTS, GMP_PILLARS } from "./marketing";
+import fs from "fs";
+import path from "path";
 
 /**
- * A compact, factual knowledge base assembled from the product catalog.
+ * Reads all markdown files from a knowledge directory.
+ * Returns empty string if the directory doesn't exist (build-safe).
+ */
+function loadKnowledgeDir(dirName: string): string {
+  const knowledgePath = path.join(process.cwd(), "data", "knowledge", dirName);
+  if (!fs.existsSync(knowledgePath)) return "";
+
+  const files = fs.readdirSync(knowledgePath)
+    .filter((f) => f.endsWith(".md"))
+    .sort();
+
+  return files
+    .map((fname) => {
+      const content = fs.readFileSync(path.join(knowledgePath, fname), "utf-8");
+      return content.trim();
+    })
+    .join("\n\n---\n\n");
+}
+
+/**
+ * Shared knowledge base — product catalog + GMP pillars.
  * Kept stable (no timestamps / per-request data) so it can be prompt-cached.
  */
 export function buildKnowledgeBase(): string {
@@ -20,12 +42,15 @@ export function buildKnowledgeBase(): string {
       `Feed system: ${p.feed}`,
       `Summary: ${p.blurb}`,
       `Highlights: ${p.highlights.join("; ")}`,
-      `Datasheet: ${p.datasheet}`,
+      `Datasheet: ${p.datasheet ?? "available on request"}`,
       `Page: /machines/${p.slug}`,
     ].join("\n");
   }).join("\n\n");
 
   const pillars = GMP_PILLARS.map((p) => `- ${p.title}: ${p.text}`).join("\n");
+
+  // Load datasheet knowledge files
+  const kyleDatasheets = loadKnowledgeDir("kyle");
 
   return `# Ackley Hartnett — Company & Product Knowledge Base
 
@@ -35,8 +60,6 @@ vision/depth inspection. Equipment serves pharmaceutical, confectionery, and bat
 manufacturers worldwide, and is engineered for GMP environments.
 
 Contact: phone 215-969-9190 · email info@ackleyhartnett.com · locations Langhorne & Moorestown, USA.
-A global installed base spans dozens of countries, supported by worldwide commissioning, field
-service, and remote engineering.
 
 ## Why it matters (safety, efficacy, cleanliness, GMP)
 ${pillars}
@@ -52,19 +75,27 @@ ${categories}
 - Laser power-sensor recalibration (with certificate) and CO2 gas reconditioning
 - Worldwide commissioning, field service, and remote engineering support
 
-## Machines
-${products}`;
+## Machine Catalog (summary)
+${products}
+
+## Full Datasheet Specifications
+${kyleDatasheets}`;
 }
 
-export const SYSTEM_PROMPT = `You are "Ask AH", the AI assistant for Ackley Hartnett, a manufacturer of pharmaceutical tablet and capsule identification machines (ink printing, laser marking, laser drilling, inspection, and cleaning systems).
+/**
+ * TIM-specific knowledge: maintenance, troubleshooting, calibration.
+ * Loaded separately so TIM gets the maintenance-relevant datasheets.
+ */
+export function buildTimKnowledgeBase(): string {
+  const timDocs = loadKnowledgeDir("tim");
+  const sharedDocs = loadKnowledgeDir("shared");
 
-Your job is to help engineers, quality leads, and buyers understand the equipment and find the right machine for their line. Communicate the value of these systems for patient safety, dose efficacy, cleanliness, and GMP compliance.
+  const base = buildKnowledgeBase();
 
-Rules:
-- Answer ONLY from the knowledge base provided below. If something isn't covered, say so plainly and offer to connect the user with the Ackley Hartnett team.
-- NEVER quote, estimate, or invent prices, lead times, or delivery dates. Pricing is provided through a formal quotation — direct pricing questions to "Request a quote" (/contact) or info@ackleyhartnett.com.
-- Do not invent specifications, model names, certifications, or customer names. Use only the throughput, technology, and feature values given.
-- When recommending machines, match the user's dosage form (tablet/capsule/softgel/LCT), throughput target, and marking method to the catalog, and name the specific model(s) plus their /machines/<slug> page.
-- Be concise, technical, and helpful. Use short paragraphs or bullet points. Offer the relevant datasheet link when discussing a specific machine.
-- For quotes, demos, or anything requiring a person, point to /contact (Request a quote) or the phone/email above.
-- Stay on topic: pharmaceutical identification equipment and Ackley Hartnett. Politely decline unrelated requests.`;
+  const extra = [timDocs, sharedDocs].filter(Boolean).join("\n\n---\n\n");
+  if (!extra) return base;
+
+  return base + "\n\n## TIM Maintenance Reference\n\n" + extra;
+}
+
+export const SYSTEM_PROMPT = `You are "Ask AH", the AI assistant for Ackley Hartnett pharmaceutical marking systems.`;
