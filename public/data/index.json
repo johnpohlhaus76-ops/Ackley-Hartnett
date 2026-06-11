@@ -1,0 +1,185 @@
+{
+  "knowledgeBase": {
+    "version": "1.0",
+    "lastUpdated": "2026-06-11",
+    "description": "Ackley Hartnett Competitive Intelligence and Product Knowledge Base for Kyle and Tim Chatbots",
+    "files": {
+      "machines.json": {
+        "description": "Machine specifications, pricing, throughput speeds, and competitor machine database",
+        "usedBy": ["Kyle - machine spec comparison", "Tim - technical specifications"],
+        "keyQuestions": [
+          "What are the specs for the [model]?",
+          "What's the maximum throughput?",
+          "How much does [machine] cost?",
+          "How does our [model] compare to [competitor]'s [model]?"
+        ]
+      },
+      "market-position.json": {
+        "description": "Market positioning, competitive landscape, SWOT analysis by technology segment",
+        "usedBy": ["Kyle - machine selection guidance", "Tim - competitive context"],
+        "keyQuestions": [
+          "What's our market position in [technology]?",
+          "What are our strengths and weaknesses?",
+          "What's the market size for [segment]?",
+          "What percentage of the market do we have?"
+        ]
+      },
+      "installed-base.json": {
+        "description": "Customer data, installed base by technology, top customers, regional breakdown",
+        "usedBy": ["Kyle - customer reference examples", "Tim - customer history context"],
+        "keyQuestions": [
+          "Who are our biggest customers?",
+          "What customers use [technology]?",
+          "What's our market presence in [region]?",
+          "How much revenue does [customer] generate?"
+        ]
+      },
+      "competitors.json": {
+        "description": "Detailed competitive profiles, strengths, weaknesses, win/loss factors",
+        "usedBy": ["Kyle - competitive comparison", "Tim - competitive intelligence"],
+        "keyQuestions": [
+          "Who are our competitors in [segment]?",
+          "How does [competitor] compare to Ackley?",
+          "What are [competitor]'s strengths?",
+          "What's their pricing vs. ours?"
+        ]
+      },
+      "sales-strategy.json": {
+        "description": "Sales guidance, win conditions, loss factors, customer segmentation, pricing strategy",
+        "usedBy": ["Kyle - machine selection and value prop", "Tim - sales strategy context"],
+        "keyQuestions": [
+          "When should we win against [competitor]?",
+          "What's our value proposition?",
+          "Which customers are we strong with?",
+          "What's the pricing strategy for [segment]?"
+        ]
+      },
+      "products.json": {
+        "description": "Complete product specifications, features, pricing, applications, strengths/weaknesses",
+        "usedBy": ["Kyle - machine selection engine", "Tim - technical specifications"],
+        "keyQuestions": [
+          "What are the specs for [product]?",
+          "What's the price range for [product]?",
+          "What can [product] do?",
+          "Who should use [product]?"
+        ]
+      }
+    },
+    "kyleAssistant": {
+      "role": "Machine Selection Chatbot",
+      "responsibilities": [
+        "Help customers select the right Ackley Hartnett machine",
+        "Understand customer requirements (volume, precision, applications)",
+        "Compare Ackley products against competitors",
+        "Highlight Ackley's value proposition and competitive advantages",
+        "Provide pricing guidance and ROI justification",
+        "Reference customer success stories and installed base"
+      ],
+      "usefulData": [
+        "products.json - for specifications and features",
+        "sales-strategy.json - for value prop and competitive positioning",
+        "competitors.json - for competitive comparisons",
+        "market-position.json - for industry context"
+      ],
+      "exampleQueries": [
+        "I need to mark 500,000 tablets/hour. What should I use?",
+        "How does the VIP Laser Drill compare to Scantech?",
+        "What's the ROI for upgrading to vision inspection?",
+        "Which of your customers use this type of equipment?",
+        "What's your price vs. Videojet?"
+      ]
+    },
+    "timAssistant": {
+      "role": "Maintenance & Technical Support Chatbot",
+      "responsibilities": [
+        "Provide technical specifications for troubleshooting",
+        "Explain how machines work and what can go wrong",
+        "Help diagnose issues and provide maintenance guidance",
+        "Reference service records and spare parts information",
+        "Provide competitive context for technical comparisons",
+        "Guide customers on validation and regulatory compliance"
+      ],
+      "usefulData": [
+        "products.json - for technical specifications",
+        "market-position.json - for technical advantages (e.g., NIR spectroscopy)",
+        "competitors.json - for technical comparisons",
+        "installed-base.json - for customer context"
+      ],
+      "exampleQueries": [
+        "Why is our laser drill better than Scantech's?",
+        "What does the NIR spectroscopy do?",
+        "How often do drill apertures need maintenance?",
+        "What are the typical failure modes for [machine]?",
+        "How do we document this for 21 CFR Part 11?"
+      ]
+    },
+    "queryExamples": {
+      "machineSelection": [
+        {
+          "question": "I need to mark 250,000 tablets/hour with high precision. What are my options?",
+          "answer_files": ["products.json (CO2 Laser Marking, Ink Printing With Vision)", "sales-strategy.json"],
+          "expectedResponse": "Recommend VIP CO2 Laser or VIP Offset Printer based on precision needs, show specs, pricing, and comparison to alternatives"
+        },
+        {
+          "question": "What's the difference between laser drilling and regular printing?",
+          "answer_files": ["products.json", "market-position.json"],
+          "expectedResponse": "Explain OROS technology, precision drilling, NIR spectroscopy, applications"
+        },
+        {
+          "question": "How do you compare to Videojet?",
+          "answer_files": ["competitors.json", "sales-strategy.json"],
+          "expectedResponse": "Highlight Ackley's pharmaceutical-specific design, turnkey solutions, service network, validation support"
+        }
+      ],
+      "technicalSupport": [
+        {
+          "question": "Why did our laser drill batch test fail?",
+          "answer_files": ["products.json (NIR Spectroscopy)", "market-position.json"],
+          "expectedResponse": "Explain NIR pre-check, membrane integrity verification, prevention mechanisms"
+        },
+        {
+          "question": "What maintenance is required for the vision system?",
+          "answer_files": ["products.json (Vision Inspection)"],
+          "expectedResponse": "Provide maintenance schedule, typical issues, cleaning procedures"
+        }
+      ],
+      "competitiveIntelligence": [
+        {
+          "question": "What's the threat from Chinese competitors?",
+          "answer_files": ["competitors.json", "market-position.json", "sales-strategy.json"],
+          "expectedResponse": "Price gap, quality concerns, regional differences, strategic response"
+        }
+      ]
+    },
+    "bestPractices": {
+      "kyle": [
+        "Always emphasize Ackley's unique value proposition (pharmaceutical expertise, turnkey, validation)",
+        "Reference customer success stories from installed-base.json",
+        "Be honest about pricing but justify with quality and service",
+        "Acknowledge competitor strengths but highlight differentiation",
+        "Ask qualifying questions to understand customer needs",
+        "Guide toward Ackley's strong segments (laser drilling, ink printing, vision)"
+      ],
+      "tim": [
+        "Provide technical accuracy and pharmaceutical compliance context",
+        "Explain the 'why' behind Ackley design choices (safety, reliability, validation)",
+        "Reference NIR spectroscopy and other innovations that differentiate us",
+        "Provide proactive maintenance and troubleshooting guidance",
+        "Document everything per 21 CFR Part 11 compliance requirements",
+        "Connect technical issues to competitive advantages (Ackley's reliability, support)"
+      ]
+    },
+    "updateNotes": {
+      "dataSource": "Competitive analysis from 13,600 spare parts orders (2020-2025), $57M spare parts revenue analysis",
+      "frequencyOfUpdate": "Quarterly recommended",
+      "lastCompetitiveAnalysis": "February 2026",
+      "areasForEnhancement": [
+        "Add machine video links and demo information",
+        "Include detailed spare parts lists and pricing",
+        "Add customer testimonials and case studies",
+        "Include regional service contact information",
+        "Add detailed validation documentation references"
+      ]
+    }
+  }
+}

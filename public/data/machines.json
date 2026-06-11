@@ -1,0 +1,345 @@
+{
+  "machines": {
+    "ackleyHartnett": {
+      "company": "Ackley Hartnett",
+      "location": {
+        "country": "USA",
+        "state": "Pennsylvania"
+      },
+      "models": [
+        {
+          "model": "R&D Laser",
+          "type": "Research & Development",
+          "pricing": "$160,160",
+          "speedPrintNoInspection": "NA",
+          "speedPrintWithInspection": "5000 pph",
+          "speedCO2LaserMark": "5000 pph",
+          "speedCO2LaserDrill": "5000 pph",
+          "speedUVLaserMark": "5000 pph",
+          "notes": "Lab-scale laser drilling system"
+        },
+        {
+          "model": "Delta",
+          "type": "Ink Printing - No Vision",
+          "pricing": "$171,600",
+          "speedPrintNoInspection": "50,000-70,000 pph",
+          "speedPrintWithInspection": "NA",
+          "speedCO2LaserMark": "NA",
+          "speedCO2LaserDrill": "NA",
+          "speedUVLaserMark": "NA",
+          "notes": "Legacy Hartnett series - proven reliability"
+        },
+        {
+          "model": "VIP",
+          "type": "Universal Platform",
+          "pricing": "$161,260",
+          "speedPrintNoInspection": "50,000-60,000 pph",
+          "speedPrintWithInspection": "50,000",
+          "speedCO2LaserMark": "50,000-60,000 pph",
+          "speedCO2LaserDrill": "50,000 pph",
+          "speedUVLaserMark": "NA",
+          "notes": "Multi-technology platform for various applications"
+        },
+        {
+          "model": "Servo Drum",
+          "type": "High-Speed Ink Printing",
+          "pricing": "$404,560",
+          "speedPrintNoInspection": "120,000 pph",
+          "speedPrintWithInspection": "120,000",
+          "speedCO2LaserMark": "100,000 pph",
+          "speedCO2LaserDrill": "80,000 pph",
+          "speedUVLaserMark": "NA",
+          "notes": "Servo-driven drum for high-volume production"
+        },
+        {
+          "model": "H-Track",
+          "type": "High-Speed Printing",
+          "pricing": "NA",
+          "speedPrintNoInspection": "120,000-180,000 pph",
+          "speedPrintWithInspection": "NA",
+          "speedCO2LaserMark": "NA",
+          "speedCO2LaserDrill": "NA",
+          "speedUVLaserMark": "NA",
+          "notes": "Track-based system for ultra-high-speed production"
+        },
+        {
+          "model": "GPS",
+          "type": "Ultra-High-Speed Printing",
+          "pricing": "NA",
+          "speedPrintNoInspection": "180,000-225,000 pph",
+          "speedPrintWithInspection": "NA",
+          "speedCO2LaserMark": "NA",
+          "speedCO2LaserDrill": "NA",
+          "speedUVLaserMark": "NA",
+          "notes": "GPS system - ultra-high-speed capability"
+        },
+        {
+          "model": "Cantilever Ramp",
+          "type": "High-Speed Ramp Printer",
+          "pricing": "NA",
+          "speedPrintNoInspection": "250,000 pph",
+          "speedPrintWithInspection": "250,000",
+          "speedCO2LaserMark": "200,000 pph",
+          "speedCO2LaserDrill": "150,000 pph",
+          "speedUVLaserMark": "NA",
+          "notes": "Cantilever ramp design for advanced feeding"
+        },
+        {
+          "model": "IBM / Model B",
+          "type": "High-Speed Industrial Printer",
+          "pricing": "$394,872",
+          "speedPrintNoInspection": "250,000-300,000 pph",
+          "speedPrintWithInspection": "NA",
+          "speedCO2LaserMark": "$490,000",
+          "speedCO2LaserDrill": "$693,000",
+          "speedUVLaserMark": "NA",
+          "notes": "IBM industrial model with dual-configuration options"
+        },
+        {
+          "model": "Model C",
+          "type": "Premium Industrial",
+          "pricing": "NA",
+          "speedPrintNoInspection": "300,000 pph",
+          "speedPrintWithInspection": "NA",
+          "speedCO2LaserMark": "NA",
+          "speedCO2LaserDrill": "NA",
+          "speedUVLaserMark": "NA",
+          "notes": "High-end industrial configuration"
+        },
+        {
+          "model": "Adjustable Ramp",
+          "type": "Ultra-High-Speed Ramp",
+          "pricing": "NA",
+          "speedPrintNoInspection": "800,000 pph",
+          "speedPrintWithInspection": "800,000",
+          "speedCO2LaserMark": "500,000 pph",
+          "speedCO2LaserDrill": "500,000 pph",
+          "speedUVLaserMark": "NA",
+          "notes": "Adjustable ramp system - fastest throughput available"
+        }
+      ]
+    },
+    "competitors": [
+      {
+        "company": "Ceres Wuhan Laser",
+        "country": "China",
+        "website": "https://www.jceres.com/",
+        "models": [
+          {
+            "model": "CER-D30MV Lab Laser Drill",
+            "type": "Lab-scale Laser Drill",
+            "speed": "6 tablets per use",
+            "notes": "Laboratory equipment"
+          },
+          {
+            "model": "CER-D100A",
+            "type": "Laser Drill - One Side",
+            "speed": "50,000 pph",
+            "notes": "Single-sided laser drilling"
+          },
+          {
+            "model": "CER-D100A-II",
+            "type": "Laser Drill - Two Side",
+            "speed": "50,000 pph",
+            "notes": "Dual-sided laser drilling"
+          },
+          {
+            "model": "CER-D100A-III",
+            "type": "Laser Drill",
+            "speed": "50,000 pph",
+            "notes": "Advanced configuration"
+          },
+          {
+            "model": "CERES-YBA Printer",
+            "type": "Laser Printer",
+            "speed": "50,000 pph",
+            "speedCO2Marking": "NA",
+            "speedCO2Drilling": "NA",
+            "notes": "Printing-focused system"
+          }
+        ]
+      },
+      {
+        "company": "CMS Laser",
+        "country": "USA",
+        "state": "Florida",
+        "website": "www.CMSLaser.com",
+        "type": "CO2 Laser Mark & Drill Specialist",
+        "models": [
+          {
+            "model": "TD-10",
+            "type": "Entry-level",
+            "speedPrinting": "NA",
+            "speedMarking": "10,000 pph",
+            "speedDrilling": "10,000 pph",
+            "notes": "Low-speed application"
+          },
+          {
+            "model": "TD-70",
+            "type": "Mid-range",
+            "speedPrinting": "NA",
+            "speedMarking": "70,000 pph",
+            "speedDrilling": "70,000 pph",
+            "notes": "Standard speed capability"
+          },
+          {
+            "model": "TD-140",
+            "type": "High-performance",
+            "speedPrinting": "NA",
+            "speedMarking": "140,000 pph",
+            "speedDrilling": "140,000 pph",
+            "notes": "High-speed laser processing"
+          }
+        ]
+      },
+      {
+        "company": "Tri-Star Technologies",
+        "country": "USA",
+        "state": "California",
+        "website": "www.tri-star-technologies.com/",
+        "type": "UV Laser Systems",
+        "notes": "Specializes in UV laser marking technology"
+      },
+      {
+        "company": "Printing International",
+        "country": "EU",
+        "state": "Belgium",
+        "website": "www.printinginternational.com/",
+        "models": [
+          {
+            "model": "Agate Labo",
+            "type": "Lab-scale Printer",
+            "speedPrintingWithInspection": "20,000 pph",
+            "notes": "Laboratory equipment"
+          },
+          {
+            "model": "Zaherite SCL",
+            "type": "Standard Printer",
+            "speedPrintingWithInspection": "50,000 pph",
+            "notes": "Standard production speed"
+          },
+          {
+            "model": "Agate MBP",
+            "type": "High-speed Printer",
+            "speedPrintingWithInspection": "400,000 pph",
+            "notes": "Ultra-high-speed capability"
+          },
+          {
+            "model": "Zaherite DCL XL",
+            "type": "Enterprise Printer",
+            "speedPrintingWithInspection": "700,000 pph",
+            "notes": "Largest capacity available"
+          }
+        ]
+      },
+      {
+        "company": "Enclony",
+        "country": "Korea",
+        "website": "www.enclony.com/",
+        "type": "UV Laser Marking",
+        "models": [
+          {
+            "model": "Planet LPI-TC",
+            "type": "UV Laser - Tablets & Capsules",
+            "speed": "Variable (tablet/capsule)",
+            "notes": "Flexible for multiple product types"
+          },
+          {
+            "model": "Planet LPI-T",
+            "type": "UV Laser - Tablets",
+            "speed": "400,000 pph (5mm round)",
+            "notes": "Optimized for round tablets"
+          },
+          {
+            "model": "Planet LPI-C",
+            "type": "UV Laser - Capsules",
+            "speed": "200,000 pph (10mm oval)",
+            "notes": "Optimized for oval capsules"
+          },
+          {
+            "model": "Planet LP-TC",
+            "type": "UV Laser - Multi-product",
+            "speed": "Variable (tablets/capsules)",
+            "notes": "Flexible multi-purpose system"
+          },
+          {
+            "model": "Planet LP-T",
+            "type": "UV Laser - Tablets",
+            "speed": "90,000-150,000 pph",
+            "notes": "Mid-range tablet marking"
+          },
+          {
+            "model": "Planet LP-C",
+            "type": "UV Laser - Capsules",
+            "speed": "Variable",
+            "notes": "Capsule-focused system"
+          }
+        ]
+      },
+      {
+        "company": "Parle",
+        "country": "India",
+        "website": "www.parleglobal.com/",
+        "models": [
+          {
+            "model": "M100LPM150",
+            "type": "Laser Printer",
+            "speed": "150,000 pph",
+            "notes": "Mid-range production speed"
+          }
+        ]
+      },
+      {
+        "company": "Qualicaps",
+        "country": "Japan",
+        "website": "https://en.qualicaps.co.jp/product",
+        "type": "Multi-technology Capsule Equipment",
+        "models": [
+          {
+            "model": "Qualis-UVS/UVD",
+            "type": "UV Laser System",
+            "notes": "UV laser marking for capsules"
+          },
+          {
+            "model": "LIS-250D / LIS-Labo",
+            "type": "Ink Printing",
+            "speedInkPrint": "250,000 pph",
+            "notes": "Laboratory-scale ink printing"
+          },
+          {
+            "model": "Qualis Lite CO2",
+            "type": "CO2 Laser - Softgels",
+            "speedCO2Marking": "90,000-200,000 pph (size-dependent)",
+            "notes": "Designed for softgel capsules"
+          },
+          {
+            "model": "LIS LAB UV LASER",
+            "type": "UV Laser - Lab",
+            "speed": "28 per test",
+            "notes": "Laboratory testing equipment"
+          },
+          {
+            "model": "IMS 400i",
+            "type": "Multi-technology",
+            "speedMulti": "250,000-400,000 pph (size-dependent)",
+            "notes": "Flexible multi-purpose system"
+          }
+        ]
+      },
+      {
+        "company": "Yenchen",
+        "country": "Taiwan",
+        "website": "https://www.yenchen.com.tw/",
+        "type": "CO2 Laser Drilling",
+        "models": [
+          {
+            "model": "LDM-101 Laser Drill",
+            "type": "CO2 Laser Drill",
+            "speedCO2Drilling": "20,000-30,000 pph (size-dependent)",
+            "notes": "Standard laser drilling system"
+          }
+        ]
+      }
+    ]
+  }
+}

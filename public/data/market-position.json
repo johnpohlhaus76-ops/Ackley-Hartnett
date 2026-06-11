@@ -1,0 +1,131 @@
+{
+  "marketPosition": {
+    "overview": {
+      "company": "Ackley Hartnett",
+      "description": "Pharmaceutical equipment manufacturer specializing in tablet and capsule identification systems",
+      "founded": "Merger of Ackley Machine Corporation and R.W. Hartnett Company",
+      "location": "Pennsylvania, USA",
+      "globalInstalledBase": 751,
+      "countries": 15,
+      "sparePartsRevenue2020_2025": "$57M",
+      "sparePartsOrders2020_2025": 13600
+    },
+    "technologies": [
+      {
+        "id": "ink-no-vision",
+        "name": "Ink Printing (No Vision)",
+        "marketShare": "25-30%",
+        "position": "MARKET LEADER",
+        "marketSize": "$80-100M annually",
+        "installedBase": 1722,
+        "revenue": "$3.5M",
+        "revenuePercent": "6.1%",
+        "topCompetitors": ["Solid Linx", "IMA ACTIVE", "Chinese manufacturers"],
+        "threatLevel": "MODERATE",
+        "avgRevenuePerCustomer": "$2000"
+      },
+      {
+        "id": "ink-with-vision",
+        "name": "Ink Printing (With Vision)",
+        "marketShare": "20-25%",
+        "position": "PREMIUM LEADER",
+        "marketSize": "$120-150M annually",
+        "growth": "12-15% annually",
+        "installedBase": 90,
+        "revenue": "$104K",
+        "revenuePercent": "0.2%",
+        "topCompetitors": ["IMA PRISMA", "Romaco Kilian", "Cognex retrofit"],
+        "threatLevel": "MODERATE",
+        "avgRevenuePerCustomer": "$13800"
+      },
+      {
+        "id": "laser-drilling",
+        "name": "Laser Drilling (OROS)",
+        "marketShare": "70-80%",
+        "position": "DOMINANT",
+        "marketSize": "$30-45M annually",
+        "installedBase": 44,
+        "revenue": "$6.9M",
+        "revenuePercent": "12.0%",
+        "topCompetitors": ["Scantech Laser", "Tri-Star Technologies"],
+        "threatLevel": "MODERATE",
+        "avgRevenuePerCustomer": "$156000",
+        "keyDifferentiator": "NIR Spectroscopy integration - industry first"
+      },
+      {
+        "id": "co2-laser-marking",
+        "name": "CO2 Laser Marking",
+        "marketShare": "15-20%",
+        "position": "STRONG #2-3",
+        "marketSize": "$90-120M annually",
+        "growth": "10-12% annually",
+        "installedBase": 163,
+        "revenue": "$2.9M",
+        "revenuePercent": "5.1%",
+        "topCompetitors": ["Videojet", "KEYENCE", "Scantech"],
+        "threatLevel": "HIGH",
+        "avgRevenuePerCustomer": "$17791"
+      },
+      {
+        "id": "uv-laser-marking",
+        "name": "UV Laser Marking",
+        "marketShare": "5-10%",
+        "position": "EMERGING PLAYER",
+        "marketSize": "$45-60M annually",
+        "growth": "15-18% annually",
+        "installedBase": 4,
+        "revenue": "$491K",
+        "revenuePercent": "0.9%",
+        "topCompetitors": ["Videojet 7920", "Tri-Star Technologies", "KEYENCE"],
+        "threatLevel": "HIGH",
+        "avgRevenuePerCustomer": "$123000"
+      },
+      {
+        "id": "vision-systems",
+        "name": "Vision Inspection Systems",
+        "marketShare": "15-20%",
+        "position": "STRONG",
+        "marketSize": "$200-300M globally",
+        "growth": "12-15% annually",
+        "installedBase": 274,
+        "revenue": "$3.8M",
+        "revenuePercent": "6.6%",
+        "topCompetitors": ["Cognex", "KEYENCE", "Videojet"],
+        "threatLevel": "MODERATE",
+        "avgRevenuePerCustomer": "$13800"
+      }
+    ],
+    "overallPosition": {
+      "summary": "Ackley Hartnett is a premium pharmaceutical equipment manufacturer with dominant position in laser drilling, strong position in ink printing, and emerging presence in advanced laser marking. Strong in North America and Europe, growing in Asia-Pacific.",
+      "strengths": [
+        "50+ years pharmaceutical manufacturing expertise",
+        "Complete turnkey solutions vs. component-only competitors",
+        "Full cGMP/FDA validation documentation and support",
+        "Industry-leading service network in North America",
+        "Innovation leadership (NIR spectroscopy in laser drilling)",
+        "Large installed base generating recurring spare parts revenue"
+      ],
+      "weaknesses": [
+        "Higher pricing vs. Asian competitors",
+        "Limited market share in CO2 laser marking vs. Videojet",
+        "Small installed base in UV laser marking",
+        "Emerging presence in some high-growth segments",
+        "Less global service coverage vs. Videojet"
+      ],
+      "opportunities": [
+        "Expand UV laser marking installed base",
+        "Grow CO2 laser marking market share",
+        "Develop value-engineered product line for emerging markets",
+        "Strengthen Asia-Pacific distributor network",
+        "Build local service presence in key Asian markets"
+      ],
+      "threats": [
+        "Videojet expanding from packaging into bulk printing",
+        "Scantech quality improvements and geographic expansion",
+        "Price pressure from Chinese manufacturers (50-70% cheaper)",
+        "IMA bundling strategy with complete production lines",
+        "Technology disruption (fiber lasers, AI-powered inspection)"
+      ]
+    }
+  }
+}

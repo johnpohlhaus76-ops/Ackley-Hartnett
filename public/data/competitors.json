@@ -1,0 +1,379 @@
+{
+  "competitors": {
+    "byTechnology": {
+      "inkPrintingNoVision": [
+        {
+          "name": "Solid Linx",
+          "country": "Italy",
+          "location": "Pescara, Italy",
+          "founded": "1970s",
+          "type": "Specialized pharmaceutical ink printing",
+          "marketPosition": "#2 in Europe, <5% North America",
+          "products": ["SL Series tablet printers", "Capsule band printers", "Softgel printers"],
+          "outputRange": "150,000-500,000/hour",
+          "pricing": "20-30% less than Ackley",
+          "strengths": [
+            "Strong European presence",
+            "Competitive pricing",
+            "Good technical support in EU",
+            "Integration with European tablet press manufacturers"
+          ],
+          "weaknesses": [
+            "Limited North American presence",
+            "Smaller installed base vs. Ackley",
+            "Less sophisticated feeding systems",
+            "Limited confectionery experience"
+          ],
+          "vs_Ackley": {
+            "winRate": "60-70% North America",
+            "lossRate": "30-40% Europe",
+            "keyDifferentiators": "Print quality, North American service network"
+          }
+        },
+        {
+          "name": "IMA ACTIVE (GIMA Basic)",
+          "country": "Italy",
+          "parentCompany": "IMA Group (Bologna)",
+          "type": "European pharmaceutical equipment leader",
+          "marketPosition": "#2 in Europe",
+          "products": ["GIMA tablet printers (ink-based, no vision)"],
+          "outputRange": "200,000-400,000/hour",
+          "pricing": "$180K-280K",
+          "strengths": [
+            "Part of complete IMA production line",
+            "European market leadership",
+            "Strong technical support",
+            "Modern automation"
+          ],
+          "weaknesses": [
+            "Limited standalone sales (usually bundled with IMA equipment)",
+            "Weak North American presence",
+            "Less confectionery experience"
+          ],
+          "vs_Ackley": {
+            "winRate": "60-70% North America",
+            "lossRate": "30-40% Europe",
+            "keyDifferentiators": "Standalone capability, confectionery expertise"
+          }
+        },
+        {
+          "name": "Chinese Manufacturers",
+          "country": "China",
+          "type": "Various (Jinlu Packing, Cadmach, others)",
+          "marketPosition": "Dominant in Asia-Pacific, minimal Western pharma penetration",
+          "pricing": "$40K-80K (50-70% less than Ackley)",
+          "quality": "Variable, improving",
+          "strengths": [
+            "Very low cost",
+            "Growing in Asia-Pacific",
+            "Fast delivery (local production)"
+          ],
+          "weaknesses": [
+            "Quality consistency issues",
+            "Limited FDA/cGMP documentation",
+            "Poor service network outside home countries",
+            "Inferior print quality",
+            "Not accepted by major Western pharmaceutical companies"
+          ],
+          "threat": "LOW in West, HIGH in Asia"
+        }
+      ],
+      "inkPrintingWithVision": [
+        {
+          "name": "IMA ACTIVE (GIMA PRISMA)",
+          "country": "Italy",
+          "type": "European leader in ink printing with vision",
+          "marketPosition": "Strong in Europe",
+          "products": ["GIMA PRISMA Multi-Function Printer"],
+          "outputRange": "Up to 500,000 tablets/hour",
+          "pricing": "$350K-550K",
+          "strengths": [
+            "Part of complete IMA tablet production line",
+            "Strong European customer base",
+            "Industry 4.0 connectivity",
+            "Modular design",
+            "Competitive pricing in Europe"
+          ],
+          "weaknesses": [
+            "Limited North American presence",
+            "Typically bundled with IMA presses",
+            "Less flexibility for custom applications",
+            "Newer to vision integration vs. Ackley"
+          ],
+          "vs_Ackley": {
+            "winRate": "60-70% North America",
+            "lossRate": "30-40% Europe",
+            "threatLevel": "MODERATE"
+          }
+        },
+        {
+          "name": "Romaco Kilian",
+          "country": "Germany",
+          "type": "Tablet press integrated printing/inspection",
+          "marketPosition": "German engineering premium",
+          "pricing": "$300K-500K (as add-on to press)",
+          "strengths": [
+            "German engineering reputation",
+            "Seamless integration with Kilian presses",
+            "Strong in European pharma",
+            "Excellent build quality"
+          ],
+          "weaknesses": [
+            "Primarily sold as tablet press add-on",
+            "Limited standalone expertise",
+            "Weak North American presence",
+            "Higher cost than Ackley"
+          ],
+          "threat": "LOW - different market approach"
+        },
+        {
+          "name": "Cognex / KEYENCE",
+          "country": "USA / Japan",
+          "type": "Vision system aftermarket retrofit specialists",
+          "approach": "Sell vision systems to retrofit existing printers",
+          "pricing": "$80K-150K (vision system only)",
+          "strengths": [
+            "World-class machine vision technology",
+            "Lower cost than new VIP system",
+            "Can upgrade existing fleet",
+            "Flexible systems"
+          ],
+          "weaknesses": [
+            "Not turnkey",
+            "Requires systems integration",
+            "Customer bears integration risk",
+            "Not optimized for pharmaceutical tablets",
+            "Support vision system only"
+          ],
+          "threat": "MODERATE - competes for retrofit projects"
+        }
+      ],
+      "laserDrillingOROS": [
+        {
+          "name": "Scantech Laser",
+          "country": "China",
+          "type": "Emerging Asia-Pacific competitor",
+          "marketPosition": "Growing in Asia, minimal in West",
+          "products": ["Tablet laser drilling system with vision"],
+          "outputRange": "200,000 tablets/hour (claimed - 3.3x faster than Ackley)",
+          "pricing": "$200K-350K (40-60% less than Ackley)",
+          "strengths": [
+            "Competitive pricing",
+            "Higher claimed throughput",
+            "Multi-lane capability",
+            "Growing presence in China/India"
+          ],
+          "weaknesses": [
+            "NO NIR spectroscopy capability (CRITICAL WEAKNESS)",
+            "Limited pharmaceutical validation",
+            "Unknown FDA track record",
+            "Limited service network",
+            "Quality concerns",
+            "Throughput claims not validated in pharma"
+          ],
+          "vs_Ackley": {
+            "ackleyWinRate": "90%+ US/EU, 30% China, 50% India",
+            "threatLevel": "MODERATE - growing threat in Asia"
+          }
+        },
+        {
+          "name": "Tri-Star Technologies",
+          "country": "USA",
+          "location": "El Segundo, CA",
+          "type": "Custom systems integrator",
+          "products": ["Nd:YAG UV cold laser system for drilling"],
+          "approach": "Custom-engineered solutions for unique applications",
+          "pricing": "$400K-600K (custom quote)",
+          "strengths": [
+            "US-based engineering",
+            "Custom solutions",
+            "Prototype/testing services",
+            "FDA/GAMP expertise"
+          ],
+          "weaknesses": [
+            "Not pharmaceutical specialist",
+            "Custom systems = long lead times",
+            "Limited service network",
+            "Smaller installed base"
+          ],
+          "threat": "MODERATE for R&D, LOW for production"
+        }
+      ],
+      "co2LaserMarking": [
+        {
+          "name": "Videojet (Veralto Corporation)",
+          "country": "USA",
+          "type": "MARKET LEADER - industrial laser marking",
+          "marketPosition": "#1 globally (35-40% market share)",
+          "products": [
+            "Videojet 3640 Pharma Line (60W CO2)",
+            "Videojet 3350 Series (30W CO2)"
+          ],
+          "pricing": "$150K-280K",
+          "outputRange": "150,000-2,100 characters/second",
+          "strengths": [
+            "Global market leader",
+            "24/7 worldwide service network",
+            "VideojetConnect remote service",
+            "Industry 4.0 integration",
+            "Fastest marking speeds",
+            "Widest marking field",
+            "Competitive pricing",
+            "Air-cooled (no chiller)"
+          ],
+          "weaknesses": [
+            "NOT turnkey for bulk tablet printing",
+            "No integrated feeding systems",
+            "Designed for packaging (cartons, blisters)",
+            "Not optimized for loose bulk tablets"
+          ],
+          "threat": "HIGH - market leader, expanding into bulk printing",
+          "vs_Ackley": {
+            "ackleyWinRate": "50-60% for bulk tablet printing",
+            "videojetDominance": "70%+ packaging applications"
+          }
+        },
+        {
+          "name": "KEYENCE Corporation",
+          "country": "Japan",
+          "type": "Premium industrial lasers",
+          "marketPosition": "10-15% market share",
+          "products": ["MD-X Series CO2 laser markers"],
+          "pricing": "$120K-250K",
+          "strengths": [
+            "Japanese engineering excellence",
+            "Superior beam quality",
+            "Easy integration",
+            "Good for R&D"
+          ],
+          "weaknesses": [
+            "No pharmaceutical turnkey systems",
+            "Requires systems integrator",
+            "Industrial focus, not pharma-specific"
+          ],
+          "threat": "LOW - different customer base"
+        },
+        {
+          "name": "Scantech Laser",
+          "country": "China",
+          "type": "Low-cost Asia-Pacific provider",
+          "marketPosition": "10-15% Asia, <5% West",
+          "pricing": "$120K-200K complete system",
+          "strengths": [
+            "Low price (50-70% less)",
+            "Turnkey solution",
+            "Growing in Asia"
+          ],
+          "weaknesses": [
+            "Quality concerns",
+            "Limited validation",
+            "Poor service outside Asia"
+          ],
+          "threat": "HIGH in Asia, LOW in West"
+        }
+      ],
+      "uvLaserMarking": [
+        {
+          "name": "Videojet 7920 UV Laser",
+          "country": "USA",
+          "type": "MARKET LEADER in UV laser marking",
+          "marketPosition": "60%+ market share",
+          "products": ["Videojet 7920 UV Laser System"],
+          "pricing": "$120K-200K",
+          "power": "2W-15W UV laser",
+          "wavelength": "355nm (UV)",
+          "strengths": [
+            "Market leader in UV pharma",
+            "Large installed base",
+            "Proven technology",
+            "Excellent service network",
+            "Competitive pricing (40-50% less than Ackley)",
+            "VideojetConnect"
+          ],
+          "weaknesses": [
+            "Not turnkey for bulk capsule printing",
+            "Requires separate feeding",
+            "No pharma-specific rejection systems",
+            "Packaging focused"
+          ],
+          "threat": "HIGH - dominant player, Ackley must compete aggressively",
+          "vs_Ackley": {
+            "ackleyChallenge": "High pricing gap, break into Videojet-dominated market"
+          }
+        },
+        {
+          "name": "Tri-Star Technologies UV Cold Laser",
+          "country": "USA",
+          "type": "Custom UV laser systems",
+          "pricing": "$350K-500K",
+          "strengths": [
+            "Custom engineering",
+            "Pharma expertise",
+            "Validation testing"
+          ],
+          "weaknesses": [
+            "Long lead times",
+            "Higher cost",
+            "Limited service"
+          ],
+          "threat": "MODERATE for custom applications"
+        }
+      ],
+      "visionInspection": [
+        {
+          "name": "Cognex Corporation",
+          "country": "USA",
+          "type": "Industrial vision leader",
+          "marketPosition": "DOMINANT in machine vision (all industries)",
+          "products": ["In-Sight Vision Systems", "VisionPro", "DataMan"],
+          "pricing": "$50K-120K per system",
+          "strengths": [
+            "World leader in machine vision",
+            "Superior algorithms",
+            "Large integrator network",
+            "Competitive pricing",
+            "Excellent support"
+          ],
+          "weaknesses": [
+            "Not pharma-specific",
+            "Requires integration",
+            "Customer bears risk",
+            "Not optimized for tablets"
+          ],
+          "threat": "HIGH for retrofit projects"
+        },
+        {
+          "name": "KEYENCE Corporation",
+          "country": "Japan",
+          "type": "Premium industrial vision",
+          "marketPosition": "15-20% market share",
+          "products": ["CV-X Series", "XG-X Series"],
+          "pricing": "$60K-150K",
+          "threat": "MODERATE"
+        }
+      ]
+    },
+    "competitiveThreatMatrix": {
+      "criticalThreats": [
+        {
+          "competitor": "Videojet",
+          "segment": "CO2 Laser Marking and UV Laser Marking",
+          "threat": "Expanding from packaging into bulk pharmaceutical printing",
+          "strategy": "Leverage Ackley's pharmaceutical expertise and turnkey solutions"
+        },
+        {
+          "competitor": "Scantech Laser",
+          "segment": "Laser Drilling and CO2 Marking",
+          "threat": "Growing quality and geographic expansion in Asia",
+          "strategy": "Compete on service, validation, and quality differentiation"
+        },
+        {
+          "competitor": "Chinese Manufacturers",
+          "segment": "All segments",
+          "threat": "50-70% pricing advantage",
+          "strategy": "Develop value-engineered product line for price-sensitive markets"
+        }
+      ]
+    }
+  }
+}

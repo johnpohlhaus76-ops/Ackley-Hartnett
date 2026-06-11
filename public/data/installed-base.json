@@ -1,0 +1,227 @@
+{
+  "installedBase": {
+    "summary": {
+      "globalInstalledMachines": 751,
+      "countriesPresent": 15,
+      "sparePartsRevenue2020_2025": "$57M",
+      "sparePartsOrders2020_2025": 13600,
+      "dataSource": "Spare parts orders analysis 2020-2025"
+    },
+    "byTechnology": {
+      "inkPrintingNoVision": {
+        "machines": 1722,
+        "revenue": "$3.5M",
+        "percent": "6.1%",
+        "avgPerCustomer": "$2000",
+        "topCustomers": [
+          {
+            "name": "AstraZeneca Pharmaceuticals",
+            "revenue5yr": "$203K",
+            "product": "Concerta OROS methylphenidate manufacturer",
+            "region": "North America"
+          },
+          {
+            "name": "Mars Wrigley Confectionery",
+            "revenue5yr": "$185K",
+            "product": "Confectionery manufacturing",
+            "region": "North America"
+          },
+          {
+            "name": "McNeil Healthcare LLC",
+            "revenue5yr": "$173K",
+            "product": "OTC pharmaceuticals",
+            "region": "North America"
+          },
+          {
+            "name": "Mars Wrigley Confectionery US",
+            "revenue5yr": "$161K",
+            "product": "Confectionery (M&Ms, Skittles)",
+            "region": "North America"
+          },
+          {
+            "name": "Mylan Laboratories India",
+            "revenue5yr": "$131K",
+            "product": "Generic pharmaceuticals",
+            "region": "Asia"
+          }
+        ]
+      },
+      "inkPrintingWithVision": {
+        "machines": 90,
+        "revenue": "$104K",
+        "percent": "0.2%",
+        "avgPerCustomer": "$13800",
+        "topCustomers": [
+          {
+            "name": "MW Encap Ltd.",
+            "revenue5yr": "$13K",
+            "product": "Capsule manufacturing",
+            "region": "International"
+          },
+          {
+            "name": "Actavis Elizabeth",
+            "revenue5yr": "$10K",
+            "product": "Generic pharmaceuticals",
+            "region": "North America"
+          },
+          {
+            "name": "Actavis Laboratories FL",
+            "revenue5yr": "$8K",
+            "product": "Generic pharmaceuticals",
+            "region": "North America"
+          },
+          {
+            "name": "Patheon Inc.",
+            "revenue5yr": "$6K",
+            "product": "CDMO services",
+            "region": "North America"
+          },
+          {
+            "name": "Rieckermann Philippines",
+            "revenue5yr": "$6K",
+            "product": "Pharmaceutical manufacturing",
+            "region": "Asia"
+          }
+        ]
+      },
+      "laserDrillingOROS": {
+        "machines": 44,
+        "revenue": "$6.9M",
+        "percent": "12.0%",
+        "avgPerCustomer": "$156000",
+        "topCustomers": [
+          {
+            "name": "Janssen-Ortho Mfg. LLC",
+            "revenue5yr": "$1.56M",
+            "product": "Concerta (OROS methylphenidate) - highest value customer",
+            "region": "North America",
+            "marketImportance": "CRITICAL"
+          },
+          {
+            "name": "Catalent Pharma Solutions",
+            "revenue5yr": "$828K",
+            "product": "CDMO with OROS capabilities",
+            "region": "International",
+            "marketImportance": "HIGH"
+          },
+          {
+            "name": "Hefei Lifeon Pharmaceutical",
+            "revenue5yr": "$802K",
+            "product": "Chinese OROS manufacturer",
+            "region": "Asia",
+            "marketImportance": "HIGH"
+          },
+          {
+            "name": "Salutas Pharma",
+            "revenue5yr": "$499K",
+            "product": "European OROS specialist",
+            "region": "Europe",
+            "marketImportance": "HIGH"
+          },
+          {
+            "name": "Dexcel Pharma",
+            "revenue5yr": "$496K",
+            "product": "Generic OROS products",
+            "region": "Middle East",
+            "marketImportance": "HIGH"
+          }
+        ]
+      },
+      "co2LaserMarking": {
+        "machines": 163,
+        "revenue": "$2.9M",
+        "percent": "5.1%",
+        "avgPerCustomer": "$17791",
+        "topCustomers": [
+          {
+            "name": "McNeil Healthcare LLC",
+            "revenue5yr": "$1.02M",
+            "product": "Major J&J pharmaceutical manufacturing",
+            "region": "North America"
+          },
+          {
+            "name": "Sanofi Vietnam",
+            "revenue5yr": "$522K",
+            "product": "Sanofi Asia-Pacific operations",
+            "region": "Asia"
+          },
+          {
+            "name": "Supernus Pharmaceuticals",
+            "revenue5yr": "$151K",
+            "product": "Specialty CNS drugs",
+            "region": "North America"
+          },
+          {
+            "name": "Rieckermann Services",
+            "revenue5yr": "$151K",
+            "product": "Distributor/service provider Asia",
+            "region": "Asia"
+          },
+          {
+            "name": "Actavis Laboratories FL",
+            "revenue5yr": "$122K",
+            "product": "Generic pharmaceuticals",
+            "region": "North America"
+          }
+        ]
+      },
+      "uvLaserMarking": {
+        "machines": 4,
+        "revenue": "$491K",
+        "percent": "0.9%",
+        "avgPerCustomer": "$123000",
+        "topCustomers": [
+          {
+            "name": "Alcami",
+            "revenue5yr": "$449K",
+            "product": "Large US CDMO",
+            "region": "North America",
+            "note": "Ackley emerging in this segment"
+          },
+          {
+            "name": "Fidelio Healthcare Limburg",
+            "revenue5yr": "$42K",
+            "product": "European pharmaceutical",
+            "region": "Europe"
+          }
+        ]
+      },
+      "visionSystems": {
+        "machines": 274,
+        "revenue": "$3.8M",
+        "percent": "6.6%",
+        "avgPerCustomer": "$13800",
+        "type": "Standalone or retrofit vision inspection systems",
+        "note": "Strong aftermarket adoption for printer upgrades"
+      },
+      "generalPartsOther": {
+        "machines": 11303,
+        "revenue": "$39.2M",
+        "percent": "69.1%",
+        "note": "Maintenance parts, consumables, accessories - largest revenue driver"
+      }
+    },
+    "regionalBreakdown": {
+      "northAmerica": {
+        "marketShare": "60-70%",
+        "position": "DOMINANT",
+        "description": "Strongest market with highest quality standards and service expectations"
+      },
+      "europe": {
+        "marketShare": "30-40%",
+        "position": "COMPETITIVE",
+        "description": "Competing with Solid Linx and IMA ACTIVE, strong presence"
+      },
+      "asiaPacific": {
+        "marketShare": "15-25%",
+        "position": "GROWING",
+        "description": "Price-sensitive market, Chinese manufacturers dominant on cost"
+      },
+      "latinAmerica": {
+        "marketShare": "40-50%",
+        "position": "STRONG",
+        "description": "Quality-focused customers choose Ackley"
+      }
+    }
+  }
+}

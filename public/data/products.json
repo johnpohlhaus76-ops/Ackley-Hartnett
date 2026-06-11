@@ -1,0 +1,279 @@
+{
+  "products": {
+    "inkPrinting": {
+      "seriesWithoutVision": {
+        "name": "Ink Printing - No Vision",
+        "technology": "Rotogravure offset printing with edible FDA-approved inks",
+        "applications": ["Tablets", "Capsules", "Softgels", "Confectionery"],
+        "models": [
+          {
+            "model": "104/106 Series",
+            "description": "Single-lane rotogravure tablet printers",
+            "output": "200,000-400,000 tablets/hour",
+            "technology": "Offset rotogravure (pad printing)",
+            "changeover": "Manual setup, 30-60 minutes",
+            "priceRange": "$150K-250K",
+            "applications": ["High-volume tablet production"]
+          },
+          {
+            "model": "204 Series",
+            "description": "Dual-lane configuration",
+            "output": "Up to 800,000 tablets/hour",
+            "technology": "Offset rotogravure",
+            "applications": ["High-volume production"],
+            "priceRange": "$300K-400K"
+          },
+          {
+            "model": "Legacy Hartnett Delta Series",
+            "description": "Rotogravure capsule and tablet printers",
+            "characteristics": ["Known for simplicity and reliability", "Strong food/beverage segment"],
+            "priceRange": "$120K-200K"
+          }
+        ],
+        "strengths": [
+          "Superior print quality (offset rotogravure process)",
+          "FDA-approved edible inks and extensive color library",
+          "Robust mechanical design (50+ year proven technology)",
+          "Made in USA with full cGMP documentation",
+          "Excellent service network in North America",
+          "Large installed base (1,722 documented machines)",
+          "Can upgrade with vision systems"
+        ],
+        "weaknesses": [
+          "Ink consumables and ongoing costs",
+          "Longer changeover times vs. laser",
+          "Requires skilled operators",
+          "Environmental considerations (ink waste, solvents)",
+          "No native serialization (requires vision upgrade)"
+        ],
+        "typicalCustomers": [
+          "Large pharmaceutical companies with high-volume production",
+          "Confectionery (M&Ms, Skittles, etc.)",
+          "Nutraceutical supplements",
+          "Generic drug manufacturers",
+          "Contract manufacturers (CDMOs)"
+        ]
+      },
+      "seriesWithVision": {
+        "name": "VIP Offset Printer (Ink with Vision)",
+        "technology": "Rotogravure printing + integrated vision inspection + automatic rejection",
+        "visionCapabilities": {
+          "cameras": "5+ megapixel",
+          "inspection": ["OCR/OCV verification", "360° inspection capability"],
+          "realTime": "Defect detection and automatic rejection",
+          "compliance": "21 CFR Part 11 compliant data logging"
+        },
+        "models": [
+          {
+            "name": "VIP Offset Printer",
+            "output": "400,000-1,200,000 tablets/hour (model dependent)",
+            "lanes": "1-4 lanes available",
+            "priceRange": "$400K-700K",
+            "applications": ["High-value branded pharmaceuticals", "Serialization-ready products"]
+          }
+        ],
+        "features": [
+          "Complete turnkey solution (feeding + printing + inspection + rejection)",
+          "100% inspection of every tablet/capsule",
+          "Recipe-driven automatic changeover",
+          "Real-time SPC (Statistical Process Control)",
+          "Remote monitoring and diagnostics",
+          "Integration with MES/ERP systems",
+          "Dual-sided printing and inspection",
+          "Advanced lighting systems for difficult-to-inspect products"
+        ],
+        "strengths": [
+          "Industry-leading print quality + inspection accuracy",
+          "Pharmaceutical-specific design and validation",
+          "cGMP compliant with full IQ/OQ/PQ documentation",
+          "Superior rejection mechanisms",
+          "Made in USA",
+          "Excellent ROI through reduced waste and compliance"
+        ],
+        "weaknesses": [
+          "Highest price point in category ($400K-700K)",
+          "More complex operation requires training",
+          "Longer installation and validation timeline",
+          "Ink consumables (vs. laser alternatives)"
+        ],
+        "idealCustomer": "Big Pharma, innovator drugs, high-value products, serialization requirements"
+      }
+    },
+    "laserDrilling": {
+      "name": "VIP Laser Drill + NIR",
+      "technology": "Precision CO2 laser drilling for osmotic controlled-release tablets",
+      "market": "Highest revenue-per-machine segment ($156K average)",
+      "applications": ["OROS drugs (Concerta, Glucotrol XL, Cardura XL, etc.)"],
+      "products": [
+        {
+          "name": "VIP Laser Drill + NIR Spectroscopy",
+          "marketPosition": "INDUSTRY STANDARD for pharmaceutical laser drilling",
+          "specifications": {
+            "technology": "Precision CO2 laser drilling system",
+            "output": "Up to 60,000 tablets/hour",
+            "apertureSize": "0.4mm - 1.2mm diameter (±0.05mm tolerance)",
+            "depthControl": "Through coating only (doesn't penetrate core)",
+            "nirSpectroscopy": "Dual NIR spectrometers verify membrane integrity BEFORE drilling"
+          },
+          "innovation": "World-First: NIR Spectroscopy Integration",
+          "nirBenefits": [
+            "Verifies osmotic membrane integrity before drilling",
+            "Prevents drilling defective tablets",
+            "Saves entire batches from validation failures",
+            "2020 Medicine Maker Innovation Awards Finalist"
+          ],
+          "visionInspection": "100% post-drill aperture verification with automatic defect removal",
+          "priceRange": "$500K-800K",
+          "features": [
+            "Complete turnkey solution (feeding, orienting, drilling, inspecting, rejecting)",
+            "FDA/cGMP compliant with GAMP 5 validation",
+            "Pharmaceutical-specific design",
+            "IQ/OQ/PQ documentation packages",
+            "Recipe-driven operation for multiple products",
+            "Real-time SPC and process monitoring",
+            "21 CFR Part 11 compliant data system",
+            "Remote diagnostics capability"
+          ],
+          "strengths": [
+            "ONLY system with integrated NIR spectroscopy",
+            "50+ years pharmaceutical manufacturing expertise",
+            "Proven reliability in validated production",
+            "Excellent service and spare parts support",
+            "Strong installed base at major OROS manufacturers",
+            "Made in USA with full traceability",
+            "Can handle various tablet shapes, sizes, coatings"
+          ],
+          "weaknesses": [
+            "High capital cost ($500K-800K)",
+            "Single-lane design (lower throughput than competitors)",
+            "Complex system requires trained operators",
+            "Long installation/validation timeline (3-6 months)"
+          ],
+          "whyCustomersChoose": [
+            "OROS is high-value, low-volume market",
+            "NIR prevents catastrophic batch failures",
+            "Regulatory track record critical for FDA submissions",
+            "Service support essential for validated manufacturing"
+          ]
+        }
+      ]
+    },
+    "co2LaserMarking": {
+      "name": "VIP Laser Marker",
+      "technology": "CO2 laser marking/engraving on tablets and capsules",
+      "marketGrowth": "10-12% annually (shift from ink to laser)",
+      "applications": ["Tablets", "Caplets", "Hard capsules", "LCTs"],
+      "products": [
+        {
+          "name": "VIP Laser Marker",
+          "output": "Up to 300,000-400,000 tablets/hour",
+          "laserType": "CO2 laser (typical 30-60W)",
+          "marking": ["Alphanumerics", "Logos", "2D barcodes", "Graphics"],
+          "visionCapability": "Optional integrated inspection",
+          "priceRange": "$350K-550K (with vision)",
+          "features": [
+            "One or two-sided laser marking",
+            "Variable data capability (serialization ready)",
+            "Recipe-driven changeover",
+            "cGMP compliant data logging",
+            "Optional NIR integration",
+            "Made in USA"
+          ],
+          "strengths": [
+            "No consumables (vs. ink systems)",
+            "Pharmaceutical-specific design",
+            "Complete turnkey solution",
+            "FDA/cGMP validation packages",
+            "Excellent service network",
+            "Can upgrade existing ink printers to laser"
+          ],
+          "weaknesses": [
+            "Higher capital cost than ink printing",
+            "Grayscale marking only (no color)",
+            "Not suitable for all tablet coatings",
+            "Lower throughput than industrial lasers",
+            "Limited multi-lane configurations"
+          ]
+        }
+      ]
+    },
+    "uvLaserMarking": {
+      "name": "VIP UV Laser Marker (Emerging)",
+      "technology": "UV (ultraviolet) laser marking on sensitive pharmaceutical products",
+      "marketGrowth": "15-18% annually (fastest-growing segment)",
+      "whyUV": [
+        "Cold laser - minimal heat generation",
+        "Ideal for gelatin capsules (no degreasing required)",
+        "No chemical cleaning needed",
+        "Works on heat-sensitive coatings",
+        "High-contrast marking on difficult materials",
+        "No ink waste or environmental concerns"
+      ],
+      "products": [
+        {
+          "name": "VIP UV Laser Marker",
+          "technology": "Nd:YAG UV laser (355nm wavelength)",
+          "power": "Typically 3-10W",
+          "output": "30,000-60,000 products/hour",
+          "applications": ["Gelatin capsules", "Heat-sensitive tablets", "Specialty products"],
+          "priceRange": "$400K-600K",
+          "features": [
+            "Cold marking (no thermal damage)",
+            "No capsule degreasing required",
+            "Turnkey pharmaceutical solution",
+            "Vision inspection integrated",
+            "cGMP compliant"
+          ],
+          "strengths": [
+            "Complete pharmaceutical system",
+            "No chemical pre-treatment needed",
+            "Pharmaceutical validation packages",
+            "Service network"
+          ],
+          "weaknesses": [
+            "NEW product line - limited track record",
+            "Small installed base vs. competitors",
+            "Higher cost than competing UV lasers",
+            "Lower throughput than CO2 systems",
+            "Technology still maturing in pharma applications"
+          ],
+          "marketPosition": "EMERGING - building market share",
+          "focus": "Gelatin capsule applications (specialty, highest value-add)"
+        }
+      ]
+    },
+    "visionInspection": {
+      "name": "VIP Vision Inspection Module",
+      "type": "Retrofit or standalone vision inspection",
+      "purpose": "Can retrofit existing Ackley/Hartnett printers or integrate with third-party equipment",
+      "priceRange": "$150K-250K (installed)",
+      "capabilities": {
+        "cameras": "5+ megapixel",
+        "inspection360": "360° inspection capability",
+        "features": ["OCR/OCV verification", "Automatic rejection"],
+        "compliance": "21 CFR Part 11 compliant data logging"
+      },
+      "integration": "Compatible with existing Ackley control systems",
+      "strengths": [
+        "Pharmaceutical-specific design",
+        "Optimized for tablet/capsule inspection",
+        "Easy retrofit to existing Ackley equipment",
+        "Full cGMP validation packages",
+        "Service through existing Ackley network"
+      ],
+      "weaknesses": [
+        "Higher cost than industrial vision systems",
+        "Limited to pharmaceutical applications",
+        "May not integrate easily with non-Ackley equipment"
+      ]
+    },
+    "legacyProducts": {
+      "hartnettDeltaSeries": {
+        "description": "Rotogravure capsule and tablet printers",
+        "characteristics": ["Simplicity and reliability", "Strong food/beverage presence"],
+        "marketSegment": "Confectionery and legacy pharmaceutical",
+        "note": "Used equipment market available - machines last 20-30+ years"
+      }
+    }
+  }
+}

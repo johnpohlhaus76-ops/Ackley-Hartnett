@@ -1,0 +1,268 @@
+{
+  "salesStrategy": {
+    "uniqueValueProposition": {
+      "core": "Complete pharmaceutical solutions with 50+ years of industry expertise and full regulatory support",
+      "differentiators": [
+        "Complete Turnkey Solutions - Feeding, marking/drilling, inspection, rejection (vs. component-only competitors)",
+        "Domain Expertise - 50+ years pharmaceutical manufacturing experience",
+        "Regulatory Support - Full cGMP/FDA documentation packages (IQ/OQ/PQ)",
+        "Service Network - Critical for 24/7 pharmaceutical production",
+        "Innovation Leadership - NIR spectroscopy in laser drilling, advanced vision systems"
+      ]
+    },
+    "competitivePositioning": {
+      "bySegment": {
+        "inkPrintingNoVision": {
+          "ackleyPosition": "MARKET LEADER",
+          "winConditions": [
+            "High-volume pharmaceutical production (>200K/hour)",
+            "Print quality critical",
+            "Confectionery applications",
+            "Upgrade/retrofit existing Ackley equipment",
+            "North American regulatory environment",
+            "Long-term partnership valued"
+          ],
+          "lossConditions": [
+            "Pure price competition (Solid Linx, Chinese 50-70% cheaper)",
+            "European markets where Solid Linx has strong presence",
+            "Customers buying complete IMA production line",
+            "Emerging markets with less stringent quality"
+          ],
+          "recommendedPricing": "Premium (justify with quality, service, reliability)"
+        },
+        "inkPrintingWithVision": {
+          "ackleyPosition": "PREMIUM LEADER",
+          "winConditions": [
+            "Serialization requirements (Track & Trace)",
+            "High-value products (justify premium equipment)",
+            "Big Pharma or innovator drugs",
+            "US/European regulatory environment",
+            "Full system validation critical",
+            "Service support essential"
+          ],
+          "lossConditions": [
+            "Pure price competition (IMA PRISMA, Cognex retrofit 40-60% cheaper)",
+            "Customer buying complete IMA production line",
+            "Emerging markets"
+          ],
+          "winRate": {
+            "bigPharma": "70-80%",
+            "cdmoQualityFocused": "60-70%",
+            "genericManufacturers": "40-50%",
+            "emergingMarkets": "20-30%"
+          ]
+        },
+        "laserDrillingOROS": {
+          "ackleyPosition": "DOMINANT (70-80% market share)",
+          "winConditions": [
+            "OROS controlled-release products (Concerta, Glucotrol XL, etc.)",
+            "High revenue-per-machine applications ($156K average)",
+            "NIR spectroscopy critical to prevent batch failures",
+            "Regulatory validation essential",
+            "Service support for 24/7 production",
+            "Existing customer base (Janssen, Catalent, etc.)"
+          ],
+          "lossConditions": [
+            "Emerging markets with price sensitivity",
+            "Customers want multi-lane throughput over quality"
+          ],
+          "winRate": {
+            "usBigPharma": "95%+",
+            "usCdmosOros": "80-90%",
+            "europeanOros": "70-80%",
+            "chineseOros": "40-50%",
+            "indianOros": "60-70%"
+          },
+          "keyDifferentiator": "NIR Spectroscopy - industry first, prevents catastrophic batch failures"
+        },
+        "co2LaserMarking": {
+          "ackleyPosition": "STRONG #2-3 (15-20% market share)",
+          "winConditions": [
+            "Turnkey bulk tablet printing system needed",
+            "Pharmaceutical validation required",
+            "Service and support critical",
+            "Upgrade from existing Ackley ink printer",
+            "US/European regulatory environment",
+            "Quality over throughput preference"
+          ],
+          "lossConditions": [
+            "Customer has existing feeding/handling (only needs laser head)",
+            "Pure price competition (Videojet industrial lasers, Scantech)",
+            "Packaging applications (Videojet optimized)",
+            "Emerging markets"
+          ],
+          "winRate": {
+            "bulkTabletPharma": "50-60%",
+            "blisterPackaging": "5-10%",
+            "highSpeedLines": "20-30%"
+          },
+          "strategy": "Position against Videojet on pharmaceutical expertise, turnkey completeness"
+        },
+        "uvLaserMarking": {
+          "ackleyPosition": "EMERGING (5-10% market share)",
+          "winConditions": [
+            "Gelatin capsule applications (specialty)",
+            "Heat-sensitive coatings",
+            "No chemical pre-treatment needed",
+            "Pharmaceutical validation valued",
+            "Turnkey complete system",
+            "Long-term service partnership"
+          ],
+          "lossConditions": [
+            "Price competition (Videojet 40-50% cheaper)",
+            "Videojet installed base advantage",
+            "Industrial applications"
+          ],
+          "strategy": "AGGRESSIVE - build installed base, focus on capsule niche, develop ROI case studies",
+          "partnerships": "Consider partnerships with capsule manufacturers (Capsugel, Qualicaps)"
+        },
+        "visionSystems": {
+          "ackleyPosition": "STRONG (15-20% market share)",
+          "winConditions": [
+            "Upgrade existing Ackley equipment (80-90% win rate)",
+            "Pharmaceutical validation critical",
+            "Retrofit non-Ackley pharma equipment (40-50% win rate)",
+            "New installations (60-70% win rate)",
+            "Service support valued"
+          ],
+          "lossConditions": [
+            "Price competition (Cognex 40-60% cheaper)",
+            "DIY customers with internal integration",
+            "Multi-vendor environments"
+          ]
+        }
+      }
+    },
+    "customerSegmentation": {
+      "winStrongly": {
+        "segment": "Big Pharma & Innovator Drugs",
+        "characteristics": [
+          "High regulatory requirements",
+          "Serialize/track & trace critical",
+          "Quality over cost",
+          "Service support essential",
+          "Long-term partnerships valued"
+        ],
+        "recommendedApproach": "Premium positioning, emphasize validation, service, regulatory expertise",
+        "expectedWinRate": "70-80%"
+      },
+      "winModerately": {
+        "segment": "CDMOs & Quality-Focused Manufacturers",
+        "characteristics": [
+          "High quality standards",
+          "Validation important but cost-conscious",
+          "OROS specialists",
+          "Mix of generic and specialty products"
+        ],
+        "recommendedApproach": "Value engineering - emphasize quality, reduce non-essential features",
+        "expectedWinRate": "60-70%"
+      },
+      "competeCarefully": {
+        "segment": "Generic Drug Manufacturers",
+        "characteristics": [
+          "Price-sensitive",
+          "High throughput requirements",
+          "Less stringent validation needs",
+          "Multiple supplier quotes"
+        ],
+        "recommendedApproach": "Value-engineered product line, competitive pricing",
+        "expectedWinRate": "40-50%"
+      },
+      "walkAway": {
+        "segment": "Commodity Price-Only Buyers",
+        "characteristics": [
+          "Only criterion: lowest price",
+          "No loyalty",
+          "DIY integration capability",
+          "No service requirement"
+        ],
+        "recommendation": "Focus resources on winnable segments; Ackley cannot compete on price alone"
+      }
+    },
+    "regionalStrategy": {
+      "northAmerica": {
+        "position": "DOMINANT",
+        "strategy": "Defend leadership, premium pricing, service focus",
+        "winRate": "60-70% across segments"
+      },
+      "europe": {
+        "position": "COMPETITIVE",
+        "strategy": "Compete with Solid Linx and IMA, emphasize quality differentiation",
+        "winRate": "30-40% across segments",
+        "action": "Strengthen distributor network, local service presence"
+      },
+      "asiaPacific": {
+        "position": "GROWING",
+        "challenge": "Chinese manufacturers dominant on price (50-70% cheaper)",
+        "strategy": "Cannot ignore forever; develop value-engineered product line",
+        "action": "Build local service infrastructure in key markets (China, India)",
+        "winRate": "15-25% currently, opportunity to grow"
+      },
+      "latinAmerica": {
+        "position": "STRONG",
+        "strategy": "Quality-focused customers choose Ackley",
+        "winRate": "40-50%"
+      }
+    },
+    "keyAccountManagement": {
+      "criticalCustomers": [
+        {
+          "name": "Janssen-Ortho Mfg. LLC",
+          "revenue5yr": "$1.56M",
+          "product": "Concerta (OROS methylphenidate)",
+          "importance": "HIGHEST - defines market leadership in laser drilling",
+          "strategy": "Protect at all costs, proactive service, innovation focus"
+        },
+        {
+          "name": "Catalent Pharma Solutions",
+          "revenue5yr": "$828K",
+          "product": "Major CDMO with OROS capabilities",
+          "importance": "HIGH - leverage for other CDMO sales",
+          "strategy": "Showcase as reference customer, involve in new product beta tests"
+        },
+        {
+          "name": "McNeil Healthcare LLC",
+          "revenue5yr": "$1.02M (CO2 marking) + $203K (ink printing)",
+          "product": "Major J&J operations",
+          "importance": "HIGH - multi-technology customer",
+          "strategy": "Deep relationship, expand across product portfolio"
+        }
+      ]
+    },
+    "competitiveResponses": {
+      "videojetThreat": {
+        "threat": "Expanding from packaging into bulk pharmaceutical printing",
+        "ackleyResponse": [
+          "Emphasize pharmaceutical-specific design vs. industrial laser adaptation",
+          "Highlight turnkey solutions (feeding + inspection + rejection)",
+          "Stress validation support and service network",
+          "Develop strong ROI models showing Ackley advantages"
+        ]
+      },
+      "scantechThreat": {
+        "threat": "Growing in Asia-Pacific with 50-70% price advantage",
+        "ackleyResponse": [
+          "Quality differentiation (NIR spectroscopy in laser drilling)",
+          "Regulatory validation documentation",
+          "Relationship/service value",
+          "Consider value-engineered product line for Asian markets"
+        ]
+      },
+      "chineseManufacturers": {
+        "threat": "Undercutting on price across all segments",
+        "ackleyResponse": [
+          "Compete on pharmaceutical expertise, not price",
+          "Develop value-engineered product line",
+          "Build local presence in key Asian markets",
+          "Emphasize FDA acceptance and validation track record"
+        ]
+      }
+    },
+    "pricingStrategy": {
+      "premium": "North America, Big Pharma, laser drilling, regulated markets",
+      "standard": "Europe, CDMO, quality-focused buyers",
+      "valueEngineered": "Emerging markets, generic manufacturers, price-sensitive segments",
+      "principle": "Never compete on price alone - always emphasize value (quality, service, validation)"
+    }
+  }
+}
