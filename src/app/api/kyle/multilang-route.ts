@@ -86,8 +86,6 @@ function detectLanguage(text: string): LanguageCode {
   if (/[가-힯]/.test(text)) return 'ko'
   // Cyrillic (Russian)
   if (/[Ѐ-ӿ]/.test(text)) return 'ru'
-  // Greek
-  if (/[Ͱ-Ͽ]/.test(text)) return 'el'
   // Thai
   if (/[฀-๿]/.test(text)) return 'th'
 
