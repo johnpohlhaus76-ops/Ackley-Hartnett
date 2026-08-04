@@ -1,0 +1,2548 @@
+{
+  "currency": "USD",
+  "note": "2025 Master Price List - includes 10% rep commission. ExWorks Langhorne/Moorestown.",
+  "categories": [
+    {
+      "name": "OFFSET ROTOGRAVURE PRINTING SYSTEMS - No Inspection",
+      "slug": "offset-rotogravure-printing-systems-no-inspection",
+      "items": [
+        {
+          "partNumber": "01261-10TBD",
+          "name": "Cantilever Drum Printer My M&M Confectionary",
+          "detail": null,
+          "throughput": "1200000",
+          "basePrice": 272093.0,
+          "priceNote": null,
+          "machineCrating": 3000.0,
+          "cpCrating": "1 Set $ 1,400         2 Sets $ 1,600",
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "01262-10TBD",
+              "price": null
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "?",
+              "price": null
+            }
+          ],
+          "kind": "machine"
+        },
+        {
+          "partNumber": "01461-10TBD",
+          "name": "30 Degree Fixed Angle Ramp Printer",
+          "detail": "One-Side Confectionery Printer, 30 Degree FARP, 122 Carrier Bars",
+          "throughput": "1200000",
+          "basePrice": 139440.0,
+          "priceNote": null,
+          "machineCrating": 3000.0,
+          "cpCrating": "1 Set $ 1,400         2 Sets $ 1,600",
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "04162-12TBD",
+              "price": 35820.0
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "01462-13TBD",
+              "price": 40240.0
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "01462-14TBD",
+              "price": 49360.0
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "01462-10DUP",
+              "price": 30250.0
+            }
+          ],
+          "kind": "machine"
+        },
+        {
+          "partNumber": "01461-20TBD",
+          "name": "15 Degree Fixed Angle Ramp Printer",
+          "detail": "One-Side Confectionery Printer, 30 Degree FARP, 122 Carrier Bars",
+          "throughput": "1200000",
+          "basePrice": 139440.0,
+          "priceNote": null,
+          "machineCrating": 3000.0,
+          "cpCrating": "1 Set $ 1,400         2 Sets $ 1,600",
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "04162-12TBD",
+              "price": 35820.0
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "01462-13TBD",
+              "price": 40240.0
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "01462-14TBD",
+              "price": 49360.0
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "01462-10DUP",
+              "price": 30250.0
+            }
+          ],
+          "kind": "machine"
+        },
+        {
+          "partNumber": "01481-10TBD",
+          "name": "Adjustable Angle Ramp Feed Printer",
+          "detail": "One-Side Confectionery Printer, Utility Model, 163 Carrier Bars",
+          "throughput": "1200000",
+          "basePrice": 151160.0,
+          "priceNote": null,
+          "machineCrating": 3000.0,
+          "cpCrating": "1 Set $ 1,400         2 Sets $ 1,600",
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "01482-12TBD",
+              "price": 39000.0
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "01482-13TBD",
+              "price": 43580.0
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "01482-14TBD",
+              "price": 51490.0
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "01482-10DUP",
+              "price": 32120.0
+            }
+          ],
+          "kind": "machine"
+        },
+        {
+          "partNumber": "01481-20TBD",
+          "name": "Standard Variable Ramp Printer",
+          "detail": "One-Side Pharmaceutical Printer, No Inspection, 163 Carrier Bars",
+          "throughput": "750000",
+          "basePrice": 192140.0,
+          "priceNote": null,
+          "machineCrating": 3000.0,
+          "cpCrating": "1 Set $ 1,400         2 Sets $ 1,600",
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "01482-22TBD",
+              "price": 59550.0
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "01482-23TBD",
+              "price": 63990.0
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "01482-24TBD",
+              "price": 72820.0
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "01482-20DUP",
+              "price": 37890.0
+            }
+          ],
+          "kind": "machine"
+        },
+        {
+          "partNumber": "01491-10TBD",
+          "name": "Servo Variable Ramp Printer",
+          "detail": "One-Side Pharmaceutical Printer, No Inspection, 183 Carrier Bars",
+          "throughput": "750000",
+          "basePrice": 331810.0,
+          "priceNote": null,
+          "machineCrating": 3000.0,
+          "cpCrating": "1 Set $ 1,400         2 Sets $ 1,600",
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "01492-12TBD",
+              "price": 59550.0
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "01492-14TBD",
+              "price": 63990.0
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "01492-14TBD",
+              "price": 72820.0
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "01492-10DUP",
+              "price": 37890.0
+            }
+          ],
+          "kind": "machine"
+        },
+        {
+          "partNumber": "01291-10TBD",
+          "name": "Servo Drum Two-Side Printer",
+          "detail": "Two-Side Pharmaceutical Printer, With Inspection, 3 Drums",
+          "throughput": "150000",
+          "basePrice": 404560.0,
+          "priceNote": null,
+          "machineCrating": 3200.0,
+          "cpCrating": "1 Set $ 1,400         2 Sets $ 1,600",
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "01292-12TBD",
+              "price": 52200.0
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "01292-13TBD",
+              "price": 56450.0
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "01292-14TBD",
+              "price": 67080.0
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "01292-10DUP",
+              "price": 41880.0
+            }
+          ],
+          "kind": "machine"
+        },
+        {
+          "partNumber": "07421-10TBD",
+          "name": "Model C Ink Printer",
+          "detail": null,
+          "throughput": "300000",
+          "basePrice": 556042.3,
+          "priceNote": null,
+          "machineCrating": 5500.0,
+          "cpCrating": null,
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "07422-10TBD",
+              "price": 18013.6
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "07422-10TBD",
+              "price": 18013.6
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "07422-20TBD",
+              "price": 18013.6
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "07422-00DUP",
+              "price": 18013.6
+            }
+          ],
+          "kind": "machine"
+        },
+        {
+          "partNumber": "01511-10TBD",
+          "name": "Servo Cantilever Ramp Printer",
+          "detail": "One-Side Pharmaceutical Printer, No Inspection, 124 Carrier Bars",
+          "throughput": "250000",
+          "basePrice": 283200.0,
+          "priceNote": null,
+          "machineCrating": 3000.0,
+          "cpCrating": "1 Set $ 1,400         2 Sets $ 1,600",
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "01512-22tbd",
+              "price": 43620.0
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "01512-23TBD",
+              "price": 47120.0
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "01512-24TBD",
+              "price": 53600.0
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "01512-20DUP",
+              "price": 36040.0
+            }
+          ],
+          "kind": "machine"
+        },
+        {
+          "partNumber": null,
+          "name": "GPS Rotogravure Ink Printer",
+          "detail": null,
+          "throughput": "225000",
+          "basePrice": 383900.0,
+          "priceNote": null,
+          "machineCrating": 5500.0,
+          "cpCrating": null,
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": null,
+              "price": 26125.0
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": null,
+              "price": 26125.0
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": null,
+              "price": 26125.0
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": null,
+              "price": 26125.0
+            }
+          ],
+          "kind": "machine"
+        },
+        {
+          "partNumber": "07221-10TBD",
+          "name": "H Track Ink Printing Machine",
+          "detail": null,
+          "throughput": "180000",
+          "basePrice": 392700.0,
+          "priceNote": null,
+          "machineCrating": 5500.0,
+          "cpCrating": null,
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "07222-10TBD",
+              "price": 47084.73
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "07222-10TBD",
+              "price": 47084.73
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "07222-20DUP",
+              "price": 47084.73
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "07222-00DUP",
+              "price": 47084.73
+            }
+          ],
+          "kind": "machine"
+        },
+        {
+          "partNumber": "07121-10TBD",
+          "name": "Delta Ink Printer",
+          "detail": null,
+          "throughput": "70000",
+          "basePrice": 171600.0,
+          "priceNote": null,
+          "machineCrating": 5500.0,
+          "cpCrating": null,
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "07122-20TBD",
+              "price": 3279.1
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "07122-20TBD",
+              "price": 3279.1
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "07122-20TBD",
+              "price": 3279.1
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "07122-20TBD",
+              "price": 3279.1
+            }
+          ],
+          "kind": "machine"
+        },
+        {
+          "partNumber": "01911-10TBD",
+          "name": "VIP-6S Printer",
+          "detail": "Two-Side Pharmaceutical Printer, New Design for 2022 - Full Servo, No Inspection",
+          "throughput": "60000",
+          "basePrice": 161260.0,
+          "priceNote": null,
+          "machineCrating": 3000.0,
+          "cpCrating": "NA",
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "01912-12TBD",
+              "price": 9980.0
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "01912-12TBD",
+              "price": 9980.0
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "01912-12TBD",
+              "price": 9980.0
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "01912-10DUP",
+              "price": 5940.0
+            }
+          ],
+          "kind": "machine"
+        }
+      ]
+    },
+    {
+      "name": "OFFSET ROTOGRAVURE PRINTING SYSTEMS - with Vision Inspection",
+      "slug": "offset-rotogravure-printing-systems-with-vision-inspection",
+      "items": [
+        {
+          "partNumber": "01491-20TBD",
+          "name": "Servo Variable Ramp Printer with Print Quality Inspection",
+          "detail": "One-Side Printer with Print Quality Inspection, 183 Bars",
+          "throughput": "800000",
+          "basePrice": 498690.0,
+          "priceNote": null,
+          "machineCrating": 3000.0,
+          "cpCrating": "1 Set $ 1,400         2 Sets $ 1,600",
+          "inspectionOption": {
+            "partNumber": "01513-00407",
+            "price": 70330.0
+          },
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "01492-12TBD",
+              "price": 59550.0
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "01492-13TBD",
+              "price": 63990.0
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "01492-14TBD",
+              "price": 72820.0
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "01492-10DUP",
+              "price": 37890.0
+            }
+          ],
+          "kind": "machine"
+        },
+        {
+          "partNumber": "07321-10TBD",
+          "name": "IBM Ink Printing Machine with One Side Print Quality Inspection",
+          "detail": null,
+          "throughput": "250000",
+          "basePrice": 597159.2,
+          "priceNote": null,
+          "machineCrating": 5500.0,
+          "cpCrating": null,
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "07322-10TBD",
+              "price": 61504.3
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "07322-10TBD",
+              "price": 61504.3
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "07322-20TBD",
+              "price": 61504.3
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "07322-00DUP",
+              "price": 61504.3
+            }
+          ],
+          "kind": "machine"
+        },
+        {
+          "partNumber": "01511-20TBD",
+          "name": "Servo Cantilever Ramp Printer with Print Quality Inspection",
+          "detail": "One-Side Printer with Print Quality Inspection, 124 Ertalyte PET Plastic Carrier Bars",
+          "throughput": "200000",
+          "basePrice": 405590.0,
+          "priceNote": null,
+          "machineCrating": 3000.0,
+          "cpCrating": "1 Set $ 1,400         2 Sets $ 1,600",
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "01512-22TBD",
+              "price": 46240.0
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "01512-23TBD",
+              "price": 49950.0
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "01512-24TBD",
+              "price": 56820.0
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "01512-20DUP",
+              "price": 38200.0
+            }
+          ],
+          "kind": "machine"
+        },
+        {
+          "partNumber": null,
+          "name": "GPS Rotogravure with Two Side Inspection",
+          "detail": null,
+          "throughput": "180000",
+          "basePrice": 556413.0,
+          "priceNote": null,
+          "machineCrating": 5500.0,
+          "cpCrating": null,
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": null,
+              "price": 26125.0
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": null,
+              "price": 26125.0
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": null,
+              "price": 26125.0
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": null,
+              "price": 26125.0
+            }
+          ],
+          "kind": "machine"
+        },
+        {
+          "partNumber": "07221-10TBD",
+          "name": "H Track Ink Printing Machine",
+          "detail": null,
+          "throughput": "140000",
+          "basePrice": 548130.0,
+          "priceNote": null,
+          "machineCrating": 5500.0,
+          "cpCrating": null,
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "07222-10TBD",
+              "price": 47084.73
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "07222-10TBD",
+              "price": 47084.73
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "07222-20DUP",
+              "price": 47084.73
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "07222-00DUP",
+              "price": 47084.73
+            }
+          ],
+          "kind": "machine"
+        },
+        {
+          "partNumber": "01291-20TBD",
+          "name": "Servo Drum Two-Side Printer with Print Quality and Color Surface Inspection",
+          "detail": "Two-Side Printer with Print Quality and Color Surface Inspection, 3 Drums",
+          "throughput": "150000",
+          "basePrice": 528140.0,
+          "priceNote": null,
+          "machineCrating": 3200.0,
+          "cpCrating": "1 Set $ 1,400         2 Sets $ 1,600",
+          "inspectionOption": {
+            "partNumber": "01293-00297",
+            "price": 70330.0
+          },
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "01292-22TBD",
+              "price": 68370.0
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "01292-23TBD",
+              "price": 72570.0
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "01292-24TBD",
+              "price": 83100.0
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "01292-20DUP",
+              "price": 55930.0
+            }
+          ],
+          "kind": "machine"
+        },
+        {
+          "partNumber": "01911-20TBD",
+          "name": "VIP-X Printer with One-Side Print Quality Inspection",
+          "detail": "One Side Printer with Print Quality Inspection",
+          "throughput": "60000",
+          "basePrice": 349490.0,
+          "priceNote": null,
+          "machineCrating": 3000.0,
+          "cpCrating": "NA",
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "01912-22TBD",
+              "price": 10580.0
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "01912-22TBD",
+              "price": 10580.0
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "01912-22TBD",
+              "price": 10580.0
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "01912-20DUP",
+              "price": 6300.0
+            }
+          ],
+          "kind": "machine"
+        },
+        {
+          "partNumber": "01911-30TBD",
+          "name": "VIP-X Printer with Two-Side Print Quality Inspection",
+          "detail": "Two Side Printer with Print Quality Inspection",
+          "throughput": "60000",
+          "basePrice": 378920.0,
+          "priceNote": null,
+          "machineCrating": 3000.0,
+          "cpCrating": "NA",
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "01912-22TBD",
+              "price": 10580.0
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "01912-22TBD",
+              "price": 10580.0
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "01912-22TBD",
+              "price": 10580.0
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "01912-20DUP",
+              "price": 6300.0
+            }
+          ],
+          "kind": "machine"
+        },
+        {
+          "partNumber": "07121-10TBD",
+          "name": "Delta Ink Printer with Two Side Print Quality Inspection",
+          "detail": null,
+          "throughput": "70000",
+          "basePrice": 299750.0,
+          "priceNote": null,
+          "machineCrating": 5500.0,
+          "cpCrating": null,
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "07122-10TBD",
+              "price": 3279.1
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "07122-10TBD",
+              "price": 3279.1
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "07122-10TBD",
+              "price": 3279.1
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "07122-10TBD",
+              "price": 3279.1
+            }
+          ],
+          "kind": "machine"
+        }
+      ]
+    },
+    {
+      "name": "LASER DRILLING SYSTEMS - 10.6 micron CO2 Laser",
+      "slug": "laser-drilling-systems-10-6-micron-co2-laser",
+      "items": [
+        {
+          "partNumber": "01291-30TBD",
+          "name": "Servo Drum Two-Side Laser Drilling System",
+          "detail": "Two-Side with Color Surface Inspection, Two CO2 Lasers",
+          "throughput": "150000",
+          "basePrice": 797820.0,
+          "priceNote": null,
+          "machineCrating": 3200.0,
+          "cpCrating": "1 Set $ 1,400         2 Sets $ 1,600",
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "01292-32TBD",
+              "price": 68370.0
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "01292-33TBD",
+              "price": 72570.0
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "01292-34TBD",
+              "price": 83100.0
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "01292-30DUP",
+              "price": 55930.0
+            }
+          ],
+          "kind": "machine"
+        },
+        {
+          "partNumber": "01741-10TBD",
+          "name": "Delta CO2 Laser Drill",
+          "detail": null,
+          "throughput": "60000",
+          "basePrice": 546920.0,
+          "priceNote": null,
+          "machineCrating": 5500.0,
+          "cpCrating": null,
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "07141-10TBD",
+              "price": 36143.8
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "07141-10TBD",
+              "price": 36143.8
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "07141-10TBD",
+              "price": 36143.8
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "07141-10TBD",
+              "price": 36143.8
+            }
+          ],
+          "kind": "machine"
+        },
+        {
+          "partNumber": "01921-10TBD",
+          "name": "VIP Two-Side Laser Drilling System",
+          "detail": "Two-Side with Color Surface Inspection, Two CO2 Lasers",
+          "throughput": "60000",
+          "basePrice": 541770.0,
+          "priceNote": null,
+          "machineCrating": 3000.0,
+          "cpCrating": "NA",
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "01922-10TBD",
+              "price": 10980.0
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "01922-10TBD",
+              "price": 10980.0
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "01922-10TBD",
+              "price": 12080.0
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "01912-20DUP",
+              "price": 6530.0
+            }
+          ],
+          "kind": "machine"
+        },
+        {
+          "partNumber": "01811-10TBD",
+          "name": "R&D Lab Scale Laser Drilling System",
+          "detail": "One 10.6 micron CO2 Laser 100 Watt C02 Laser",
+          "throughput": "Approx. 5,000\nManual Feed",
+          "basePrice": 160160.0,
+          "priceNote": null,
+          "machineCrating": 3000.0,
+          "cpCrating": "NA",
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "01812-10TBD",
+              "price": 1529.0
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "01812-10TBD",
+              "price": 1390.0
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "01812-10TBD",
+              "price": 1390.0
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "01812-10TBD",
+              "price": 1110.0
+            }
+          ],
+          "kind": "machine"
+        },
+        {
+          "partNumber": "01811-20TBD",
+          "name": "R&D Lab Scale Laser Drilling System",
+          "detail": "One 10.6 micron 15 Watt UV Laser",
+          "throughput": "Approx. 5,000\nManual Feed",
+          "basePrice": 185630.0,
+          "priceNote": null,
+          "machineCrating": 3000.0,
+          "cpCrating": "NA",
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "01812-10TBD",
+              "price": 1529.0
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "01812-10TBD",
+              "price": 1390.0
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "01812-10TBD",
+              "price": 1390.0
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "01812-10TBD",
+              "price": 1110.0
+            }
+          ],
+          "kind": "machine"
+        },
+        {
+          "partNumber": "07521-10TBD",
+          "name": "Hartnett Co2 Lab Laser Writer",
+          "detail": null,
+          "throughput": "7000",
+          "basePrice": 292490.0,
+          "priceNote": null,
+          "machineCrating": 5500.0,
+          "cpCrating": null,
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "07522-10TBD",
+              "price": 21858.1
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "07522-10TBD",
+              "price": 21858.1
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "07522-10TBD",
+              "price": 21858.1
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "07522-10TBD",
+              "price": 21858.1
+            }
+          ],
+          "kind": "machine"
+        },
+        {
+          "partNumber": "07521-20TBD",
+          "name": "Hartnett Co2 Lab Laser Drill",
+          "detail": null,
+          "throughput": "7000",
+          "basePrice": 292490.0,
+          "priceNote": null,
+          "machineCrating": 5500.0,
+          "cpCrating": null,
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "07522-10TBD",
+              "price": 21858.1
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "07522-10TBD",
+              "price": 21858.1
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "07522-10TBD",
+              "price": 21858.1
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "07522-10TBD",
+              "price": 21858.1
+            }
+          ],
+          "kind": "machine"
+        }
+      ]
+    },
+    {
+      "name": "LASER MARKING SYSTEMS - 9.3 micron CO2 Laser  /  355nm UV Laser",
+      "slug": "laser-marking-systems-9-3-micron-co2-laser-355nm-uv-laser",
+      "items": [
+        {
+          "partNumber": "01491-30TBD",
+          "name": "Variable Ramp CO2 Laser Marking System",
+          "detail": "One-Side, Four 9.3 micron CO2 Lasers, Ertalyte PET Plastic Carrier Bars w/ Stiffener",
+          "throughput": "400000",
+          "basePrice": 987820.0,
+          "priceNote": null,
+          "machineCrating": 3000.0,
+          "cpCrating": "1 Set $ 1,400         2 Sets $ 1,600",
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "01492-30TBD",
+              "price": 87380.0
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "01492-30TBD",
+              "price": 87380.0
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "01492-30TBD",
+              "price": 87380.0
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "01492-30DUP",
+              "price": 57040.0
+            }
+          ],
+          "kind": "machine"
+        },
+        {
+          "partNumber": "07331-10TBD",
+          "name": "IBM Co2 Laser marker",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 701800.0,
+          "priceNote": null,
+          "machineCrating": 5500.0,
+          "cpCrating": null,
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "07322-10TBD",
+              "price": 61504.3
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "07322-10TBD",
+              "price": 61504.3
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "07332-20TBD",
+              "price": 61504.3
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "07332--00DUP",
+              "price": 61504.3
+            }
+          ],
+          "kind": "machine"
+        },
+        {
+          "partNumber": "01521-10TBD",
+          "name": "Cantilever Ramp CO2 Laser Marking System",
+          "detail": "One-Side, Two 9.3 micron CO2 Lasers, 124 PET Plastic Carrier Bars",
+          "throughput": "150000",
+          "basePrice": 599150.0,
+          "priceNote": null,
+          "machineCrating": 3000.0,
+          "cpCrating": "1 Set $ 1,400         2 Sets $ 1,600",
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "01512-22TBD",
+              "price": 46240.0
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "01512-23TBD",
+              "price": 49950.0
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "01512-24TBD",
+              "price": 56820.0
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "01512-20DUP",
+              "price": 38200.0
+            }
+          ],
+          "kind": "machine"
+        },
+        {
+          "partNumber": "01521-20TBD",
+          "name": "Cantilever Ramp UV Laser Marking System",
+          "detail": "One-Side, Two 355nm UV Lasers, 124 Carrier Bars",
+          "throughput": "100000",
+          "basePrice": 784310.0,
+          "priceNote": null,
+          "machineCrating": 3000.0,
+          "cpCrating": "1 Set $ 1,400         2 Sets $ 1,600",
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "01512-22TBD",
+              "price": 46240.0
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "01512-23TBD",
+              "price": 49950.0
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "01512-24TBD",
+              "price": 56820.0
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "01512-20DUP",
+              "price": 38200.0
+            }
+          ],
+          "kind": "machine"
+        },
+        {
+          "partNumber": "07231-10TBD",
+          "name": "H Track C02 Laser Marker",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 654610.0,
+          "priceNote": null,
+          "machineCrating": 5500.0,
+          "cpCrating": null,
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "07232-10TBD",
+              "price": 47084.73
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "07232-10TBD",
+              "price": 47084.73
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "07232-20TBD",
+              "price": 47084.73
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "07232-00DUP",
+              "price": 47084.73
+            }
+          ],
+          "kind": "machine"
+        },
+        {
+          "partNumber": "07331-20TBD",
+          "name": "IBM UV laser Writer",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 881100.0,
+          "priceNote": null,
+          "machineCrating": 5500.0,
+          "cpCrating": null,
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "07332-10TBD",
+              "price": 61504.3
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "07332-10TBD",
+              "price": 61504.3
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "07332-2OTBD",
+              "price": 61504.3
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "07332-00DUP",
+              "price": 61504.3
+            }
+          ],
+          "kind": "machine"
+        },
+        {
+          "partNumber": "01921-20TBD",
+          "name": "VIP One-Side CO2 Laser Marking System",
+          "detail": "One-Side, One 9.3 micron CO2 Laser",
+          "throughput": "60000",
+          "basePrice": 495760.0,
+          "priceNote": null,
+          "machineCrating": 3000.0,
+          "cpCrating": "NA",
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "01922-10TBD",
+              "price": 10980.0
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "01922-10TBD",
+              "price": 10980.0
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "01922-10TBD",
+              "price": 10980.0
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "01912-10DUP",
+              "price": 6530.0
+            }
+          ],
+          "kind": "machine"
+        },
+        {
+          "partNumber": "01921-10TBD",
+          "name": "VIP Two-Side CO2 Laser Marking System",
+          "detail": "Two-Side, Two 9.3 micron CO2 Lasers",
+          "throughput": "60000",
+          "basePrice": 557740.0,
+          "priceNote": null,
+          "machineCrating": 3000.0,
+          "cpCrating": "NA",
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "01922-10TBD",
+              "price": 10980.0
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "01922-10TBD",
+              "price": 10980.0
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "01922-10TBD",
+              "price": 10980.0
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "01912-10DUP",
+              "price": 6530.0
+            }
+          ],
+          "kind": "machine"
+        },
+        {
+          "partNumber": "07131-10TBD",
+          "name": "Delta Two Side CO2 Laser Writer",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 605000.0,
+          "priceNote": null,
+          "machineCrating": 5500.0,
+          "cpCrating": null,
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "07132-40TBD",
+              "price": 25158.1
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "07132-40TBD",
+              "price": 25158.1
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "07132-40TBD",
+              "price": 25158.1
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "07132-40TBD",
+              "price": 25158.1
+            }
+          ],
+          "kind": "machine"
+        },
+        {
+          "partNumber": "01811-10TBD",
+          "name": "R&D Lab Scale CO2 Laser Marking System",
+          "detail": "One 9.3 micron CO2 Laser",
+          "throughput": "Approx. 5,000\nManual Feed",
+          "basePrice": 160160.0,
+          "priceNote": null,
+          "machineCrating": 3000.0,
+          "cpCrating": "NA",
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "01812-10TBD",
+              "price": 1390.0
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "01812-10TBD",
+              "price": 1390.0
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "01812-10TBD",
+              "price": 1390.0
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "01812-10TBD",
+              "price": 1110.0
+            }
+          ],
+          "kind": "machine"
+        },
+        {
+          "partNumber": "0713-20TBD",
+          "name": "Delta Two Side UV laser Writer",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 660000.0,
+          "priceNote": null,
+          "machineCrating": 5500.0,
+          "cpCrating": null,
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "07132-40TBD",
+              "price": 25158.1
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "07132-40TBD",
+              "price": 25158.1
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "07132-40TBD",
+              "price": 25158.1
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "07132-40TBD",
+              "price": 25158.1
+            }
+          ],
+          "kind": "machine"
+        },
+        {
+          "partNumber": "07151-10TBD",
+          "name": "Delta Two Side Combo Laser Writer and Ink Printer",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 685844.5,
+          "priceNote": null,
+          "machineCrating": 5500.0,
+          "cpCrating": null,
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "07132-40TBD",
+              "price": 25158.1
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "07132-40TBD",
+              "price": 25158.1
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "07132-40TBD",
+              "price": 25158.1
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "07132-40TBD",
+              "price": 25158.1
+            }
+          ],
+          "kind": "machine"
+        },
+        {
+          "partNumber": "01921-30TBD",
+          "name": "VIP One-Side UV Laser Marking System",
+          "detail": "One-Side, One 355nm UV Laser",
+          "throughput": "50000",
+          "basePrice": 615765.0,
+          "priceNote": null,
+          "machineCrating": 3000.0,
+          "cpCrating": "NA",
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "01922-10TBD",
+              "price": 10980.0
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "01922-10TBD",
+              "price": 10980.0
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "01922-10TBD",
+              "price": 10980.0
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "01922-10DUP",
+              "price": 6530.0
+            }
+          ],
+          "kind": "machine"
+        },
+        {
+          "partNumber": "?",
+          "name": "VIP Two-Side UV Laser Marking System",
+          "detail": "Two-Side, Two 355nm UV Lasers",
+          "throughput": "50000",
+          "basePrice": null,
+          "priceNote": "?",
+          "machineCrating": 3000.0,
+          "cpCrating": "NA",
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "01922-10TBD",
+              "price": 10980.0
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "01922-10TBD",
+              "price": 10980.0
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "01922-10TBD",
+              "price": 10980.0
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "01922-10DUP",
+              "price": 6530.0
+            }
+          ],
+          "kind": "machine"
+        },
+        {
+          "partNumber": "01811-20TBD",
+          "name": "R&D Lab Scale UV Laser Marking System",
+          "detail": "One 355nm UV Laser",
+          "throughput": "Approx. 5,000\nManual Feed",
+          "basePrice": 185630.0,
+          "priceNote": null,
+          "machineCrating": 3000.0,
+          "cpCrating": "NA",
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "01812-10TBD",
+              "price": 1390.0
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "01812-10TBD",
+              "price": 1390.0
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "01812-10TBD",
+              "price": 1390.0
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": "01812-10TBD",
+              "price": 1110.0
+            }
+          ],
+          "kind": "machine"
+        }
+      ]
+    },
+    {
+      "name": "BASE MACHINE OPTIONS:",
+      "slug": "base-machine-options",
+      "items": [
+        {
+          "partNumber": "01293-00092",
+          "name": "01293-00092 - 6 hp Vacuum Blower Assembly",
+          "detail": "Used for all Variable Ramp Ejection and Servo Drum Printer/Laser Systems",
+          "throughput": null,
+          "basePrice": null,
+          "priceNote": "See Syteline for Current  Pricing",
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "95001-01193",
+          "name": "95001-01193 - OPC-UA Data Communication Gateway with List of relavent Data Tags",
+          "detail": "available for all Printer / Laser Systems with Vision Inspection",
+          "throughput": null,
+          "basePrice": null,
+          "priceNote": "See Syteline for Current  Pricing",
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "95001-01220",
+          "name": "95001-01220 - Document Printer, USB, Letter size paper, 230 VAC",
+          "detail": "Standard for all Servo/PLC machines with Batch Reporting capability",
+          "throughput": null,
+          "basePrice": null,
+          "priceNote": "See Syteline for Current  Pricing",
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "99499-00097",
+          "name": "99499-00097 - Backup Solid State Drive w/ HMI Program, 256 GB SSD",
+          "detail": null,
+          "throughput": null,
+          "basePrice": null,
+          "priceNote": "See Syteline for Current  Pricing",
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": null,
+          "name": "HMI Login Network Domain Authentication using Microsoft Active Directory",
+          "detail": null,
+          "throughput": null,
+          "basePrice": null,
+          "priceNote": "See Syteline for Current  Pricing",
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "99241-01TBD",
+          "name": "Three Phase Step-Down Power Transformer, 6 kVA Rating",
+          "detail": "(230VAC Output - ref. 99241-00488)",
+          "throughput": null,
+          "basePrice": null,
+          "priceNote": "See Syteline for Current  Pricing",
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "99241-00TBD",
+          "name": "Single Phase Step-Down Power Transformer, 3 kVA Rating",
+          "detail": "(230VAC Output - ref. 99241-00546)",
+          "throughput": null,
+          "basePrice": null,
+          "priceNote": "See Syteline for Current  Pricing",
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "99246-00097",
+          "name": "99246-00097 - Laser Fume Extractor Labyrinth Cloth Replacement Filter",
+          "detail": null,
+          "throughput": null,
+          "basePrice": null,
+          "priceNote": "See Syteline for Current  Pricing",
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "99246-00097",
+          "name": "99246-00098 - Laser Fume Extractor HEPA Replacement Filter",
+          "detail": null,
+          "throughput": null,
+          "basePrice": null,
+          "priceNote": "See Syteline for Current  Pricing",
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "05023-00031",
+          "name": "01493 - Variable Ramp Eject Drum and Vacuum Shoe Assembly",
+          "detail": "Matched Pair - ref. 05023-00031",
+          "throughput": null,
+          "basePrice": null,
+          "priceNote": "See Syteline for Current  Pricing",
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "01513-00298",
+          "name": "01513 - Cantilever Ramp Eject Drum and Vacuum Shoe Assembly",
+          "detail": "Matched Pair - ref. 01513-00298",
+          "throughput": null,
+          "basePrice": null,
+          "priceNote": "See Syteline for Current  Pricing",
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        }
+      ]
+    },
+    {
+      "name": "ANCILLARY EQUIPMENT",
+      "slug": "ancillary-equipment",
+      "items": [
+        {
+          "partNumber": "03021-20TBD",
+          "name": "Ackley Ink Viscosity Control System",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 39870.0,
+          "priceNote": null,
+          "machineCrating": 500.0,
+          "cpCrating": "NA",
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "99576-00014",
+          "name": "99576-00014 - Ink Supply Pump Tubing (cost per foot, available in 50ft box)",
+          "detail": null,
+          "throughput": null,
+          "basePrice": null,
+          "priceNote": "See Syteline",
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "99576-00024",
+          "name": "99576-00024 - Ink Drain Tubing (per foot)",
+          "detail": null,
+          "throughput": null,
+          "basePrice": null,
+          "priceNote": "See Syteline",
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "07203-00002",
+          "name": "Hartnett Ink Viscosity System",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 46611.4,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "03031-10TBD",
+          "name": "Ackley Bulk Hopper Vibratory Feeder / Tote Stand Feeder",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 34470.0,
+          "priceNote": null,
+          "machineCrating": 3000.0,
+          "cpCrating": "NA",
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "03011-20TBD",
+          "name": "Hartnett Bulk Elevator",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 43547.9,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "03041-10TBD",
+          "name": "Hartnett Delta Bulk Conveyor",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 35847.9,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "07203-00003",
+          "name": "Hartnett Rubber Roll Cleaning System",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 64542.5,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "05031-10TBD",
+          "name": "Ackley Orbital-Motion Ink Bottle Mixer",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 29760.0,
+          "priceNote": null,
+          "machineCrating": 500.0,
+          "cpCrating": "NA",
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "02141-10TBD",
+          "name": "Ackley Sorter - Half Width",
+          "detail": "Standard Height (Printer Discharge) or Raised Height (Printer Infeed) Available",
+          "throughput": null,
+          "basePrice": 68800.0,
+          "priceNote": null,
+          "machineCrating": 2000.0,
+          "cpCrating": "$ 760 Each",
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "02141-10TBD",
+              "price": 15420.0
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "02142-13TBD",
+              "price": 17750.0
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "02142-14TBD",
+              "price": 20040.0
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": null,
+              "price": 12040.0
+            }
+          ],
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "02181-10TBD",
+          "name": "Ackley Sorter - Half Width with Twin Removal",
+          "detail": "Standard Height (Printer Discharge) or Raised Height (Printer Infeed) Available",
+          "throughput": null,
+          "basePrice": 81590.0,
+          "priceNote": null,
+          "machineCrating": 2000.0,
+          "cpCrating": "$ 760 Each",
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "02182-12TBD",
+              "price": 22140.0
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "02182-13TBD",
+              "price": 24430.0
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "02182-14TBD",
+              "price": 24430.0
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": null,
+              "price": 14390.0
+            }
+          ],
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "02041-10TBD",
+          "name": "Ackley Sorter - Full Width",
+          "detail": "Standard Height (Printer Discharge) or Raised Height (Printer Infeed) Available",
+          "throughput": null,
+          "basePrice": 76280.0,
+          "priceNote": null,
+          "machineCrating": 2000.0,
+          "cpCrating": "$ 760 Each",
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "02042-12TBD",
+              "price": 18670.0
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "02042-13TBD",
+              "price": 21340.0
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "02042-14TBD",
+              "price": 24073.0
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": null,
+              "price": 12710.0
+            }
+          ],
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "02081-10TBD",
+          "name": "Ackley Sorter - Full Width with Twin Removal",
+          "detail": "Standard Height (Printer Discharge) or Raised Height (Printer Infeed) Available",
+          "throughput": null,
+          "basePrice": 93540.0,
+          "priceNote": null,
+          "machineCrating": 2000.0,
+          "cpCrating": "$ 760 Each",
+          "changeParts": [
+            {
+              "dimension": "2-Dim Round / LCT",
+              "partNumber": "02082-12TBD",
+              "price": 25510.0
+            },
+            {
+              "dimension": "3-Dim / SoftGel",
+              "partNumber": "02082-13TBD",
+              "price": 31270.0
+            },
+            {
+              "dimension": "4-Dim / Oval / Vacuum",
+              "partNumber": "02082-14TBD",
+              "price": 31270.0
+            },
+            {
+              "dimension": "Duplicate Set",
+              "partNumber": null,
+              "price": 1500.0
+            }
+          ],
+          "kind": "lineItem"
+        }
+      ]
+    },
+    {
+      "name": "LOGO PRINT PROOFS AND LASER / INSPECTION SYSTEM PROGRAMMING",
+      "slug": "logo-print-proofs-and-laser-inspection-system-programming",
+      "items": [
+        {
+          "partNumber": "99600-M0TBD",
+          "name": "99600-M0TBD - Print Proof for Logo Design Approval (per logo)",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 790.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": "NA",
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "95001-00894",
+          "name": "95001-00894 - Inspection Programming for Printing Defects",
+          "detail": "(per product)",
+          "throughput": null,
+          "basePrice": 8750.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": "NA",
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "95001-01170",
+          "name": "95001-01170 - Programming for Color Detection and Drilled Hole Inspection",
+          "detail": "(per product - same price for VIP and Drum Lasers)",
+          "throughput": null,
+          "basePrice": 5590.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": "NA",
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "95001-01127",
+          "name": "95001-01127 - Laser and Vision Programming for Laser Marked Logo",
+          "detail": "(per logo)",
+          "throughput": null,
+          "basePrice": 14940.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": "NA",
+          "kind": "lineItem"
+        }
+      ]
+    },
+    {
+      "name": "14\" DESIGN ROLLS, OFFSET ROLLS AND BLADES",
+      "slug": "14-design-rolls-offset-rolls-and-blades",
+      "items": [
+        {
+          "partNumber": "99314-M0TBD",
+          "name": "99314-M0TBD - Design Roll - 14\" New Roll with Box",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 1980.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": null,
+          "name": "99314-M0TBD - Design Roll - 14\" Recovered Roll",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 1690.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "99630-00TBD",
+          "name": "99630-00TBD - Offset Roll - 14\" New Roll with Box",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 840.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": null,
+          "name": "99630-00TBD - Offset Roll - 14\" Recovered Roll",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 4560.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": null,
+          "name": "99135-00001 - Doctor Blade, 16.0\" AARP / Flat Bed Printer",
+          "detail": "(Standard quote quantity: 200 ea.)",
+          "throughput": null,
+          "basePrice": null,
+          "priceNote": "See Syteline",
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": null,
+          "name": "99135-00003 - Backup Blade, 16.0\" AARP / Flat Bed Printer",
+          "detail": "(Standard quote quantity: 50 ea.)",
+          "throughput": null,
+          "basePrice": null,
+          "priceNote": "See Syteline",
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "99301-H0TBD",
+          "name": "Hartnett Design Roll Delta",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 2640.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "99301-H1TBD",
+          "name": "Hartnett Design Roll Duplicate",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 2310.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "99306-H0TBD",
+          "name": "Hartnett Design Roll H Track",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 2541.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "99306-H1TBD",
+          "name": "Hartnett Design Roll H Track Duplicate",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 880.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "99314-H0TBD",
+          "name": "Hartnett Model B Design Roll",
+          "detail": null,
+          "throughput": null,
+          "basePrice": null,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "99314-H1TBD",
+          "name": "Nartnett Model B Design Roll Duplicate",
+          "detail": null,
+          "throughput": null,
+          "basePrice": null,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "99630-06TBD",
+          "name": "Rubber Roll Delta Durometer TBD",
+          "detail": null,
+          "throughput": null,
+          "basePrice": null,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "99630-07TBD",
+          "name": "Rubber Roll Delta Beveled or Stepped",
+          "detail": null,
+          "throughput": null,
+          "basePrice": null,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "99630-08TBD",
+          "name": "Rubber Roll-H Track Durometer TBD",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 1017.5,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "99630-09TBD",
+          "name": "Rubber Roll Model B Durometer TBD",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 877.25,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        }
+      ]
+    },
+    {
+      "name": "5\" DESIGN ROLLS, OFFSET ROLLS AND BLADES",
+      "slug": "5-design-rolls-offset-rolls-and-blades",
+      "items": [
+        {
+          "partNumber": "99305-M0TBD",
+          "name": "99305-M0TBD - Design Roll - 5\" New Roll with Box",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 1860.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": null,
+          "name": "99305-M0TBD - Design Roll - 5\" Recovered Roll",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 1590.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "99630-02TBD",
+          "name": "99630-02TBD - Offset Roll - 5\" New Roll with Box",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 760.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": null,
+          "name": "99630-02TBD - Offset Roll - 5\" Recovered Roll",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 390.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "99135-00006",
+          "name": "99135-00006 - Doctor Blade, 6.25\" Ctlvr. Ramp / Drum Printer",
+          "detail": "(Standard quote quantity: 200 ea.)",
+          "throughput": null,
+          "basePrice": null,
+          "priceNote": "See Syteline",
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "99135-00009",
+          "name": "99135-00009 - Backup Blade, 6.25\" Ctlvr. Ramp / Drum Printer",
+          "detail": "(Standard quote quantity: 50 ea.)",
+          "throughput": null,
+          "basePrice": null,
+          "priceNote": "See Syteline",
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        }
+      ]
+    },
+    {
+      "name": "1\" DESIGN ROLLS, OFFSET ROLLS AND BLADES",
+      "slug": "1-design-rolls-offset-rolls-and-blades",
+      "items": [
+        {
+          "partNumber": "99302-M0TBD",
+          "name": "99302-M0TBD - Design Roll - 1\" New Roll with Box",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 1380.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": null,
+          "name": "99302-M0TBD - Design Roll - 1\" Recovered Roll",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 1190.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "99630-04TBD",
+          "name": "99630-04TBD - Offset Roll - 1\" Non-Stepped, New Roll with Box",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 400.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": null,
+          "name": "99630-04TBD - Offset Roll - 1\" Non-Stepped, Recovered Roll",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 2540.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": null,
+          "name": "99630-03TBD - Offset Roll - 1\" Stepped, New Roll with Box",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 510.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": null,
+          "name": "99630-03TBD - Offset Roll - 1\" Stepped, Recovered Roll",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 350.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "99135-00029",
+          "name": "99135-00029 - Doctor Blade, 1.63\" Pre-Honed VIP Printer",
+          "detail": "(Standard quote quantity: 200 ea.)",
+          "throughput": null,
+          "basePrice": null,
+          "priceNote": "See Syteline",
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "99135-00024",
+          "name": "99135-00024 - Backup Blade, 1.63\" VIP Printer",
+          "detail": "(Standard quote quantity: 50 ea.)",
+          "throughput": null,
+          "basePrice": null,
+          "priceNote": "See Syteline",
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        }
+      ]
+    },
+    {
+      "name": "DOCUMENTATION AND LANGUAGE TRANSLATION OPTIONS (Standard for all Servo/PLC Machines):",
+      "slug": "documentation-and-language-translation-options-standard-for-all-servo-plc-machines",
+      "items": [
+        {
+          "partNumber": "93IOQ-10TBD",
+          "name": "IQ/OQ Document for Servo Printer HMI",
+          "detail": "Servo/PLC Printer without Vision Inspection, in English Language",
+          "throughput": null,
+          "basePrice": 9520.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "93IOQ-20TBD",
+          "name": "IQ/OQ Document for Non Servo Machines",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 6350.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "93IOQ-30TBD",
+          "name": "IQ/OQ Document for Ancillary Equipment",
+          "detail": "Bulk Hopper Feeder, Sorter, Ink Maintenance, Ink Mixer, etc., in English Language",
+          "throughput": null,
+          "basePrice": 4990.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "93DQP-10TBD",
+          "name": "Design Qualification (D.Q.) & Functional Specification (F.S.)",
+          "detail": "Note:  DQ document is only available if URS provided by customer,  FS must be ordered with DQ",
+          "throughput": null,
+          "basePrice": 14870.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "95001-00747",
+          "name": "95001-01050 - HMI Screen Text Display Language Translation",
+          "detail": "All Servo Machines, all languages",
+          "throughput": null,
+          "basePrice": 9990.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "95001-01050",
+          "name": "95001-00747 - Operation & Maintenance Manual Language Translation",
+          "detail": "All Servo Machines, all languages",
+          "throughput": null,
+          "basePrice": 12940.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "93QLF-10TBD",
+          "name": "Hartnett Design Qualification",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 6820.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": null,
+          "name": "Hartnett Performance Qualification PQ",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 6200.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        }
+      ]
+    },
+    {
+      "name": "LASER MAINTENANCE AND CALIBRATION SERVICES (Standard for All Laser Systems):",
+      "slug": "laser-maintenance-and-calibration-services-standard-for-all-laser-systems",
+      "items": [
+        {
+          "partNumber": "99246-00118",
+          "name": "99246-00118 - Laser Power Sensor Re-Calibration with Certificate, per sensor",
+          "detail": null,
+          "throughput": null,
+          "basePrice": null,
+          "priceNote": "See Syteline",
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "99246-00119",
+          "name": "99246-00119 - Laser CO2 Gas Recharge & Reconditioning, per laser",
+          "detail": null,
+          "throughput": null,
+          "basePrice": null,
+          "priceNote": "See Syteline",
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        }
+      ]
+    },
+    {
+      "name": "COMMISSIONING, FIELD SERVICE, AND REMOTE ENGINEERING SUPPORT (Standard for all):",
+      "slug": "commissioning-field-service-and-remote-engineering-support-standard-for-all",
+      "items": [
+        {
+          "partNumber": "95001-40002",
+          "name": "Engineering Support (Daily Rate), per 8-hour day",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 2230.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "95001-40003",
+          "name": "Travel Time",
+          "detail": null,
+          "throughput": null,
+          "basePrice": null,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": null,
+          "name": "95001-01223 - Remote Support Session - connection fee and first hour of service",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 960.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": null,
+          "name": "Hourly Remote Support - Each Additional Hour of Remote Service or Phone Support",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 290.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        }
+      ]
+    },
+    {
+      "name": "Asia (India, Bangladesh, China, Taiwan, etc.)\n    Add +3 days for travel time; per service engineer",
+      "slug": "asia-india-bangladesh-china-taiwan-etc-add-3-days-for-travel-time-per-service-engineer",
+      "items": [
+        {
+          "partNumber": "95001-40006",
+          "name": "Airfare (International and local); per service engineer",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 3990.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "95001-40008",
+          "name": "Hotel and Meals; per service engineer, per day on-site",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 360.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "95001-40009",
+          "name": "Local Transportation and miscellaneous; per day on-site",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 200.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        }
+      ]
+    },
+    {
+      "name": "Europe / South America\n    Add +2 days for travel time; per service engineer",
+      "slug": "europe-south-america-add-2-days-for-travel-time-per-service-engineer",
+      "items": [
+        {
+          "partNumber": "95001-40005",
+          "name": "Airfare (International and local); per service engineer",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 2980.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "95001-40008",
+          "name": "Hotel and Meals; per service engineer, per day on-site",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 360.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "95001-40009",
+          "name": "Local Transportation and miscellaneous; per day on-site",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 200.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        }
+      ]
+    },
+    {
+      "name": "North America / Puerto Rico\n    Add +2 days for travel time; per service engineer",
+      "slug": "north-america-puerto-rico-add-2-days-for-travel-time-per-service-engineer",
+      "items": [
+        {
+          "partNumber": "95001-40004",
+          "name": "Airfare (International and local); per service engineer",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 1880.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "95001-40008",
+          "name": "Hotel and Meals; per service engineer, per day on-site",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 360.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        },
+        {
+          "partNumber": "95001-40009",
+          "name": "Local Transportation and miscellaneous; per day on-site",
+          "detail": null,
+          "throughput": null,
+          "basePrice": 200.0,
+          "priceNote": null,
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        }
+      ]
+    },
+    {
+      "name": "MISCELLANEOUS CHARGES (Standard for all Orders):",
+      "slug": "miscellaneous-charges-standard-for-all-orders",
+      "items": [
+        {
+          "partNumber": "95001-82TBD",
+          "name": "Bank Guarantee / Letter of Credit Processing Fee",
+          "detail": "Bank and miscellaneous processing fees",
+          "throughput": null,
+          "basePrice": null,
+          "priceNote": "2% of BG/LC Total",
+          "machineCrating": null,
+          "cpCrating": null,
+          "kind": "lineItem"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7922 @@
+[
+  {
+    "SN": 101,
+    "Customer": "Smith Kline PR",
+    "Customer PO": "L12237",
+    "Description": "FB1",
+    "Product": "Tagamet 300",
+    "Shipped": "1977-07-30",
+    "SO #": "S023"
+  },
+  {
+    "SN": 102,
+    "Customer": "Smith Kline",
+    "Customer PO": "A12437",
+    "Description": "FB1",
+    "Product": "Ecotrin",
+    "Shipped": "1977-07-11",
+    "SO #": "S009"
+  },
+  {
+    "SN": 103,
+    "Customer": "Eli Lilly, Ind",
+    "Customer PO": "476576-26",
+    "Description": "FB1",
+    "Product": "Becotin T",
+    "Shipped": "1978-06-14",
+    "SO #": "L026"
+  },
+  {
+    "SN": 104,
+    "Customer": "Smith Kline PA",
+    "Customer PO": "A15207",
+    "Description": "FB1",
+    "Product": "#3 & #4 Locking Style",
+    "Shipped": "1977-09-07",
+    "SO #": "S016"
+  },
+  {
+    "SN": 105,
+    "Customer": "Eli Lilly, Ind",
+    "Customer PO": "488360-26",
+    "Description": "FB1",
+    "Product": "#0 Lok Caps",
+    "Shipped": "1977-09-30",
+    "SO #": "L083"
+  },
+  {
+    "SN": 106,
+    "Customer": "Eli Lilly, Ind",
+    "Customer PO": "488360-28",
+    "Description": "FB1",
+    "Product": "#2 Lok Caps",
+    "Shipped": "1977-10-31",
+    "SO #": "L081"
+  },
+  {
+    "SN": 107,
+    "Customer": "RP Scherer Germany",
+    "Customer PO": "WE5238",
+    "Description": "FB1",
+    "Product": "#1",
+    "Shipped": "1977-12-06",
+    "SO #": "S148"
+  },
+  {
+    "SN": 108,
+    "Customer": "Wyeth Ayerst Labs",
+    "Customer PO": "WLIG9552",
+    "Description": "FB1",
+    "Product": "#1 Elanco Cap",
+    "Shipped": "1977-11-16",
+    "SO #": "W149"
+  },
+  {
+    "SN": 109,
+    "Customer": "Wyeth Ayerst Labs",
+    "Customer PO": "WLIG9554",
+    "Description": "FB1",
+    "Product": "#4 Capsules",
+    "Shipped": "1978-01-12",
+    "SO #": "W150"
+  },
+  {
+    "SN": 110,
+    "Customer": "Eli Lilly, Ind",
+    "Customer PO": "447661-26",
+    "Description": "FB1",
+    "Product": "#0 Lok Caps",
+    "Shipped": "1978-01-06",
+    "SO #": "L170"
+  },
+  {
+    "SN": 111,
+    "Customer": "Eli Lilly, Ind",
+    "Customer PO": "447661-26",
+    "Description": "FB1",
+    "Product": "#1 Lok",
+    "Shipped": "1978-01-10",
+    "SO #": "L171"
+  },
+  {
+    "SN": 112,
+    "Customer": "Scherer, Canada",
+    "Customer PO": "WE5238",
+    "Description": "FB1",
+    "Product": "#0",
+    "Shipped": "1978-01-10",
+    "SO #": "S147"
+  },
+  {
+    "SN": 113,
+    "Customer": "Smith Kline PA",
+    "Customer PO": "A71937",
+    "Description": "FB1",
+    "Product": "Thorazine 50 mg",
+    "Shipped": "1978-03-15",
+    "SO #": "S187"
+  },
+  {
+    "SN": 115,
+    "Customer": "Eli Lilly, Ind",
+    "Customer PO": "527566-26",
+    "Description": "FB1",
+    "Product": "#1 Lok",
+    "Shipped": "1978-07-11",
+    "SO #": "L420"
+  },
+  {
+    "SN": 116,
+    "Customer": "Smith Kline PR",
+    "Customer PO": "L50855",
+    "Description": "FB1",
+    "Product": "Tagamet 300",
+    "Shipped": "1978-07-19",
+    "SO #": "S375"
+  },
+  {
+    "SN": 117,
+    "Customer": "Wyeth Ayerst Labs",
+    "Customer PO": "WLIK0862",
+    "Description": "FB1",
+    "Product": "Elanco 0 & 00 Lok",
+    "Shipped": "1978-08-09",
+    "SO #": "W410"
+  },
+  {
+    "SN": 118,
+    "Customer": "Hoffman La Roche, NJ",
+    "Customer PO": "M651-862B",
+    "Description": "FB1",
+    "Product": "#4 Locking",
+    "Shipped": "1978-06-26",
+    "SO #": "H302"
+  },
+  {
+    "SN": 119,
+    "Customer": "Smith Kline PA",
+    "Customer PO": "A37868",
+    "Description": "FB1",
+    "Shipped": "1978-08-08",
+    "SO #": "S440"
+  },
+  {
+    "SN": 120,
+    "Customer": "Smith Kline PR",
+    "Customer PO": "L50855",
+    "Description": "FB1",
+    "Product": "Tagamet 300",
+    "Shipped": "1978-10-25",
+    "SO #": "S375B"
+  },
+  {
+    "SN": 121,
+    "Customer": "Hoffman La Roche, NJ",
+    "Customer PO": "M651-862B",
+    "Description": "FB1",
+    "Product": "Roscan #2",
+    "Shipped": "1978-10-30",
+    "SO #": "H302A"
+  },
+  {
+    "SN": 122,
+    "Customer": "Pfizer, NY",
+    "Customer PO": "B47523B",
+    "Description": "FB1",
+    "Product": "#2 lok",
+    "Shipped": "1978-12-20",
+    "SO #": "P605"
+  },
+  {
+    "SN": 123,
+    "Customer": "Ciba Geigy, NJ",
+    "Customer PO": "5-41848",
+    "Description": "FB1",
+    "Product": "Slow K",
+    "Shipped": "1978-12-14",
+    "SO #": "C545"
+  },
+  {
+    "SN": 124,
+    "Customer": "Eli Lilly, Ind",
+    "Customer PO": "527566-26",
+    "Description": "FB1",
+    "Product": "#3 Lok",
+    "Shipped": "1979-01-05",
+    "SO #": "L420A"
+  },
+  {
+    "SN": 125,
+    "Customer": "Smith Kline PA",
+    "Customer PO": "A14019",
+    "Description": "FB1",
+    "Shipped": "1979-02-05",
+    "SO #": "S720"
+  },
+  {
+    "SN": 126,
+    "Customer": "Pfizer, NY",
+    "Customer PO": "B65772B",
+    "Description": "FB1",
+    "Product": "Atarax 10 & 25",
+    "Shipped": "1979-02-28",
+    "SO #": "P665"
+  },
+  {
+    "SN": 127,
+    "Customer": "Upjohn, MI",
+    "Customer PO": "DO878",
+    "Description": "FB1",
+    "Product": "Unicap - M",
+    "Shipped": "1979-03-28",
+    "SO #": "U698"
+  },
+  {
+    "SN": 128,
+    "Customer": "E.R. Squibb",
+    "Customer PO": 45824.0,
+    "Description": "FB1",
+    "Product": "Dirocide 100 mg",
+    "Shipped": "1980-03-18",
+    "SO #": "S1106"
+  },
+  {
+    "SN": 129,
+    "Customer": "Eli Lilly, Ind",
+    "Customer PO": "541019-26",
+    "Description": "FB1",
+    "Product": "Darvocet N 100",
+    "Shipped": "1979-04-19",
+    "SO #": "L722"
+  },
+  {
+    "SN": 130,
+    "Customer": "Scherer, Canada",
+    "Customer PO": "WE6173",
+    "Description": "FB1",
+    "Shipped": "1979-10-19",
+    "SO #": "S1141"
+  },
+  {
+    "SN": 131,
+    "Customer": "Scherer, NJ",
+    "Customer PO": 802977.0,
+    "Description": "FB1",
+    "Product": "#0 Locking Hard-Shell",
+    "Shipped": "1980-08-12",
+    "SO #": "S1507"
+  },
+  {
+    "SN": 132,
+    "Customer": "Eli Lilly, Ind",
+    "Customer PO": "604776-26",
+    "Description": "FB1",
+    "Product": "#0 Capsules",
+    "Shipped": "1980-07-17",
+    "SO #": "L1556"
+  },
+  {
+    "SN": 133,
+    "Customer": "Smith Kline PR",
+    "Customer PO": "L57556",
+    "Description": "FB1",
+    "Product": "Tagamet 200",
+    "Shipped": "1981-03-20",
+    "SO #": "S1565"
+  },
+  {
+    "SN": 134,
+    "Customer": "A.H. Robbins, VA",
+    "Customer PO": 28431.0,
+    "Description": "FB1",
+    "Product": "#0 Capsules",
+    "Shipped": "1980-10-02",
+    "SO #": "R1685"
+  },
+  {
+    "SN": 135,
+    "Customer": "Pfizer, NY",
+    "Customer PO": "B53191",
+    "Description": "FB1",
+    "Product": "Procardia 10 mg",
+    "Shipped": "1981-06-11",
+    "SO #": "P1970"
+  },
+  {
+    "SN": 136,
+    "Customer": "Upjohn, MI",
+    "Description": "FB1",
+    "Product": "E-Mycin",
+    "Shipped": "1980-11-03",
+    "SO #": "U1677"
+  },
+  {
+    "SN": 137,
+    "Customer": "Eli Lilly, Ind",
+    "Customer PO": "588512-26",
+    "Description": "FB1",
+    "Product": "V-Cillin K",
+    "SO #": "L1784"
+  },
+  {
+    "SN": 140,
+    "Customer": "Eli Lilly, Ind",
+    "Customer PO": "602337-26",
+    "Description": "FB1",
+    "Product": "#0 Lok",
+    "Shipped": "1981-05-12",
+    "SO #": "L1392"
+  },
+  {
+    "SN": 141,
+    "Customer": "RP Scherer Germany",
+    "Customer PO": "5-3847",
+    "Description": "FB1",
+    "Product": "#3 & #0",
+    "Shipped": "1981-05-18",
+    "SO #": "S2083"
+  },
+  {
+    "SN": 142,
+    "Customer": "Marion Merrell Dow",
+    "Customer PO": 566.0,
+    "Description": "FB1",
+    "Product": "Marion Oscal 1650",
+    "Shipped": "1981-12-01",
+    "SO #": "M2403"
+  },
+  {
+    "SN": 143,
+    "Customer": "Smith Kline, England",
+    "Customer PO": 6724.0,
+    "Description": "FB1",
+    "Product": "Stelazine 5 mg",
+    "Shipped": "1981-10-05",
+    "SO #": "S2203"
+  },
+  {
+    "SN": 144,
+    "Customer": "Smith Kline PA",
+    "Customer PO": "A20421",
+    "Description": "SPIN",
+    "Product": "Ornade capsule",
+    "Shipped": "1981-08-27",
+    "SO #": "S2104"
+  },
+  {
+    "SN": 145,
+    "Customer": "Searle Pharm.",
+    "Customer PO": "MGX102636",
+    "Description": "FB1",
+    "Product": "Calan 80 mg",
+    "Shipped": "1981-11-17",
+    "SO #": "S2291"
+  },
+  {
+    "SN": 146,
+    "Customer": "Smith Kline PR",
+    "Customer PO": 59568.0,
+    "Description": "FB1",
+    "Product": "Tagamet",
+    "Shipped": "1982-01-06",
+    "SO #": "S2482"
+  },
+  {
+    "SN": 147,
+    "Customer": "Upjohn. PR",
+    "Customer PO": "81-4624",
+    "Description": "FB1",
+    "Product": "Motrin 600 mg.",
+    "Shipped": "1982-01-26",
+    "SO #": "U2190"
+  },
+  {
+    "SN": 148,
+    "Customer": "Scherer, Canada",
+    "Customer PO": "WP7203",
+    "Description": "FB1",
+    "Product": "Size #0 & #00",
+    "Shipped": "1982-03-08",
+    "SO #": "S2566"
+  },
+  {
+    "SN": 149,
+    "Customer": "RP Scherer Germany",
+    "Customer PO": "V4881",
+    "Description": "FB1",
+    "Product": "#0 cap",
+    "Shipped": "1982-04-15",
+    "SO #": "S2807"
+  },
+  {
+    "SN": 150,
+    "Customer": "Bolar Pharm.",
+    "Description": "FB1",
+    "Product": "Dipyridamole 25 mg",
+    "Shipped": "1982-05-04",
+    "SO #": "B2639"
+  },
+  {
+    "SN": 151,
+    "Customer": "Scherer, NJ",
+    "Customer PO": "UT8008",
+    "Description": "FB1",
+    "Product": "#0 Lok",
+    "Shipped": "1982-05-18",
+    "SO #": "S2808"
+  },
+  {
+    "SN": 152,
+    "Customer": "Mead Johnson",
+    "Customer PO": "H5852",
+    "Description": "FB1",
+    "Product": "Klotrix",
+    "Shipped": "1982-07-14",
+    "SO #": "M2848"
+  },
+  {
+    "SN": 153,
+    "Customer": "Pennwalt, NY",
+    "Customer PO": 84618.0,
+    "Description": "FB1",
+    "Product": "#3 Lok fit & Pre lok",
+    "Shipped": "1982-08-05",
+    "SO #": "P2860"
+  },
+  {
+    "SN": 154,
+    "Customer": "CTI/Accucaps",
+    "Customer PO": 103.0,
+    "Description": "FB1",
+    "Product": "#0 Lok",
+    "Shipped": "1982-09-20",
+    "SO #": "C2959"
+  },
+  {
+    "SN": 155,
+    "Customer": "Smith Kline PA",
+    "Description": "SPIN",
+    "Product": "Size #4"
+  },
+  {
+    "SN": 156,
+    "Customer": "Capsule Tech, PR",
+    "Customer PO": 103.0,
+    "Description": "FB1",
+    "Product": "Size #1 Lok",
+    "Shipped": "1982-10-19",
+    "SO #": "C2959"
+  },
+  {
+    "SN": 157,
+    "Customer": "Scherer, NJ",
+    "Customer PO": "82-6367",
+    "Description": "SPIN",
+    "Product": "#0 Hard Shell",
+    "Shipped": "1982-11-19",
+    "SO #": "S2892"
+  },
+  {
+    "SN": 158,
+    "Customer": "Wyeth Ayerst Labs",
+    "Customer PO": "B08322",
+    "Description": "SPIN",
+    "Product": "#4 Capsules",
+    "Shipped": "1983-01-07",
+    "SO #": "W2827"
+  },
+  {
+    "SN": 159,
+    "Customer": "M&M Mars, TN",
+    "Customer PO": "06-000065",
+    "Description": "FB1",
+    "Product": "Peanut M&M",
+    "Shipped": "1983-01-31",
+    "SO #": "M3145"
+  },
+  {
+    "SN": 160,
+    "Customer": "M&M Mars, TN",
+    "Customer PO": "06-000065",
+    "Description": "DP1",
+    "Product": "Peanut M&M",
+    "Shipped": "1983-01-31",
+    "SO #": "M3145"
+  },
+  {
+    "SN": 161,
+    "Customer": "M&M Mars, TN",
+    "Customer PO": "06-000065",
+    "Description": "DP1",
+    "Product": "Peanut M&M",
+    "Shipped": "1983-02-28",
+    "SO #": "M3145"
+  },
+  {
+    "SN": 162,
+    "Customer": "M&M Mars, TN",
+    "Customer PO": "06-000065",
+    "Description": "DP1",
+    "Product": "Peanut M&M",
+    "Shipped": "1983-02-28",
+    "SO #": "M3145"
+  },
+  {
+    "SN": 163,
+    "Customer": "M&M Mars, TN",
+    "Customer PO": "06-000065",
+    "Description": "DP1",
+    "Product": "Peanut M&M",
+    "Shipped": "1983-02-28",
+    "SO #": "M3145"
+  },
+  {
+    "SN": 164,
+    "Customer": "Smith Kline PA",
+    "Customer PO": "A10363",
+    "Description": "SPIN",
+    "Product": "#0 Capsules",
+    "Shipped": "1983-01-12",
+    "SO #": "S3305"
+  },
+  {
+    "SN": 165,
+    "Customer": "Smith Kline PA",
+    "Customer PO": "A10363",
+    "Description": "SPIN",
+    "Product": "Thorazine 100",
+    "Shipped": "1983-03-09",
+    "SO #": "S3315"
+  },
+  {
+    "SN": 167,
+    "Customer": "Smith Kline PR",
+    "Customer PO": 68578.0,
+    "Description": "FB1",
+    "Product": "Tagamet 400 mg",
+    "Shipped": "1983-05-31",
+    "SO #": "S3150"
+  },
+  {
+    "SN": 168,
+    "Customer": "Upjohn, PR",
+    "Customer PO": "358273-700",
+    "Description": "FB1",
+    "Product": "200 mg OTC",
+    "SO #": "U3518"
+  },
+  {
+    "SN": 169,
+    "Customer": "Upjohn, PR",
+    "Customer PO": "358273-700",
+    "Description": "FB1",
+    "Product": "200 mg OTC Pbuprofen",
+    "SO #": "U3518"
+  },
+  {
+    "SN": 170,
+    "Customer": "Lilly, Fergershiem",
+    "Customer PO": "BH81312FT",
+    "Description": "FB1",
+    "Product": "#00 & #OE caps",
+    "Shipped": "1983-05-19",
+    "SO #": "L3317"
+  },
+  {
+    "SN": 172,
+    "Customer": "Eli Lilly, Ind",
+    "Customer PO": "BK36012FT",
+    "Description": "SPIN",
+    "Product": "Elanco \"0\" Lok caps",
+    "SO #": "L3533"
+  },
+  {
+    "SN": 173,
+    "Customer": "McNeil",
+    "Customer PO": 201013.0,
+    "Description": "FB1",
+    "Product": "Tylenol 500",
+    "Shipped": "1983-06-29",
+    "SO #": "M3394"
+  },
+  {
+    "SN": 174,
+    "Customer": "Smith Kline PA",
+    "Customer PO": "A34113",
+    "Description": "FB1",
+    "Product": "Ecotrin 500",
+    "Shipped": "1983-08-23",
+    "SO #": "S3678"
+  },
+  {
+    "SN": 175,
+    "Customer": "Capsugel, SC",
+    "Customer PO": 909571.0,
+    "Description": "SPIN",
+    "Product": "Size #3 caps",
+    "Shipped": "1983-10-07",
+    "SO #": "C3785"
+  },
+  {
+    "SN": 176,
+    "Customer": "A.H. Robbins, VA",
+    "Customer PO": 21404.0,
+    "Description": "FB1",
+    "Product": "#00 size caps",
+    "Shipped": "1983-10-12",
+    "SO #": "R3755"
+  },
+  {
+    "SN": 177,
+    "Customer": "Smith Kline",
+    "Customer PO": 55294.0,
+    "Description": "FB1",
+    "Product": "Geritol",
+    "Shipped": "1983-10-12",
+    "SO #": "B3677"
+  },
+  {
+    "SN": 178,
+    "Customer": "Upjohn",
+    "Customer PO": 358264660.0,
+    "Description": "SPIN",
+    "Product": "Motrin 800",
+    "Shipped": "1983-11-29",
+    "SO #": "U3507"
+  },
+  {
+    "SN": 179,
+    "Customer": "Pfizer, NY",
+    "Customer PO": "B70908B",
+    "Description": "FB1",
+    "Product": "Procardia",
+    "Shipped": "1983-12-02",
+    "SO #": "P3644"
+  },
+  {
+    "SN": 180,
+    "Customer": "McNeil, TX",
+    "Customer PO": 204913.0,
+    "Description": "FB1",
+    "Product": "Tylenol 500",
+    "Shipped": "1983-12-22",
+    "SO #": "M3965"
+  },
+  {
+    "SN": 181,
+    "Customer": "ACKLEY",
+    "Customer PO": "EMA",
+    "Description": "SPIN",
+    "Product": "Size #1"
+  },
+  {
+    "SN": 182,
+    "Customer": "Eli Lilly, PR",
+    "Customer PO": "BP81802FT",
+    "Description": "FB1",
+    "Product": "Darvocet N100",
+    "Shipped": "1984-02-21",
+    "SO #": "L3998"
+  },
+  {
+    "SN": 183,
+    "Customer": "McNeil, TX",
+    "Customer PO": 206386.0,
+    "Description": "FB1",
+    "Product": "Tylenol 500",
+    "SO #": "M4065"
+  },
+  {
+    "SN": 184,
+    "Customer": "McNeil, TX",
+    "Customer PO": 206386.0,
+    "Description": "FB1",
+    "Product": "Tylenol 500",
+    "Shipped": "1984-02-24",
+    "SO #": "M4065"
+  },
+  {
+    "SN": 185,
+    "Customer": "Scherer, NJ",
+    "Description": "SPIN",
+    "Product": "#3 Oval softgel",
+    "Shipped": "1984-05-02",
+    "SO #": "S2927"
+  },
+  {
+    "SN": 186,
+    "Customer": "M&M Mars, TN",
+    "Customer PO": 6002027.0,
+    "Description": "FB1",
+    "Product": "Peanut M&M",
+    "Shipped": "1984-05-11",
+    "SO #": "M4088"
+  },
+  {
+    "SN": 187,
+    "Customer": "Assoc. Capsules",
+    "Customer PO": "IMPSMS13284",
+    "Description": "FB1",
+    "Product": "Size #1 and #2",
+    "SO #": "A4334"
+  },
+  {
+    "SN": 188,
+    "Customer": "Eli Lilly, Ind",
+    "Description": "FB1",
+    "Product": "#0 cap elong.",
+    "SO #": "L4255"
+  },
+  {
+    "SN": 189,
+    "Customer": "Eli Lilly, Ind",
+    "Description": "FB1",
+    "Product": "#1 and #2 tablets",
+    "SO #": "L4085"
+  },
+  {
+    "SN": 190,
+    "Customer": "Eli Lilly, Ind",
+    "Description": "FB1",
+    "Product": "#3 and #4 tablets",
+    "Shipped": "SEE SN560",
+    "SO #": "L4085"
+  },
+  {
+    "SN": 191,
+    "Customer": "Boots, UK",
+    "Description": "FB1",
+    "Product": "Advil",
+    "Shipped": "1984-08-17",
+    "SO #": "B4398"
+  },
+  {
+    "SN": 192,
+    "Customer": "Smith Kline PA",
+    "Description": "FB1",
+    "Product": "Ecotrin 5 g",
+    "SO #": "S4450"
+  },
+  {
+    "SN": 193,
+    "Customer": "Capsule Tech, PR",
+    "Description": "FB2",
+    "Product": "#3 Lok Capsule"
+  },
+  {
+    "SN": 195,
+    "Customer": "Smith Kline PR",
+    "Customer PO": 6999.0,
+    "Description": "FB1",
+    "Product": "Dyazide",
+    "Shipped": "1984-10-22",
+    "SO #": "S4475"
+  },
+  {
+    "SN": 196,
+    "Customer": "Capsugel, Pontypool",
+    "Description": "SPIN",
+    "Product": "#2 Capsule",
+    "Shipped": "1984-11-20"
+  },
+  {
+    "SN": 197,
+    "Customer": "Upjohn, PR",
+    "Customer PO": 470786660.0,
+    "Description": "FB1",
+    "Product": "Motrin 600 mg",
+    "Shipped": "1984-11-27"
+  },
+  {
+    "SN": 198,
+    "Customer": "RP Scherer Germany",
+    "Description": "FB1",
+    "Product": "#1 Capsules",
+    "Shipped": "1984-12-01",
+    "SO #": "A-4297"
+  },
+  {
+    "SN": 199,
+    "Customer": "Mead Johnson",
+    "Customer PO": "R5630",
+    "Description": "FB1",
+    "Product": "Comtrex AS",
+    "SO #": "M4599"
+  },
+  {
+    "SN": 200,
+    "Customer": "Scherer, Canada",
+    "Description": "SPIN 3 ROW",
+    "Product": "#4 capsules",
+    "Shipped": "1985-01-11",
+    "SO #": "S4299"
+  },
+  {
+    "SN": 201,
+    "Customer": "McNeil Springhouse PA",
+    "Customer PO": 105735.0,
+    "Description": "FB1",
+    "Product": "Tolectin 600",
+    "Shipped": "1985-02-08",
+    "SO #": "M4678"
+  },
+  {
+    "SN": 202,
+    "Customer": "Ciba-Geigy",
+    "Customer PO": "E74139-X",
+    "Description": "FB1",
+    "Product": "Acutrim",
+    "SO #": "C4298"
+  },
+  {
+    "SN": 203,
+    "Customer": "Wonka Brands",
+    "Customer PO": "18393EAB",
+    "Description": "FB1",
+    "Product": "Rinky Dinks",
+    "Shipped": "1985-03-02",
+    "SO #": "W4717"
+  },
+  {
+    "SN": 204,
+    "Customer": "Lilly, UK",
+    "Customer PO": "G162184",
+    "Description": "FB1",
+    "Product": "#1 posi-lok",
+    "SO #": "L4840"
+  },
+  {
+    "SN": 205,
+    "Customer": "M&M Mars, TN",
+    "Customer PO": 6007338.0,
+    "Description": "FB1",
+    "Product": "Plain M&M",
+    "Shipped": "1985-06-17",
+    "SO #": "M4764"
+  },
+  {
+    "SN": 206,
+    "Customer": "M&M Mars, TN",
+    "Customer PO": 6007338.0,
+    "Description": "FB1",
+    "Product": "Plain M&M",
+    "Shipped": "1985-06-17",
+    "SO #": "M4764"
+  },
+  {
+    "SN": 207,
+    "Customer": "M&M Mars, TN",
+    "Customer PO": 6007338.0,
+    "Description": "FB1",
+    "Product": "Plain M&M",
+    "Shipped": "1985-06-17",
+    "SO #": "M4764"
+  },
+  {
+    "SN": 208,
+    "Customer": "Boots LA",
+    "Description": "Never USED"
+  },
+  {
+    "SN": 209,
+    "Customer": "Eli Lilly, Ind",
+    "Customer PO": "BW92772FT",
+    "Description": "FB1",
+    "Product": "#2 capsules",
+    "Shipped": "1985-05-31",
+    "SO #": "L4516"
+  },
+  {
+    "SN": 210,
+    "Customer": "Mars, Australia T/I",
+    "Customer PO": 177322.0,
+    "Description": "FB1",
+    "Product": "plain M&M",
+    "Shipped": "1985-07-18",
+    "SO #": "M4779"
+  },
+  {
+    "SN": 211,
+    "Customer": "Mars, Australia T/I",
+    "Customer PO": 177322.0,
+    "Description": "FB1",
+    "Product": "plain M&M",
+    "Shipped": "1985-07-18",
+    "SO #": "M4779"
+  },
+  {
+    "SN": 212,
+    "Customer": "Mars, Australia",
+    "Customer PO": 177322.0,
+    "Description": "FB1",
+    "Product": "Peanut M&M",
+    "Shipped": "1985-07-18",
+    "SO #": "M4779"
+  },
+  {
+    "SN": 213,
+    "Customer": "Mars, Australia",
+    "Customer PO": 177322.0,
+    "Description": "FB1",
+    "Product": "Peanut M&M",
+    "Shipped": "1985-07-18",
+    "SO #": "M4779"
+  },
+  {
+    "SN": 214,
+    "Customer": "France Gelules",
+    "Customer PO": 851046004.0,
+    "Description": "FB1",
+    "Product": "Size #1 & #2 caps",
+    "SO #": "H4927"
+  },
+  {
+    "SN": 215,
+    "Customer": "Lillly, Fergersheim",
+    "Customer PO": 988.0,
+    "Description": "FB1",
+    "Product": "15\" ext.",
+    "SO #": "E4987"
+  },
+  {
+    "SN": 216,
+    "Customer": "Whitehall",
+    "Customer PO": "WH4808",
+    "Description": "FB1",
+    "Product": "Anacin 3",
+    "Shipped": "1985-07-26",
+    "SO #": "W4989"
+  },
+  {
+    "SN": 217,
+    "Customer": "Upjohn",
+    "Customer PO": "N1663",
+    "Description": "FB1",
+    "Product": "Ansaid 50 mg",
+    "SO #": "U4661"
+  },
+  {
+    "SN": 218,
+    "Customer": "Upjohn",
+    "Customer PO": "N1663",
+    "Description": "FB1",
+    "Product": "Ansaid",
+    "SO #": "U4661"
+  },
+  {
+    "SN": 219,
+    "Customer": "Boots LA",
+    "Customer PO": 8500235.0,
+    "Description": "FB1",
+    "Product": "Rufen",
+    "Shipped": "1985-10-02",
+    "SO #": "B4752"
+  },
+  {
+    "SN": 221,
+    "Customer": "Elanco, Fegersheim",
+    "Customer PO": 988.0,
+    "Description": "SPIN",
+    "Product": "Capsules",
+    "Shipped": "1985-09-18",
+    "SO #": "E4987"
+  },
+  {
+    "SN": 222,
+    "Customer": "Smith Kline PA",
+    "Customer PO": "A43515",
+    "Description": "FB1",
+    "Product": "Thorazine 25/50",
+    "Shipped": "1985-09-23",
+    "SO #": "S5173"
+  },
+  {
+    "SN": 223,
+    "Customer": "Warner Lambert, CAN",
+    "Customer PO": "P4929",
+    "Description": "MODEL  A",
+    "Product": "#2 caps",
+    "Shipped": "1985-09-26",
+    "SO #": "P4929"
+  },
+  {
+    "SN": 225,
+    "Customer": "Capsugel, SC",
+    "Customer PO": 907401.0,
+    "Description": "SPIN",
+    "Product": "#3 caps",
+    "Shipped": "1985-10-31",
+    "SO #": "C5043"
+  },
+  {
+    "SN": 226,
+    "Customer": "Capsugel, SC",
+    "Customer PO": 907401.0,
+    "Description": "SPIN",
+    "Product": "#4 caps",
+    "Shipped": "1985-10-31",
+    "SO #": "C5043"
+  },
+  {
+    "SN": 227,
+    "Customer": "Bristol Myers, NJ",
+    "Customer PO": "M80863",
+    "Description": "FB1",
+    "Product": "Arthritis Bufferin 500 mg",
+    "Shipped": "1985-11-01",
+    "SO #": "B4879"
+  },
+  {
+    "SN": 228,
+    "Customer": "McNeil",
+    "Customer PO": "R502659",
+    "Description": "FB1",
+    "Product": "Medipren caplet",
+    "Shipped": "1985-11-27",
+    "SO #": "M4972"
+  },
+  {
+    "SN": 229,
+    "Customer": "Smith Kline PR",
+    "Customer PO": 82842.0,
+    "Description": "17 FARP",
+    "Product": "Tag 800",
+    "Shipped": "1985-12-06",
+    "SO #": "S5309"
+  },
+  {
+    "SN": 230,
+    "Customer": "Parke Davis, CAN",
+    "Customer PO": 65427.0,
+    "Description": "SPIN",
+    "Product": "Caps #1 and #2",
+    "Shipped": "1985-12-06",
+    "SO #": "P4969"
+  },
+  {
+    "SN": 231,
+    "Customer": "McNeil",
+    "Customer PO": "R502658",
+    "Description": "FB1",
+    "Product": "Tylenol 500 mg caplet",
+    "Shipped": "1985-12-09",
+    "SO #": "M4971"
+  },
+  {
+    "SN": 232,
+    "Customer": "M&M Mars, NL",
+    "Customer PO": 261018.0,
+    "Description": "FB1",
+    "Product": "PlainM&M",
+    "Shipped": "1985-12-11",
+    "SO #": "M5169"
+  },
+  {
+    "SN": 233,
+    "Customer": "M&M Mars, NL",
+    "Customer PO": 261018.0,
+    "Description": "FB1",
+    "Product": "same as 232",
+    "Shipped": "same",
+    "SO #": "same"
+  },
+  {
+    "SN": 234,
+    "Customer": "M&M Mars, NL",
+    "Customer PO": 261018.0,
+    "Description": "FB1",
+    "Product": "PlainM&M",
+    "Shipped": "same",
+    "SO #": "same"
+  },
+  {
+    "SN": 235,
+    "Customer": "Smith Kline PA",
+    "Customer PO": "A49655",
+    "Description": "FB1",
+    "Product": "#2 lok",
+    "Shipped": "1985-12-31",
+    "SO #": "S5254"
+  },
+  {
+    "SN": 236,
+    "Customer": "Pennwalt, NY",
+    "Customer PO": 10527.0,
+    "Description": "FB1",
+    "Product": "#2 lok",
+    "Shipped": "1985-12-31",
+    "SO #": "P5234"
+  },
+  {
+    "SN": 237,
+    "Customer": "Capsugel",
+    "Customer PO": 907400.0,
+    "Description": "SPIN",
+    "Product": "#0 capsules",
+    "Shipped": "1986-01-27",
+    "SO #": "C5042"
+  },
+  {
+    "SN": 238,
+    "Customer": "Eli Lilly, PR",
+    "Customer PO": "BWD8022FT",
+    "Description": "FB2 101 Bars",
+    "Product": "Darvocet N 100",
+    "Shipped": "1986-01-28",
+    "SO #": "L4963"
+  },
+  {
+    "SN": 240,
+    "Customer": "Whitehall",
+    "Customer PO": "HO985",
+    "Description": "FB1",
+    "Product": "Dristan SPF",
+    "Shipped": "1986-02-04",
+    "SO #": "W5040"
+  },
+  {
+    "SN": 241,
+    "Customer": "Capsule Tech, PR",
+    "Customer PO": "CTQ26324",
+    "Description": "FB1",
+    "Product": "Size #0",
+    "Shipped": "1986-03-15",
+    "SO #": "C5289"
+  },
+  {
+    "SN": 242,
+    "Customer": "Elanco, Spain",
+    "Customer PO": 500885.0,
+    "Description": "FB1",
+    "Product": "#2 capsule",
+    "Shipped": "1986-02-28",
+    "SO #": "E5326"
+  },
+  {
+    "SN": 244,
+    "Customer": "Burroughs Wellcome",
+    "Customer PO": "E58177",
+    "Description": "FB1",
+    "Product": "Sudafed",
+    "Shipped": "1986-03-19",
+    "SO #": "B5283"
+  },
+  {
+    "SN": 245,
+    "Customer": "Capsugel, SC",
+    "Customer PO": 909263.0,
+    "Description": "SPIN",
+    "Product": "#2 capsules",
+    "Shipped": "1986-03-26",
+    "SO #": "C5355"
+  },
+  {
+    "SN": 246,
+    "Customer": "Eli Lilly, PR",
+    "Customer PO": "BWD8022FT",
+    "Description": "FB2 101 Bars",
+    "Product": "Darvocet N 100",
+    "Shipped": "1986-04-01",
+    "SO #": "L4963"
+  },
+  {
+    "SN": 247,
+    "Customer": "Eli Lilly, PR",
+    "Customer PO": "BWD8042FT",
+    "Description": "FB2 101 Bars",
+    "Product": "Darvocet N 100",
+    "Shipped": "1986-04-11",
+    "SO #": "L4962"
+  },
+  {
+    "SN": 248,
+    "Customer": "McNeil",
+    "Customer PO": 601323.0,
+    "Description": "FB1",
+    "Product": "Tylenol Sinus Green tab",
+    "Shipped": "1986-04-14",
+    "SO #": "M5538"
+  },
+  {
+    "SN": 249,
+    "Customer": "McNeil",
+    "Customer PO": 601323.0,
+    "Description": "FB1",
+    "Product": "Co-Tylenol Yellow Tab",
+    "Shipped": "1986-04-14",
+    "SO #": "M5538"
+  },
+  {
+    "SN": 250,
+    "Customer": "Whitehall",
+    "Customer PO": "CWH7177",
+    "Description": "FB1",
+    "Product": "Anacin",
+    "Shipped": "1986-04-30",
+    "SO #": "W5374"
+  },
+  {
+    "SN": 254,
+    "Customer": "Boots, UK",
+    "Customer PO": "PDB08870",
+    "Description": "FB1",
+    "Product": "Advil Round",
+    "SO #": "B5515"
+  },
+  {
+    "SN": 255,
+    "Customer": "Bristol Myers, NJ",
+    "Customer PO": "M83810",
+    "Description": "FB1",
+    "Product": "Arthritis Bufferin",
+    "SO #": "B5474"
+  },
+  {
+    "SN": 256,
+    "Customer": "McNeil",
+    "Customer PO": 601324.0,
+    "Description": "FB1",
+    "Product": "Medipren",
+    "SO #": "M5537"
+  },
+  {
+    "SN": 258,
+    "Customer": "Capsugel, SC",
+    "Customer PO": 901478.0,
+    "Description": "SPIN",
+    "Product": "4-Coni-Snap",
+    "Shipped": "1986-06-18",
+    "SO #": "C5549"
+  },
+  {
+    "SN": 262,
+    "Customer": "Eli Lilly, Ind",
+    "Customer PO": "BLK5102FT",
+    "Description": "FB1",
+    "Product": "Keflex 250 & 500",
+    "Shipped": "1986-06-30",
+    "SO #": "L5468"
+  },
+  {
+    "SN": 263,
+    "Customer": "Bristol Myers, NJ",
+    "Customer PO": "M84307",
+    "Description": "FB1",
+    "Product": "Excedrin",
+    "Shipped": "1986-07-11",
+    "SO #": "B5534"
+  },
+  {
+    "SN": 264,
+    "Customer": "Bristol Myers, NJ",
+    "Customer PO": "M84307",
+    "Description": "FB1",
+    "Product": "Comtrex",
+    "Shipped": "1986-07-24",
+    "SO #": "B5534"
+  },
+  {
+    "SN": 266,
+    "Customer": "Bristol Myers, NJ",
+    "Customer PO": "M84307",
+    "Description": "FB1",
+    "Product": "Extra Strength Bufferin",
+    "SO #": "B5534"
+  },
+  {
+    "SN": 269,
+    "Customer": "Eli Lilly, Ind",
+    "Customer PO": "BJJ9672FT",
+    "Description": "FB1",
+    "Product": "Enseals 51, 78 and",
+    "Shipped": "1986-08-29",
+    "SO #": "L5364"
+  },
+  {
+    "SN": 271,
+    "Customer": "McNeil",
+    "Customer PO": 601809.0,
+    "Description": "FB1",
+    "Product": "Tylenol 325",
+    "Shipped": "1986-09-29",
+    "SO #": "M5598"
+  },
+  {
+    "SN": 272,
+    "Customer": "McNeil",
+    "Customer PO": 602084.0,
+    "Description": "FB1",
+    "Product": "Co-Tylenol Yellow tab",
+    "Shipped": "1986-10-06",
+    "SO #": "M5843"
+  },
+  {
+    "SN": 273,
+    "Customer": "Upjohn",
+    "Customer PO": 683822660.0,
+    "Description": "CD1",
+    "Product": "Motrin 800",
+    "Shipped": "1986-10-06",
+    "SO #": "U5818"
+  },
+  {
+    "SN": 274,
+    "Customer": "Marion Merrell Dow",
+    "Customer PO": "73710CM",
+    "Description": "FB1",
+    "Product": "Norpramin",
+    "Shipped": "1986-10-01",
+    "SO #": "M5816"
+  },
+  {
+    "SN": 276,
+    "Customer": "M&M Mars, TN",
+    "Customer PO": "0M037051405",
+    "Description": "FB1",
+    "Product": "Plain M&M",
+    "Shipped": "1986-11-04",
+    "SO #": "M5967"
+  },
+  {
+    "SN": 277,
+    "Customer": "M&M Mars, TN",
+    "Customer PO": "M037051405",
+    "Description": "FB1"
+  },
+  {
+    "SN": 278,
+    "Customer": "Parke Davis, NJ",
+    "Description": "CD1",
+    "Product": "Nardil"
+  },
+  {
+    "SN": 280,
+    "Customer": "Smith Kline PA",
+    "Customer PO": "A48176",
+    "Description": "FB1",
+    "Product": "Ecotrin caplet",
+    "Shipped": "1986-12-30",
+    "SO #": "S6072"
+  },
+  {
+    "SN": 284,
+    "Customer": "ACKLEY",
+    "Customer PO": "Ackley",
+    "Description": "EXPERIMENTAL CFARP",
+    "Product": "Peanut M&M",
+    "Shipped": "1987-02-12",
+    "SO #": "S6000"
+  },
+  {
+    "SN": 285,
+    "Customer": "McNeil, PR",
+    "Customer PO": "MPF605715",
+    "Description": "FB1",
+    "Product": "Tylenol 325",
+    "Shipped": "1987-03-03",
+    "SO #": "M6153"
+  },
+  {
+    "SN": 286,
+    "Customer": "Eli Lilly, PR",
+    "Customer PO": "BLM8542F2",
+    "Description": "FB1",
+    "Product": "Keflex 500 & 667",
+    "Shipped": "1987-03-07",
+    "SO #": "L5729"
+  },
+  {
+    "SN": 290,
+    "Customer": "Upjohn, MI",
+    "Customer PO": "H2924",
+    "Description": "FB1",
+    "Product": "Nuprin Caplet",
+    "Shipped": "1987-03-20",
+    "SO #": "U6140"
+  },
+  {
+    "SN": 291,
+    "Customer": "Upjohn, MI",
+    "Customer PO": "G2081",
+    "Description": "FB1",
+    "Product": "Motrin 800 SR",
+    "Shipped": "1987-03-28",
+    "SO #": "U6136"
+  },
+  {
+    "SN": 294,
+    "Customer": "Smith Kline PR",
+    "Customer PO": 88802.0,
+    "Description": "30 FARP",
+    "Product": "Tag 400",
+    "Shipped": "1987-05-29",
+    "SO #": "S6077"
+  },
+  {
+    "SN": 295,
+    "Customer": "Marion Merrell Dow",
+    "Description": "FB1",
+    "Product": "Lorelco 250",
+    "Shipped": "1987-06-01",
+    "SO #": "M6396"
+  },
+  {
+    "SN": 297,
+    "Customer": "McNeil",
+    "Customer PO": "MPF606962",
+    "Description": "FB1",
+    "Product": "Tylenol 500",
+    "Shipped": "1987-06-18",
+    "SO #": "M6285"
+  },
+  {
+    "SN": 298,
+    "Customer": "Burroughs Wellcome",
+    "Customer PO": "F28768",
+    "Description": "DP1",
+    "Product": "Actifed Caplet",
+    "Shipped": "1987-06-20",
+    "SO #": "B6519"
+  },
+  {
+    "SN": 300,
+    "Customer": "Lilly, UK",
+    "Customer PO": "G191463",
+    "Description": "FB1",
+    "Product": "#0 Lok",
+    "SO #": "L6711"
+  },
+  {
+    "SN": 305,
+    "Customer": "Whitehall",
+    "Customer PO": "WH4928",
+    "Description": "FB1",
+    "Product": "Advil",
+    "Shipped": "1987-08-31",
+    "SO #": "W6692"
+  },
+  {
+    "SN": 307,
+    "Customer": "McNeil",
+    "Customer PO": "MPF608486",
+    "Description": "FB1",
+    "Product": "Tylenol 500",
+    "SO #": "M6501"
+  },
+  {
+    "SN": 308,
+    "Customer": "McNeil",
+    "Customer PO": "MPF608486",
+    "Description": "FB1",
+    "Product": "Tylenol 500",
+    "SO #": "M6501"
+  },
+  {
+    "SN": 309,
+    "Customer": "McNeil",
+    "Customer PO": "MPF610194",
+    "Description": "FB1",
+    "Product": "Tylenol 500",
+    "Shipped": "1987-12-01",
+    "SO #": "M6713"
+  },
+  {
+    "SN": 310,
+    "Customer": "M&M Mars, TN",
+    "Customer PO": "M044055662",
+    "Description": "FB1",
+    "Product": "Peanut M&M",
+    "SO #": "M6804"
+  },
+  {
+    "SN": 311,
+    "Customer": "M&M Mars, TN",
+    "Customer PO": "M04405493",
+    "Description": "FB1",
+    "Product": "Plain M&M",
+    "SO #": "M6757"
+  },
+  {
+    "SN": 312,
+    "Customer": "Eli Lilly, Ind",
+    "Customer PO": "BRV1032FT",
+    "Description": "FB1",
+    "Product": "Darvocet",
+    "SO #": "L6685"
+  },
+  {
+    "SN": 313,
+    "Customer": "Boots UK",
+    "Customer PO": "PB168845",
+    "Description": "CD1",
+    "Product": "Advil",
+    "Shipped": "1987-11-03",
+    "SO #": "B6755"
+  },
+  {
+    "SN": 314,
+    "Customer": "Bristol Myers, NJ",
+    "Customer PO": "M89688",
+    "Description": "FB1",
+    "Product": "Extra Strength Bufferin",
+    "Shipped": "1987-12-10",
+    "SO #": "B6778"
+  },
+  {
+    "SN": 315,
+    "Customer": "McNeil",
+    "Customer PO": "MPF610269",
+    "Description": "FB1",
+    "Product": "Medipren tablet",
+    "SO #": "M6871"
+  },
+  {
+    "SN": 316,
+    "Customer": "M&M Mars, TN",
+    "Customer PO": "M044060387",
+    "Description": "FB1",
+    "Product": "Plain M&M",
+    "Shipped": "1987-12-16",
+    "SO #": "M6958"
+  },
+  {
+    "SN": 317,
+    "Customer": "Ford Gum",
+    "Customer PO": "H8347",
+    "Description": "GP",
+    "Product": "gumballs",
+    "Shipped": "1988-04-11",
+    "SO #": "F6844"
+  },
+  {
+    "SN": 318,
+    "Customer": "Whitehall",
+    "Customer PO": "WH00344PR",
+    "Description": "FB1",
+    "Product": "Advil round tab",
+    "Shipped": "1988-03-10",
+    "SO #": "W7115"
+  },
+  {
+    "SN": 319,
+    "Customer": "Pfizer, Inc.",
+    "Customer PO": "PRP00015E",
+    "Description": "CD2",
+    "Product": "Nifedipine 30 & 60",
+    "Shipped": "1988-02-29",
+    "SO #": "P6728"
+  },
+  {
+    "SN": 320,
+    "Customer": "Pfizer, Inc.",
+    "Customer PO": "CPA90RA",
+    "Description": "CD2",
+    "Product": "Nefedipine 30 & 60",
+    "SO #": "P6728"
+  },
+  {
+    "SN": 322,
+    "Customer": "Eli Lilly, Ind",
+    "Customer PO": "BMWH772FT",
+    "Description": "FB1",
+    "Product": "Nalfon E.C. tablet",
+    "Shipped": "1988-04-21",
+    "SO #": "L7144"
+  },
+  {
+    "SN": 323,
+    "Customer": "McNeil",
+    "Customer PO": "MPF615718",
+    "Description": "FB1",
+    "Product": "Medipren caplet",
+    "Shipped": "1988-06-06",
+    "SO #": "M7378"
+  },
+  {
+    "SN": 325,
+    "Customer": "Parke Davis",
+    "Customer PO": "27753M",
+    "Description": "CD2",
+    "Product": "Lopid 600 mg",
+    "Shipped": "1988-06-07",
+    "SO #": "P6905"
+  },
+  {
+    "SN": 327,
+    "Customer": "ACPC Amman Jordan",
+    "Customer PO": 32143.0,
+    "Description": "3 Row Cantilever",
+    "Product": "Size #0 capsule",
+    "Shipped": "1988-06-28",
+    "SO #": "A7189"
+  },
+  {
+    "SN": 332,
+    "Customer": "Pharmaring",
+    "Customer PO": "LC2316471",
+    "Description": "CR1",
+    "Product": "Buta, Butazone",
+    "Shipped": "1988-07-01",
+    "SO #": "P7468"
+  },
+  {
+    "SN": 333,
+    "Customer": "Smith Kline PR",
+    "Customer PO": "400A86041",
+    "Description": "FB1",
+    "Product": "Base only",
+    "Shipped": "1988-07-22",
+    "SO #": "S7519"
+  },
+  {
+    "SN": 334,
+    "Customer": "Bayer, PA",
+    "Customer PO": "RL54060T",
+    "Description": "CD2",
+    "Product": "Bayer",
+    "Shipped": "1988-07-22",
+    "SO #": "S7324"
+  },
+  {
+    "SN": 339,
+    "Customer": "Parke Davis",
+    "Customer PO": "29912M",
+    "Description": "CD2",
+    "Product": "Easprin",
+    "Shipped": "1988-08-22",
+    "SO #": "P7279"
+  },
+  {
+    "SN": 340,
+    "Customer": "Alza Corporation",
+    "Customer PO": "621428VV",
+    "Description": "FB2",
+    "Product": "\"ALZA\"",
+    "Shipped": "1988-08-01",
+    "SO #": "A7353"
+  },
+  {
+    "SN": 341,
+    "Customer": "Su-Heung Korea",
+    "Customer PO": "LCM4501",
+    "Description": "SPIN",
+    "Product": "capsules",
+    "Shipped": "1988-08-17",
+    "SO #": "S7349"
+  },
+  {
+    "SN": 342,
+    "Customer": "Su-Heung Korea",
+    "Customer PO": "LCM4501",
+    "Description": "SPIN",
+    "Product": "capsules",
+    "Shipped": "1988-08-17",
+    "SO #": "S7349"
+  },
+  {
+    "SN": 351,
+    "Customer": "Brach, IL",
+    "Customer PO": 888007.0,
+    "Description": "FB1",
+    "Product": "Plain Candy",
+    "Shipped": "1988-08-19",
+    "SO #": "B7502"
+  },
+  {
+    "SN": 352,
+    "Customer": "Brach, IL",
+    "Customer PO": 888007.0,
+    "Description": "FB1",
+    "Product": "Peanut",
+    "Shipped": "1988-08-19",
+    "SO #": "B7502"
+  },
+  {
+    "SN": 353,
+    "Customer": "Sterling Drug, NY",
+    "Customer PO": "EG22874",
+    "Description": "CD1",
+    "Product": "Midol Regular",
+    "Shipped": "1988-09-30",
+    "SO #": "S7216"
+  },
+  {
+    "SN": 355,
+    "Customer": "Eli Lilly, Ind",
+    "Customer PO": "BC170S2FT",
+    "Description": "FB1",
+    "Product": "125 and 250 mg",
+    "Shipped": "1988-10-21",
+    "SO #": "L7410"
+  },
+  {
+    "SN": 356,
+    "Customer": "Eli Lilly, Ind",
+    "Customer PO": "BC170S2FT",
+    "Description": "FB1",
+    "Product": "Cefuroxime Axetil 500",
+    "Shipped": "1988-10-31",
+    "SO #": "L7410"
+  },
+  {
+    "SN": 357,
+    "Customer": "Abbott, PR",
+    "Customer PO": "P26P00245",
+    "Description": "CD1",
+    "Product": "Depakote 250 & 500",
+    "Shipped": "1988-10-28",
+    "SO #": "A7424"
+  },
+  {
+    "SN": 358,
+    "Customer": "France Gelules",
+    "Customer PO": 852756303.0,
+    "Description": "FB1",
+    "Product": "#4 Capsule",
+    "Shipped": "1988-10-31",
+    "SO #": "H7523"
+  },
+  {
+    "SN": 359,
+    "Customer": "M&M Mars, NJ",
+    "Customer PO": "0100726P",
+    "Description": "FB1",
+    "Product": "Peanut M&M",
+    "Shipped": "1988-12-02",
+    "SO #": "M7606"
+  },
+  {
+    "SN": 360,
+    "Customer": "M&M Mars, NJ",
+    "Customer PO": "0100726P",
+    "Description": "FB1",
+    "Product": "Peanut M&M",
+    "Shipped": "1988-12-02",
+    "SO #": "M7606"
+  },
+  {
+    "SN": 363,
+    "Customer": "McNeil, PA",
+    "Customer PO": "EPS100063",
+    "Description": "FB1",
+    "Product": "Co-Tylenol"
+  },
+  {
+    "SN": 364,
+    "Customer": "McNeil Springhouse PA",
+    "Customer PO": 9780.0,
+    "Description": "CR1",
+    "Product": "Floxin 200",
+    "Shipped": "1989-02-17",
+    "SO #": "O7638"
+  },
+  {
+    "SN": 365,
+    "Customer": "Capsugel, Pontypool",
+    "Customer PO": "E66678",
+    "Description": "SPIN",
+    "Product": "#2 Lok caps",
+    "Shipped": "1989-01-31",
+    "SO #": "C7912"
+  },
+  {
+    "SN": 366,
+    "Customer": "Smith Kline PR",
+    "Customer PO": "400A93108",
+    "Description": "FB1",
+    "Product": "Ecotrin Caplets",
+    "Shipped": "1989-02-03",
+    "SO #": "S7969"
+  },
+  {
+    "SN": 371,
+    "Customer": "Whitehall, NJ",
+    "Customer PO": "WH2002",
+    "Description": "FB1",
+    "Product": "Co-Advil",
+    "Shipped": "1989-02-28",
+    "SO #": "W7861"
+  },
+  {
+    "SN": 372,
+    "Customer": "Smith Kline PR",
+    "Customer PO": 597272.0,
+    "Description": "FB1",
+    "Product": "Tagamet 300",
+    "Shipped": "1989-04-12",
+    "SO #": "S7743"
+  },
+  {
+    "SN": 373,
+    "Customer": "Upjohn, PR",
+    "Customer PO": 99573650.0,
+    "Description": "FB1",
+    "Product": "Ansand 50 mg",
+    "Shipped": "1989-03-20",
+    "SO #": "U7977"
+  },
+  {
+    "SN": 375,
+    "Customer": "Zenith",
+    "Description": "CD1",
+    "Product": "Perphenazine 2&16mg",
+    "SO #": "Z8115"
+  },
+  {
+    "SN": 376,
+    "Customer": "Mars, Australia",
+    "Customer PO": 11697.0,
+    "Description": "FB1",
+    "Product": "Pips",
+    "Shipped": "1989-05-16",
+    "SO #": "M8108"
+  },
+  {
+    "SN": 377,
+    "Customer": "Mars, Australia",
+    "Customer PO": 11697.0,
+    "Description": "FB1",
+    "Product": "Pips",
+    "Shipped": "1989-05-16",
+    "SO #": "M8108"
+  },
+  {
+    "SN": 378,
+    "Customer": "Abbott, IL",
+    "Description": "CD2S",
+    "Product": "Depakote 500 mg",
+    "SO #": "A7849"
+  },
+  {
+    "SN": 381,
+    "Customer": "Warner Lambert, PR",
+    "Description": "CD2",
+    "Product": "Benadryl Plus",
+    "Shipped": "1989-06-21",
+    "SO #": "W8032"
+  },
+  {
+    "SN": 382,
+    "Customer": "Warner Lambert, PR",
+    "Description": "CD2",
+    "Product": "Lopid",
+    "Shipped": "SN325",
+    "SO #": "W8252"
+  },
+  {
+    "SN": 383,
+    "Customer": "McNeil, PR",
+    "Customer PO": "MPF621200",
+    "Description": "30 FARP",
+    "Product": "Tylenol 500",
+    "SO #": "M8097"
+  },
+  {
+    "SN": 384,
+    "Customer": "Boehringer",
+    "Description": "CD1",
+    "Product": "Persantin 100",
+    "Shipped": "1989-08-19",
+    "SO #": "B8240"
+  },
+  {
+    "SN": 387,
+    "Customer": "Warner Lambert, NJ",
+    "Customer PO": "11154T",
+    "Description": "30 FARP",
+    "Product": "Certs and Chiclets",
+    "Shipped": "1989-09-29",
+    "SO #": "W8016"
+  },
+  {
+    "SN": 389,
+    "Customer": "M&M Mars, TN",
+    "Description": "FB1",
+    "Product": "Plain M&M",
+    "Shipped": "1989-09-29",
+    "SO #": "M8534"
+  },
+  {
+    "SN": 390,
+    "Customer": "M&M Mars, TN",
+    "Description": "FB1",
+    "Product": "Plain M&M",
+    "SO #": "M8535"
+  },
+  {
+    "SN": 392,
+    "Customer": "McNeil Springhouse PA",
+    "Description": "CR1",
+    "Product": "Tolectin 600",
+    "Shipped": "1989-10-16",
+    "SO #": "M8322"
+  },
+  {
+    "SN": 393,
+    "Customer": "Bayer, PA",
+    "Description": "CD2",
+    "Shipped": "1989-12-23",
+    "SO #": "S8536"
+  },
+  {
+    "SN": 395,
+    "Customer": "Capsugel, France",
+    "Description": "SPIN",
+    "Product": "#0 & 00 Caps",
+    "SO #": "C8567"
+  },
+  {
+    "SN": 396,
+    "Customer": "Upjohn",
+    "Customer PO": "K4972",
+    "Description": "FB1",
+    "Product": "Nuprin",
+    "Shipped": "1989-10-31",
+    "SO #": "U8563"
+  },
+  {
+    "SN": 397,
+    "Customer": "Ciba-Geigy",
+    "Description": "CD2",
+    "Product": "Voltaren 25 mg",
+    "Shipped": "1989-11-01",
+    "SO #": "C8336"
+  },
+  {
+    "SN": 399,
+    "Customer": "Ciba-Geigy",
+    "Description": "CD2",
+    "Product": "Voltaren 50 mg",
+    "Shipped": "1989-11-01",
+    "SO #": "C8336"
+  },
+  {
+    "SN": 405,
+    "Customer": "M&M Mars, TN",
+    "Customer PO": "M063001606",
+    "Description": "30 FARP",
+    "Product": "Almond Candy",
+    "Shipped": "1989-12-14",
+    "SO #": "M8689"
+  },
+  {
+    "SN": 406,
+    "Customer": "M&M Mars, TN",
+    "Customer PO": "M063001606",
+    "Description": "30 FARP",
+    "Product": "Almond Candy",
+    "Shipped": "1989-12-14",
+    "SO #": "M8689"
+  },
+  {
+    "SN": 407,
+    "Customer": "M&M Mars, TN",
+    "Customer PO": "M063001606",
+    "Description": "30 FARP",
+    "Product": "Almond Candy",
+    "Shipped": "1989-12-14",
+    "SO #": "M8689"
+  },
+  {
+    "SN": 408,
+    "Customer": "M&M Mars, TN",
+    "Customer PO": "M896471612",
+    "Description": "30 FARP",
+    "Product": "Almond Candy",
+    "Shipped": "1989-12-15",
+    "SO #": "M8691"
+  },
+  {
+    "SN": 409,
+    "Customer": "Chupa Chups",
+    "Description": "GP",
+    "Product": "Gumballs",
+    "Shipped": "1990-01-31",
+    "SO #": "C8825"
+  },
+  {
+    "SN": 412,
+    "Customer": "M&M Mars, TN",
+    "Customer PO": "M063001655",
+    "Description": "30 FARP",
+    "Product": "Slingshot Candy",
+    "Shipped": "1990-02-16",
+    "SO #": "M8690"
+  },
+  {
+    "SN": 413,
+    "Customer": "M&M Mars, TN",
+    "Customer PO": "M063001655",
+    "Description": "30 FARP",
+    "Product": "Slingshot Candy",
+    "Shipped": "1990-02-16",
+    "SO #": "M8690"
+  },
+  {
+    "SN": 414,
+    "Customer": "Fukae Powtec",
+    "Description": "CD1",
+    "Product": "Round tablet",
+    "Shipped": "1990-02-15",
+    "SO #": "F8920"
+  },
+  {
+    "SN": 418,
+    "Customer": "Bayer, PA",
+    "Description": "FB1",
+    "Product": "Advanced Bayer",
+    "Shipped": "1990-08-08",
+    "SO #": "S8898"
+  },
+  {
+    "SN": 419,
+    "Customer": "McNeil/Shaklee",
+    "Description": "FB1",
+    "Product": "reconditioned flatbed drum",
+    "Shipped": "1998-04-01"
+  },
+  {
+    "SN": 420,
+    "Customer": "Burroughs Wellcome",
+    "Description": "CD1",
+    "Product": "Leukeran tabs",
+    "Shipped": "1990-06-08",
+    "SO #": "B9059"
+  },
+  {
+    "SN": 421,
+    "Customer": "RP Scherer Germany",
+    "Description": "Cant. SPIN 2 color",
+    "Product": "#0 capsule",
+    "Shipped": "1990-05-31",
+    "SO #": "S9082"
+  },
+  {
+    "SN": 425,
+    "Customer": "RP Scherer Germany",
+    "Description": "DELTA SPIN",
+    "Product": "Base Only",
+    "Shipped": "1990-03-30",
+    "SO #": "S9081"
+  },
+  {
+    "SN": 426,
+    "Customer": "Alza Corporation",
+    "Customer PO": "6043-08V",
+    "Description": "CD1",
+    "Product": "Procardia 30 & 60 mg",
+    "Shipped": "1990-10-31",
+    "SO #": "A9145"
+  },
+  {
+    "SN": 428,
+    "Customer": "Syntex, CA (Oread)",
+    "Description": "CD2",
+    "Product": "Ticlid",
+    "Shipped": "1990-06-28",
+    "SO #": "S9175"
+  },
+  {
+    "SN": 433,
+    "Customer": "Whitehall, NJ",
+    "Description": "FB1",
+    "Product": "Advil round tablet",
+    "Shipped": "1990-06-13",
+    "SO #": "W9209"
+  },
+  {
+    "SN": 435,
+    "Customer": "Syntex, CA (Oread)",
+    "Description": "FB2",
+    "Product": "Ticlid",
+    "Shipped": "1990-10-03",
+    "SO #": "S9290"
+  },
+  {
+    "SN": 436,
+    "Customer": "Eli Lilly, Ind",
+    "Description": "FB1",
+    "Shipped": "1990-05-11",
+    "SO #": "L8792"
+  },
+  {
+    "SN": 438,
+    "Customer": "Hong Long Caps Ltd",
+    "Customer PO": "BMF0608",
+    "Description": "SPIN",
+    "Product": "#0",
+    "Shipped": "1990-09-07",
+    "SO #": "H9301"
+  },
+  {
+    "SN": 439,
+    "Customer": "Eli Lilly, PR",
+    "Customer PO": "C209309",
+    "Description": "CD2",
+    "Product": "Loven",
+    "Shipped": "1990-10-03",
+    "SO #": "E9286"
+  },
+  {
+    "SN": 440,
+    "Customer": "Syntex, CA (Oread)",
+    "Customer PO": "SL3689",
+    "Description": "IC",
+    "Shipped": "1990-10-03",
+    "SO #": "S9361"
+  },
+  {
+    "SN": 441,
+    "Customer": "Su-Heung Korea",
+    "Customer PO": "NS10261",
+    "Description": "SPIN",
+    "Product": "#0 Capsule",
+    "Shipped": "1990-11-16",
+    "SO #": "S9381"
+  },
+  {
+    "SN": 446,
+    "Customer": "Su-Heung Korea",
+    "Customer PO": "NS10261",
+    "Description": "SPIN",
+    "Product": "#0 Capsule",
+    "Shipped": "1990-10-19",
+    "SO #": "S9381"
+  },
+  {
+    "SN": 454,
+    "Customer": "McNeil, Ft. Wash.(P-10)",
+    "Customer PO": "EMF103011",
+    "Description": "FB1",
+    "Product": "Tylenol PM",
+    "Shipped": "1990-10-08",
+    "SO #": "M9414"
+  },
+  {
+    "SN": 456,
+    "Customer": "Bayer, PA",
+    "Customer PO": "M07813",
+    "Description": "FB1 SN 418 INCL B/E",
+    "Product": "Bayer 500",
+    "Shipped": "1990-08-22",
+    "SO #": "S8898"
+  },
+  {
+    "SN": 457,
+    "Customer": "Eli Lilly, PR",
+    "Customer PO": 209309.0,
+    "Description": "BE #2",
+    "Product": "Lovan 60 mg",
+    "Shipped": "1991-02-23",
+    "SO #": "E9286"
+  },
+  {
+    "SN": 458,
+    "Customer": "Eli Lilly, PR",
+    "Customer PO": 209309.0,
+    "Description": "BE #3",
+    "Product": "Lovan 60 mg",
+    "Shipped": "1991-02-23",
+    "SO #": "E9286"
+  },
+  {
+    "SN": 459,
+    "Customer": "Eli Lilly, PR",
+    "Customer PO": 209309.0,
+    "Description": "IC",
+    "Product": "Lovan 60 mg",
+    "Shipped": "1990-10-31",
+    "SO #": "E9286"
+  },
+  {
+    "SN": 461,
+    "Customer": "M&M Mars, TN",
+    "Customer PO": "M069008048",
+    "Description": "30 FARP",
+    "Product": "Slingshot candy",
+    "Shipped": "1990-12-20",
+    "SO #": "M9575"
+  },
+  {
+    "SN": 462,
+    "Customer": "M&M Mars, TN",
+    "Customer PO": "M069008048",
+    "Description": "30 FARP",
+    "Product": "Slingshot candy",
+    "Shipped": "1990-12-20",
+    "SO #": "M9575"
+  },
+  {
+    "SN": 463,
+    "Customer": "Mars, Slough UK",
+    "Customer PO": "RS053477",
+    "Description": "15 FARP",
+    "Product": "plain M&M  123 bars",
+    "Shipped": "1991-02-22",
+    "SO #": "M9637"
+  },
+  {
+    "SN": 464,
+    "Customer": "Warner Lambert, PR",
+    "Customer PO": "VB24074",
+    "Description": "CD2",
+    "Product": "Lopid 600 mg",
+    "Shipped": "1991-06-12",
+    "SO #": "W9705"
+  },
+  {
+    "SN": 465,
+    "Customer": "Warner Lambert, PR",
+    "Customer PO": "VB23668",
+    "Description": "FB1",
+    "Product": "Benadryl D",
+    "Shipped": "1991-02-06",
+    "SO #": "W9573"
+  },
+  {
+    "SN": 466,
+    "Customer": "Nestle, UK",
+    "Customer PO": "LT00858",
+    "Description": "15 FARP",
+    "Product": "Smarties",
+    "Shipped": "1991-02-22",
+    "SO #": "R9678"
+  },
+  {
+    "SN": 472,
+    "Customer": "Bayer, PA",
+    "Customer PO": "M13019",
+    "Description": "CD2",
+    "Product": "PMS",
+    "Shipped": "1991-06-05",
+    "SO #": "S9752"
+  },
+  {
+    "SN": 473,
+    "Customer": "Bayer, PA",
+    "Customer PO": "M13019",
+    "Description": "CD2",
+    "Product": "ASA Bayer 500",
+    "Shipped": "1991-07-08",
+    "SO #": "S9752"
+  },
+  {
+    "SN": 474,
+    "Customer": "Smith Kline PR",
+    "Customer PO": 514028.0,
+    "Description": "30 FARP",
+    "Product": "Ecotrin 325 mg tablet",
+    "Shipped": "1991-06-07",
+    "SO #": "S9795"
+  },
+  {
+    "SN": 475,
+    "Customer": "McNeil Springhouse PA",
+    "Customer PO": 51100.0,
+    "Description": "CR2",
+    "Product": "Floxin 200",
+    "Shipped": "1991-03-18",
+    "SO #": "O9805"
+  },
+  {
+    "SN": 481,
+    "Customer": "Dispergal",
+    "Customer PO": "A Trial 90",
+    "Description": "DELTA SPIN",
+    "Shipped": "1991-02-08",
+    "SO #": "D9677"
+  },
+  {
+    "SN": 483,
+    "Customer": "Nycomed PR",
+    "Customer PO": 910400.0,
+    "Description": "FB1",
+    "Product": "Plaquenil",
+    "Shipped": "1991-04-25",
+    "SO #": "S9802"
+  },
+  {
+    "SN": 484,
+    "Customer": "Sandoz, ExLax PR",
+    "Customer PO": 13080.0,
+    "Description": "30 FARP",
+    "Product": "Ex-Lax unflavored &",
+    "Shipped": "1991-06-04",
+    "SO #": "S9964"
+  },
+  {
+    "SN": 491,
+    "Customer": "M&M Mars, TX",
+    "Customer PO": 70442.0,
+    "Description": "30 FARP",
+    "Product": "Skittles",
+    "Shipped": "1991-07-26",
+    "SO #": "M9994",
+    "Electrical": "USED BASE"
+  },
+  {
+    "SN": 493,
+    "Customer": "Bristol Myers PR",
+    "Customer PO": "D3571",
+    "Description": "30 FARP",
+    "Product": "250 mg Cefprozil",
+    "Shipped": "1991-07-31",
+    "SO #": "B9998"
+  },
+  {
+    "SN": 495,
+    "Customer": "Bristol Myers PR",
+    "Customer PO": "D3572",
+    "Description": "B/E",
+    "Shipped": "1991-11-08",
+    "SO #": "B9999"
+  },
+  {
+    "SN": 496,
+    "Customer": "Banner, CA",
+    "Customer PO": 42104.0,
+    "Description": "CD1",
+    "Product": "Nyquil Capsules",
+    "Shipped": "1991-07-31",
+    "SO #": "B10045"
+  },
+  {
+    "SN": 498,
+    "Customer": "Whitehall, PR",
+    "Customer PO": "WP3604",
+    "Description": "FB1",
+    "Product": "Dristan Allergy caplets",
+    "Shipped": "1991-06-24",
+    "SO #": "W10071"
+  },
+  {
+    "SN": 499,
+    "Customer": "Banner, CA",
+    "Customer PO": 42354.0,
+    "Description": "CD1",
+    "Product": "Softlet product",
+    "Shipped": "1991-10-16",
+    "SO #": "B10135"
+  },
+  {
+    "SN": 500,
+    "Customer": "M&M Mars, TN",
+    "Customer PO": "M070012537",
+    "Description": "30 FARP",
+    "Product": "Slingshot",
+    "Shipped": "1991-09-25",
+    "SO #": "M10160"
+  },
+  {
+    "SN": 505,
+    "Customer": "Syntex, CA (Oread)",
+    "Customer PO": "L034566XG",
+    "Description": "IC",
+    "Shipped": "1991-08-30",
+    "SO #": "S10183",
+    "Electrical": "Extended Height"
+  },
+  {
+    "SN": 506,
+    "Customer": "RP Scherer Germany",
+    "Customer PO": "T924179",
+    "Description": "SPIN, 2 color rectified",
+    "Product": "#1 Caps",
+    "Shipped": "1991-11-06",
+    "SO #": "S10180"
+  },
+  {
+    "SN": 509,
+    "Customer": "A.H. Robbins, VA",
+    "Customer PO": 69252.0,
+    "Description": "FB1",
+    "Product": "Dimetapp E & Tentab",
+    "Shipped": "1991-06-13",
+    "SO #": "R10230"
+  },
+  {
+    "SN": 510,
+    "Customer": "McNeil, PA",
+    "Customer PO": "EPF103206",
+    "Description": "FB1",
+    "Product": "Type \"A\" caplet",
+    "Shipped": "1992-01-08",
+    "SO #": "M10260"
+  },
+  {
+    "SN": 511,
+    "Customer": "Ciba-Geigy UK",
+    "Customer PO": "P076685",
+    "Description": "CD2",
+    "Product": "Slow K   tablet",
+    "Shipped": "1992-02-24",
+    "SO #": "C10303"
+  },
+  {
+    "SN": 515,
+    "Customer": "McNeil, PA. (P-11)",
+    "Customer PO": "EMF147003",
+    "Description": "FB1",
+    "Product": "Tylenol gelcap esg",
+    "Shipped": "1992-01-09",
+    "SO #": "M10361"
+  },
+  {
+    "SN": 516,
+    "Customer": "Warner Lambert, PR",
+    "Customer PO": "VB65968",
+    "Description": "FB2",
+    "Product": "Lopid",
+    "SO #": "W10358"
+  },
+  {
+    "SN": 517,
+    "Customer": "RP Scherer Germany",
+    "Customer PO": "T925761",
+    "Description": "FB1",
+    "Product": "Size #1",
+    "Shipped": "1991-11-12",
+    "SO #": "S10370"
+  },
+  {
+    "SN": 519,
+    "Customer": "Schering Plough, TN",
+    "Customer PO": "R106133",
+    "Description": "30 FARP",
+    "Product": "Regutol",
+    "Shipped": "1991-11-25",
+    "SO #": "S10444",
+    "Electrical": "Originally sold to Jazz"
+  },
+  {
+    "SN": 524,
+    "Customer": "Eli Lilly, Italy",
+    "Customer PO": "0320VM",
+    "Description": "CD2",
+    "Product": "Dynabak",
+    "SO #": "L10396",
+    "Electrical": "Extended Height"
+  },
+  {
+    "SN": 525,
+    "Customer": "McNeil, Springhouse",
+    "Customer PO": 29484.0,
+    "Description": "CR1",
+    "Product": "Floxin 400",
+    "Shipped": "1992-03-13",
+    "SO #": "M10302",
+    "Electrical": "Extended Height"
+  },
+  {
+    "SN": 526,
+    "Customer": "BASF Corp, LA",
+    "Customer PO": "91M360",
+    "Description": "AARP",
+    "Product": "Rufen 800",
+    "Shipped": "1992-03-31",
+    "SO #": "B10481"
+  },
+  {
+    "SN": 527,
+    "Customer": "McNeil, Ft. Wash. (P-12)",
+    "Customer PO": "EMF147004",
+    "Description": "30 FARP",
+    "Product": "Tylenol Cold ND",
+    "Shipped": "1992-05-11",
+    "SO #": "M10435"
+  },
+  {
+    "SN": 529,
+    "Customer": "Ciba Geigy, Switz.",
+    "Customer PO": "07/86.9756",
+    "Description": "CR2",
+    "Product": "Toframil 25 mg",
+    "Shipped": "1992-07-07",
+    "SO #": "C-10557"
+  },
+  {
+    "SN": 531,
+    "Customer": "Syntex, CA (Oread)",
+    "Customer PO": "SL4383X",
+    "Description": "FB2",
+    "Product": "Toradol",
+    "Shipped": "1992-01-31",
+    "SO #": "S-10531"
+  },
+  {
+    "SN": 532,
+    "Customer": "Nestle Canada",
+    "Customer PO": 72794.0,
+    "Description": "15 FARP",
+    "Product": "Smarties",
+    "Shipped": "1992-03-10",
+    "SO #": "N10509"
+  },
+  {
+    "SN": 533,
+    "Customer": "Block Drug, NJ",
+    "Customer PO": "BD4028U",
+    "Description": "CD1",
+    "Product": "Phazyme &Phazyme 95",
+    "Shipped": "1992-07-24",
+    "SO #": "P10529"
+  },
+  {
+    "SN": 534,
+    "Customer": "Ciba-Geigy PR",
+    "Customer PO": "RX408789",
+    "Description": "30 FARP",
+    "Product": "Voltaren 75 & 25 mg",
+    "Shipped": "1992-04-20",
+    "SO #": "C10543"
+  },
+  {
+    "SN": 537,
+    "Customer": "Upjohn, MI",
+    "Customer PO": "C2218",
+    "Description": "30 FARP",
+    "Product": "E-Mycin 250 & 333",
+    "Shipped": "1992-04-26",
+    "SO #": "U10614"
+  },
+  {
+    "SN": 538,
+    "Customer": "McNeil Springhouse PA",
+    "Customer PO": 30752.0,
+    "Description": "AARP",
+    "Product": "Tolectin 600",
+    "Shipped": "1993-01-11",
+    "SO #": "M10628"
+  },
+  {
+    "SN": 539,
+    "Customer": "Burroughs Wellcome",
+    "Customer PO": 610829.0,
+    "Description": "30 FARP",
+    "Product": "Sudafed 30 mg",
+    "Shipped": "1992-04-30",
+    "SO #": "B10650"
+  },
+  {
+    "SN": 540,
+    "Customer": "Burroughs Wellcome",
+    "Customer PO": 3170460.0,
+    "Description": "CR1S",
+    "Product": "sudafeds",
+    "Shipped": "1992-02-12",
+    "SO #": "B10119"
+  },
+  {
+    "SN": 544,
+    "Customer": "M&M Mars, NJ",
+    "Customer PO": 8050542.0,
+    "Description": "15 FARP",
+    "Product": "mini M&M",
+    "Shipped": "1992-05-22",
+    "SO #": "M10784"
+  },
+  {
+    "SN": 546,
+    "Customer": "McNeil, Ft. Wash (P-13)",
+    "Customer PO": "EMF147009",
+    "Description": "FARP",
+    "Product": "C-145, Sine-Aid IB",
+    "Shipped": "1992-06-30",
+    "SO #": "M10831"
+  },
+  {
+    "SN": 547,
+    "Customer": "Su-Heung Korea",
+    "Customer PO": "SH920319",
+    "Description": "SPIN",
+    "Shipped": "1992-07-24",
+    "SO #": "S10839"
+  },
+  {
+    "SN": 548,
+    "Customer": "Su-Heung Korea",
+    "Customer PO": "SH920319",
+    "Description": "SPIN",
+    "Shipped": "1992-07-24",
+    "SO #": "S10839"
+  },
+  {
+    "SN": 549,
+    "Customer": "Eli Lilly, PR",
+    "Customer PO": 7337141.0,
+    "Description": "CR1S",
+    "Product": "Cefaclor 375 mg",
+    "Shipped": "1992-07-31",
+    "SO #": "L10924"
+  },
+  {
+    "SN": 550,
+    "Customer": "Ciba Geigy, NJ",
+    "Customer PO": "SX487008",
+    "Description": "30 FARP",
+    "Product": "Acutrim",
+    "Shipped": "1992-11-30",
+    "SO #": "C10938"
+  },
+  {
+    "SN": 551,
+    "Customer": "Sumitomo Pharma",
+    "Customer PO": "AMH002",
+    "Description": "CR1",
+    "Product": "Film coated caplet",
+    "Shipped": "1993-03-24",
+    "SO #": "H10950"
+  },
+  {
+    "SN": 552,
+    "Customer": "M&M Mars, NJ",
+    "Customer PO": "0112599P",
+    "Description": "15 FARP",
+    "Product": "mini M&M",
+    "Shipped": "1992-07-15",
+    "SO #": "M10956"
+  },
+  {
+    "SN": 553,
+    "Customer": "M&M Mars, NJ",
+    "Customer PO": "0112599P",
+    "Description": "15 FARP",
+    "Product": "mini M&M",
+    "Shipped": "1992-07-15",
+    "SO #": "M10956"
+  },
+  {
+    "SN": 557,
+    "Customer": "Lilly Dista, Spain",
+    "Customer PO": 1468.0,
+    "Description": "CD2",
+    "Product": "Ditromicina",
+    "Shipped": "1992-12-02",
+    "SO #": "D10959"
+  },
+  {
+    "SN": 560,
+    "Customer": "Perrigo Company",
+    "Customer PO": "40568A297",
+    "Description": "30 FARP",
+    "Product": "VCM Caplets",
+    "Shipped": "1992-08-31",
+    "SO #": "P10967"
+  },
+  {
+    "SN": 561,
+    "Customer": "Eli Lilly, Italy",
+    "Customer PO": 10981.0,
+    "Description": "CR1",
+    "Product": "Cefaclor 375 mg",
+    "Shipped": "1992-09-14",
+    "SO #": "L10998"
+  },
+  {
+    "SN": 563,
+    "Customer": "Schering Plough, TN",
+    "Customer PO": "R37860",
+    "Description": "30 FARP",
+    "Product": "Feen a mint",
+    "Shipped": "1992-10-31",
+    "SO #": "S11064"
+  },
+  {
+    "SN": 564,
+    "Customer": "Pfizer, PR",
+    "Customer PO": "PR49343MF",
+    "Description": "FB1",
+    "Product": "#0",
+    "Shipped": "1992-10-13",
+    "SO #": "P11065"
+  },
+  {
+    "SN": 565,
+    "Customer": "McNeil, Ft. Wash. (P-14)",
+    "Customer PO": "EMF147013",
+    "Description": "FARP",
+    "Product": "Tylenol Geltab",
+    "Shipped": "1992-11-23",
+    "SO #": "M11077"
+  },
+  {
+    "SN": 566,
+    "Customer": "Banner, CA",
+    "Customer PO": 45342.0,
+    "Description": "CR1",
+    "Product": "Softlet",
+    "Shipped": "1992-08-31",
+    "SO #": "B11080"
+  },
+  {
+    "SN": 567,
+    "Customer": "Stock",
+    "Customer PO": "stock",
+    "Description": "CR1",
+    "Product": "stock"
+  },
+  {
+    "SN": 568,
+    "Customer": "Ohm Labs, NJ",
+    "Customer PO": 2161.0,
+    "Description": "30 FARP",
+    "Product": "IBU 200  tablet",
+    "Shipped": "1992-10-30",
+    "SO #": "O11119"
+  },
+  {
+    "SN": 569,
+    "Customer": "Eli Lilly, Ind",
+    "Customer PO": "BK11092FT",
+    "Description": "CR1S",
+    "Product": "Dynabac",
+    "Shipped": "1993-02-05",
+    "SO #": "L11157"
+  },
+  {
+    "SN": 570,
+    "Customer": "Whitehall, NJ",
+    "Customer PO": "WH1099",
+    "Description": "30 FARP",
+    "Product": "Advil",
+    "Shipped": "1993-02-15",
+    "SO #": "W11164"
+  },
+  {
+    "SN": 574,
+    "Customer": "Mars, France",
+    "Customer PO": 4418.0,
+    "Description": "30 FARP",
+    "Product": "Peanut M&M",
+    "Shipped": "1992-12-16",
+    "SO #": "M11173"
+  },
+  {
+    "SN": 575,
+    "Customer": "McNeil, PA",
+    "Customer PO": "EMF105036",
+    "Description": "30 FARP",
+    "Product": "Geltab",
+    "Shipped": "1992-12-31",
+    "SO #": "M11200"
+  },
+  {
+    "SN": 578,
+    "Customer": "McNeil, Springhouse",
+    "Customer PO": 32698.0,
+    "Description": "CR1",
+    "Product": "Floxin 400",
+    "Shipped": "1993-01-11",
+    "SO #": "M11237"
+  },
+  {
+    "SN": 581,
+    "Customer": "Nestle Germany",
+    "Customer PO": 57011.0,
+    "Description": "15 FARP",
+    "Product": "Gruesome Greenies",
+    "Shipped": "1993-01-18",
+    "SO #": "N11249"
+  },
+  {
+    "SN": 582,
+    "Customer": "Technophar, Canada",
+    "Customer PO": 3391.0,
+    "Description": "SPIN",
+    "Product": "Size #1 Capsule",
+    "Shipped": "1993-02-10",
+    "SO #": "T11279"
+  },
+  {
+    "SN": 583,
+    "Customer": "Warner Lambert, NJ",
+    "Customer PO": "34693W",
+    "Description": "CD2",
+    "Product": "Lopid   PD737",
+    "Shipped": "1993-05-11",
+    "SO #": "W11310"
+  },
+  {
+    "SN": 585,
+    "Customer": "Bayer, PA",
+    "Customer PO": "M61149",
+    "Description": "CD2",
+    "Product": "Bayer Select",
+    "Shipped": "1993-03-25",
+    "SO #": "S11342"
+  },
+  {
+    "SN": 586,
+    "Customer": "Bayer, PA",
+    "Customer PO": "M61149",
+    "Description": "CD2",
+    "Product": "Bayer Select",
+    "Shipped": "1993-03-31",
+    "SO #": "S11342"
+  },
+  {
+    "SN": 590,
+    "Customer": "Lilly, UK",
+    "Customer PO": "LCBAS01300952",
+    "Description": "CR1",
+    "Product": "Dirithromicin",
+    "Shipped": "1993-06-19",
+    "SO #": "L11363"
+  },
+  {
+    "SN": 592,
+    "Customer": "Sterling, Panama",
+    "Customer PO": 18048216.0,
+    "Description": "CD1",
+    "Product": "Panadol 500 caplet",
+    "Shipped": "1993-05-08",
+    "SO #": "S11371"
+  },
+  {
+    "SN": 595,
+    "Customer": "McNeil, PA (P-15)",
+    "Customer PO": "EPF106037",
+    "Description": "FARP",
+    "Product": "Tylenol Flu gelcap",
+    "Shipped": "1993-03-31",
+    "SO #": "M11388"
+  },
+  {
+    "SN": 596,
+    "Customer": "BASF Corp, LA",
+    "Customer PO": "92M5280",
+    "Description": "30 FARP",
+    "Product": "Ruffen 600 mg",
+    "Shipped": "1993-05-08",
+    "SO #": "B11390"
+  },
+  {
+    "SN": 598,
+    "Customer": "Whitehall, NJ",
+    "Customer PO": "WH3518",
+    "Description": "30 FARP",
+    "Product": "Advil tablet",
+    "Shipped": "1993-04-30",
+    "SO #": "W11514"
+  },
+  {
+    "SN": 599,
+    "Customer": "Warner Lambert, PR",
+    "Customer PO": "VB94732",
+    "Description": "AARP",
+    "Product": "Procan 250",
+    "Shipped": "1993-06-24",
+    "SO #": "W11522"
+  },
+  {
+    "SN": 603,
+    "Customer": "Bayer, PA",
+    "Customer PO": "M62112",
+    "Description": "FB2",
+    "Product": "Bayer Select",
+    "Shipped": "1993-08-24",
+    "SO #": "S11552"
+  },
+  {
+    "SN": 605,
+    "Customer": "Bayer, PA",
+    "Customer PO": "M26112",
+    "Description": "B/E",
+    "Shipped": "1993-08-24",
+    "SO #": "S11552"
+  },
+  {
+    "SN": 610,
+    "Customer": "McNeil, PA",
+    "Customer PO": "EPF106806",
+    "Description": "FB1",
+    "Product": "Tylenol PM caplet",
+    "Shipped": "1993-08-04",
+    "SO #": "M11616"
+  },
+  {
+    "SN": 611,
+    "Customer": "Solvay  Pharma",
+    "Customer PO": 1567.0,
+    "Description": "CR1",
+    "Product": "Estratab",
+    "Shipped": "1993-12-31",
+    "SO #": "S11617"
+  },
+  {
+    "SN": 615,
+    "Customer": "Parke Davis, Aust.",
+    "Customer PO": 5719.0,
+    "Description": "CD2",
+    "Product": "Lopid tablet",
+    "Shipped": "1993-11-10",
+    "SO #": "P11649"
+  },
+  {
+    "SN": 616,
+    "Customer": "McNeil, PA",
+    "Customer PO": "EPF107306",
+    "Description": "FB1",
+    "Product": "Tylenol 500 gelcap",
+    "Shipped": "1993-05-26",
+    "SO #": "M11695"
+  },
+  {
+    "SN": 617,
+    "Customer": "Pharmaphil, CAN",
+    "Customer PO": "91P0104",
+    "Description": "FB1",
+    "Shipped": "1993-08-20",
+    "SO #": "P11681"
+  },
+  {
+    "SN": 618,
+    "Customer": "Pharmaphil, CAN",
+    "Customer PO": "91P0104",
+    "Description": "FB1",
+    "Shipped": "1993-08-20",
+    "SO #": "P11681"
+  },
+  {
+    "SN": 619,
+    "Customer": "Pharmaphil, CAN",
+    "Customer PO": "91P0104",
+    "Description": "FB",
+    "Shipped": "1993-08-20",
+    "SO #": "P11681"
+  },
+  {
+    "SN": 623,
+    "Customer": "Su-Heung Korea",
+    "Customer PO": "M0201",
+    "Description": "SPIN",
+    "Product": "capsules",
+    "Shipped": "1993-11-10",
+    "SO #": "S11712"
+  },
+  {
+    "SN": 625,
+    "Customer": "Pharmaphil, CAN",
+    "Customer PO": "91P0126",
+    "Description": "FB 10 ROW SPIN",
+    "Shipped": "1993-08-20",
+    "SO #": "P11739"
+  },
+  {
+    "SN": 629,
+    "Customer": "Intercaps",
+    "Customer PO": "IPI93031",
+    "Description": "CANTILEVER SPIN, PRINTER",
+    "Product": "#0 color",
+    "Shipped": "1993-11-09",
+    "SO #": "I11803"
+  },
+  {
+    "SN": 633,
+    "Customer": "M&M Mars, NJ",
+    "Customer PO": "HM17865P",
+    "Description": "AARP",
+    "Product": "mini M&M",
+    "Shipped": "1993-08-11",
+    "SO #": "M11825"
+  },
+  {
+    "SN": 635,
+    "Customer": "Custom Pharma, CAN",
+    "Customer PO": "P030160",
+    "Description": "AARP",
+    "Product": "Bayer Plus",
+    "Shipped": "12/3193",
+    "SO #": "C11858"
+  },
+  {
+    "SN": 637,
+    "Customer": "Warner Chilcott-PA",
+    "Customer PO": "703931B",
+    "Description": "CR1",
+    "Product": "Benadryl",
+    "Shipped": "1993-11-22",
+    "SO #": "W11922"
+  },
+  {
+    "SN": 638,
+    "Customer": "Sterling, Dom Rep.",
+    "Customer PO": "MISC129",
+    "Description": "CD1",
+    "Product": "Panadol 500",
+    "Shipped": "1993-12-31",
+    "SO #": "S11899"
+  },
+  {
+    "SN": 643,
+    "Customer": "Alza Corporation",
+    "Customer PO": "4233708M",
+    "Description": "CR1",
+    "Product": "Tagamet-CR 600 tab",
+    "Shipped": "1993-11-30",
+    "SO #": "A11978"
+  },
+  {
+    "SN": 647,
+    "Customer": "McNeil, PA",
+    "Customer PO": "EPF108363",
+    "Description": "FB1",
+    "Product": "Tylenol PM",
+    "Shipped": "1994-03-04",
+    "SO #": "M12077"
+  },
+  {
+    "SN": 649,
+    "Customer": "Alza Corporation",
+    "Customer PO": "4390408V4",
+    "Description": "CR1",
+    "Product": "GLIP 5mg",
+    "Shipped": "1994-01-24",
+    "SO #": "A12098"
+  },
+  {
+    "SN": 654,
+    "Customer": "Eli Lilly, PR",
+    "Customer PO": "J0000243CM",
+    "Description": "CD2",
+    "Product": "Lanzac",
+    "Shipped": "1994-12-31",
+    "SO #": "L12201"
+  },
+  {
+    "SN": 659,
+    "Customer": "Sterling Drug, Malaysia",
+    "Customer PO": "MC0147",
+    "Description": "VIPII 2",
+    "Product": "Pandol",
+    "Shipped": "1994-09-08",
+    "SO #": "S12238"
+  },
+  {
+    "SN": 660,
+    "Customer": "Cilag, Portugal",
+    "Customer PO": 258008873.0,
+    "Description": "DELTA",
+    "Product": "Tylex",
+    "Shipped": "1994-09-14",
+    "SO #": "C12243"
+  },
+  {
+    "SN": 663,
+    "Customer": "M&M Mars, NJ",
+    "Customer PO": "HM20034P",
+    "Description": "AARP",
+    "Product": "PlainM&M, rental",
+    "Shipped": "1994-04-06",
+    "SO #": "M12033"
+  },
+  {
+    "SN": 664,
+    "Customer": "Astra, Sweden",
+    "Customer PO": "T1239534",
+    "Description": "DP2",
+    "Product": "Losec",
+    "Shipped": "1994-10-25",
+    "SO #": "A12329"
+  },
+  {
+    "SN": 667,
+    "Customer": "M&M Mars, NJ",
+    "Customer PO": "HM21255P",
+    "Description": "15 FARP",
+    "Product": "mini M&M",
+    "Shipped": "1994-04-08",
+    "SO #": "M12349"
+  },
+  {
+    "SN": 668,
+    "Customer": "McNeil, PA (P-16)",
+    "Customer PO": "EPF109423",
+    "Description": "AARP",
+    "Product": "Medipren",
+    "Shipped": "1994-05-19",
+    "SO #": "M12393"
+  },
+  {
+    "SN": 670,
+    "Customer": "RP Scherer Germany",
+    "Customer PO": "TB9500110",
+    "Description": "SPIN",
+    "Product": "#3 Hard gel-caps",
+    "Shipped": "1994-09-27",
+    "SO #": "S12398"
+  },
+  {
+    "SN": 671,
+    "Customer": "Marion Merrell Dow",
+    "Customer PO": 323752.0,
+    "Description": "CD2",
+    "Product": "Anzamet  100 and 200",
+    "Shipped": "1994-12-12",
+    "SO #": "M12396"
+  },
+  {
+    "SN": 673,
+    "Customer": "Amurol Products Co.",
+    "Customer PO": 46271.0,
+    "Description": "GP",
+    "Product": "slab gum check book",
+    "Shipped": "1994-10-06",
+    "SO #": "A12397"
+  },
+  {
+    "SN": 675,
+    "Customer": "CFC Corp.",
+    "Customer PO": "EO9159229",
+    "Description": "CR1S",
+    "Product": "sugar coated Dragees",
+    "Shipped": "1994-06-30",
+    "SO #": "C12474"
+  },
+  {
+    "SN": 678,
+    "Customer": "Mars, Slough UK",
+    "Customer PO": 152831.0,
+    "Description": "AARP",
+    "Product": "Skittles, 163 bars, Circ regstr",
+    "Shipped": "1994-10-10",
+    "SO #": "M12554"
+  },
+  {
+    "SN": 679,
+    "Customer": "Merck Frosst, CAN",
+    "Customer PO": 138316.0,
+    "Description": "CR1",
+    "Product": "Diltiazem 120 mg",
+    "Shipped": "1994-10-10",
+    "SO #": "M12573"
+  },
+  {
+    "SN": 684,
+    "Customer": "Upjohn, MI",
+    "Customer PO": "C3751",
+    "Description": "AARP",
+    "Product": "Motrin IB 200",
+    "Shipped": "1994-12-31",
+    "SO #": "U12583"
+  },
+  {
+    "SN": 687,
+    "Customer": "M&M Mars, PA",
+    "Customer PO": "EM24866",
+    "Description": "CR1",
+    "Product": "Astro & Mini Astro",
+    "Shipped": "1994-11-02",
+    "SO #": "M12585"
+  },
+  {
+    "SN": 688,
+    "Customer": "McNeil, PR",
+    "Customer PO": "EPF109984",
+    "Description": "AARP",
+    "Product": "Immodium",
+    "Shipped": "1994-12-31",
+    "SO #": "M12639"
+  },
+  {
+    "SN": 689,
+    "Customer": "Alza Corporation",
+    "Customer PO": "6602103VV",
+    "Description": "CD2",
+    "Product": "Dynacirc CR 10mg",
+    "Shipped": "1995-01-31",
+    "SO #": "A12636"
+  },
+  {
+    "SN": 691,
+    "Customer": "Syntex, PR",
+    "Customer PO": "FP45101",
+    "Description": "CD2",
+    "Product": "Mecofenolate caplet",
+    "Shipped": "1994-10-31",
+    "SO #": "S12649"
+  },
+  {
+    "SN": 692,
+    "Customer": "Pharmavite, CA",
+    "Customer PO": "M70172",
+    "Description": "AARP",
+    "Product": "Protegra CP's",
+    "Shipped": "1994-11-14",
+    "SO #": "P12672"
+  },
+  {
+    "SN": 695,
+    "Customer": "Syntex Latino",
+    "Customer PO": "AF268294",
+    "Description": "3 drum",
+    "Product": "Naproxen EC 250",
+    "Shipped": "1994-12-31",
+    "SO #": "S12738"
+  },
+  {
+    "SN": 697,
+    "Customer": "Meiji Seika",
+    "Customer PO": "T03MS",
+    "Description": "VIPII 2",
+    "Product": "candy",
+    "Shipped": "1995-05-23",
+    "SO #": "H13097"
+  },
+  {
+    "SN": 698,
+    "Customer": "M&M Mars, NJ",
+    "Customer PO": "HM20313P",
+    "Description": "15 FARP",
+    "Product": "mini M&M",
+    "Shipped": "1994-12-31",
+    "SO #": "M12816"
+  },
+  {
+    "SN": 701,
+    "Customer": "Burroughs Wellcome",
+    "Customer PO": 862872.0,
+    "Description": "AARP",
+    "Product": "Base only",
+    "Shipped": "1995-02-20",
+    "SO #": "B12886"
+  },
+  {
+    "SN": 703,
+    "Customer": "M&M Mars, PA",
+    "Customer PO": "EM27340A",
+    "Description": "CR1",
+    "Product": "Astro & Mini Astro",
+    "Shipped": "1995-03-21",
+    "SO #": "M12894"
+  },
+  {
+    "SN": 711,
+    "Customer": "M&M Mars, NJ",
+    "Customer PO": "HM21710P",
+    "Description": "15 FARP",
+    "Product": "mini M&M",
+    "Shipped": "1994-12-31",
+    "SO #": "M12723"
+  },
+  {
+    "SN": 712,
+    "Customer": "Burroughs Wellcome",
+    "Customer PO": 867738.0,
+    "Description": "AARP",
+    "Shipped": "1995-03-31",
+    "SO #": "B12966"
+  },
+  {
+    "SN": 718,
+    "Customer": "Godecke/Parke Davis",
+    "Customer PO": 60474646.0,
+    "Description": "CR1S",
+    "Product": "Ponstan Forte tablet",
+    "Shipped": "1995-10-25",
+    "SO #": "G13080"
+  },
+  {
+    "SN": 719,
+    "Customer": "Banner, CA",
+    "Customer PO": 42931.0,
+    "Description": "AARP",
+    "Shipped": "1995-05-19",
+    "SO #": "B13079"
+  },
+  {
+    "SN": 721,
+    "Customer": "Amurol Products Co.",
+    "Customer PO": 51198.0,
+    "Description": "GP",
+    "Product": "Magic Eye",
+    "Shipped": "1995-12-14",
+    "SO #": "A13159"
+  },
+  {
+    "SN": 723,
+    "Customer": "RP Scherer Germany",
+    "Customer PO": "TB9509882",
+    "Description": "SPIN",
+    "Product": "Size #2 capsules",
+    "Shipped": "1995-09-11",
+    "SO #": "S13105"
+  },
+  {
+    "SN": 726,
+    "Customer": "Pfizer, NY",
+    "Customer PO": "B68912C",
+    "Description": "AARP",
+    "Product": "Glucotrol",
+    "Shipped": "1995-06-29",
+    "SO #": "P13198"
+  },
+  {
+    "SN": 730,
+    "Customer": "Whitehall-Robins, PR",
+    "Customer PO": 936803.0,
+    "Description": "AARP",
+    "Product": "Nitzatidine",
+    "Shipped": "1995-08-18",
+    "SO #": "W13226"
+  },
+  {
+    "SN": 732,
+    "Customer": "Ayerst-Wyeth, PR",
+    "Customer PO": 492187.0,
+    "Description": "CR1S",
+    "Product": "Lodine",
+    "Shipped": "1995-08-10",
+    "SO #": "A13242"
+  },
+  {
+    "SN": 741,
+    "Customer": "Hoffman La Roche, NJ",
+    "Customer PO": "NEPY30362",
+    "Description": "DP2",
+    "Product": "caplet",
+    "Shipped": "7/00/96",
+    "SO #": "H13419"
+  },
+  {
+    "SN": 742,
+    "Customer": "Bayer, PA",
+    "Customer PO": "G1322RA44",
+    "Description": "AARP",
+    "Product": "Bayer",
+    "Shipped": "1995-12-15",
+    "SO #": "B13451"
+  },
+  {
+    "SN": 752,
+    "Customer": "Chupa Chups",
+    "Customer PO": "LOC",
+    "Description": "GP",
+    "Product": "gumballs",
+    "Shipped": "1996-02-29",
+    "SO #": "C13593"
+  },
+  {
+    "SN": 757,
+    "Customer": "OPW, Germany",
+    "Customer PO": 71045014477.0,
+    "Description": "AARP",
+    "Product": "P 40",
+    "Shipped": "1996-04-27",
+    "SO #": "O13794"
+  },
+  {
+    "SN": 758,
+    "Customer": "Norton Gelkaps,GmbH",
+    "Customer PO": 960030.0,
+    "Description": "VIPII 1",
+    "Product": "softgels",
+    "Shipped": "1996-03-31",
+    "SO #": "N13724"
+  },
+  {
+    "SN": 766,
+    "Customer": "Wyeth Medica, Ireland",
+    "Customer PO": 401.0,
+    "Description": "AARP",
+    "Product": "Premarin 0.625 tablet",
+    "Shipped": "1996-06-22",
+    "SO #": "W13799"
+  },
+  {
+    "SN": 767,
+    "Customer": "Wyeth Medica, Ireland",
+    "Customer PO": 401.0,
+    "Description": "AARP",
+    "Product": "Premarin  1.25 tablet",
+    "Shipped": "1996-06-22",
+    "SO #": "W13799"
+  },
+  {
+    "SN": 775,
+    "Customer": "Technophar, Canada",
+    "Customer PO": 3183.0,
+    "Description": "SPIN PRINT,CANT. 3 ROW",
+    "Product": "capsules",
+    "Shipped": "1996-06-30",
+    "SO #": "T13817"
+  },
+  {
+    "SN": 780,
+    "Customer": "Astra, Sweden",
+    "Customer PO": "T611012AB",
+    "Description": "DP2",
+    "Product": "Losec 20",
+    "Shipped": "1996-09-30",
+    "SO #": "A13825"
+  },
+  {
+    "SN": 781,
+    "Customer": "Gelcaps, Pakistan",
+    "Customer PO": "0001/96/0931",
+    "Description": "FB1",
+    "Product": "#0 and #00 caps",
+    "Shipped": "1996-07-27",
+    "SO #": "G13887"
+  },
+  {
+    "SN": 782,
+    "Customer": "Gelcaps, Pakistan",
+    "Customer PO": "0001/96/0931",
+    "Description": "FB1",
+    "Product": "Hardshell caps 1 & 2",
+    "Shipped": "1996-07-27",
+    "SO #": "G13887"
+  },
+  {
+    "SN": 783,
+    "Customer": "Su-Heung Korea",
+    "Customer PO": "SHMS96050601",
+    "Description": "FB2",
+    "Product": "1 capsules",
+    "Shipped": "1996-10-10",
+    "SO #": "S13910"
+  },
+  {
+    "SN": 784,
+    "Customer": "Su-Heung Korea",
+    "Customer PO": "SHMS96050601",
+    "Description": "Spin PRINT, FB 2 COLOR",
+    "Product": "#00 capsules",
+    "Shipped": "1996-10-10",
+    "SO #": "S13910"
+  },
+  {
+    "SN": 785,
+    "Customer": "Amurol Products Co.",
+    "Customer PO": 4500002830.0,
+    "Description": "GP",
+    "Product": "slab gum",
+    "Shipped": "1996-09-19",
+    "SO #": "A13919"
+  },
+  {
+    "SN": 792,
+    "Customer": "Wyeth, Italy",
+    "Customer PO": 46236.0,
+    "Description": "AARP",
+    "Product": "Advil",
+    "Shipped": "1996-11-27",
+    "SO #": "W14068"
+  },
+  {
+    "SN": 795,
+    "Customer": "ACKLEY",
+    "Customer PO": "EMA",
+    "Description": "DP2",
+    "Product": "01281-00002",
+    "Shipped": "AMC",
+    "SO #": "A14107"
+  },
+  {
+    "SN": 799,
+    "Customer": "Abbott, PR",
+    "Customer PO": "P26P04874",
+    "Description": "AARP",
+    "Shipped": "1996-12-31",
+    "SO #": "A14202"
+  },
+  {
+    "SN": 801,
+    "Customer": "Glaxo, NC",
+    "Customer PO": 815842.0,
+    "Description": "AARP",
+    "Product": "Wellbutrin",
+    "Shipped": "1996-12-31",
+    "SO #": "G14246"
+  },
+  {
+    "SN": 803,
+    "Customer": "Mars, Australia",
+    "Customer PO": "ENG10175",
+    "Description": "AARP",
+    "Product": "Skittles",
+    "Shipped": "1996-11-27",
+    "SO #": "M14049"
+  },
+  {
+    "SN": 806,
+    "Customer": "RP Scherer, Florida",
+    "Customer PO": "S07447",
+    "Description": "AARP",
+    "Product": "#10 softgel capsules",
+    "Shipped": "1997-02-28",
+    "SO #": "S14272"
+  },
+  {
+    "SN": 807,
+    "Customer": "Su-Heung, Korea",
+    "Customer PO": "SHMS961119",
+    "Description": "FB1",
+    "Product": "#1 capsule",
+    "Shipped": "1997-03-31",
+    "SO #": "S14261"
+  },
+  {
+    "SN": 812,
+    "Customer": "Eli Lilly, PR",
+    "Customer PO": "J0002402-01",
+    "Description": "AARP",
+    "Product": "Raloxifene",
+    "Shipped": "1997-03-07",
+    "SO #": "L14298"
+  },
+  {
+    "SN": 815,
+    "Customer": "M&M Mars, RUSSIA",
+    "Customer PO": "VM98575",
+    "Description": "AARP",
+    "Product": "Peanut M&M",
+    "Shipped": "1997-05-08",
+    "SO #": "M14388"
+  },
+  {
+    "SN": 816,
+    "Customer": "Key Tech/Scherer FL",
+    "Customer PO": "EMA",
+    "Description": "IC",
+    "Shipped": "xxxx",
+    "SO #": "K14406"
+  },
+  {
+    "SN": 819,
+    "Customer": "Hoffman La Roche, NJ",
+    "Customer PO": "NEPY30998",
+    "Description": "AARP",
+    "Product": "soft gels, Accutane products",
+    "Shipped": "1997-10-21",
+    "SO #": "H14485"
+  },
+  {
+    "SN": 824,
+    "Customer": "Novopharm NC",
+    "Customer PO": 95281.0,
+    "Description": "CD1",
+    "Shipped": "1997-07-29",
+    "SO #": "N14516"
+  },
+  {
+    "SN": 828,
+    "Customer": "Nestle, UK",
+    "Customer PO": "Y200392",
+    "Description": "AARP",
+    "Product": "smarties candy",
+    "Shipped": "1997-06-03",
+    "SO #": "N14542"
+  },
+  {
+    "SN": 830,
+    "Customer": "M&M Mars, TN",
+    "Customer PO": "VMP31275",
+    "Description": "AARP",
+    "Product": "starburst jellybeans",
+    "Shipped": "1997-05-07",
+    "SO #": "M14562"
+  },
+  {
+    "SN": 831,
+    "Customer": "M&M Mars, TN",
+    "Customer PO": "VMP31275",
+    "Assembly No.": "01481-00029",
+    "Description": "AARP",
+    "Product": "starburst jellybeans",
+    "Shipped": "1997-05-08",
+    "SO #": "M14562"
+  },
+  {
+    "SN": 832,
+    "Customer": "M&M Mars, TN",
+    "Customer PO": "VMP31275",
+    "Assembly No.": "01481-00030",
+    "Description": "AARP",
+    "Product": "starburst jellybeans",
+    "Shipped": "1997-05-30",
+    "SO #": "M14562"
+  },
+  {
+    "SN": 833,
+    "Customer": "Schein  Pharma, NY",
+    "Customer PO": 970750.0,
+    "Description": "CR1",
+    "Product": "Ranitidine",
+    "Shipped": "1997-06-26",
+    "SO #": "S14560"
+  },
+  {
+    "SN": 839,
+    "Customer": "Central/Schwarz Pharm",
+    "Customer PO": 30038.0,
+    "Description": "VIPII 1S",
+    "Product": "KU 126 & 127 tablets",
+    "Shipped": "1997-07-11",
+    "SO #": "C14596"
+  },
+  {
+    "SN": 841,
+    "Customer": "Bayer, PA",
+    "Customer PO": "G6147RA44",
+    "Description": "B/E",
+    "Product": "liquid gelfills",
+    "Shipped": "1997-07-29",
+    "SO #": "B14304"
+  },
+  {
+    "SN": 843,
+    "Customer": "Mars, France",
+    "Customer PO": 45056089.0,
+    "Description": "15 FARP",
+    "Product": "mini M&M",
+    "Shipped": "1997-07-29",
+    "SO #": "M14590"
+  },
+  {
+    "SN": 844,
+    "Customer": "Fisherman",
+    "Customer PO": "ACK-V-22",
+    "Description": "VIPII 1",
+    "Product": "oblong softgel",
+    "Shipped": "1997-09-30",
+    "SO #": "F14659"
+  },
+  {
+    "SN": 846,
+    "Customer": "Wyeth Ayerst, NY",
+    "Customer PO": 657206.0,
+    "Assembly No.": "01481-00031",
+    "Description": "AARP",
+    "Product": "Prempro",
+    "Shipped": "1997-10-06",
+    "SO #": "W14678"
+  },
+  {
+    "SN": 849,
+    "Customer": "Elmer Candy, LA",
+    "Customer PO": 18595.0,
+    "Description": "FB1",
+    "Product": "Candy Hearts",
+    "Shipped": "xxxxx",
+    "SO #": "E14713"
+  },
+  {
+    "SN": 850,
+    "Customer": "Searle, PR",
+    "Customer PO": "P975817",
+    "Description": "AARP",
+    "Product": "Daypro caplet",
+    "Shipped": "1998-02-27",
+    "SO #": "S14709"
+  },
+  {
+    "SN": 851,
+    "Customer": "M&M Mars, NJ",
+    "Customer PO": "HM3309P",
+    "Description": "15 FARP",
+    "Product": "no print unit",
+    "Shipped": "1997-09-29",
+    "SO #": "M14729"
+  },
+  {
+    "SN": 853,
+    "Customer": "Schering, NJ",
+    "Customer PO": 211136.0,
+    "Description": "AARP",
+    "Product": "Claritin D 24 hour",
+    "Shipped": "1997-12-19",
+    "SO #": "S14822"
+  },
+  {
+    "SN": 855,
+    "Customer": "M&M Mars, TN",
+    "Customer PO": "VMP31916",
+    "Description": "30 FARP",
+    "Product": "crispy candies",
+    "Shipped": "1997-10-27",
+    "SO #": "M14817"
+  },
+  {
+    "SN": 856,
+    "Customer": "M&M Mars, TN",
+    "Customer PO": "VMP31916",
+    "Description": "30 FARP",
+    "Product": "crispy candies",
+    "Shipped": "1997-11-25",
+    "SO #": "M14817"
+  },
+  {
+    "SN": 857,
+    "Customer": "M&M Mars, TN",
+    "Customer PO": "VMP31916",
+    "Description": "30 FARP",
+    "Product": "crispy candies",
+    "Shipped": "1997-10-27",
+    "SO #": "M14817"
+  },
+  {
+    "SN": 858,
+    "Customer": "M&M Mars, TN",
+    "Customer PO": "VMP31916",
+    "Description": "30 FARP",
+    "Product": "crispy candies",
+    "Shipped": "1997-11-25",
+    "SO #": "M14817"
+  },
+  {
+    "SN": 859,
+    "Customer": "Perrigo, MI",
+    "Customer PO": 1064511.0,
+    "Description": "AARP",
+    "Product": "gel enrobed tab \"L187\"",
+    "Shipped": "1997-11-08",
+    "SO #": "P14829"
+  },
+  {
+    "SN": 861,
+    "Customer": "Pharma Formulations NJ",
+    "Customer PO": 70426.0,
+    "Description": "AARP",
+    "Product": "caplets and tablets",
+    "Shipped": "1997-12-30",
+    "SO #": "P14881"
+  },
+  {
+    "SN": 867,
+    "Customer": "Buildmore, for SCPC",
+    "Customer PO": "ACK-VM-21-97",
+    "Description": "VIPII 2S",
+    "Product": "film-coated tablets",
+    "Shipped": "1997-11-21",
+    "SO #": "B14903"
+  },
+  {
+    "SN": 868,
+    "Customer": "M&M Mars, NJ",
+    "Customer PO": "HM33392P",
+    "Description": "15 FARP",
+    "Product": "mini M&M",
+    "Shipped": "1997-12-16",
+    "SO #": "M14925"
+  },
+  {
+    "SN": 869,
+    "Customer": "M&M Mars, TN",
+    "Customer PO": "VMP32304",
+    "Description": "30 FARP",
+    "Product": "Peanut M&M",
+    "Shipped": "1997-12-30",
+    "SO #": "M14977"
+  },
+  {
+    "SN": 870,
+    "Customer": "Dansk, Denmark",
+    "Customer PO": "2830/PCH",
+    "Description": "AARP",
+    "Product": "s/c gum tabs",
+    "Shipped": "1997-12-30",
+    "SO #": "D14985"
+  },
+  {
+    "SN": 871,
+    "Customer": "Meiji-Higuchi",
+    "Customer PO": "ACK015",
+    "Description": "AARP",
+    "Product": "candy",
+    "Shipped": "1998-03-30",
+    "SO #": "H14995"
+  },
+  {
+    "SN": 872,
+    "Customer": "Mars Czech",
+    "Customer PO": 10036.0,
+    "Description": "AARP",
+    "Product": "Starburst Jellybeans",
+    "Shipped": "1997-12-31",
+    "SO #": "M15028"
+  },
+  {
+    "SN": 873,
+    "Customer": "Mars Czech",
+    "Customer PO": 10036.0,
+    "Description": "AARP",
+    "Product": "Starburst Jellybeans",
+    "Shipped": "1997-12-31",
+    "SO #": "M15028"
+  },
+  {
+    "SN": 876,
+    "Customer": "Roche Products, UK",
+    "Customer PO": 4500014062.0,
+    "Description": "VIPII 2",
+    "Product": "cellcept caplets",
+    "Shipped": "1998-02-27",
+    "SO #": "R15057"
+  },
+  {
+    "SN": 878,
+    "Customer": "PMRS, PA",
+    "Customer PO": "P00860",
+    "Description": "VIPII 2",
+    "Product": "enteric coated caplets",
+    "Shipped": "1998-05-26",
+    "SO #": "P15055"
+  },
+  {
+    "SN": 881,
+    "Customer": "M&M Mars, NJ",
+    "Customer PO": "HM20433",
+    "Description": "30 FARP",
+    "Shipped": "1998-03-31",
+    "SO #": "M15064"
+  },
+  {
+    "SN": 882,
+    "Customer": "M&M Mars, NJ",
+    "Customer PO": "HM20433",
+    "Description": "30 FARP",
+    "Shipped": "1998-03-31",
+    "SO #": "M15064"
+  },
+  {
+    "SN": 883,
+    "Customer": "M&M Mars, NJ",
+    "Customer PO": "HM20433",
+    "Description": "30 FARP",
+    "Shipped": "1998-03-31",
+    "SO #": "M15064"
+  },
+  {
+    "SN": 884,
+    "Customer": "M&M Mars, NJ",
+    "Customer PO": "HM20433",
+    "Description": "30 FARP",
+    "Shipped": "1998-03-31",
+    "SO #": "M15064"
+  },
+  {
+    "SN": 885,
+    "Customer": "M&M Mars, NJ",
+    "Customer PO": "HM20433",
+    "Description": "30 FARP",
+    "Shipped": "1998-03-31",
+    "SO #": "M15064"
+  },
+  {
+    "SN": 886,
+    "Customer": "M&M Mars, NJ",
+    "Customer PO": "HM20433",
+    "Description": "30 FARP",
+    "Shipped": "1998-04-30",
+    "SO #": "M15064"
+  },
+  {
+    "SN": 887,
+    "Customer": "M&M Mars, NJ",
+    "Customer PO": "HM20433",
+    "Description": "30 FARP",
+    "Shipped": "1998-04-30",
+    "SO #": "M15064"
+  },
+  {
+    "SN": 888,
+    "Customer": "M&M Mars, NJ",
+    "Customer PO": "HM20433",
+    "Description": "30 FARP",
+    "Shipped": "1998-04-30",
+    "SO #": "M15064"
+  },
+  {
+    "SN": 889,
+    "Customer": "M&M Mars, NJ",
+    "Customer PO": "HM20433",
+    "Description": "30 FARP",
+    "Shipped": "1998-04-30",
+    "SO #": "M15064"
+  },
+  {
+    "SN": 890,
+    "Customer": "M&M Mars, NJ",
+    "Customer PO": "HM20433",
+    "Description": "30 FARP",
+    "Shipped": "1998-04-30",
+    "SO #": "M15064"
+  },
+  {
+    "SN": 891,
+    "Customer": "M&M Mars, TN",
+    "Customer PO": "VMP32686",
+    "Assembly No.": "01461-00047",
+    "Description": "30 FARP",
+    "Product": "Starburst Jellybeans",
+    "Shipped": "1997-12-11",
+    "SO #": "M15065"
+  },
+  {
+    "SN": 892,
+    "Customer": "M&M Mars, TN",
+    "Customer PO": "VMP32686",
+    "Assembly No.": "01461-00048",
+    "Description": "30 FARP",
+    "Product": "Starburst Jellybeans",
+    "Shipped": "1997-12-11",
+    "SO #": "M15065"
+  },
+  {
+    "SN": 899,
+    "Customer": "Ohm Labs, NJ",
+    "Customer PO": "042398-00",
+    "Description": "AARP",
+    "Shipped": "1998-03-30",
+    "SO #": "O-15261"
+  },
+  {
+    "SN": 901,
+    "Customer": "M&M Mars, TN",
+    "Customer PO": "VMP33205",
+    "Description": "30 FARP",
+    "Product": "M&M plain candy",
+    "Shipped": "1998-05-21",
+    "SO #": "M-15267"
+  },
+  {
+    "SN": 902,
+    "Customer": "M&M Mars, TN",
+    "Customer PO": "VMP33205",
+    "Description": "30 FARP",
+    "Product": "M&M plain candy",
+    "Shipped": "1998-05-21",
+    "SO #": "M-15267"
+  },
+  {
+    "SN": 903,
+    "Customer": "M&M Mars, TN",
+    "Customer PO": "VMP33205",
+    "Description": "30 FARP",
+    "Product": "M&M plain candy Brush 99190-00127",
+    "Shipped": "1998-05-21",
+    "SO #": "M-15267"
+  },
+  {
+    "SN": 904,
+    "Customer": "M&M Mars, TN",
+    "Customer PO": "VMP33205",
+    "Description": "VIPII",
+    "Product": "M&M plain candy",
+    "Shipped": "1998-05-21",
+    "SO #": "M-15267"
+  },
+  {
+    "SN": 907,
+    "Customer": "Roxlor, France",
+    "Customer PO": "CDF0267",
+    "Description": "SPIN",
+    "Product": "capsule prt syst #0 hardgels",
+    "Shipped": "1998-08-05",
+    "SO #": "R-15299"
+  },
+  {
+    "SN": 910,
+    "Customer": "Knoll, Germany",
+    "Customer PO": "127/45212112",
+    "Description": "FB1",
+    "Product": "f/c Kanu form tab Verapamil",
+    "Shipped": "1998-11-30",
+    "SO #": "K-15321"
+  },
+  {
+    "SN": 911,
+    "Customer": "Mylan,  West VA",
+    "Customer PO": "11P-103500",
+    "Description": "AARP",
+    "Shipped": "1998-07-17",
+    "SO #": "M-15367"
+  },
+  {
+    "SN": 914,
+    "Customer": "Smith Kline NJ",
+    "Customer PO": "21630 OC",
+    "Description": "DELTA",
+    "Product": "Panadol Rapide Caplet",
+    "Shipped": "1998-01-31",
+    "SO #": "S-15101"
+  },
+  {
+    "SN": 916,
+    "Customer": "Glaxo, NC",
+    "Customer PO": 817930.0,
+    "Description": "AARP",
+    "Shipped": "1998-06-30",
+    "SO #": "G-15394"
+  },
+  {
+    "SN": 924,
+    "Customer": "Mars, Australia",
+    "Customer PO": "ENG15991",
+    "Description": "30 FARP",
+    "Product": "No Bars",
+    "Shipped": "1998-11-23",
+    "SO #": "M-15569"
+  },
+  {
+    "SN": 925,
+    "Customer": "Mars, Australia",
+    "Customer PO": "ENG15991",
+    "Description": "30 FARP",
+    "Product": "No Bars",
+    "Shipped": "1998-11-23",
+    "SO #": "M-15569"
+  },
+  {
+    "SN": 926,
+    "Customer": "Teva, Israel",
+    "Customer PO": "30-143369",
+    "Description": "AARP",
+    "Product": "Naproxen caplets",
+    "Shipped": "1998-09-23",
+    "SO #": "T-15562"
+  },
+  {
+    "SN": 931,
+    "Customer": "Dansk, Denmark",
+    "Customer PO": "2244-1 / PCH",
+    "Description": "AARP",
+    "Product": "sc gum",
+    "Shipped": "1998-09-29",
+    "SO #": "D-15587"
+  },
+  {
+    "SN": 932,
+    "Customer": "Almirall Spain",
+    "Customer PO": 7269.0,
+    "Description": "AARP",
+    "Shipped": "1998-09-28",
+    "SO #": "A-15631"
+  },
+  {
+    "SN": 935,
+    "Customer": "Parke Davis, PR",
+    "Customer PO": 4500007183.0,
+    "Description": "BE",
+    "Shipped": "1998-10-29",
+    "SO #": "P-15678"
+  },
+  {
+    "SN": 936,
+    "Customer": "Parke Davis, PR",
+    "Customer PO": 4500007183.0,
+    "Description": "BE",
+    "Shipped": "1998-10-29",
+    "SO #": "P-15678"
+  },
+  {
+    "SN": 937,
+    "Customer": "Parke Davis, PR",
+    "Customer PO": 4500006763.0,
+    "Description": "AARP",
+    "Shipped": "1998-10-29",
+    "SO #": "P-15661"
+  },
+  {
+    "SN": 941,
+    "Customer": "Mars, France",
+    "Customer PO": 45067597.0,
+    "Description": "30 FARP",
+    "Product": "Peanut M&M",
+    "Shipped": "1998-11-30",
+    "SO #": "M-15713"
+  },
+  {
+    "SN": 942,
+    "Customer": "Galen, Ireland",
+    "Customer PO": 20389.0,
+    "Description": "CR1S",
+    "Product": "fc caplet Renagel",
+    "Shipped": "1998-01-29",
+    "SO #": "G-15749"
+  },
+  {
+    "SN": 945,
+    "Customer": "Mars, NJ",
+    "Customer PO": "HM3879P",
+    "Description": "30 FARP",
+    "SO #": "M-15832"
+  },
+  {
+    "SN": 946,
+    "Customer": "Mars, NJ",
+    "Customer PO": "HM3879P",
+    "Description": "30 FARP",
+    "SO #": "M-15832"
+  },
+  {
+    "SN": 947,
+    "Customer": "Mars, NJ",
+    "Customer PO": "HM3879P",
+    "Description": "30 FARP",
+    "SO #": "M-15832"
+  },
+  {
+    "SN": 948,
+    "Customer": "Mars, NJ",
+    "Customer PO": "HM3879P",
+    "Description": "30 FARP",
+    "SO #": "M-15832"
+  },
+  {
+    "SN": 949,
+    "Customer": "Mars, NJ",
+    "Customer PO": "HM3879P",
+    "Description": "30 FARP",
+    "SO #": "M-15832"
+  },
+  {
+    "SN": 950,
+    "Customer": "Mars, NJ",
+    "Customer PO": "HM3879P",
+    "Description": "30 FARP",
+    "SO #": "M-15832"
+  },
+  {
+    "SN": 951,
+    "Customer": "Mars, NJ",
+    "Customer PO": "HM3879P",
+    "Description": "30 FARP",
+    "SO #": "M-15832"
+  },
+  {
+    "SN": 952,
+    "Customer": "Mars, NJ",
+    "Customer PO": "HM3879P",
+    "Description": "30 FARP",
+    "SO #": "M-15832"
+  },
+  {
+    "SN": 953,
+    "Customer": "Mars, NJ",
+    "Customer PO": "HM3879P",
+    "Description": "30 FARP",
+    "SO #": "M-15832"
+  },
+  {
+    "SN": 954,
+    "Customer": "Mars, NJ",
+    "Customer PO": "HM3879P",
+    "Description": "30 FARP",
+    "SO #": "M-15832"
+  },
+  {
+    "SN": 955,
+    "Customer": "Mars, PA",
+    "Customer PO": "EM39450",
+    "Description": "30 FARP",
+    "Product": "for Mars Brazil",
+    "SO #": "M-15833"
+  },
+  {
+    "SN": 957,
+    "Customer": "Pharmacia Upjohn, PR",
+    "Customer PO": "04Z8E1241",
+    "Description": "AARP",
+    "Product": "Rescriptor",
+    "SO #": "P-15854"
+  },
+  {
+    "SN": 961,
+    "Customer": "Billi Pharma",
+    "Customer PO": "2668/98",
+    "Description": "FB1",
+    "Product": "f/c tablet 8.3 dia",
+    "Shipped": "1998-10-27",
+    "SO #": "B-15551"
+  },
+  {
+    "SN": 967,
+    "Customer": "Bayer, PA",
+    "Description": "AARP",
+    "Shipped": "1999-02-02",
+    "SO #": "B-15967"
+  },
+  {
+    "SN": 971,
+    "Customer": "Dupont, NY",
+    "Description": "2 Drum Printer",
+    "SO #": "D-16003"
+  },
+  {
+    "SN": 974,
+    "Customer": "Dupont, NY",
+    "Description": "2 Drum Printer",
+    "SO #": "D-16003"
+  },
+  {
+    "SN": 977,
+    "Customer": "Custom Coatings, NY",
+    "Description": "AARP",
+    "Shipped": "1999-05-27",
+    "SO #": "C-16011"
+  },
+  {
+    "SN": 983,
+    "Customer": "Mars, NJ",
+    "Description": "30 FARP",
+    "Shipped": "1999-05-27",
+    "SO #": "M-15984"
+  },
+  {
+    "SN": 984,
+    "Customer": "Mars, NJ",
+    "Description": "30 FARP",
+    "Shipped": "1999-05-27",
+    "SO #": "M-15984"
+  },
+  {
+    "SN": 985,
+    "Customer": "Mars, NJ",
+    "Description": "30 FARP",
+    "Shipped": "1999-05-27",
+    "SO #": "M-15984"
+  },
+  {
+    "SN": 986,
+    "Customer": "Mars, NJ",
+    "Description": "30 FARP",
+    "Shipped": "1999-05-27",
+    "SO #": "M-15984"
+  },
+  {
+    "SN": 987,
+    "Customer": "Mars, NJ",
+    "Description": "30 FARP",
+    "Shipped": "1999-05-27",
+    "SO #": "M-15984"
+  },
+  {
+    "SN": 988,
+    "Customer": "Mars, Australia",
+    "Description": "30 FARP",
+    "Product": "Starburst Jellybeans",
+    "Shipped": "1999-05-27",
+    "SO #": "M-16038"
+  },
+  {
+    "SN": 993,
+    "Customer": "Master Foods, Poland",
+    "Description": "30 FARP",
+    "Product": "Peanut M&M",
+    "Shipped": "1999-07-16",
+    "SO #": "M-16173"
+  },
+  {
+    "SN": 1001,
+    "Customer": "Barr Labs",
+    "Description": "VIPII",
+    "Product": "Oval Caplet \"b\" one side, \"963\" other side",
+    "Shipped": "1999-07-29",
+    "SO #": "B-16235"
+  },
+  {
+    "SN": 1009,
+    "Customer": "Mars, NJ",
+    "Description": "15 FARP",
+    "Shipped": "1999-08-18",
+    "SO #": "M-16374"
+  },
+  {
+    "SN": 1016,
+    "Customer": "Pharmacia Upjohn, PR",
+    "Customer PO": 4500021025.0,
+    "Description": "VIP II",
+    "Shipped": "1999-12-11",
+    "SO #": "P-16437"
+  },
+  {
+    "SN": 1019,
+    "Customer": "Roche UK",
+    "Customer PO": 4500041670.0,
+    "Description": "VIP II",
+    "Product": "Cellcept 500",
+    "Shipped": "1999-10-22",
+    "SO #": "R-16445"
+  },
+  {
+    "SN": 1022,
+    "Customer": "Nestle, Austrilia",
+    "Customer PO": "S16723",
+    "SO #": "N-16486"
+  },
+  {
+    "SN": 1026,
+    "Customer": "Banner, NC",
+    "Customer PO": 603452.0,
+    "Description": "CP'S AARP",
+    "Product": "Oval Softgels",
+    "Shipped": "1999-12-23",
+    "SO #": "B-16529"
+  },
+  {
+    "SN": 1031,
+    "Customer": "Elan",
+    "Description": "VIPII",
+    "Shipped": "1999-10-09",
+    "SO #": "E-16548"
+  },
+  {
+    "SN": 1032,
+    "Customer": "McNeil, PR",
+    "Customer PO": 291236942.0,
+    "Description": "AARP",
+    "Product": "Motrin IB",
+    "SO #": "M-16549"
+  },
+  {
+    "SN": 1041,
+    "Customer": "Mars, Australia",
+    "Customer PO": "OE31331",
+    "Assembly No.": "01461-00077",
+    "Description": "Incline 30 FARP",
+    "Product": "Skittles",
+    "Shipped": "1999-12-20",
+    "SO #": "M-16665"
+  },
+  {
+    "SN": 1042,
+    "Customer": "Mars, Australia",
+    "Customer PO": "OE31331",
+    "Description": "AARP",
+    "Product": "mini M&M",
+    "Shipped": "1999-12-20",
+    "SO #": "M-16665"
+  },
+  {
+    "SN": 1043,
+    "Customer": "Procter & Gamble",
+    "Customer PO": "PY-0379-PN",
+    "Description": "AARP",
+    "Product": "Asacol caplets 400mg",
+    "SO #": "P-16663"
+  },
+  {
+    "SN": 1046,
+    "Customer": "M & M Mars, NJ",
+    "Customer PO": "HM38920P",
+    "Description": "Incline 30 FARP",
+    "SO #": "M-16696"
+  },
+  {
+    "SN": 1049,
+    "Customer": "Mars France",
+    "Customer PO": 45075683.0,
+    "Description": "15 FARP",
+    "Product": "Incline Candy",
+    "Shipped": "1999-12-23",
+    "SO #": "M-16722"
+  },
+  {
+    "SN": 1054,
+    "Customer": "Sucere Foods Philipines",
+    "Customer PO": 6138.0,
+    "Description": "30 FARP",
+    "Product": "19MM balls egg shaped  Coated",
+    "SO #": "S-16820"
+  },
+  {
+    "SN": 1056,
+    "Customer": "Andrx Pharma FL",
+    "Customer PO": "005219-00",
+    "Description": "VIP II",
+    "Product": "Traded back to Ackley",
+    "Shipped": "1999-12-28",
+    "SO #": "A-16839"
+  },
+  {
+    "SN": 1058,
+    "Customer": "McNeil, CAN",
+    "Customer PO": "39031A",
+    "Assembly No.": "01481-00054",
+    "Description": "AARP",
+    "Product": "Motrin IB, tablets and caplets",
+    "Shipped": "2000-04-01",
+    "SO #": "M-16844"
+  },
+  {
+    "SN": 1061,
+    "Customer": "Global CAN now Patheon YM",
+    "Customer PO": 17483.0,
+    "Assembly No.": "01481-00055",
+    "Description": "AARP",
+    "Product": "caplets, SANKYO CO1",
+    "SO #": "G-16858"
+  },
+  {
+    "SN": 1062,
+    "Customer": "Mars France",
+    "Customer PO": 45077075.0,
+    "Description": "30 FARP",
+    "Product": "Peanut M&M",
+    "SO #": "M-16865"
+  },
+  {
+    "SN": 1063,
+    "Customer": "Nestle, UK",
+    "Customer PO": 122028574.0,
+    "Description": "FARP",
+    "Product": "12 mm sugar coated chocolate spheres",
+    "SO #": "N-16880"
+  },
+  {
+    "SN": 1064,
+    "Customer": "Master Foods France",
+    "Customer PO": 45077431.0,
+    "Description": "15 FARP",
+    "Product": "Minis",
+    "SO #": "M-16894"
+  },
+  {
+    "SN": 1065,
+    "Customer": "Arzneimittlewerk Dresden",
+    "Customer PO": 450775178.0,
+    "Description": "VIP II",
+    "Product": "Round FCT",
+    "SO #": "A-16896"
+  },
+  {
+    "SN": 1068,
+    "Customer": "Colorcon England",
+    "Customer PO": "NT/JTY",
+    "Description": "VIP II  Will Lend",
+    "Product": "Red and Blue Tablets Multi, Color Tablets",
+    "SO #": "C-16923"
+  },
+  {
+    "SN": 1069,
+    "Customer": "National Vitamin NV",
+    "Customer PO": 7962.0,
+    "Description": "VIP II",
+    "Product": "#20 Oblong Softgel",
+    "SO #": "N-16985"
+  },
+  {
+    "SN": 1071,
+    "Customer": "M & M Mars, NJ",
+    "Customer PO": "mm99-32064",
+    "Description": "V/R Servo-drive",
+    "Product": "2 color Printing",
+    "SO #": "M-16983"
+  },
+  {
+    "SN": 1074,
+    "Customer": "Knoll, France",
+    "Customer PO": "003/00/HD/EZ/MF",
+    "Description": "AARP",
+    "SO #": "K-16986"
+  },
+  {
+    "SN": 1091,
+    "Customer": "Basf, LA",
+    "Customer PO": 30195692.0,
+    "Description": "AARP",
+    "Product": "Tylenol 325 & 500 Hospital",
+    "SO #": "B-17115"
+  },
+  {
+    "SN": 1094,
+    "Customer": "Pfizer, NY",
+    "Customer PO": "PB3338OC",
+    "Description": "AARP",
+    "Product": "5 Various CP'S",
+    "SO #": "P-17132"
+  },
+  {
+    "SN": 1100,
+    "Customer": "Almiral Spain",
+    "Customer PO": 15878.0,
+    "Description": "AARP",
+    "Product": "For Stylized \"A\" CP's",
+    "Shipped": "2000-06-14",
+    "SO #": "A-1740"
+  },
+  {
+    "SN": 1105,
+    "Customer": "Ohm Labs, NJ",
+    "Customer PO": 3020028430.0,
+    "Description": "V/R Servo-drive",
+    "SO #": "H-17190"
+  },
+  {
+    "SN": 1110,
+    "Customer": "Mars, Australia",
+    "Customer PO": "CE33348",
+    "Description": "V/R Servo-drive",
+    "SO #": "M-17230"
+  },
+  {
+    "SN": 1115,
+    "Customer": "Wyeth Medica, Ireland",
+    "Customer PO": "22968 OP",
+    "Description": "AARP",
+    "Product": "Premarin 120, 240, MPA",
+    "SO #": "W-17341"
+  },
+  {
+    "SN": 1119,
+    "Customer": "Wyeth, Singapore",
+    "Customer PO": "63T14111-P37-0054",
+    "Description": "AARP",
+    "SO #": "W-17352"
+  },
+  {
+    "SN": 1123,
+    "Customer": "Wyeth, Singapore",
+    "Customer PO": "63T14111-P37-0054",
+    "Description": "AARP",
+    "SO #": "W-17352"
+  },
+  {
+    "SN": 1127,
+    "Customer": "Lilly PR",
+    "Customer PO": "J0004908-01",
+    "Description": "V/R Servo-drive",
+    "SO #": "L-17447"
+  },
+  {
+    "SN": 1131,
+    "Customer": "Mars, NJ",
+    "Customer PO": "HM41503P",
+    "Description": "Incline 30 FARP",
+    "Product": "Candy",
+    "Shipped": "2000-09-20",
+    "SO #": "M-17500"
+  },
+  {
+    "SN": 1132,
+    "Customer": "Mars, NJ",
+    "Customer PO": "HM41503P",
+    "Description": "Incline 30 FARP",
+    "Product": "Candy",
+    "SO #": "M-17500"
+  },
+  {
+    "SN": 1133,
+    "Customer": "Custom Coatings, NY",
+    "Customer PO": 11824.0,
+    "Description": "AARP",
+    "SO #": "C-17588"
+  },
+  {
+    "SN": 1134,
+    "Customer": "Andrx Pharma FL",
+    "Customer PO": "007558-00",
+    "Assembly No.": "01481-00069",
+    "Description": "AARP",
+    "Product": "Andrx/805 caplet",
+    "Shipped": "2000-11-29",
+    "SO #": "A-17709"
+  },
+  {
+    "SN": 1135,
+    "Customer": "Knoll",
+    "Customer PO": "LCKAR000300",
+    "Description": "AARP",
+    "SO #": "K-17755"
+  },
+  {
+    "SN": 1136,
+    "Customer": "Purepac",
+    "Customer PO": "PO25333",
+    "Description": "VIP II",
+    "SO #": "P17780"
+  },
+  {
+    "SN": 1137,
+    "Customer": "Effem Indonesia",
+    "Customer PO": 14186.0,
+    "Description": "Incline 30 FARP",
+    "Product": "Candy",
+    "SO #": "E-17737"
+  },
+  {
+    "SN": 1138,
+    "Customer": "Mars, NJ",
+    "Customer PO": "00-20976",
+    "Description": "V/R Servo-drive",
+    "Product": "Candy",
+    "SO #": "M-17785"
+  },
+  {
+    "SN": 1139,
+    "Customer": "Tedec",
+    "Customer PO": 94652.0,
+    "Description": "FARP",
+    "SO #": "T-17665"
+  },
+  {
+    "SN": 1140,
+    "Customer": "Glaxo, NC",
+    "Customer PO": 821181.0,
+    "Description": "V/R Servo-drive W/Auto Regis",
+    "SO #": "G-17800"
+  },
+  {
+    "SN": 1141,
+    "Customer": "Mars, NJ",
+    "Customer PO": "00-21036",
+    "Description": "Inkjet",
+    "Shipped": "2001-03-03",
+    "SO #": "M-17786"
+  },
+  {
+    "SN": 1142,
+    "Customer": "Wyeth Canada",
+    "Customer PO": "76462 ON",
+    "Description": "AARP",
+    "Product": "Premarin 120, 240",
+    "SO #": "W-18165"
+  },
+  {
+    "SN": 1143,
+    "Customer": "Daewoong Internt. Co.",
+    "Customer PO": "00-186-C",
+    "Description": "VIP II",
+    "Shipped": "2001-03-03",
+    "SO #": "D-17899"
+  },
+  {
+    "SN": 1144,
+    "Customer": "Banner, N.C.",
+    "Customer PO": 613129.0,
+    "Description": "V/R",
+    "Product": "Green & Yellow Gelcaps",
+    "Shipped": "2001-03-23",
+    "SO #": "B-18009"
+  },
+  {
+    "SN": 1145,
+    "Customer": "Colorcon England",
+    "Customer PO": "AR095223",
+    "Description": "VIP III",
+    "SO #": "C-18023"
+  },
+  {
+    "SN": 1146,
+    "Customer": "Mars, France",
+    "Customer PO": 45086918.0,
+    "Description": "30FARP",
+    "Product": "Crispies",
+    "Shipped": "2001-03-29",
+    "SO #": "M-17937"
+  },
+  {
+    "SN": 1147,
+    "Customer": "Mars, France",
+    "Customer PO": 45086918.0,
+    "Description": "30FARP",
+    "Product": "Crispies",
+    "Shipped": "2001-03-29",
+    "SO #": "M-17937"
+  },
+  {
+    "SN": 1148,
+    "Customer": "Mars, France",
+    "Customer PO": 45086918.0,
+    "Description": "30FARP",
+    "Product": "Crispies",
+    "Shipped": "2001-03-29",
+    "SO #": "M-17937"
+  },
+  {
+    "SN": 1149,
+    "Customer": "US Pharmacia, Poland",
+    "Customer PO": 36894.0,
+    "Description": "AARP",
+    "Product": "Gripex",
+    "SO #": "U-18108"
+  },
+  {
+    "SN": 1150,
+    "Customer": "Effem Indonesia",
+    "Customer PO": 11625.0,
+    "Description": "AARP",
+    "Product": "M&M Mini",
+    "SO #": "P-18253"
+  },
+  {
+    "SN": 1151,
+    "Customer": "Galen, Ireland",
+    "Description": "AARP",
+    "Product": "Renagel",
+    "SO #": "G-18183"
+  },
+  {
+    "SN": 1152,
+    "Customer": "Stock (PPMA Show)",
+    "Description": "VIP III"
+  },
+  {
+    "SN": 1153,
+    "Customer": "OPW, Germany",
+    "Description": "AARP"
+  },
+  {
+    "SN": 1154,
+    "Customer": "Robinson Pharma",
+    "Description": "15 Deg. FARP",
+    "Product": "\"356\" Metabolife"
+  },
+  {
+    "SN": 1155,
+    "Customer": "Alpine UT",
+    "Description": "15 Deg. FARP",
+    "Product": "\"356\" Metabolife",
+    "SO #": 18699.0
+  },
+  {
+    "SN": 1156,
+    "Customer": "Mars China",
+    "Description": "30 Deg FARP",
+    "Product": "Skittles & Little Skittles",
+    "SO #": 18752.0
+  },
+  {
+    "SN": 1157,
+    "Customer": "Minilever Printer",
+    "SO #": 18515.0
+  },
+  {
+    "SN": 1158,
+    "Customer": "Andrx Pharma FL",
+    "Customer PO": "011564-00",
+    "Assembly No.": "01481-00077",
+    "Description": "AARP Base only",
+    "Product": "BASE ONLY",
+    "Shipped": "2001-12-21",
+    "SO #": 18606.0
+  },
+  {
+    "SN": 1159,
+    "Customer": "Elan",
+    "Description": "AARP",
+    "SO #": 18694.0
+  },
+  {
+    "SN": 1160,
+    "Customer": "Duchesnay",
+    "Description": "VIP III",
+    "SO #": 18425.0
+  },
+  {
+    "SN": 1161,
+    "Customer": "Jacobs (Genzyme Ireland)",
+    "Customer PO": "30-5614-P8007",
+    "Description": "AARP",
+    "SO #": 18760.0
+  },
+  {
+    "SN": 1162,
+    "Customer": "Pfizer, PR",
+    "Customer PO": "UBA01114/0001",
+    "Description": "AARP",
+    "Product": "Procardia XL 30MG",
+    "SO #": 18666.0
+  },
+  {
+    "SN": 1163,
+    "Customer": "Geltex",
+    "Description": "AARP"
+  },
+  {
+    "SN": 1164,
+    "Customer": "Aventis Pharmaceuticals",
+    "Customer PO": 4500067356.0,
+    "Description": "VIP III",
+    "Product": "Allegra",
+    "SO #": 18945.0
+  },
+  {
+    "SN": 1165,
+    "Customer": "Concord",
+    "Customer PO": 25539.0,
+    "Description": "AARP Utility Model",
+    "Product": "Skittles Gum",
+    "SO #": 20575.0
+  },
+  {
+    "SN": 1166,
+    "Customer": "Arab Gelatine",
+    "Customer PO": "ZSH0705",
+    "Description": "SPIN PRINT,CANT. 3 ROW",
+    "Product": "#0EL, #00, #3 Capsule",
+    "SO #": 18771.0
+  },
+  {
+    "SN": 1167,
+    "Customer": "Wyeth PR",
+    "Customer PO": "4500315539/09 (01481-00083)",
+    "Description": "AARP",
+    "Product": "Protonix 40",
+    "SO #": 19124.0
+  },
+  {
+    "SN": 1168,
+    "Customer": "Wyeth NY",
+    "Customer PO": "4500346180/06",
+    "Description": "AARP",
+    "Product": "Advil Cold & Sinus / Allergy & Sinus",
+    "SO #": 19285.0
+  },
+  {
+    "SN": 1169,
+    "Customer": "Wyeth NY",
+    "Customer PO": "4500346241/06",
+    "Description": "AARP",
+    "Product": "Premarin & Prempro",
+    "SO #": 19288.0
+  },
+  {
+    "SN": 1170,
+    "Customer": "Wyeth Lederle S.p.A.",
+    "Customer PO": "16997 OP",
+    "Description": "VIP III",
+    "Product": "Multiple Products",
+    "SO #": 19605.0
+  },
+  {
+    "SN": 1172,
+    "Customer": "Zap Paintballs",
+    "Customer PO": "ZP-03911",
+    "Description": "45 Deg FARP",
+    "Product": "Paintballs",
+    "SO #": 20005.0
+  },
+  {
+    "SN": 1173,
+    "Customer": "Banner N.C.",
+    "Customer PO": 624213.0,
+    "Description": "AARP",
+    "Product": "Base Only",
+    "SO #": 19715.0
+  },
+  {
+    "SN": 1174,
+    "Customer": "Altana Pharma Brazilia",
+    "Customer PO": "386/2002",
+    "Description": "AARP",
+    "Product": "Base Only",
+    "SO #": 19566.0
+  },
+  {
+    "SN": 1175,
+    "Customer": "Ranbaxy",
+    "Customer PO": 4600000714.0,
+    "Description": "VIP III",
+    "SO #": 19408.0
+  },
+  {
+    "SN": 1176,
+    "Customer": "Andrx Pharma FL",
+    "Customer PO": "070750-00",
+    "Assembly No.": "01481-00090",
+    "Description": "AARP",
+    "Product": "BASE ONLY",
+    "SO #": 19846.0
+  },
+  {
+    "SN": 1177,
+    "Customer": "Amgen Inc",
+    "Customer PO": "8415896 OC",
+    "Description": "DP2",
+    "Product": "w/ 30, 60 & 90 mg C-P's",
+    "SO #": 19659.0
+  },
+  {
+    "SN": 1178,
+    "Customer": "Andrx Pharma FL",
+    "Customer PO": "070816-00",
+    "Description": "AARP",
+    "Product": "Base for Lovastatin 10, 20, 40 & 60",
+    "SO #": 19903.0
+  },
+  {
+    "SN": 1179,
+    "Customer": "Lacasa",
+    "Description": "AARP",
+    "Product": "Base for Conguitos",
+    "SO #": 20049.0
+  },
+  {
+    "SN": 1180,
+    "Customer": "Ackley",
+    "Customer PO": "01911-00032",
+    "Description": "VIP III",
+    "Product": "Achema Show Printer"
+  },
+  {
+    "SN": 1181,
+    "Customer": "AAI",
+    "Description": "AARP",
+    "Product": "Base w/ a variety of C-P's",
+    "SO #": 19650.0
+  },
+  {
+    "SN": 1182,
+    "Customer": "Mars, NJ",
+    "Customer PO": 20003347.0,
+    "Description": "Ctlvr w/ 2nd Side Printer Only",
+    "Product": "M&M plain candy",
+    "SO #": 20076.0
+  },
+  {
+    "SN": 1183,
+    "Customer": "Mars, NJ",
+    "Customer PO": 20003347.0,
+    "Description": "Ctlvr w/ 2nd Side Printer Only",
+    "Product": "M&M plain candy",
+    "SO #": 20076.0
+  },
+  {
+    "SN": 1184,
+    "Customer": "Andrx Pharma FL",
+    "Customer PO": "070914-00",
+    "Description": "VIP III",
+    "Product": "Base for Lovastatin 10, 20, 40 & 60",
+    "SO #": 19975.0
+  },
+  {
+    "SN": 1185,
+    "Customer": "Abbott, PR",
+    "Customer PO": "P28P05872",
+    "Description": "AARP",
+    "Product": "Base for Depakote 500 ER",
+    "SO #": 19990.0
+  },
+  {
+    "SN": 1186,
+    "Customer": "Geneva CO",
+    "Customer PO": 4300002202.0,
+    "Description": "Laser w/ Inspection",
+    "Product": "Base for Glipizide",
+    "SO #": 19926.0
+  },
+  {
+    "SN": 1187,
+    "Customer": "Ferrara",
+    "Customer PO": 144789.0,
+    "Description": "AARP",
+    "Product": "Base for Lemonhead and Jellybeans",
+    "SO #": 20128.0
+  },
+  {
+    "SN": 1188,
+    "Customer": "Ferrara",
+    "Customer PO": 144789.0,
+    "Description": "AARP",
+    "Product": "Base for Lemonhead and Jellybeans",
+    "SO #": 20128.0
+  },
+  {
+    "SN": 1189,
+    "Customer": "Ohm Labs, NJ",
+    "Customer PO": 4100091679.0,
+    "Description": "AARP",
+    "Product": "Base Only",
+    "SO #": 20145.0
+  },
+  {
+    "SN": 1190,
+    "Customer": "Pharmacia Sweden",
+    "Description": "AARP",
+    "Product": "Base for Nicorrette",
+    "SO #": 20477.0
+  },
+  {
+    "SN": 1191,
+    "Customer": "Watson Pharm",
+    "Customer PO": "RD1628",
+    "Description": "2 DP",
+    "Product": "Glipizide",
+    "Shipped": "2004-01-07",
+    "SO #": 20585.0
+  },
+  {
+    "SN": 1192,
+    "Customer": "Lilly PR",
+    "Description": "AARP",
+    "Product": "Base for Zyprexa 5 & 10 mg's and Evista 60",
+    "SO #": 20690.0
+  },
+  {
+    "SN": 1193,
+    "Customer": "Cardinal Health",
+    "Description": "AARP w/ Inspection",
+    "Product": "#2 Round & #4 Oval Softgels",
+    "SO #": 20391.0
+  },
+  {
+    "SN": 1194,
+    "Customer": "Watson Pharm",
+    "Customer PO": 4500001132.0,
+    "Description": "2 Drum Printer",
+    "Product": "Cardizem LA FCT's",
+    "SO #": 21409.0
+  },
+  {
+    "SN": 1195,
+    "Customer": "Lacasa",
+    "Description": "AARP",
+    "SO #": 20915.0
+  },
+  {
+    "SN": 1196,
+    "Customer": "Mars China",
+    "Description": "30 Deg FARP",
+    "Product": "Plain, Peanut, Almond",
+    "SO #": 20904.0
+  },
+  {
+    "SN": 1197,
+    "Customer": "Mars China",
+    "Description": "30 Deg FARP",
+    "Product": "Plain, Peanut, Almond",
+    "SO #": 20904.0
+  },
+  {
+    "SN": 1198,
+    "Customer": "Concord",
+    "Customer PO": 26422.0,
+    "Assembly No.": "01481-00101",
+    "Description": "AARP Utility Model",
+    "Product": "Gumballs",
+    "SO #": 20855.0
+  },
+  {
+    "SN": 1199,
+    "Customer": "Masterfoods USA",
+    "Customer PO": 2254624.0,
+    "Description": "AARP Utility Model",
+    "Product": "Plain Candy",
+    "SO #": 21168.0
+  },
+  {
+    "SN": 1200,
+    "Customer": "Masterfoods USA",
+    "Customer PO": 2254624.0,
+    "Description": "AARP Utility Model",
+    "Product": "Peanut M&M",
+    "SO #": 21168.0
+  },
+  {
+    "SN": 1201,
+    "Customer": "Wrigley Manufacturing Co.",
+    "Customer PO": 4500101387.0,
+    "Description": "AARP w/ Auxiliary",
+    "Product": "Mint",
+    "SO #": 21180.0
+  },
+  {
+    "SN": 1202,
+    "Customer": "Wrigley Manufacturing Co.",
+    "Customer PO": 4500101387.0,
+    "Description": "AARP w/ Auxiliary",
+    "Product": "Mint",
+    "SO #": 21180.0
+  },
+  {
+    "SN": 1203,
+    "Customer": "Custom Coatings, NY",
+    "Customer PO": 20742.0,
+    "Description": "AARP Utility Model",
+    "Product": "Base Only",
+    "SO #": 21325.0
+  },
+  {
+    "SN": 1204,
+    "Customer": "GSK NC",
+    "Customer PO": 4500042409.0,
+    "Description": "2 Drum Printer",
+    "Product": "Avandia XR FCT",
+    "SO #": 21358.0
+  },
+  {
+    "SN": 1205,
+    "Customer": "Blitz/Tab Labs",
+    "Customer PO": 347.0,
+    "Description": "VIP III",
+    "Product": "Base and heart gum c-p's",
+    "SO #": 21306.0
+  },
+  {
+    "SN": 1206,
+    "Customer": "Concord",
+    "Customer PO": 28049.0,
+    "Assembly No.": "01481-00109",
+    "Description": "AARP Utility Model",
+    "Product": "Base Only",
+    "SO #": 21362.0
+  },
+  {
+    "SN": 1207,
+    "Customer": "Schwarz",
+    "Customer PO": "P061953",
+    "Description": "3 Drum Printer",
+    "Product": "Base w/ a variety of C-P's",
+    "SO #": 21370.0
+  },
+  {
+    "SN": 1208,
+    "Customer": "Biovail",
+    "Customer PO": "D-7484",
+    "Description": "3 Drum Printer",
+    "Product": "Base w/ a variety of C-P's",
+    "SO #": 21539.0
+  },
+  {
+    "SN": 1209,
+    "Customer": "Mars NJ",
+    "Customer PO": 20036810.0,
+    "Description": "2nd Side Ctlvr",
+    "Product": "Base w/ Plain C-P's",
+    "SO #": 21469.0
+  },
+  {
+    "SN": 1210,
+    "Customer": "Mars NJ  ***** SEE SERIAL NUMBER 1560 *****",
+    "Customer PO": 20036810.0,
+    "Assembly No.": "01261-00005",
+    "Description": "2nd Side Ctlvr",
+    "Product": "Base w/ Plain C-P's",
+    "SO #": 21469.0
+  },
+  {
+    "SN": 1211,
+    "Customer": "Mars NJ",
+    "Customer PO": 20036810.0,
+    "Description": "2nd Side Ctlvr",
+    "Product": "Base w/ Plain C-P's",
+    "SO #": 21469.0
+  },
+  {
+    "SN": 1212,
+    "Customer": "Swiss Caps",
+    "Customer PO": 1026104.0,
+    "Assembly No.": "01481-00111",
+    "Description": "AARP",
+    "Product": "Base for #20 Oblong Softgel",
+    "SO #": 21665.0
+  },
+  {
+    "SN": 1213,
+    "Customer": "Laboratories Servier",
+    "Customer PO": "1053720 OZ",
+    "Description": "AARP",
+    "Product": "Base for Comprime FCC",
+    "SO #": 21495.0
+  },
+  {
+    "SN": 1214,
+    "Customer": "Arab Center",
+    "Customer PO": "271/04",
+    "Description": "Ctlvr Capsule Printer",
+    "Product": "Base, Linear or Rotary, 1 or 2 Sided",
+    "SO #": 21952.0
+  },
+  {
+    "SN": 1215,
+    "Customer": "Biovail",
+    "Description": "3 Drum Printer",
+    "Product": "Base w/ a variety of C-P's",
+    "SO #": 21779.0
+  },
+  {
+    "SN": 1216,
+    "Customer": "Synthon Hispania S.L. Spain",
+    "Customer PO": "OG 4018219",
+    "Description": "VIP III",
+    "Product": "Base w/ a variety of C-P's",
+    "SO #": 21818.0
+  },
+  {
+    "SN": 1217,
+    "Customer": "Bayer, Bitterfeld",
+    "Customer PO": 910223856.0,
+    "Description": "AARP",
+    "Product": "Base w/ 7.00mm C-P's",
+    "SO #": 21785.0
+  },
+  {
+    "SN": 1218,
+    "Customer": "HVL",
+    "Customer PO": "383136 OP",
+    "Description": "AARP Utility Model",
+    "Product": "Base w/ C-P's",
+    "SO #": 21917.0
+  },
+  {
+    "SN": 1219,
+    "Customer": "Dr. Reddy's",
+    "Customer PO": 49005559.0,
+    "Description": "VIP 4M",
+    "Product": "Base w/ #6 Softgel C-P's",
+    "SO #": 20751.0
+  },
+  {
+    "SN": 1220,
+    "Customer": "Barcel",
+    "Customer PO": "RM-2004-144",
+    "Description": "30 Deg FARP",
+    "Product": "Base w/ Rocklets C-P's",
+    "SO #": 21673.0
+  },
+  {
+    "SN": 1221,
+    "Customer": "Pharmaceutics Intl",
+    "Description": "AARP",
+    "Product": "Base with C-P's - Softgels (#2/3 & #4/5)",
+    "SO #": 21981.0
+  },
+  {
+    "SN": 1222,
+    "Customer": "Ackley - Servo Drum Show Printer",
+    "Description": "3 Drum Printer",
+    "Product": "Base",
+    "SO #": 21980.0
+  },
+  {
+    "SN": 1223,
+    "Customer": "Masterfoods TN",
+    "Customer PO": 20051075.0,
+    "Description": "30 Deg FARP",
+    "Product": "Base",
+    "SO #": 21855.0
+  },
+  {
+    "SN": 1224,
+    "Customer": "Masterfoods TN",
+    "Customer PO": 20051075.0,
+    "Description": "30 Deg FARP",
+    "Product": "Base",
+    "SO #": 21855.0
+  },
+  {
+    "SN": 1225,
+    "Customer": "Masterfoods TN",
+    "Customer PO": 20051075.0,
+    "Description": "30 Deg FARP",
+    "Product": "Base",
+    "SO #": 21855.0
+  },
+  {
+    "SN": 1226,
+    "Customer": "Masterfoods TN",
+    "Customer PO": 20051075.0,
+    "Description": "30 Deg FARP",
+    "Product": "Base",
+    "SO #": 21855.0
+  },
+  {
+    "SN": 1227,
+    "Customer": "Masterfoods TN",
+    "Customer PO": 20051075.0,
+    "Description": "30 Deg FARP",
+    "Product": "Base",
+    "SO #": 21855.0
+  },
+  {
+    "SN": 1228,
+    "Customer": "Masterfoods TN",
+    "Customer PO": 20051075.0,
+    "Description": "30 Deg FARP",
+    "Product": "Base",
+    "SO #": 21855.0
+  },
+  {
+    "SN": 1229,
+    "Customer": "Masterfoods TN",
+    "Customer PO": 20051075.0,
+    "Description": "30 Deg FARP",
+    "Product": "Base",
+    "SO #": 21855.0
+  },
+  {
+    "SN": 1230,
+    "Customer": "Masterfoods TN",
+    "Customer PO": 20051075.0,
+    "Description": "30 Deg FARP",
+    "Product": "Base",
+    "SO #": 21855.0
+  },
+  {
+    "SN": 1231,
+    "Customer": "Masterfoods TN",
+    "Customer PO": 20051075.0,
+    "Description": "30 Deg FARP",
+    "Product": "Base",
+    "SO #": 21855.0
+  },
+  {
+    "SN": 1232,
+    "Customer": "Masterfoods TN",
+    "Customer PO": 20051075.0,
+    "Description": "30 Deg FARP",
+    "Product": "Base",
+    "SO #": 21855.0
+  },
+  {
+    "SN": 1233,
+    "Customer": "Masterfoods NJ",
+    "Customer PO": 20062429.0,
+    "Description": "30 Deg FARP",
+    "Product": "Base",
+    "SO #": 22171.0
+  },
+  {
+    "SN": 1234,
+    "Customer": "Barr Labs",
+    "Customer PO": 188449.0,
+    "Description": "VIP 4M",
+    "Product": "Base with C-Ps",
+    "SO #": 22722.0
+  },
+  {
+    "SN": 1235,
+    "Customer": "Osmotica / Chemo Spain",
+    "Customer PO": "022405-1",
+    "Description": "VIP 4S",
+    "Product": "Base with C-P's",
+    "SO #": 22138.0
+  },
+  {
+    "SN": 1236,
+    "Customer": "NanoInk",
+    "Customer PO": "052305mn",
+    "Description": "CIP - Stamping Head",
+    "Product": "Base with C-P's",
+    "SO #": 22122.0
+  },
+  {
+    "SN": 1237,
+    "Customer": "GSK Aiken, SC",
+    "Customer PO": "106325 OCA",
+    "Description": "AARP",
+    "Product": "Base with C-P's",
+    "SO #": 22474.0
+  },
+  {
+    "SN": 1238,
+    "Customer": "Valeant",
+    "Customer PO": "120-801233",
+    "Description": "30 Deg FARP",
+    "Product": "Base with C-P's",
+    "SO #": 22475.0
+  },
+  {
+    "SN": 1239,
+    "Customer": "Abbott Argentina",
+    "Customer PO": 42006.0,
+    "Description": "AARP",
+    "Product": "Base with C-P's",
+    "SO #": 22160.0
+  },
+  {
+    "SN": 1240,
+    "Customer": "Zydus Cadila",
+    "Description": "AARP",
+    "Product": "Base with C-P's",
+    "SO #": 22350.0
+  },
+  {
+    "SN": 1241,
+    "Customer": "Zydus Cadila",
+    "Description": "VIP 4S",
+    "Product": "Base with C-P's",
+    "SO #": 22350.0
+  },
+  {
+    "SN": 1242,
+    "Customer": "LaCasa Spain",
+    "Customer PO": 7321.0,
+    "Description": "AARP",
+    "Product": "Base",
+    "SO #": 22357.0
+  },
+  {
+    "SN": 1243,
+    "Customer": "Mars China",
+    "Customer PO": "EN6605",
+    "Description": "30 Deg FARP",
+    "Product": "Base with C-P's - Skittles & Skittles Little",
+    "SO #": 22266.0
+  },
+  {
+    "SN": 1244,
+    "Customer": "Altana Ireland",
+    "Customer PO": "420-45448655",
+    "Description": "AARP",
+    "Product": "Base with C-P's -",
+    "SO #": 22465.0
+  },
+  {
+    "SN": 1245,
+    "Customer": "Janssen PR (Skanska)",
+    "Description": "AARP",
+    "Product": "Base with C-P's",
+    "SO #": 22255.0
+  },
+  {
+    "SN": 1246,
+    "Customer": "Pfizer, Sweden (Pharamcia)",
+    "Customer PO": 4500209201.0,
+    "Description": "AARP - 10\" Extension",
+    "Product": "Base with C-P's - Nicorette",
+    "SO #": 22396.0
+  },
+  {
+    "SN": 1247,
+    "Customer": "BASF, LA",
+    "Description": "AARP",
+    "Product": "Base with C-P's",
+    "SO #": 22662.0
+  },
+  {
+    "SN": 1248,
+    "Customer": "Uhlmann - Visiotec",
+    "Description": "Servo Drum with NIR & PQI",
+    "Product": "Base with C-P's - Ditropan",
+    "SO #": 22559.0
+  },
+  {
+    "SN": 1249,
+    "Customer": "Osmotica, AR / Patheon, OH",
+    "Customer PO": 200.0,
+    "Description": "Servo Drum with Lazer&Color Inspection",
+    "Product": "Base with C-P's",
+    "SO #": 22596.0
+  },
+  {
+    "SN": 1250,
+    "Customer": "Beacon Pharmaceuticals",
+    "Description": "Servo Drum, Frnt Encl, Visc Cntl",
+    "Product": "Base with C-P's - Oval FCT`",
+    "SO #": 22367.0
+  },
+  {
+    "SN": 1251,
+    "Customer": "Abbott Italy",
+    "Description": "AARP",
+    "Product": "Base with C-P's",
+    "SO #": 22686.0
+  },
+  {
+    "SN": 1252,
+    "Customer": "Wyeth, PR",
+    "Description": "AARP",
+    "Product": "Base with C-P's - Rapamune",
+    "SO #": 22696.0
+  },
+  {
+    "SN": 1253,
+    "Customer": "Wyeth, PR",
+    "Description": "AARP",
+    "Product": "Base with C-P's - Protonix",
+    "SO #": 22670.0
+  },
+  {
+    "SN": 1254,
+    "Customer": "Masterfoods",
+    "Description": "2 Sided Ctlvr Drum",
+    "Product": "Base with C-P's - M&M",
+    "SO #": 22985.0
+  },
+  {
+    "SN": 1255,
+    "Customer": "Anchen",
+    "Assembly No.": "01511-00022",
+    "Description": "Ctlvr Ramp",
+    "Product": "Base with C-P's - 2mm & 9mm FCT",
+    "SO #": 22979.0
+  },
+  {
+    "SN": 1256,
+    "Customer": "McNeil Consumer, Ontario",
+    "Assembly No.": "01481-00128",
+    "Description": "AARP Base only",
+    "Product": "Base",
+    "SO #": 22987.0
+  },
+  {
+    "SN": 1257,
+    "Customer": "Ackley - V/R Show Printer",
+    "Description": "AARP Base only",
+    "Product": "Base",
+    "SO #": 22949.0
+  },
+  {
+    "SN": 1258,
+    "Customer": "Masterfoods, NJ",
+    "Description": "2 Sided Ctlvr Drum",
+    "Product": "Base with C-P's - M&M",
+    "SO #": 22985.0
+  },
+  {
+    "SN": 1259,
+    "Customer": "Masterfoods, NJ",
+    "Description": "2 Sided Ctlvr Drum",
+    "Product": "Base with C-P's - M&M",
+    "SO #": 22985.0
+  },
+  {
+    "SN": 1260,
+    "Customer": "Masterfoods, NJ",
+    "Description": "2 Sided Ctlvr Drum",
+    "Product": "Base with C-P's - M&M",
+    "SO #": 22985.0
+  },
+  {
+    "SN": 1261,
+    "Customer": "Masterfoods, NJ",
+    "Description": "2 Sided Ctlvr Drum",
+    "Product": "Base with C-P's - M&M",
+    "SO #": 22985.0
+  },
+  {
+    "SN": 1262,
+    "Customer": "Masterfoods, NJ",
+    "Description": "2 Sided Ctlvr Drum",
+    "Product": "Base with C-P's - M&M",
+    "SO #": 22985.0
+  },
+  {
+    "SN": 1263,
+    "Customer": "NanoInk",
+    "Customer PO": "51606mn1",
+    "Description": "Ctlvr Ramp, CRSP",
+    "Product": "Base with C-P's, Cialis & Zyprexa",
+    "SO #": 23411.0
+  },
+  {
+    "SN": 1264,
+    "Customer": "Masterfoods - Oak Leaf",
+    "Customer PO": 20092984.0,
+    "Description": "Utility V/R",
+    "Product": "Base with C-P's",
+    "SO #": 23158.0
+  },
+  {
+    "SN": 1265,
+    "Customer": "Masterfoods, NJ",
+    "Customer PO": 20093384.0,
+    "Description": "30 Deg FARP",
+    "Product": "Base with C-P's",
+    "SO #": 23162.0
+  },
+  {
+    "SN": 1266,
+    "Customer": "Arrow Labs",
+    "Description": "VIP 4S",
+    "Product": "Base with C-P",
+    "SO #": 23248.0
+  },
+  {
+    "SN": 1267,
+    "Customer": "Alfa Wasserman",
+    "Description": "VIP 4M - Safety Enclosure",
+    "Product": "Base with  C-P's",
+    "SO #": 23171.0
+  },
+  {
+    "SN": 1268,
+    "Customer": "NanoInk",
+    "Description": "Servo V/R - Stamping Assy",
+    "Product": "Base with C-P's - Risperdal 1mg",
+    "SO #": 22980.0
+  },
+  {
+    "SN": 1269,
+    "Customer": "NanoInk",
+    "Description": "Servo V/R - Stamping Assy",
+    "Product": "Base with C-P's - Cialis & Zyprexa",
+    "SO #": 22980.0
+  },
+  {
+    "SN": 1270,
+    "Customer": "Sabritas",
+    "Description": "??? - Candy Spin Printer",
+    "Product": "Base with C-P's - 18mm & 25mm Gumball",
+    "SO #": 23330.0
+  },
+  {
+    "SN": 1271,
+    "Customer": "Wyeth, PR",
+    "Description": "AARP",
+    "Product": "Base with C-P's - TBD",
+    "SO #": 23501.0
+  },
+  {
+    "SN": 1272,
+    "Customer": "Novartis, NE (ENDO)",
+    "Description": "Servo Drum - Frnt Encl",
+    "Product": "Base with C-P's",
+    "SO #": 23566.0
+  },
+  {
+    "SN": 1273,
+    "Customer": "Bristol Myers Squibb, IN",
+    "Description": "Servo Drum - Frnt Encl, Visc Cntl",
+    "Product": "Base with C-P's",
+    "SO #": 23535.0
+  },
+  {
+    "SN": 1274,
+    "Customer": "Masterfoods France",
+    "Description": "2 Sided Ctlvr Drum",
+    "Product": "Base with C-P's - M&M",
+    "SO #": 23504.0
+  },
+  {
+    "SN": 1275,
+    "Customer": "Servier, Ireland",
+    "Description": "Servo V/R - Printer",
+    "Product": "Base with C-P's - Valdoxan",
+    "SO #": 23422.0
+  },
+  {
+    "SN": 1276,
+    "Customer": "Banner, NC",
+    "Description": "AARP",
+    "Product": "Base Only",
+    "SO #": 23708.0
+  },
+  {
+    "SN": 1277,
+    "Customer": "Concord Confections",
+    "Assembly No.": "01481-00133",
+    "Description": "Utility V/R",
+    "Product": "Base Only",
+    "SO #": 23745.0
+  },
+  {
+    "SN": 1278,
+    "Customer": "KV Pharmaceuticals",
+    "Description": "VIP 4S",
+    "Product": "Base with C-P's",
+    "SO #": 23700.0
+  },
+  {
+    "SN": 1279,
+    "Customer": "Banner, Netherlands",
+    "Description": "Servo V/R",
+    "Product": "Base with C-P's",
+    "SO #": 23720.0
+  },
+  {
+    "SN": 1280,
+    "Customer": "Square Pharma",
+    "Description": "AARP",
+    "Product": "Base with C-P's",
+    "SO #": 23721.0
+  },
+  {
+    "SN": 1281,
+    "Customer": "Clonmel / Advancis",
+    "Description": "AARP",
+    "Product": "Base with C-P's",
+    "SO #": 24022.0
+  },
+  {
+    "SN": 1282,
+    "Customer": "Astra, Sweden",
+    "Description": "AARP",
+    "Product": "Base with C-P's",
+    "SO #": 24005.0
+  },
+  {
+    "SN": 1283,
+    "Customer": "Roche, Italy",
+    "Description": "Servo Drum w/ Inspection",
+    "Product": "Base with C-P's - CellCept 500",
+    "SO #": 23631.0
+  },
+  {
+    "SN": 1284,
+    "Customer": "Roche,Nutley(show machine)",
+    "Description": "Servo Drum w/ Inspection",
+    "Product": "Base with C-P's - CellCept 500",
+    "SO #": 23944.0
+  },
+  {
+    "SN": 1285,
+    "Customer": "Roche, Mexico",
+    "Description": "Servo Drum",
+    "Product": "Base with C-P's",
+    "SO #": 23797.0
+  },
+  {
+    "SN": 1286,
+    "Customer": "Teva, Israel",
+    "Description": "Servo V/R",
+    "Product": "Base with C-P's",
+    "SO #": 24053.0
+  },
+  {
+    "SN": 1287,
+    "Customer": "NanoInk",
+    "Description": "Servo V/R - Stamping Assy",
+    "Product": "Base with C-P's - Risperdal 4mg",
+    "SO #": 23836.0
+  },
+  {
+    "SN": 1288,
+    "Customer": "Banner, NC",
+    "Description": "Servo V/R",
+    "Product": "Base with C-P's - #11 Softgel, Dupl",
+    "SO #": 24089.0
+  },
+  {
+    "SN": 1289,
+    "Customer": "Barcel, TX",
+    "Description": "30 Deg FARP",
+    "Product": "Base with C-P'S",
+    "SO #": 24129.0
+  },
+  {
+    "SN": 1290,
+    "Customer": "QS Pharma, PA",
+    "Description": "VIP 4S",
+    "Product": "Base with C-P'S",
+    "SO #": 24246.0
+  },
+  {
+    "SN": 1291,
+    "Customer": "Novartis,Germany",
+    "Description": "Servo Drum",
+    "Product": "Base with C-P'S",
+    "SO #": 24115.0
+  },
+  {
+    "SN": 1292,
+    "Customer": "Zanten, Netherlands",
+    "Description": "AARP",
+    "Product": "Base Only",
+    "SO #": 24295.0
+  },
+  {
+    "SN": 1293,
+    "Customer": "Farmamedica, Guatemala",
+    "Description": "AARP",
+    "Product": "Base with C-P'S",
+    "SO #": 24184.0
+  },
+  {
+    "SN": 1294,
+    "Customer": "Effem Direct",
+    "Description": "1 Sided Ctlvr Drum",
+    "Product": "Base only",
+    "SO #": 24290.0
+  },
+  {
+    "SN": 1295,
+    "Customer": "Effem Direct",
+    "Description": "1 Sided Ctlvr Drum",
+    "Product": "Base Only",
+    "SO #": 24290.0
+  },
+  {
+    "SN": 1296,
+    "Customer": "Effem Direct",
+    "Description": "1 Sided Ctlvr Drum",
+    "Product": "Base Only",
+    "SO #": 24290.0
+  },
+  {
+    "SN": 1297,
+    "Customer": "Effem Direct",
+    "Description": "1 Sided Ctlvr Drum",
+    "Product": "Base Only",
+    "SO #": 24290.0
+  },
+  {
+    "SN": 1298,
+    "Customer": "Delpharm",
+    "Assembly No.": "01911-00043",
+    "Description": "VIP 4S",
+    "Product": "Base with C-P'S",
+    "SO #": 24535.0
+  },
+  {
+    "SN": 1299,
+    "Customer": "Masterfoods",
+    "Description": "30 Deg FARP",
+    "Product": "Base Only",
+    "SO #": 24575.0
+  },
+  {
+    "SN": 1300,
+    "Customer": "Masterfoods",
+    "Description": "30 Deg FARP",
+    "Product": "Base Only",
+    "SO #": 24575.0
+  },
+  {
+    "SN": 1301,
+    "Customer": "Janssen PR (CE&IE)",
+    "Description": "AARP",
+    "Product": "Base Only",
+    "SO #": 24594.0
+  },
+  {
+    "SN": 1302,
+    "Customer": "National Vitamin NV",
+    "Description": "AARP",
+    "Product": "Base Only",
+    "SO #": 24678.0
+  },
+  {
+    "SN": 1303,
+    "Customer": "Anchen Pharmaceuticals",
+    "Description": "AARP",
+    "Product": "Base Only",
+    "SO #": 24775.0
+  },
+  {
+    "SN": 1304,
+    "Customer": "Masterfoods",
+    "Description": "30 Deg FARP",
+    "Product": "Base Only",
+    "SO #": 24789.0
+  },
+  {
+    "SN": 1305,
+    "Customer": "Strides Arcolab, India",
+    "Description": "AARP",
+    "Product": "Base with C-P's",
+    "SO #": 24844.0
+  },
+  {
+    "SN": 1306,
+    "Customer": "Best Sweet",
+    "Description": "Servo Cantilever Ramp",
+    "Product": "Base with C-P's",
+    "SO #": 25073.0
+  },
+  {
+    "SN": 1307,
+    "Customer": "Par Pharmaceuticals, CA",
+    "Description": "AARP",
+    "Product": "Base with C-P's",
+    "SO #": 25798.0
+  },
+  {
+    "SN": 1308,
+    "Customer": "Zanten, Netherlands",
+    "Description": "AARP",
+    "Product": "Base Only",
+    "SO #": 25062.0
+  },
+  {
+    "SN": 1309,
+    "Customer": "Bristol Myers Squibb",
+    "Assembly No.": "01911-00044",
+    "Description": "VIP 4S",
+    "Product": "Base Only",
+    "SO #": 25823.0
+  },
+  {
+    "SN": 1310,
+    "Customer": "Ackley - VIP 4S Show Printer",
+    "Description": "VIP 4S",
+    "Product": "Base Only",
+    "SO #": 26869.0
+  },
+  {
+    "SN": 1311,
+    "Customer": "Procter & Gamble, Germany",
+    "Description": "Servo V/R",
+    "Product": "Base with C-P's",
+    "SO #": 26296.0
+  },
+  {
+    "SN": 1312,
+    "Customer": "Anchen Pharmaceuticals",
+    "Assembly No.": "01911-00047",
+    "Description": "VIP Laser",
+    "Product": "Base with C-P's",
+    "SO #": 25065.0
+  },
+  {
+    "SN": 1313,
+    "Customer": "Losan, Germany",
+    "Assembly No.": "01911-00049",
+    "Description": "VIP 4S",
+    "Product": "Base with C-P's",
+    "SO #": 26160.0
+  },
+  {
+    "SN": 1314,
+    "Customer": "Banner, NC",
+    "Assembly No.": "01911-00045",
+    "Description": "VIP 4S",
+    "Product": "Base with C-P's",
+    "SO #": 26157.0
+  },
+  {
+    "SN": 1315,
+    "Customer": "Mars, France",
+    "Description": "1 Sided Ctlvr Drum",
+    "Product": "Base Only",
+    "SO #": 26081.0
+  },
+  {
+    "SN": 1316,
+    "Customer": "Mars, France",
+    "Description": "30 Deg FARP",
+    "Product": "Base Only",
+    "SO #": 26201.0
+  },
+  {
+    "SN": 1317,
+    "Customer": "Mars, France",
+    "Description": "30 Deg FARP",
+    "Product": "Base Only",
+    "SO #": 26201.0
+  },
+  {
+    "SN": 1318,
+    "Customer": "Mars, Brazil",
+    "Assembly No.": "01261-00021",
+    "Description": "2 Sided Ctlvr Drum",
+    "Product": "Base with C-P's",
+    "SO #": 26337.0
+  },
+  {
+    "SN": 1319,
+    "Customer": "Duchesnay",
+    "Description": "Servo Drum",
+    "Product": "Base with C-P'S",
+    "SO #": 26508.0
+  },
+  {
+    "SN": 1320,
+    "Customer": "Catalent",
+    "Assembly No.": "01481-00145",
+    "Description": "AARP",
+    "Product": "Base with C-P'S"
+  },
+  {
+    "SN": 1321,
+    "Customer": "Sanofi Winthrope, France",
+    "Assembly No.": "01511-00023",
+    "Description": "Servo CR Drill, Print & Inspect",
+    "Product": "Base with C-P'S",
+    "SO #": 27894.0
+  },
+  {
+    "SN": 1322,
+    "Customer": "Covidien / Mallinckrodt, MO",
+    "Assembly No.": "01911-00048",
+    "Description": "VIP 4S",
+    "Product": "Base Only",
+    "SO #": 27165.0
+  },
+  {
+    "SN": 1323,
+    "Customer": "Sandoz / EON Labs",
+    "Assembly No.": "01911-00050",
+    "Description": "VIP 4S",
+    "Product": "Base Only",
+    "SO #": 27115.0
+  },
+  {
+    "SN": 1324,
+    "Customer": "Mars, Poland",
+    "Description": "30 Deg FARP",
+    "Product": "Base with C-P'S",
+    "SO #": 26620.0
+  },
+  {
+    "SN": 1325,
+    "Customer": "Abbott, IL",
+    "Customer PO": "AS95141",
+    "Description": "Servo V/R",
+    "Product": "Base with C-P's",
+    "SO #": 26724.0
+  },
+  {
+    "SN": 1326,
+    "Customer": "Boehringer Ingelheim Roxane",
+    "Assembly No.": "01491-00021",
+    "Description": "Servo V/R",
+    "Product": "Base with C-P's",
+    "SO #": 26886.0
+  },
+  {
+    "SN": 1327,
+    "Customer": "Vision Test Printer",
+    "Description": "AARP"
+  },
+  {
+    "SN": 1328,
+    "Customer": "Mars, Brazil",
+    "Assembly No.": "01461-00116",
+    "Description": "30 Deg FARP",
+    "Product": "Base Only",
+    "SO #": 27183.0
+  },
+  {
+    "SN": 1329,
+    "Customer": "Mars, Brazil",
+    "Assembly No.": "01461-00117",
+    "Description": "15 Deg FARP",
+    "Product": "Base with C-P's",
+    "SO #": 27184.0
+  },
+  {
+    "SN": 1330,
+    "Customer": "Mars, Brazil",
+    "Assembly No.": "01461-00118",
+    "Description": "30 Deg FARP",
+    "Product": "Base with C-P's",
+    "SO #": 27185.0
+  },
+  {
+    "SN": 1331,
+    "Customer": "Mars, Brazil",
+    "Assembly No.": "01461-00119",
+    "Description": "30 Deg FARP",
+    "Product": "Base with C-P's",
+    "SO #": 27186.0
+  },
+  {
+    "SN": 1332,
+    "Customer": "Wyeth, PR",
+    "Assembly No.": "01481-00146",
+    "Description": "AARP",
+    "Product": "Base with C-P's",
+    "SO #": 27176.0
+  },
+  {
+    "SN": 1333,
+    "Customer": "Mylan,  West VA",
+    "Assembly No.": "01491-00022",
+    "Description": "Servo Ramp w/ Vision",
+    "Product": "Base with C-P's",
+    "SO #": 27179.0
+  },
+  {
+    "SN": 1334,
+    "Customer": "Schering-Plough, PR",
+    "Assembly No.": "01481-00147",
+    "Description": "AARP",
+    "Product": "Base with C-P's",
+    "SO #": 27375.0
+  },
+  {
+    "SN": 1335,
+    "Customer": "Pharmaceutics Intl",
+    "Assembly No.": "01481-00149",
+    "Description": "AARP",
+    "Product": "Base Only",
+    "SO #": 27833.0
+  },
+  {
+    "SN": 1336,
+    "Customer": "Mars, France",
+    "Assembly No.": "01261-00023",
+    "Description": "1 Sided Ctlvr Drum L-R",
+    "Product": "Base with C-P's / No Bars",
+    "SO #": 27878.0
+  },
+  {
+    "SN": 1337,
+    "Customer": "Covidien/Mallinckrodt, Hobart",
+    "Assembly No.": "01491-00023",
+    "Description": "Servo Ramp w/ Vision",
+    "Product": "Base with C-P's",
+    "SO #": 27902.0
+  },
+  {
+    "SN": 1338,
+    "Customer": "Hershey, Mexico",
+    "Assembly No.": "01481-00148",
+    "Description": "AARP - Utility Model",
+    "Product": "Base with C-P's",
+    "SO #": 27938.0
+  },
+  {
+    "SN": 1339,
+    "Customer": "Cadbury, NJ",
+    "Assembly No.": "01061-00004",
+    "Description": "FB - Slab Gum Printer (Pilot)",
+    "Product": "Base with C-P's",
+    "SO #": 27963.0
+  },
+  {
+    "SN": 1340,
+    "Customer": "Cerovene, NY",
+    "Assembly No.": "01911-00055",
+    "Description": "VIP 4S - Refurbished",
+    "Product": "Base with C-P's",
+    "SO #": 28142.0
+  },
+  {
+    "SN": 1341,
+    "Customer": "Ranbaxy Ireland",
+    "Assembly No.": "01911-00051",
+    "Description": "VIP 5S",
+    "Product": "Base with C-P's",
+    "SO #": 28120.0
+  },
+  {
+    "SN": 1342,
+    "Customer": "Abbott, IL",
+    "Assembly No.": "01491-00024",
+    "Description": "Servo Ramp w/ Vision",
+    "Product": "Base Only",
+    "SO #": 28016.0
+  },
+  {
+    "SN": 1343,
+    "Customer": "Ackley - Interpack Show",
+    "Assembly No.": "01491-00020",
+    "Description": "Servo Ramp w/ Vision",
+    "SO #": 28017.0
+  },
+  {
+    "SN": 1344,
+    "Customer": "Hershey, PA",
+    "Assembly No.": "01481-00151",
+    "Description": "AARP - Utility Model",
+    "Product": "Base with C-P's",
+    "SO #": 28081.0
+  },
+  {
+    "SN": 1345,
+    "Customer": "Mars, France",
+    "Assembly No.": "01461-00120",
+    "Description": "30 Deg FARP",
+    "SO #": 28106.0
+  },
+  {
+    "SN": 1346,
+    "Customer": "Mars, France",
+    "Assembly No.": "01461-00121",
+    "Description": "30 Deg FARP",
+    "SO #": 28107.0
+  },
+  {
+    "SN": 1347,
+    "Customer": "Boehringer, Indonesia",
+    "Assembly No.": "01911-00053",
+    "Description": "VIP 5S",
+    "Product": "Base with C-P's",
+    "SO #": 28130.0
+  },
+  {
+    "SN": 1348,
+    "Customer": "Upsher Smith, MN",
+    "Assembly No.": "01481-00152",
+    "Description": "AARP",
+    "Product": "Base with C-P's",
+    "SO #": 28152.0
+  },
+  {
+    "SN": 1349,
+    "Customer": "Custom Pharma",
+    "Assembly No.": "01911-00054",
+    "Description": "VIP 5S",
+    "Product": "Base with C-P's",
+    "SO #": 28274.0
+  },
+  {
+    "SN": 1350,
+    "Customer": "Mylan / Matrix, India",
+    "Assembly No.": "01491-00026",
+    "Description": "Servo Ramp w/ Vision",
+    "Product": "Base Only",
+    "SO #": 28277.0
+  },
+  {
+    "SN": 1351,
+    "Customer": "Mars, TN",
+    "Assembly No.": "01461-00122",
+    "Description": "30 Deg FARP",
+    "Product": "Base with C-P's",
+    "SO #": 28254.0
+  },
+  {
+    "SN": 1352,
+    "Customer": "Mars, TN",
+    "Assembly No.": "01461-00123",
+    "Description": "30 Deg FARP",
+    "Product": "Base with C-P's",
+    "SO #": 28254.0
+  },
+  {
+    "SN": 1353,
+    "Customer": "Douglas, New Zealand",
+    "Assembly No.": "01491-00027",
+    "Description": "Servo Ramp w/ Vac. Hold-Down",
+    "Product": "Base with C-P's",
+    "SO #": 28422.0
+  },
+  {
+    "SN": 1354,
+    "Customer": "Purdue Pharma",
+    "Assembly No.": "01911-00056",
+    "Description": "VIP 5S",
+    "Product": "Base with C-P's",
+    "SO #": 28361.0
+  },
+  {
+    "SN": 1355,
+    "Customer": "Ackley - Test Machine",
+    "Assembly No.": "01511-00025",
+    "Description": "Servo CR Drill, Print & Inspect",
+    "Product": "Base Only"
+  },
+  {
+    "SN": 1356,
+    "Customer": "Canel's S.A. DE C.V.",
+    "Assembly No.": "01481-00153",
+    "Description": "AARP",
+    "Product": "Base with C-P's",
+    "SO #": 28650.0
+  },
+  {
+    "SN": 1357,
+    "Customer": "Cadbury, Rockford IL",
+    "Assembly No.": "01061-00005",
+    "Description": "FB - Slab Gum Printer",
+    "Product": "Base with C-P's",
+    "SO #": 28557.0
+  },
+  {
+    "SN": 1358,
+    "Customer": "Cadbury, Rockford IL",
+    "Assembly No.": "01061-00006",
+    "Description": "FB - Slab Gum Printer",
+    "Product": "Base with C-P's",
+    "SO #": 28557.0
+  },
+  {
+    "SN": 1359,
+    "Customer": "BMS, IN",
+    "Assembly No.": "01291-00023",
+    "Description": "Servo Drum - Allen Bradley",
+    "Product": "Base Only",
+    "SO #": 28719.0
+  },
+  {
+    "SN": 1360,
+    "Customer": "QS Pharma, PA",
+    "Assembly No.": "01291-00024",
+    "Description": "Servo Drum - Allen Bradley",
+    "Product": "Base with C-P's",
+    "SO #": 28973.0
+  },
+  {
+    "SN": 1361,
+    "Customer": "Novartis, Switzerland - Stein",
+    "Assembly No.": "01291-00025",
+    "Description": "Servo Drum w/ Inspection",
+    "Product": "Base with C-P's",
+    "SO #": 29019.0
+  },
+  {
+    "SN": 1362,
+    "Customer": "Mars, China - Yan Qi",
+    "Assembly No.": "01461-00124",
+    "Description": "30 Deg FARP - Peanut m&m",
+    "Product": "Base with C-P's",
+    "SO #": 28936.0
+  },
+  {
+    "SN": 1363,
+    "Customer": "Mars, China - Jiaxing",
+    "Assembly No.": "01461-00125",
+    "Description": "30 Deg FARP - Plain m&m",
+    "Product": "Base with C-P's",
+    "SO #": 28937.0
+  },
+  {
+    "SN": 1364,
+    "Customer": "Dr. Reddy's, India",
+    "Assembly No.": "01511-00026",
+    "Description": "Ctlvr Rmp w/ 2-Side Inspect",
+    "Product": "Base with C-P's",
+    "SO #": 28974.0
+  },
+  {
+    "SN": 1365,
+    "Customer": "Cadbury, Poland",
+    "Assembly No.": "01061-00007",
+    "Description": "FB - Slab Gum Printer",
+    "Product": "Base with C-P's",
+    "SO #": 28859.0
+  },
+  {
+    "SN": 1366,
+    "Customer": "Cadbury, Poland",
+    "Assembly No.": "01061-00008",
+    "Description": "FB - Slab Gum Printer",
+    "Product": "Base with C-P's",
+    "SO #": 28859.0
+  },
+  {
+    "SN": 1367,
+    "Customer": "Sanofi Australia",
+    "Assembly No.": "01511-00027",
+    "Description": "Ctlvr Rmp w/ 1-Side Inspect",
+    "Product": "Base with C-P's",
+    "SO #": 29222.0
+  },
+  {
+    "SN": 1368,
+    "Customer": "Mylan, PR",
+    "Assembly No.": "01491-00025",
+    "Description": "Servo Ramp w/ Vision",
+    "Product": "Base with C-P's",
+    "SO #": 29127.0
+  },
+  {
+    "SN": 1369,
+    "Customer": "BMS, IN",
+    "Assembly No.": "01291-00026",
+    "Description": "Servo Drum - Allen Bradley",
+    "SO #": 29313.0
+  },
+  {
+    "SN": 1370,
+    "Customer": "Sanchez, Spain",
+    "Assembly No.": "01481-00155",
+    "Description": "AARP - Jelly Beans",
+    "Product": "Base with C-P's",
+    "SO #": 29567.0
+  },
+  {
+    "SN": 1371,
+    "Customer": "Wrigley, China",
+    "Assembly No.": "01461-00126",
+    "Description": "30 Deg FRP",
+    "SO #": 29437.0
+  },
+  {
+    "SN": 1372,
+    "Customer": "Wrigley, China",
+    "Assembly No.": "01461-00127",
+    "Description": "30 Deg FRP",
+    "SO #": 29437.0
+  },
+  {
+    "SN": 1373,
+    "Customer": "Hisun Pharma, China",
+    "Assembly No.": "01511-00028",
+    "Description": "Ctlvr Rmp w/ Inspection",
+    "Product": "Base with C-P's",
+    "SO #": 29390.0
+  },
+  {
+    "SN": 1374,
+    "Customer": "Sanofi, K.C. (Lease)",
+    "Assembly No.": "01511-00029",
+    "Description": "Ctlvr Rmp w/ Laser & Inspection",
+    "Product": "Base with C-P's",
+    "SO #": 31686.0
+  },
+  {
+    "SN": 1375,
+    "Customer": "Lotte Shanghai, China",
+    "Assembly No.": "01481-00154",
+    "Description": "AARP - Hershey Almonds",
+    "SO #": 29534.0
+  },
+  {
+    "SN": 1376,
+    "Customer": "American Licorice, IN",
+    "Assembly No.": "01481-00156",
+    "Description": "AARP - Utility Model",
+    "Product": "Base with C-P's",
+    "SO #": 29614.0
+  },
+  {
+    "SN": 1377,
+    "Customer": "Wyeth, Italy",
+    "Assembly No.": "01491-00029",
+    "Description": "Servo AARP - 163 Bars",
+    "Product": "Base with C-P's",
+    "SO #": 29603.0
+  },
+  {
+    "SN": 1378,
+    "Customer": "BMS, IN",
+    "Assembly No.": "01291-00027",
+    "Description": "Servo Drum - Allen Bradley",
+    "SO #": 29593.0
+  },
+  {
+    "SN": 1379,
+    "Customer": "Bayer/Berlimed, Spain",
+    "Assembly No.": "01491-00028",
+    "Description": "Servo Ramp w/ Vision",
+    "Product": "Base with C-P's",
+    "SO #": 29566.0
+  },
+  {
+    "SN": 1380,
+    "Customer": "InvaGen Pharma",
+    "Assembly No.": "01911-00057",
+    "Description": "VIP 5S",
+    "Product": "Base with C-P's",
+    "SO #": 29673.0
+  },
+  {
+    "SN": 1381,
+    "Customer": "Sunrise Confections, TX",
+    "Assembly No.": "01481-00157",
+    "Description": "AARP - Starburst Jellybeans",
+    "Product": "Base with C-P's",
+    "SO #": 29725.0
+  },
+  {
+    "SN": 1382,
+    "Customer": "Mars Food(Jiaxing), China",
+    "Assembly No.": "01461-00128",
+    "Description": "30 Deg FRP",
+    "Product": "Base with Carrier Bars M&M Plain",
+    "SO #": 29756.0
+  },
+  {
+    "SN": 1383,
+    "Customer": "Mars Food(Jiaxing), China",
+    "Assembly No.": "01461-00129",
+    "Description": "30 Deg FRP",
+    "Product": "Base with Carrier Bars M&M Plain",
+    "SO #": 29756.0
+  },
+  {
+    "SN": 1384,
+    "Customer": "Mars Food(Jiaxing), China",
+    "Assembly No.": "01461-00130",
+    "Description": "30 Deg FRP",
+    "Product": "Base with Carrier Bars M&M Plain",
+    "SO #": 29756.0
+  },
+  {
+    "SN": 1385,
+    "Customer": "Mars Food(Jiaxing), China",
+    "Assembly No.": "01461-00131",
+    "Description": "30 Deg FRP",
+    "Product": "Base with Carrier Bars M&M Plain",
+    "SO #": 29756.0
+  },
+  {
+    "SN": 1386,
+    "Customer": "Mars Polska, Poland",
+    "Assembly No.": "01461-00132",
+    "Description": "30 Deg FRP",
+    "Product": "Base with Carrier Bars M&M Peanut",
+    "SO #": 29842.0
+  },
+  {
+    "SN": 1387,
+    "Customer": "Mars Polska, Poland",
+    "Assembly No.": "01461-00133",
+    "Description": "30 Deg FRP",
+    "Product": "Base with Carrier Bars M&M Plain",
+    "SO #": 29842.0
+  },
+  {
+    "SN": 1388,
+    "Customer": "BMS (Rieckermann) China",
+    "Assembly No.": "01291-00028",
+    "Description": "Servo Drum - Allen Bradley",
+    "Product": "Base with C-P's",
+    "SO #": 29829.0
+  },
+  {
+    "SN": 1389,
+    "Customer": "TWI Pharma, Taiwan",
+    "Assembly No.": "01911-00062",
+    "Description": "VIP - Laser Drill & Inspect",
+    "Product": "Base with C-P's",
+    "SO #": 30158.0
+  },
+  {
+    "SN": 1390,
+    "Customer": "Halo Pharma, NJ",
+    "Assembly No.": "01911-00058",
+    "Description": "VIP 5S",
+    "Product": "Base Only",
+    "SO #": 30204.0
+  },
+  {
+    "SN": 1391,
+    "Customer": "Alza, Vacaville CA",
+    "Assembly No.": "01481-00158",
+    "Description": "AARP",
+    "Product": "Base Only",
+    "SO #": 30259.0
+  },
+  {
+    "SN": 1392,
+    "Customer": "Wrigley, China",
+    "Assembly No.": "01461-00134",
+    "Description": "30 Deg FRP",
+    "Product": "Base Only",
+    "SO #": 30260.0
+  },
+  {
+    "SN": 1393,
+    "Customer": "Mars, Topeka",
+    "Assembly No.": "01461-00135",
+    "Description": "30 Deg FARP",
+    "Product": "Base Only",
+    "SO #": 30421.0
+  },
+  {
+    "SN": 1394,
+    "Customer": "Mars, Topeka",
+    "Assembly No.": "01461-00136",
+    "Description": "30 Deg FARP",
+    "Product": "Base Only",
+    "SO #": 30421.0
+  },
+  {
+    "SN": 1395,
+    "Customer": "Mars, Topeka",
+    "Assembly No.": "01461-00137",
+    "Description": "30 Deg FARP",
+    "Product": "Base Only",
+    "SO #": 30421.0
+  },
+  {
+    "SN": 1396,
+    "Customer": "Mars, Topeka",
+    "Assembly No.": "01461-00138",
+    "Description": "30 Deg FARP",
+    "Product": "Base Only",
+    "SO #": 30421.0
+  },
+  {
+    "SN": 1397,
+    "Customer": "Komipharm, Korea",
+    "Assembly No.": "01511-00030",
+    "Description": "Ctlvr Ramp, Mechanical",
+    "Product": "Base with C-P's",
+    "SO #": 30432.0
+  },
+  {
+    "SN": 1398,
+    "Customer": "Rieckermann (Beijing Saike)",
+    "Assembly No.": "01511-00031",
+    "Description": "Servo Ctlvr: Print, Drill, Inspect",
+    "Product": "Base with C-P's",
+    "SO #": 30435.0
+  },
+  {
+    "SN": 1399,
+    "Customer": "BMS, IN",
+    "Assembly No.": "01291-00030",
+    "Description": "Servo Drum - Allen Bradley",
+    "Product": "Base Only",
+    "SO #": 30482.0
+  },
+  {
+    "SN": 1400,
+    "Customer": "Vertex Pharm, MA (ship to UK)",
+    "Assembly No.": "01481-00159",
+    "Description": "AARP",
+    "Product": "Base with C-P's",
+    "SO #": 30704.0
+  },
+  {
+    "SN": 1401,
+    "Customer": "Vertex Pharm, MA",
+    "Assembly No.": "01481-00160",
+    "Description": "AARP",
+    "Product": "Base with C-P's",
+    "SO #": 30878.0
+  },
+  {
+    "SN": 1402,
+    "Customer": "Salus Sciecure, NJ",
+    "Assembly No.": "01811-00001",
+    "Description": "Laser Drill, Manual Feed",
+    "Product": "Base w/ 2 Paddles",
+    "SO #": 30194.0
+  },
+  {
+    "SN": 1403,
+    "Customer": "Beijing Sciecure, China",
+    "Assembly No.": "01911-00064",
+    "Description": "VIP - Laser Drill & Inspect",
+    "Product": "Base with C-P's",
+    "SO #": 30963.0
+  },
+  {
+    "SN": 1404,
+    "Customer": "Actavis, NJ",
+    "Assembly No.": "01911-00059",
+    "Description": "VIP 5S",
+    "Product": "Base Only",
+    "SO #": 31023.0
+  },
+  {
+    "SN": 1405,
+    "Customer": "Abon Pharmaceuticals, NJ",
+    "Assembly No.": "01811-00003",
+    "Description": "Laser Drill, Manual Feed",
+    "Product": "Base w/ 1 Paddle",
+    "SO #": 31136.0
+  },
+  {
+    "SN": 1406,
+    "Customer": "Purdue, NC",
+    "Assembly No.": "01511-00033",
+    "Description": "Servo Ctlvr Rmp w/ Inspection",
+    "Product": "Base with C-P's",
+    "SO #": 31232.0
+  },
+  {
+    "SN": 1407,
+    "Customer": "Millennium/Metrics, MA",
+    "Assembly No.": "01291-00031",
+    "Description": "Servo Drum w/ Inspection",
+    "Product": "Base with C-P's",
+    "SO #": 31242.0
+  },
+  {
+    "SN": 1408,
+    "Customer": "Wrigley, Czech Republic",
+    "Assembly No.": "01461-00139",
+    "Description": "30 Deg FARP",
+    "Product": "Base with C-P's",
+    "SO #": 31286.0
+  },
+  {
+    "SN": 1409,
+    "Customer": "Wrigley, Czech Republic",
+    "Assembly No.": "01461-00140",
+    "Description": "30 Deg FARP",
+    "Product": "Base with C-P's",
+    "SO #": 31286.0
+  },
+  {
+    "SN": 1410,
+    "Customer": "Wrigley, Czech Republic",
+    "Assembly No.": "01461-00141",
+    "Description": "30 Deg FARP",
+    "Product": "Base with C-P's",
+    "SO #": 31286.0
+  },
+  {
+    "SN": 1411,
+    "Customer": "Pfizer, CT",
+    "Assembly No.": "01811-00004",
+    "Description": "Laser Drill, Manual Feed",
+    "Product": "Base w/ 2 Paddles",
+    "SO #": 31292.0
+  },
+  {
+    "SN": 1412,
+    "Customer": "Banner, NC",
+    "Assembly No.": "01911-00060",
+    "Description": "VIP 5S",
+    "Product": "Base with C-P's",
+    "SO #": 31386.0
+  },
+  {
+    "SN": 1413,
+    "Customer": "Banner, NC",
+    "Assembly No.": "01911-00061",
+    "Description": "VIP 5S",
+    "Product": "Base Only",
+    "SO #": 31457.0
+  },
+  {
+    "SN": 1414,
+    "Customer": "Laboratories Servier S.L.",
+    "Assembly No.": "01911-00065",
+    "Description": "VIP 5S w/ Enclosure",
+    "Product": "Base with C-P's",
+    "SO #": 31536.0
+  },
+  {
+    "SN": 1415,
+    "Customer": "Laboratories Servier, Ireland",
+    "Assembly No.": "01911-00066",
+    "Description": "VIP 5S w/ Enclosure",
+    "Product": "Base with C-P's",
+    "SO #": 31623.0
+  },
+  {
+    "SN": 1416,
+    "Customer": "Stock (was Pharmaceutics Int'l, MD)",
+    "Assembly No.": "01491-00031",
+    "Description": "Servo Ramp w/ Vision",
+    "Product": "Base with C-P's",
+    "SO #": 31665.0
+  },
+  {
+    "SN": 1417,
+    "Customer": "Berlimed S.A., Spain",
+    "Assembly No.": "01491-00030",
+    "Description": "Servo Ramp w/ Vision",
+    "Product": "Base with C-P's",
+    "SO #": 31678.0
+  },
+  {
+    "SN": 1418,
+    "Customer": "Rieckermann / Chongqing Yaoyou",
+    "Assembly No.": "01511-00032",
+    "Description": "Servo Ctlvr Rmp w/ Inspection",
+    "Product": "Base with C-P's",
+    "SO #": 31669.0
+  },
+  {
+    "SN": 1419,
+    "Customer": "Abon / Incept, Bangladesh",
+    "Assembly No.": "01911-00068",
+    "Description": "VIP - Laser Drill & Inspect",
+    "Product": "Base with C-P's",
+    "SO #": 31818.0
+  },
+  {
+    "SN": 1420,
+    "Customer": "Abon / Incept, Bangladesh",
+    "Assembly No.": "01911-00067",
+    "Description": "VIP 5S w/ Enclosure",
+    "Product": "Base with C-P's",
+    "SO #": 31819.0
+  },
+  {
+    "SN": 1421,
+    "Customer": "Vidal Golosinas SA, Spain",
+    "Assembly No.": "01481-00161",
+    "Description": "AARP - Utility Model",
+    "Product": "Base with C-P's",
+    "SO #": 31863.0
+  },
+  {
+    "SN": 1422,
+    "Customer": "Hershey, Malaysia",
+    "Assembly No.": "01481-00162",
+    "Description": "AARP - Utility Model",
+    "Product": "Base with C-P's",
+    "SO #": 31339.0
+  },
+  {
+    "SN": 1423,
+    "Customer": "Wrigley Russia",
+    "Assembly No.": "01481-00163",
+    "Description": "AARP - Utility Model",
+    "Product": "Base with C-P's",
+    "SO #": 31926.0
+  },
+  {
+    "SN": 1424,
+    "Customer": "Beijing Sciecure, China",
+    "Assembly No.": "01911-00069",
+    "Description": "VIP 5S w/ Enclosure",
+    "Product": "Base with C-P's",
+    "SO #": 31963.0
+  },
+  {
+    "SN": 1425,
+    "Customer": "Valpharma Int'l SpA, Italy",
+    "Assembly No.": "01911-00070",
+    "Description": "VIP 5S w/ Enclosure",
+    "Product": "Base Only (C-P's on separate order)",
+    "SO #": 31985.0
+  },
+  {
+    "SN": 1426,
+    "Customer": "Wrigley, China",
+    "Assembly No.": "01461-00142",
+    "Description": "30 Deg FARP",
+    "Product": "Base with C-P's",
+    "SO #": 32075.0
+  },
+  {
+    "SN": 1427,
+    "Customer": "Wrigley, China",
+    "Assembly No.": "01461-00143",
+    "Description": "30 Deg FARP",
+    "Product": "Base with C-P's",
+    "SO #": 32075.0
+  },
+  {
+    "SN": 1428,
+    "Customer": "Laboratories Servier, France",
+    "Assembly No.": "01911-00071",
+    "Description": "VIP 5S w/ Enclosure",
+    "Product": "Base with C-P's",
+    "SO #": 32099.0
+  },
+  {
+    "SN": 1429,
+    "Customer": "Bestco, NC",
+    "Assembly No.": "01491-00032",
+    "Description": "Servo Ramp w/ Vision",
+    "Product": "Base with C-P's",
+    "SO #": 32295.0
+  },
+  {
+    "SN": 1430,
+    "Customer": "Abbvie, Barceloneta PR",
+    "Assembly No.": "01491-00033",
+    "Description": "Servo Ramp w/ Vision",
+    "Product": "Base Only (C-P's on separate order)",
+    "SO #": 32397.0,
+    "Electrical": "230 VAC, Three, 50/60 Hz, 25 Amp"
+  },
+  {
+    "SN": 1431,
+    "Customer": "Warner Chilcott, PR",
+    "Assembly No.": "01911-00072",
+    "Description": "VIP 5S w/ Enclosure",
+    "Product": "Base with C-P's",
+    "SO #": 32465.0
+  },
+  {
+    "SN": 1432,
+    "Customer": "Mylan, India",
+    "Assembly No.": "01491-00034",
+    "Description": "Servo Ramp w/ Vision",
+    "Product": "Base Only (C-P's on separate order)",
+    "SO #": 32543.0,
+    "Electrical": "230 VAC, Single, 50 Hz, 20 Amp"
+  },
+  {
+    "SN": 1433,
+    "Customer": "Torrent Pharmaceticals, India",
+    "Assembly No.": "01491-00035",
+    "Description": "Servo Ramp w/ Vision",
+    "Product": "Base with C-P's",
+    "SO #": 32597.0,
+    "Electrical": "230 VAC, Single, 50/60 Hz, 20 Amp"
+  },
+  {
+    "SN": 1434,
+    "Customer": "Lotte Shanghai, China",
+    "Assembly No.": "01481-00164",
+    "Description": "AARP - Utility Model",
+    "Product": "Base with C-P's",
+    "SO #": 32614.0
+  },
+  {
+    "SN": 1435,
+    "Customer": "Impax Laboratories / Halo, NJ",
+    "Assembly No.": "01511-00034",
+    "Description": "Servo Ctlvr Rmp w/ Inspection",
+    "Product": "Base Only",
+    "SO #": 33336.0,
+    "Electrical": "Achema 2015 show machine"
+  },
+  {
+    "SN": 1436,
+    "Customer": "Reckitt Benckiser, UT",
+    "Assembly No.": "01911-00073",
+    "Description": "VIP 5S w/ Enclosure",
+    "Product": "Base with C-P's",
+    "SO #": 33024.0
+  },
+  {
+    "SN": 1437,
+    "Customer": "Dr Reddy; Shreveport, LA",
+    "Assembly No.": "01811-00006",
+    "Description": "Laser Drill, Manual Feed",
+    "Product": "Base with C-P's",
+    "SO #": 33355.0,
+    "Electrical": "Achema 2015 show machine"
+  },
+  {
+    "SN": 1438,
+    "Customer": "Actavis / Watson, FL",
+    "Assembly No.": "01911-00075",
+    "Description": "VIP - Laser Drill & Inspect",
+    "Product": "Base Only",
+    "SO #": 33184.0,
+    "Electrical": "230 VAC, Single, 50/60 Hz, 30 Amp"
+  },
+  {
+    "SN": 1439,
+    "Customer": "Teva, Israel",
+    "Assembly No.": "01911-00076",
+    "Description": "VIP - Laser Drill & Inspect",
+    "Product": "Base w/ ?????",
+    "SO #": 33287.0
+  },
+  {
+    "SN": 1440,
+    "Customer": "Pfizer, PR",
+    "Assembly No.": "01491-00036",
+    "Description": "Servo Ramp w/ Vision",
+    "Product": "Base with C-P's",
+    "SO #": 33045.0,
+    "Electrical": "230 VAC, Single, 50/60 Hz, 20 Amp"
+  },
+  {
+    "SN": 1441,
+    "Customer": "P&S Ravioli",
+    "Assembly No.": "04011-00016",
+    "Description": "Ravioli Drum Machine",
+    "Product": "Base with C-P's",
+    "SO #": 31340.0
+  },
+  {
+    "SN": 1442,
+    "Customer": "Nesher Pharmaceuticals",
+    "Assembly No.": "01911-00074",
+    "Description": "VIP 5S w/ Enclosure",
+    "Product": "Base with C-P's",
+    "SO #": 33572.0
+  },
+  {
+    "SN": 1443,
+    "Customer": "Stock",
+    "Assembly No.": "01511-00035",
+    "Description": "Ctlvr Ramp, Mechanical",
+    "Product": "Base Only",
+    "SO #": 32192.0
+  },
+  {
+    "SN": 1444,
+    "Customer": "Dr Reddy, Devunipalavalasa",
+    "Assembly No.": "01511-00036",
+    "Description": "Servo Ctlvr Rmp w/ Inspection",
+    "Product": "Base Only",
+    "SO #": 33331.0
+  },
+  {
+    "SN": 1445,
+    "Customer": "Par Pharmaceutical, NY",
+    "Assembly No.": "01811-00005",
+    "Description": "Laser Drill, Manual Feed",
+    "Product": "Base with C-P's",
+    "SO #": 33195.0
+  },
+  {
+    "SN": 1446,
+    "Customer": "Dulces De La Rosa",
+    "Assembly No.": "01461-00144",
+    "Description": "30 Deg FARP",
+    "Product": "Base with C-P's",
+    "SO #": 33256.0
+  },
+  {
+    "SN": 1447,
+    "Customer": "Sun Pharma, India",
+    "Assembly No.": "01491-00037",
+    "Description": "Servo Ramp w/ Vision",
+    "Product": "Base with C-P's",
+    "SO #": 33288.0
+  },
+  {
+    "SN": 1448,
+    "Customer": "Dr Reddy; Shreveport, LA",
+    "Assembly No.": "01911-00077",
+    "Description": "VIP - Laser Drill & Inspect",
+    "Product": "Base with C-P's",
+    "SO #": 33355.0
+  },
+  {
+    "SN": 1449,
+    "Customer": "Ajanta Pharma, India",
+    "Assembly No.": "01911-00078",
+    "Description": "VIP - Laser Drill & Inspect",
+    "Product": "Base with C-P's",
+    "SO #": 33465.0
+  },
+  {
+    "SN": 1450,
+    "Customer": "Par Pharmaceuticals, NY",
+    "Assembly No.": "01911-00079",
+    "Description": "VIP - Laser Drill & Inspect",
+    "Product": "Base with C-P's",
+    "SO #": 33866.0
+  },
+  {
+    "SN": 1451,
+    "Customer": "Ferrara Pan Candy, TX",
+    "Assembly No.": "01481-00165",
+    "Description": "AARP - Utility Model",
+    "Product": "Base with C-P's",
+    "SO #": 33538.0
+  },
+  {
+    "SN": 1452,
+    "Customer": "Clear Investment Ltd; Ghana",
+    "Assembly No.": "01911-00080",
+    "Description": "VIP 5S w/ Enclosure",
+    "Product": "Base with C-P's",
+    "SO #": 33378.0
+  },
+  {
+    "SN": 1453,
+    "Customer": "Patheon Puerto Rico, Inc.",
+    "Assembly No.": "01491-00038",
+    "Description": "Servo Ramp w/ Vision",
+    "Product": "Base with C-P's",
+    "SO #": 33590.0
+  },
+  {
+    "SN": 1454,
+    "Customer": "Sandoz, CO",
+    "Assembly No.": "01491-00039",
+    "Description": "Servo Ramp w/ Vision",
+    "Product": "Base with C-P's",
+    "SO #": 33599.0
+  },
+  {
+    "SN": 1455,
+    "Customer": "Sandoz, CO",
+    "Assembly No.": "01291-00032",
+    "Description": "Servo Drum with Laser&Color Inspection",
+    "Product": "Base with C-P's",
+    "SO #": 33600.0
+  },
+  {
+    "SN": 1456,
+    "Customer": "Xcelience, FL",
+    "Assembly No.": "01511-00037",
+    "Description": "Servo Ctlvr Rmp w/ Inspection",
+    "Product": "Base Only",
+    "SO #": 33734.0
+  },
+  {
+    "SN": 1457,
+    "Customer": "Baliarda S.A., Argentina",
+    "Assembly No.": "01911-00081",
+    "Description": "VIP 5S w/ Enclosure",
+    "Product": "Base with C-P's",
+    "SO #": 33801.0
+  },
+  {
+    "SN": 1458,
+    "Customer": "Surepharm Services Lts., UK",
+    "Assembly No.": "01511-00038",
+    "Description": "Servo Ctlvr Rmp",
+    "Product": "Base Only",
+    "SO #": 33814.0
+  },
+  {
+    "SN": 1459,
+    "Customer": "Boehringer, Indonesia",
+    "Assembly No.": "01511-00039",
+    "Description": "Servo Ctlvr Rmp Laser Marking System",
+    "Product": "Base with C-P's",
+    "SO #": 33850.0
+  },
+  {
+    "SN": 1460,
+    "Customer": "Nesher Pharmaceuticals, MO",
+    "Assembly No.": "01911-00082",
+    "Description": "VIP - Laser Drill & Inspect",
+    "Product": "Base with C-P's",
+    "SO #": 34066.0
+  },
+  {
+    "SN": 1461,
+    "Customer": "Novel Laboratories, NJ",
+    "Assembly No.": "01911-00085",
+    "Description": "VIP 5S w/ Enclosure",
+    "Product": "Base with C-P's",
+    "SO #": 34163.0
+  },
+  {
+    "SN": 1462,
+    "Customer": "Norwich Pharmaceuticals, NY",
+    "Assembly No.": "01911-00083",
+    "Description": "VIP - Laser Drill & Inspect",
+    "Product": "Base with C-P's",
+    "SO #": 34212.0
+  },
+  {
+    "SN": 1463,
+    "Customer": "Mylan Laboratories, India",
+    "Assembly No.": "01491-00040",
+    "Description": "Servo Ramp w/ Vision",
+    "Product": "Base with C-P's",
+    "SO #": 34317.0
+  },
+  {
+    "SN": 1464,
+    "Customer": "Ajanta Pharma, India",
+    "Assembly No.": "01491-00041",
+    "Description": "Servo Ramp w/ Vision",
+    "Product": "Base with C-P's",
+    "SO #": 34394.0
+  },
+  {
+    "SN": 1465,
+    "Customer": "Janssen-Cilag S.p.A., Italy",
+    "Assembly No.": "01511-00040",
+    "Description": "Servo Ctlvr Rmp w/ Inspection",
+    "Product": "Base with C-P's",
+    "SO #": 34311.0
+  },
+  {
+    "SN": 1466,
+    "Customer": "Magnifica, Inc / Tulex Pharma, NJ",
+    "Assembly No.": "01911-00086",
+    "Description": "VIP 5S w/ Enclosure",
+    "Product": "Base with C-P's",
+    "SO #": 34486.0
+  },
+  {
+    "SN": 1467,
+    "Customer": "Patheon, OH",
+    "Assembly No.": "01911-00084",
+    "Description": "VIP - Laser Drill & Inspect",
+    "Product": "Base with C-P's",
+    "SO #": 34458.0
+  },
+  {
+    "SN": 1468,
+    "Customer": "Cadila Healthcare, India",
+    "Assembly No.": "01491-00042",
+    "Description": "Servo Ramp w/ Vision",
+    "Product": "Base with C-P's",
+    "SO #": 34755.0
+  },
+  {
+    "SN": 1469,
+    "Customer": "TWI Pharmaceuticals, Taiwan",
+    "Assembly No.": "01911-00087",
+    "Description": "VIP - Laser Drill & Inspect",
+    "Product": "Base with C-P's",
+    "SO #": 34818.0
+  },
+  {
+    "SN": 1470,
+    "Customer": "Almac Pharma Services, UK",
+    "Assembly No.": "01911-00088",
+    "Description": "VIP 5S w/ Enclosure",
+    "Product": "Base with C-P's",
+    "SO #": 34843.0
+  },
+  {
+    "SN": 1471,
+    "Customer": "Dr. Reddy's Laboratories, India",
+    "Assembly No.": "01511-00041",
+    "Description": "Servo Ctlvr Rmp w/ Inspection",
+    "Product": "Base with C-P's",
+    "SO #": 37917.0
+  },
+  {
+    "SN": 1472,
+    "Customer": "Watson / Actavis, Goa India",
+    "Assembly No.": "01491-00043",
+    "Description": "Servo Ramp w/ Vision",
+    "Product": "Base with C-P's",
+    "SO #": 34956.0
+  },
+  {
+    "SN": 1473,
+    "Customer": "Cadila Healthcare, India",
+    "Assembly No.": "01911-00091",
+    "Description": "VIP - Laser Drill & Inspect",
+    "Product": "Base with C-P's",
+    "SO #": 34995.0
+  },
+  {
+    "SN": 1474,
+    "Customer": "Qingdao Baheal Pharma",
+    "Assembly No.": "01911-00089",
+    "Description": "VIP 5S w/ Enclosure",
+    "Product": "Base with C-P's",
+    "SO #": 34996.0
+  },
+  {
+    "SN": 1475,
+    "Customer": "Rieckermann/Univ. of Macau",
+    "Assembly No.": "01911-00090",
+    "Description": "VIP 5S w/ Enclosure",
+    "Product": "Base with C-P's",
+    "SO #": 35024.0
+  },
+  {
+    "SN": 1476,
+    "Customer": "TWI Pharmaceuticals, Taiwan",
+    "Assembly No.": "01291-00033",
+    "Description": "Servo Drum with Laser&Color Inspection",
+    "Product": "Base with C-P's",
+    "SO #": 36675.0
+  },
+  {
+    "SN": 1477,
+    "Customer": "Rieckermann/Zhejiang Huahai Pharma",
+    "Assembly No.": "01911-00093",
+    "Description": "VIP 5S w/ Enclosure",
+    "Product": "Base with C-P's",
+    "SO #": 35113.0
+  },
+  {
+    "SN": 1478,
+    "Customer": "Rieckermann Services Ltd., Philippines",
+    "Assembly No.": "01911-00094",
+    "Description": "VIP 5S w/ Enclosure",
+    "Product": "Base with C-P's",
+    "SO #": 35167.0
+  },
+  {
+    "SN": 1479,
+    "Customer": "OUYI  Pharmaceutical Co., Ltd., China",
+    "Assembly No.": "01911-00095",
+    "Description": "VIP 5S w/ Enclosure",
+    "Product": "Base with C-P's",
+    "SO #": 35239.0
+  },
+  {
+    "SN": 1480,
+    "Customer": "Pfizer, CT",
+    "Assembly No.": "01811-00007",
+    "Description": "Laser Drill, Manual Feed",
+    "Product": "Base w/ 2 Paddles",
+    "SO #": 35311.0
+  },
+  {
+    "SN": 1481,
+    "Customer": "Mylan, WV",
+    "Assembly No.": "01491-00044",
+    "Description": "Servo Ramp w/ Vision",
+    "Product": "Base with C-P's",
+    "SO #": 35352.0
+  },
+  {
+    "SN": 1482,
+    "Customer": "Xinyi, Shanghai / Austar",
+    "Assembly No.": "01911-00092",
+    "Description": "VIP - Laser Drill & Inspect",
+    "Product": "Base with C-P's",
+    "SO #": 35475.0
+  },
+  {
+    "SN": 1483,
+    "Customer": "Xinyi, Shanghai / Austar",
+    "Assembly No.": "01911-00096",
+    "Description": "VIP 5S w/ Enclosure",
+    "Product": "Base with C-P's",
+    "SO #": 35476.0
+  },
+  {
+    "SN": 1484,
+    "Customer": "Dulces De La Rosa",
+    "Assembly No.": "01461-00145",
+    "Description": "30 Deg FARP",
+    "Product": "Base Only",
+    "SO #": 35582.0
+  },
+  {
+    "SN": 1485,
+    "Customer": "Juniper Pharma Services, Ltd., UK",
+    "Assembly No.": "01911-00102",
+    "Description": "VIP-X w/ Vision Inspection",
+    "Product": "Base with C-P's",
+    "SO #": 35696.0
+  },
+  {
+    "SN": 1486,
+    "Customer": "JiangSu Wanbang Biopharma",
+    "Assembly No.": "01911-00103",
+    "Description": "VIP-X w/ Vision Inspection",
+    "Product": "Base with C-P's",
+    "SO #": 35824.0
+  },
+  {
+    "SN": 1487,
+    "Customer": "Sanofi, Italy",
+    "Assembly No.": "01911-00097",
+    "Description": "VIP 5S w/ Enclosure",
+    "Product": "Base with C-P's",
+    "SO #": 35877.0
+  },
+  {
+    "SN": 1488,
+    "Customer": "Galephar Inc, Puerto Rico",
+    "Assembly No.": "01911-00104",
+    "Description": "VIP 5S",
+    "Product": "Base with C-P's",
+    "SO #": 35925.0
+  },
+  {
+    "SN": 1489,
+    "Customer": "WES Pharma, MD",
+    "Assembly No.": "01911-00099",
+    "Description": "VIP - Laser Drill & Inspect",
+    "Product": "Base with C-P's",
+    "SO #": 35923.0
+  },
+  {
+    "SN": 1490,
+    "Customer": "Mars, China",
+    "Assembly No.": "01481-00166",
+    "Description": "AARP - Utility Model",
+    "Product": "Base with C-P's",
+    "SO #": 36020.0
+  },
+  {
+    "SN": 1491,
+    "Customer": "Rieckermann / Hikma Pharma, Jordan",
+    "Assembly No.": "01911-00098",
+    "Description": "VIP 5S w/ Enclosure",
+    "Product": "Base with C-P's",
+    "SO #": 36070.0
+  },
+  {
+    "SN": 1492,
+    "Customer": "Haisco Pharma / Wanke Shiye Ltd, China",
+    "Assembly No.": "01911-00100",
+    "Description": "VIP - Laser Drill & Inspect",
+    "Product": "Base with C-P's",
+    "SO #": 36088.0
+  },
+  {
+    "SN": 1493,
+    "Customer": "Tweed, Inc., Canada",
+    "Assembly No.": "01511-00042",
+    "Description": "CantRmp Laser Marking System",
+    "Product": "Base with C-P's",
+    "SO #": 36114.0
+  },
+  {
+    "SN": 1494,
+    "Customer": "Minsheng Binjiang Pharma Co. Ltd., China",
+    "Assembly No.": "01911-00105",
+    "Description": "VIP 5S w/ Enclosure",
+    "Product": "Base with C-P's",
+    "SO #": 36172.0
+  },
+  {
+    "SN": 1495,
+    "Customer": "Hefei Lifeon Pharmaceutical Co. Ltd., China",
+    "Assembly No.": "01911-00101",
+    "Description": "VIP - Laser Drill & Inspect",
+    "Product": "Base with C-P's",
+    "SO #": 36363.0
+  },
+  {
+    "SN": 1496,
+    "Customer": "Fini Golosinas, Espana",
+    "Assembly No.": "01481-00167",
+    "Description": "AARP - Utility Model",
+    "Product": "Base with C-P's",
+    "SO #": 36234.0
+  },
+  {
+    "SN": 1497,
+    "Customer": "Dexcel, Ltd. Israel",
+    "Assembly No.": "01811-00009",
+    "Description": "Laser Drill, Manual Feed",
+    "Product": "Base w/ 2 Paddles",
+    "SO #": 36425.0
+  },
+  {
+    "SN": 1498,
+    "Customer": "Lotus Pharma, Taiwan",
+    "Assembly No.": "01911-00106",
+    "Description": "VIP 5S w/ Enclosure",
+    "Product": "Base Only",
+    "SO #": 36527.0
+  },
+  {
+    "SN": 1499,
+    "Customer": "Ajanta Pharma, India",
+    "Assembly No.": "01491-00045",
+    "Description": "Servo Ramp w/ Vision",
+    "Product": "Base with C-P's",
+    "SO #": 36676.0
+  },
+  {
+    "SN": 1500,
+    "Customer": "Mayne Pharma, NC",
+    "Assembly No.": "01511-00043",
+    "Description": "Servo Ctlvr Rmp Printer",
+    "Product": "Base with C-P's",
+    "SO #": 36620.0
+  },
+  {
+    "SN": 1501,
+    "Customer": "Bayer, NJ",
+    "Assembly No.": "01811-00008",
+    "Description": "Laser Drill, Manual Feed",
+    "Product": "Base w/ Paddles",
+    "SO #": 36688.0
+  },
+  {
+    "SN": 1502,
+    "Customer": "TEVA, FL",
+    "Assembly No.": "01911-00108",
+    "Description": "VIP - Laser Drill & Inspect",
+    "Product": "Base Only",
+    "SO #": 36849.0
+  },
+  {
+    "SN": 1503,
+    "Customer": "Janssen, PR",
+    "Assembly No.": "01911-00109",
+    "Description": "VIP - Laser Drill & NIR Inspect",
+    "Product": "Base with C-P's",
+    "SO #": 36702.0
+  },
+  {
+    "SN": 1504,
+    "Customer": "Ackley Stock w/ 1st Siemens System",
+    "Assembly No.": "01921-00020",
+    "Description": "VIP - Laser Drill w/ Siemens PLC",
+    "Product": "Base Only",
+    "SO #": "N/A"
+  },
+  {
+    "SN": 1505,
+    "Customer": "Cadila Healthcare, India",
+    "Assembly No.": "01921-00021",
+    "Description": "VIP - Laser Drill & Inspect (AB System)",
+    "Product": "Base with C-P's",
+    "SO #": 36769.0
+  },
+  {
+    "SN": 1506,
+    "Customer": "TWI Pharmaceuticals, Taiwan",
+    "Assembly No.": "01491-00046",
+    "Description": "Servo Ramp w/ Vision",
+    "Product": "Base with C-P's",
+    "SO #": 36781.0
+  },
+  {
+    "SN": 1507,
+    "Customer": "Pfizer, Ireland",
+    "Assembly No.": "01481-00168",
+    "Description": "AARP",
+    "Product": "Base with C-P's",
+    "SO #": 36929.0
+  },
+  {
+    "SN": 1508,
+    "Customer": "Incepta Pharma, Bangladesh",
+    "Assembly No.": "01921-00022",
+    "Description": "VIP - Laser Drill & Inspect",
+    "Product": "Base with C-P's",
+    "SO #": 36973.0
+  },
+  {
+    "SN": 1509,
+    "Customer": "Incepta Pharma, Bangladesh",
+    "Assembly No.": "01921-00023",
+    "Description": "VIP - Laser Drill & Inspect",
+    "Product": "Base with C-P's",
+    "SO #": 36973.0
+  },
+  {
+    "SN": 1510,
+    "Customer": "Incepta Pharma, Bangladesh",
+    "Assembly No.": "01911-00107",
+    "Description": "VIP 5S w/ Enclosure",
+    "Product": "Base with C-P's",
+    "SO #": 36973.0
+  },
+  {
+    "SN": 1511,
+    "Customer": "Multiequip S.A. DE C.V.",
+    "Assembly No.": "01461-00146",
+    "Description": "FARP - 30 Deg. Candy",
+    "Product": "Base with C-P's",
+    "SO #": 37191.0
+  },
+  {
+    "SN": 1512,
+    "Customer": "Sun Pharma, India",
+    "Assembly No.": "01491-00047",
+    "Description": "Servo Ramp w/ Vision",
+    "Product": "Base with C-P's",
+    "SO #": 37575.0
+  },
+  {
+    "SN": 1513,
+    "Customer": "Reckitt Benckiser, UK",
+    "Assembly No.": "01491-00048",
+    "Description": "Servo Ramp w/ Vision",
+    "Product": "Base with C-P's",
+    "SO #": 37720.0
+  },
+  {
+    "SN": 1514,
+    "Customer": "Rieckermann GmbH, Philippines",
+    "Assembly No.": "01911-00110",
+    "Description": "VIP 5S w/ Enclosure",
+    "Product": "Base with C-P's",
+    "SO #": 38692.0
+  },
+  {
+    "SN": 1515,
+    "Customer": "Lupin, India",
+    "Assembly No.": "01921-00024",
+    "Description": "VIP - Laser Drill & Inspect",
+    "Product": "Base with C-P's",
+    "SO #": 37894.0
+  },
+  {
+    "SN": 1516,
+    "Customer": "Laboratorios Liconsa, S.A.",
+    "Assembly No.": "01511-00044",
+    "Description": "Servo Ctlvr Rmp w/ Inspection",
+    "Product": "Base with C-P's",
+    "SO #": 37974.0
+  },
+  {
+    "SN": 1517,
+    "Customer": "Teva, FL",
+    "Assembly No.": "01911-00111",
+    "Description": "VIP 5S w/ Enclosure",
+    "Product": "Base Only",
+    "SO #": 38038.0
+  },
+  {
+    "SN": 1518,
+    "Customer": "Teva, FL",
+    "Assembly No.": "01911-00113",
+    "Description": "VIP - Laser Drill & Inspect",
+    "Product": "Base with C-P's",
+    "SO #": 38099.0
+  },
+  {
+    "SN": 1519,
+    "Customer": "Amneal, India",
+    "Assembly No.": "01491-00049",
+    "Description": "Servo Ramp w/ Vision",
+    "Product": "Base with C-P's",
+    "SO #": 38125.0
+  },
+  {
+    "SN": 1520,
+    "Customer": "Torrent, India",
+    "Assembly No.": "01491-00050",
+    "Description": "Servo Ramp w/ Vision",
+    "Product": "Base with C-P's",
+    "SO #": 38209.0
+  },
+  {
+    "SN": 1521,
+    "Customer": "Janssen, PR",
+    "Assembly No.": "01291-00034",
+    "Description": "Servo Drum Laser Drill",
+    "Product": "Base with C-P's",
+    "SO #": 38410.0
+  },
+  {
+    "SN": 1522,
+    "Customer": "Dexcel, Ltd. Israel",
+    "Assembly No.": "01921-00025",
+    "Description": "VIP - Laser Drill & Inspect",
+    "Product": "Base with C-P's",
+    "SO #": 38646.0
+  },
+  {
+    "SN": 1523,
+    "Customer": "Patheon, NC",
+    "Assembly No.": "01491-00051",
+    "Description": "Servo AARP - 183 Bars",
+    "Product": "Base with C-P's, Adj. Brushes",
+    "SO #": 38674.0
+  },
+  {
+    "SN": 1524,
+    "Customer": "OHM Laboratories Inc., NJ",
+    "Assembly No.": "01921-00026",
+    "Description": "VIP - Laser Drill & Inspect",
+    "Product": "Base with C-P's",
+    "SO #": 38759.0
+  },
+  {
+    "SN": 1525,
+    "Customer": "Patheon, OH",
+    "Assembly No.": "01491-00053",
+    "Description": "Servo AARP - 183 Bars",
+    "Product": "Base with C-P's",
+    "SO #": 38835.0
+  },
+  {
+    "SN": 1526,
+    "Customer": "Capsugel, France",
+    "Assembly No.": "01511-00046",
+    "Description": "Servo Ctlvr Rmp w/ Inspection",
+    "Product": "Base with C-P's",
+    "SO #": 38871.0
+  },
+  {
+    "SN": 1527,
+    "Customer": "Sanofi, Vietnam",
+    "Assembly No.": "01511-00045",
+    "Description": "Servo Ctlvr Laser Mark",
+    "Product": "Base with C-P's",
+    "SO #": 39002.0
+  },
+  {
+    "SN": 1528,
+    "Customer": "Reyoung Pharmaceutical Co., Ltd., China",
+    "Assembly No.": "01921-00027",
+    "Description": "VIP - Laser Drill & Inspect",
+    "Product": "Base with C-P's",
+    "SO #": 38968.0
+  },
+  {
+    "SN": 1529,
+    "Customer": "Bestco, NC",
+    "Assembly No.": "01491-00052",
+    "Description": "Servo Ramp w/ Vision",
+    "Product": "Base with C-P's",
+    "SO #": 38998.0
+  },
+  {
+    "SN": 1530,
+    "Customer": "Doppel Farmaceutici S.R.L., Italy",
+    "Assembly No.": "01911-00112",
+    "Description": "VIP 5S w/ Enclosure",
+    "Product": "Base Only",
+    "SO #": 39193.0
+  },
+  {
+    "SN": 1531,
+    "Customer": "Stock",
+    "Assembly No.": "01811-00010",
+    "Description": "Laser Drill, Manual Feed",
+    "Product": "Base Only",
+    "SO #": "N/A"
+  },
+  {
+    "SN": 1532,
+    "Customer": "Stock",
+    "Assembly No.": "01811-00011",
+    "Description": "Laser Drill, Manual - UV + Green",
+    "Product": "Base Only",
+    "SO #": "N/A"
+  },
+  {
+    "SN": 1533,
+    "Customer": "Supernus Pharmaceuticals, Inc",
+    "Customer PO": "SUP00000269701",
+    "Assembly No.": "01811-00012",
+    "Description": "Laser Drill, Manual Feed",
+    "Product": "Base Only",
+    "Order Date": 45634.0,
+    "SO #": "N/A"
+  },
+  {
+    "SN": 1534,
+    "Customer": "Hovione, Portugal",
+    "Assembly No.": "01911-00114",
+    "Description": "VIP-X w/ Vision Inspection",
+    "Product": "Base with C-P's",
+    "SO #": 40056.0
+  },
+  {
+    "SN": 1535,
+    "Customer": "Alcami Corporation, NC",
+    "Assembly No.": "01921-00028",
+    "Description": "Laser UV Mark - VIP 1-Side",
+    "Product": "Base with C-P's",
+    "SO #": 39408.0
+  },
+  {
+    "SN": 1536,
+    "Customer": "Allergan / Forest Laboratories Ireland Ltd., Ireland",
+    "Assembly No.": "01491-00054",
+    "Description": "Servo Ramp w/ Vision",
+    "Product": "Base with C-P's",
+    "SO #": 39386.0
+  },
+  {
+    "SN": 1537,
+    "Customer": "Renata Limited, Bangladesh",
+    "Assembly No.": "01921-00029",
+    "Description": "VIP - Laser Drill & Inspect",
+    "Product": "Base with C-P's",
+    "SO #": 39468.0
+  },
+  {
+    "SN": 1538,
+    "Customer": "McNeil Healthcare LLC, PR",
+    "Assembly No.": "01491-00055",
+    "Description": "Printer/Laser - Servo w/ Inspect",
+    "Product": "Base with C-P's",
+    "SO #": 39547.0
+  },
+  {
+    "SN": 1539,
+    "Customer": "Hefei Lifeon Pharmaceutical Co. Ltd., China",
+    "Assembly No.": "01291-00035",
+    "Description": "Servo Drum Laser Drill",
+    "Product": "Base with C-P's",
+    "SO #": 39742.0
+  },
+  {
+    "SN": 1540,
+    "Customer": "Abbott, Pakistan",
+    "Assembly No.": "01481-00169",
+    "Description": "Printer - Adjustable F/B",
+    "Product": "Base Only",
+    "SO #": 39830.0
+  },
+  {
+    "SN": 1541,
+    "Customer": "Mars, China",
+    "Assembly No.": "01261-00024",
+    "Description": "1 Sided Ctlvr Drum L-R",
+    "Product": "Base with C-P's",
+    "SO #": 39823.0
+  },
+  {
+    "SN": 1542,
+    "Customer": "Reckitt Benckiser, UK",
+    "Assembly No.": "01491-00056",
+    "Description": "Servo Ramp w/ Vision",
+    "Product": "Base with C-P's",
+    "SO #": 39829.0
+  },
+  {
+    "SN": 1543,
+    "Customer": "Fosun Pharmaceutical (Xuzhou) Co. Ltd / Rieckermann",
+    "Assembly No.": "01921-00030",
+    "Description": "VIP - Laser Drill & Inspect",
+    "Product": "Base with C-P's",
+    "SO #": 39956.0
+  },
+  {
+    "SN": 1544,
+    "Customer": "Suzhou Erye Pharma. Co. Ltd. / Rieckermann",
+    "Assembly No.": "01921-00031",
+    "Description": "VIP - Laser Drill & Inspect",
+    "Product": "Base with C-P's",
+    "SO #": 39991.0
+  },
+  {
+    "SN": 1545,
+    "Customer": "Northeast Alternatives",
+    "Assembly No.": "01911-00116",
+    "Description": "VIP 6S",
+    "Product": "Base with C-P's",
+    "SO #": 40135.0
+  },
+  {
+    "SN": 1546,
+    "Customer": "Patheon, Inc, Mississauga, Canada",
+    "Assembly No.": "01511-00048",
+    "Description": "Servo Ctlvr Rmp w/ Inspection & V/C",
+    "Product": "Base with C-P's",
+    "SO #": 41084.0
+  },
+  {
+    "SN": 1547,
+    "Customer": "Salutas / Novartis Germany",
+    "Assembly No.": "01921-00032",
+    "Description": "VIP - Laser Drill & Inspect",
+    "Product": "Base with C-P's",
+    "SO #": 40238.0
+  },
+  {
+    "SN": 1548,
+    "Customer": "Patheon Softgels - Netherlands",
+    "Assembly No.": "01491-00057",
+    "Description": "Servo Ramp - 183 Bars",
+    "Product": "Base Only",
+    "SO #": 40385.0
+  },
+  {
+    "SN": 1549,
+    "Customer": "Intas Pharma, India",
+    "Assembly No.": "01491-00058",
+    "Description": "Servo Ramp w/ Vision",
+    "Product": "Base with C-P's",
+    "SO #": 40645.0
+  },
+  {
+    "SN": 1550,
+    "Customer": "Viatris / Pfizer Pharmaceuticals, China (Rieckermann)",
+    "Assembly No.": "01511-00049",
+    "Description": "Servo Ctlvr Rmp w/ Inspection & V/C",
+    "Product": "Base with C-P's",
+    "SO #": 40610.0
+  },
+  {
+    "SN": 1551,
+    "Customer": "Haleon / GSK Guayama",
+    "Assembly No.": "01481-00170",
+    "Description": "Printer - Adjustable F/B",
+    "Product": "Base with C-P's",
+    "SO #": 40710.0
+  },
+  {
+    "SN": 1552,
+    "Customer": "Temmler Pharma GmbH, Germany",
+    "Assembly No.": "01511-00050",
+    "Description": "Servo Ctlvr Rmp w/ Inspection",
+    "Product": "Base with C-P's",
+    "SO #": 41101.0
+  },
+  {
+    "SN": 1553,
+    "Customer": "Catalent, Winchester, KY",
+    "Assembly No.": "01291-00036",
+    "Description": "Servo Drum Laser Drill",
+    "Product": "Base with C-P's",
+    "SO #": 41345.0
+  },
+  {
+    "SN": 1554,
+    "Customer": "PF Consumer Healthcare, Nebraska",
+    "Assembly No.": "01491-00059",
+    "Description": "Servo Ramp w/ Vision",
+    "Product": "Base with C-P's",
+    "SO #": 41529.0
+  },
+  {
+    "SN": 1555,
+    "Customer": "Mars, Cleveland, TN",
+    "Assembly No.": "01261-00025",
+    "Description": "1 Sided Ctlvr Drum R-L",
+    "Product": "Base with C-P's",
+    "SO #": 41572.0
+  },
+  {
+    "SN": 1556,
+    "Customer": "Stock",
+    "Assembly No.": "01921-00033",
+    "Description": "VIP 2-Side Laser Drill System",
+    "SO #": "317508-000"
+  },
+  {
+    "SN": 1557,
+    "Customer": "Patheon Inc., Mississauga, Canada",
+    "Assembly No.": "01911-00118",
+    "Description": "VIP-X w/ Vision Inspection",
+    "Product": "Base with C-P's",
+    "SO #": 41783.0
+  },
+  {
+    "SN": 1558,
+    "Customer": "Duchesnay",
+    "Assembly No.": "01291-00037",
+    "Description": "Servo Drum Printer w/ Inspection",
+    "Product": "Base with C-P's",
+    "Order Date": 45558.0,
+    "SO #": 42253.0
+  },
+  {
+    "SN": 1559,
+    "Customer": "Hovione FarmaCiencia SA",
+    "Assembly No.": "01291-00038",
+    "Description": "Servo Drum Printer w/ Inspection",
+    "Product": "Base with C-P's",
+    "SO #": 42327.0
+  },
+  {
+    "SN": 1560,
+    "Customer": "Mars Retail Group, LLC",
+    "Assembly No.": "01261-00026",
+    "Description": "1 Sided Ctlvr Drum L-R",
+    "Product": "Rebuilt from unknown SN",
+    "Order Date": 45573.0,
+    "SO #": 42296.0
+  },
+  {
+    "SN": 1561,
+    "Customer": "Janssen, PR",
+    "Customer PO": 99480241.0,
+    "Assembly No.": "01291-00039",
+    "Description": "Servo Drum Laser 2 Side Drill",
+    "Product": "Base with C-P's",
+    "Order Date": 45614.0,
+    "SO #": 42369.0
+  },
+  {
+    "SN": 1562,
+    "Customer": "Mylan Laboratories Ltd",
+    "Customer PO": 4700032488.0,
+    "Assembly No.": "01491-00060",
+    "Description": "Servo Ramp w/ Vision",
+    "Product": "Base with C-P's",
+    "Order Date": 45632.0,
+    "SO #": 42430.0
+  },
+  {
+    "SN": 1563,
+    "Customer": "Actavis Laboratories FL Incorporated",
+    "Customer PO": "AE10470778",
+    "Assembly No.": "01491-00061",
+    "Description": "Servo Ramp w/ Vision",
+    "Product": "Base with C-P's",
+    "Order Date": 45727.0,
+    "SO #": 42654.0
+  },
+  {
+    "SN": 1564,
+    "Customer": "Fidelio Healthcare Limburg GmbH",
+    "Customer PO": 4500010286.0,
+    "Assembly No.": "01921-30002",
+    "Description": "Laser UV Mark - VIP 1-Side Marking",
+    "Product": "Base with C-P's",
+    "Order Date": 45776.0,
+    "SO #": 42794.0
+  }
+]

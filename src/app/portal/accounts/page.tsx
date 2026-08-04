@@ -1,3 +1,4 @@
+'use client';
 import { accounts } from "@/lib/data";
 import { PageHeader } from "@/components/ui";
 import { AccountsExplorer, type SlimAccount } from "@/components/AccountsExplorer";

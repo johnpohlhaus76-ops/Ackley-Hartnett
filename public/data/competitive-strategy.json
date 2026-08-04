@@ -1,0 +1,250 @@
+{
+  "title": "Competitive Analysis & Sales Strategy",
+  "date": "February 2026",
+  "competitors": [
+    {
+      "name": "RW Hartnett",
+      "type": "Major Direct Competitor",
+      "strengths": [
+        "Established brand",
+        "Strong customer relationships",
+        "Good service"
+      ],
+      "weaknesses": [
+        "Limited laser capabilities",
+        "Older technology",
+        "Less innovation"
+      ],
+      "winStrategy": "Win on: Advanced laser drilling, vision inspection, higher throughput (800K vs 400K pph)"
+    },
+    {
+      "name": "IMA (Italian Machines)",
+      "type": "Premium Competitor",
+      "strengths": [
+        "Complete line solutions",
+        "Strong in Europe",
+        "Integrated systems"
+      ],
+      "weaknesses": [
+        "Higher price",
+        "Less customization",
+        "Slow US service response"
+      ],
+      "winStrategy": "Win on: Better US service, faster delivery, more customization, lower price"
+    },
+    {
+      "name": "Chinese Manufacturers",
+      "type": "Price Competitor - Growing Threat",
+      "strengths": [
+        "Very low price",
+        "Fast delivery",
+        "Growing capabilities"
+      ],
+      "weaknesses": [
+        "Quality concerns",
+        "Limited US service",
+        "FDA validation challenges"
+      ],
+      "winStrategy": "Win on: Quality, US service, FDA expertise, TCO over 5 years, validation support"
+    },
+    {
+      "name": "Videojet",
+      "type": "Indirect - Industrial Marking Leader",
+      "strengths": [
+        "Dominant market share",
+        "Large service network",
+        "Brand recognition"
+      ],
+      "weaknesses": [
+        "Generalist",
+        "Not pharma-specific",
+        "Limited tablet/capsule expertise"
+      ],
+      "winStrategy": "Win on: Pharma specialization, GMP compliance, tablet-specific design"
+    },
+    {
+      "name": "Domino Printing",
+      "type": "Indirect - Packaging Focus",
+      "strengths": [
+        "Good inkjet technology",
+        "Global presence",
+        "Packaging expertise"
+      ],
+      "weaknesses": [
+        "Limited pharma tablet focus",
+        "Less capsule expertise"
+      ],
+      "winStrategy": "Win on: Tablet/capsule specialization, pharmaceutical compliance"
+    },
+    {
+      "name": "Seidenader (K\u00f6rber)",
+      "type": "Complementary/Competitor",
+      "strengths": [
+        "Excellent vision inspection",
+        "Quality control",
+        "European pharma"
+      ],
+      "weaknesses": [
+        "Inspection only",
+        "Premium pricing",
+        "Complex"
+      ],
+      "winStrategy": "Win on: Integrated print + inspect, simpler setup, lower cost, one vendor"
+    },
+    {
+      "name": "Ackley Machine Corp",
+      "type": "Name Confusion",
+      "strengths": [
+        "Similar name",
+        "Established presence"
+      ],
+      "weaknesses": [
+        "Not pharma-specialized",
+        "Less FDA expertise"
+      ],
+      "winStrategy": "Win on: Clarify brand (Ackley Hartnett), emphasize pharma specialization"
+    }
+  ],
+  "differentiators": {
+    "technicalSuperiority": [
+      "Proprietary laser drilling technology (CO2 and UV)",
+      "Integrated vision inspection systems (98-99% yield)",
+      "Highest throughput: 800,000+ pieces per hour",
+      "Modular, scalable designs for flexibility"
+    ],
+    "regulatoryExpertise": [
+      "FDA 21 CFR Part 11 compliant systems",
+      "cGMP design and documentation",
+      "Complete IQ/OQ/PQ validation support",
+      "Serialization ready for track & trace",
+      "Validated at 100+ FDA-inspected facilities"
+    ],
+    "serviceExcellence": [
+      "US-based engineering and support (<24 hour response)",
+      "Pennsylvania spare parts inventory (95% same-day shipping)",
+      "Remote diagnostics capability",
+      "Parts support for 20+ year old machines",
+      "200 years combined team experience"
+    ],
+    "provenTrackRecord": [
+      "579 modern machines installed globally",
+      "45+ years in business",
+      "Major customers: Mars (99 machines), Eli Lilly (36), McNeil (25)",
+      "$57M spare parts revenue (2020-2025) proves reliability"
+    ]
+  },
+  "objections": [
+    {
+      "objection": "Your price is higher than Chinese equipment",
+      "response": "Total Cost of Ownership analysis shows payback in 18 months through higher uptime (98% vs 85%), better yields (99% vs 92%), and US service. FDA validation support alone saves $50K+ per installation.",
+      "proof": "Mars case study - 99 Ackley machines, 20+ years, <2% downtime"
+    },
+    {
+      "objection": "We already have RW Hartnett equipment",
+      "response": "Many customers run both. Our VIP laser drilling and vision inspection complement RW systems. We offer 2X the speed (800K pph vs 400K pph) and better integration with modern PLCs.",
+      "proof": "Eli Lilly runs 36 Ackley machines alongside other vendors"
+    },
+    {
+      "objection": "IMA offers complete line solutions",
+      "response": "Our modular approach gives you flexibility to mix vendors and upgrade incrementally. Lower initial investment, faster ROI. Plus US-based service vs waiting for Italian engineers.",
+      "proof": "Average service response - Ackley 4 hours, IMA 2-3 days for US sites"
+    },
+    {
+      "objection": "We need FDA validation documentation",
+      "response": "We provide complete IQ/OQ/PQ protocols, 21 CFR Part 11 compliance docs, and validation support. Our machines are validated at 100+ FDA-inspected facilities including Pfizer, Lilly, GSK, McNeil.",
+      "proof": "Reference sites available for FDA audit preparation"
+    },
+    {
+      "objection": "What about spare parts availability?",
+      "response": "Pennsylvania-based inventory. 95% of parts ship same-day. Compare to 2-4 week lead times from Europe or Asia. We maintain parts for machines 20+ years old.",
+      "proof": "$57M spare parts revenue (2020-2025) proves our commitment to long-term support"
+    }
+  ],
+  "customerSegments": {
+    "largePharma": {
+      "examples": [
+        "Pfizer",
+        "Eli Lilly",
+        "GSK",
+        "McNeil"
+      ],
+      "buyingFactors": [
+        "Compliance",
+        "validation support",
+        "uptime",
+        "service"
+      ],
+      "competeAgainst": [
+        "IMA",
+        "Seidenader"
+      ],
+      "keyMessage": "US-based service + FDA expertise + proven reliability"
+    },
+    "genericManufacturers": {
+      "examples": [
+        "Mylan",
+        "Dr. Reddy's",
+        "Sun Pharma"
+      ],
+      "buyingFactors": [
+        "Price",
+        "throughput",
+        "ROI",
+        "service"
+      ],
+      "competeAgainst": [
+        "Chinese manufacturers"
+      ],
+      "keyMessage": "Quality + Service at competitive price. Better TCO than cheap imports"
+    },
+    "cdmos": {
+      "examples": [
+        "Patheon",
+        "Catalent",
+        "Metrics"
+      ],
+      "buyingFactors": [
+        "Flexibility",
+        "multi-product capability",
+        "fast changeover"
+      ],
+      "competeAgainst": [
+        "All competitors"
+      ],
+      "keyMessage": "Modular design for multiple clients, fast validation, changeover <30 min"
+    },
+    "confectionery": {
+      "examples": [
+        "Mars",
+        "Jelly Belly",
+        "Ferrara"
+      ],
+      "buyingFactors": [
+        "Throughput",
+        "reliability",
+        "uptime"
+      ],
+      "competeAgainst": [
+        "Videojet",
+        "Domino"
+      ],
+      "keyMessage": "Specialized for confectionery, highest speeds, proven with Mars (99 machines)"
+    },
+    "emergingMarkets": {
+      "examples": [
+        "India",
+        "Bangladesh",
+        "China"
+      ],
+      "buyingFactors": [
+        "Price",
+        "local support",
+        "FDA export compliance"
+      ],
+      "competeAgainst": [
+        "Chinese manufacturers"
+      ],
+      "keyMessage": "FDA compliance for US export + Better quality + Validation support"
+    }
+  }
+}

@@ -1,0 +1,292 @@
+[
+  {
+    "Country": "USA",
+    "Customers": 210,
+    "Orders": 4165,
+    "Revenue": 40173463.22,
+    "Quote_Customers": 45,
+    "Quotes": 240,
+    "Quote_Value": 8509374.41,
+    "Total_Value": 48682837.63
+  },
+  {
+    "Country": "India",
+    "Customers": 24,
+    "Orders": 244,
+    "Revenue": 12675212.05,
+    "Quote_Customers": 15,
+    "Quotes": 42,
+    "Quote_Value": 5495158.64,
+    "Total_Value": 18170370.69
+  },
+  {
+    "Country": "Unknown",
+    "Customers": 45,
+    "Orders": 407,
+    "Revenue": 5259469.06,
+    "Quote_Customers": 16,
+    "Quotes": 32,
+    "Quote_Value": 1189644.89,
+    "Total_Value": 6449113.949999999
+  },
+  {
+    "Country": "Germany",
+    "Customers": 15,
+    "Orders": 86,
+    "Revenue": 3649327.98,
+    "Quote_Customers": 7,
+    "Quotes": 13,
+    "Quote_Value": 1499461.86,
+    "Total_Value": 5148789.84
+  },
+  {
+    "Country": "Canada",
+    "Customers": 25,
+    "Orders": 210,
+    "Revenue": 4095263.94,
+    "Quote_Customers": 9,
+    "Quotes": 15,
+    "Quote_Value": 718063.27,
+    "Total_Value": 4813327.21
+  },
+  {
+    "Country": "China",
+    "Customers": 21,
+    "Orders": 81,
+    "Revenue": 3438131.54,
+    "Quote_Customers": 2,
+    "Quotes": 3,
+    "Quote_Value": 68616.7,
+    "Total_Value": 3506748.24
+  },
+  {
+    "Country": "UK",
+    "Customers": 7,
+    "Orders": 107,
+    "Revenue": 2881859.77,
+    "Quote_Customers": 1,
+    "Quotes": 10,
+    "Quote_Value": 89907.61,
+    "Total_Value": 2971767.38
+  },
+  {
+    "Country": "Taiwan",
+    "Customers": 6,
+    "Orders": 24,
+    "Revenue": 2119462.81,
+    "Quote_Customers": 1,
+    "Quotes": 3,
+    "Quote_Value": 811381,
+    "Total_Value": 2930843.81
+  },
+  {
+    "Country": "Bangladesh",
+    "Customers": 2,
+    "Orders": 14,
+    "Revenue": 1535431.78,
+    "Quote_Customers": 4,
+    "Quotes": 4,
+    "Quote_Value": 763494.6,
+    "Total_Value": 2298926.38
+  },
+  {
+    "Country": "Spain",
+    "Customers": 8,
+    "Orders": 119,
+    "Revenue": 1546992.75,
+    "Quote_Customers": 1,
+    "Quotes": 3,
+    "Quote_Value": 214207.12,
+    "Total_Value": 1761199.87
+  },
+  {
+    "Country": "Netherlands",
+    "Customers": 4,
+    "Orders": 125,
+    "Revenue": 1305283.75,
+    "Quote_Customers": 2,
+    "Quotes": 6,
+    "Quote_Value": 32449.61,
+    "Total_Value": 1337733.36
+  },
+  {
+    "Country": "France",
+    "Customers": 13,
+    "Orders": 253,
+    "Revenue": 1275279.54,
+    "Quote_Customers": 3,
+    "Quotes": 5,
+    "Quote_Value": 41622.42,
+    "Total_Value": 1316901.96
+  },
+  {
+    "Country": "Vietnam",
+    "Customers": 4,
+    "Orders": 24,
+    "Revenue": 734469.6200000001,
+    "Quote_Customers": 2,
+    "Quotes": 2,
+    "Quote_Value": 27545.9,
+    "Total_Value": 762015.5200000001
+  },
+  {
+    "Country": "New Zealand",
+    "Customers": 2,
+    "Orders": 4,
+    "Revenue": 267393.89,
+    "Quote_Customers": 1,
+    "Quotes": 2,
+    "Quote_Value": 345920,
+    "Total_Value": 613313.89
+  },
+  {
+    "Country": "Australia",
+    "Customers": 7,
+    "Orders": 152,
+    "Revenue": 588426.08,
+    "Quote_Customers": 1,
+    "Quotes": 6,
+    "Quote_Value": 10505.11,
+    "Total_Value": 598931.19
+  },
+  {
+    "Country": "Mexico",
+    "Customers": 11,
+    "Orders": 60,
+    "Revenue": 516883.1,
+    "Quote_Customers": 1,
+    "Quotes": 1,
+    "Quote_Value": 1150.43,
+    "Total_Value": 518033.53
+  },
+  {
+    "Country": "Saudi Arabia",
+    "Customers": 1,
+    "Orders": 2,
+    "Revenue": 166126,
+    "Quote_Customers": 1,
+    "Quotes": 3,
+    "Quote_Value": 192750,
+    "Total_Value": 358876
+  },
+  {
+    "Country": "Italy",
+    "Customers": 8,
+    "Orders": 56,
+    "Revenue": 338360.45,
+    "Quote_Customers": 0,
+    "Quotes": 0,
+    "Quote_Value": 0,
+    "Total_Value": 338360.45
+  },
+  {
+    "Country": "Brazil",
+    "Customers": 1,
+    "Orders": 21,
+    "Revenue": 139478.11,
+    "Quote_Customers": 1,
+    "Quotes": 1,
+    "Quote_Value": 15260,
+    "Total_Value": 154738.11
+  },
+  {
+    "Country": "Egypt",
+    "Customers": 2,
+    "Orders": 7,
+    "Revenue": 111337.59,
+    "Quote_Customers": 1,
+    "Quotes": 1,
+    "Quote_Value": 13984.82,
+    "Total_Value": 125322.41
+  },
+  {
+    "Country": "Switzerland",
+    "Customers": 3,
+    "Orders": 16,
+    "Revenue": 67621.42,
+    "Quote_Customers": 1,
+    "Quotes": 2,
+    "Quote_Value": 6720.09,
+    "Total_Value": 74341.51
+  },
+  {
+    "Country": "Oman",
+    "Customers": 1,
+    "Orders": 20,
+    "Revenue": 68914.1,
+    "Quote_Customers": 1,
+    "Quotes": 1,
+    "Quote_Value": 4571.82,
+    "Total_Value": 73485.92000000001
+  },
+  {
+    "Country": "Colombia",
+    "Customers": 1,
+    "Orders": 3,
+    "Revenue": 50902,
+    "Quote_Customers": 0,
+    "Quotes": 0,
+    "Quote_Value": 0,
+    "Total_Value": 50902
+  },
+  {
+    "Country": "UAE",
+    "Customers": 1,
+    "Orders": 1,
+    "Revenue": 21704,
+    "Quote_Customers": 0,
+    "Quotes": 0,
+    "Quote_Value": 0,
+    "Total_Value": 21704
+  },
+  {
+    "Country": "Argentina",
+    "Customers": 1,
+    "Orders": 3,
+    "Revenue": 20056.86,
+    "Quote_Customers": 0,
+    "Quotes": 1,
+    "Quote_Value": 0,
+    "Total_Value": 20056.86
+  },
+  {
+    "Country": "Japan",
+    "Customers": 2,
+    "Orders": 8,
+    "Revenue": 4289.9,
+    "Quote_Customers": 1,
+    "Quotes": 1,
+    "Quote_Value": 1782,
+    "Total_Value": 6071.9
+  },
+  {
+    "Country": "Thailand",
+    "Customers": 0,
+    "Orders": 0,
+    "Revenue": 0,
+    "Quote_Customers": 1,
+    "Quotes": 3,
+    "Quote_Value": 5800,
+    "Total_Value": 5800
+  },
+  {
+    "Country": "Korea",
+    "Customers": 1,
+    "Orders": 1,
+    "Revenue": 1566.82,
+    "Quote_Customers": 0,
+    "Quotes": 0,
+    "Quote_Value": 0,
+    "Total_Value": 1566.82
+  },
+  {
+    "Country": "Puerto Rico",
+    "Customers": 1,
+    "Orders": 1,
+    "Revenue": 0,
+    "Quote_Customers": 0,
+    "Quotes": 0,
+    "Quote_Value": 0,
+    "Total_Value": 0
+  }
+]

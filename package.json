@@ -10,7 +10,11 @@
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.98.0",
+    "@vercel/blob": "^2.6.1",
+    "ai": "^7.0.48",
+    "axios": "^1.19.0",
     "clsx": "^2.1.1",
+    "dotenv": "^17.4.2",
     "lucide-react": "^0.469.0",
     "next": "^15.5.18",
     "react": "19.0.0",

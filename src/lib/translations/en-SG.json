@@ -1,0 +1,104 @@
+{
+  "common": {
+    "language": "Language",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search"
+  },
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "products": "Products",
+    "accounts": "Accounts",
+    "quotes": "Quotations",
+    "settings": "Settings",
+    "profile": "Profile",
+    "logout": "Log Out",
+    "login": "Log In"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome to PTG Dashboard",
+    "overview": "Business Overview",
+    "recentActivity": "Recent Activity",
+    "stats": "Performance Statistics",
+    "inventory": "Inventory Management",
+    "orders": "Recent Orders",
+    "revenue": "Revenue Tracking"
+  },
+  "buttons": {
+    "submit": "Submit",
+    "confirm": "Confirm",
+    "decline": "Decline",
+    "download": "Download",
+    "upload": "Upload",
+    "export": "Export",
+    "import": "Import",
+    "print": "Print",
+    "filter": "Filter",
+    "sort": "Sort"
+  },
+  "forms": {
+    "email": "Email Address",
+    "password": "Password",
+    "name": "Full Name",
+    "company": "Company Name",
+    "phone": "Phone Number",
+    "address": "Address",
+    "city": "City",
+    "state": "State",
+    "zipCode": "Postal Code",
+    "country": "Country",
+    "required": "This field is required",
+    "invalidEmail": "Please enter a valid email address",
+    "passwordMismatch": "Passwords do not match"
+  },
+  "errors": {
+    "notFound": "Page Not Found",
+    "notFoundMessage": "The page you are looking for does not exist or has been moved.",
+    "unauthorized": "Unauthorised Access",
+    "forbidden": "Access Forbidden",
+    "serverError": "Server Error",
+    "tryAgain": "Try Again"
+  },
+  "messages": {
+    "confirmDelete": "Are you sure you want to delete this item? This action cannot be undone.",
+    "saveSuccess": "Your changes have been saved successfully.",
+    "saveFailed": "Failed to save. Please try again.",
+    "deleteSuccess": "Item deleted successfully.",
+    "deleteFailed": "Failed to delete. Please try again.",
+    "loadingData": "Loading data..."
+  },
+  "pharmaceutical": {
+    "inventory": "Pharmaceutical Inventory",
+    "products": "Products",
+    "batchNumber": "Batch Number",
+    "expiryDate": "Expiry Date",
+    "manufacturingDate": "Manufacturing Date",
+    "qualityControl": "Quality Control",
+    "compliance": "Regulatory Compliance",
+    "regulations": "FDA & Regulatory Standards",
+    "supplier": "Supplier Information",
+    "pricing": "Wholesale Pricing"
+  },
+  "manufacturing": {
+    "production": "Production Schedule",
+    "machinery": "Machinery & Equipment",
+    "maintenance": "Maintenance Logs",
+    "schedule": "Production Schedule",
+    "output": "Production Output",
+    "efficiency": "Operational Efficiency",
+    "downtime": "Equipment Downtime",
+    "capacity": "Production Capacity",
+    "quality": "Quality Metrics"
+  }
+}
