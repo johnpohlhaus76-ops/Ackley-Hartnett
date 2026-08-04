@@ -1,9 +1,7 @@
-import fs from 'fs';
-import path from 'path';
 import { Anthropic } from '@anthropic-ai/sdk';
 
-const KB_DATA_PATH = path.join(process.cwd(), 'data', 'knowledge-base.json');
 const client = new Anthropic();
+const DEMO_STORAGE = new Map<string, Document>();
 
 export interface Document {
   id: string;
@@ -22,24 +20,18 @@ export interface KnowledgeBaseData {
   lastUpdated: string;
 }
 
-function ensureKbFile() {
-  const dir = path.dirname(KB_DATA_PATH);
-  if (!fs.existsSync(dir)) {
-    fs.mkdirSync(dir, { recursive: true });
-  }
-  if (!fs.existsSync(KB_DATA_PATH)) {
-    fs.writeFileSync(KB_DATA_PATH, JSON.stringify({ documents: [], lastUpdated: new Date().toISOString() }));
-  }
-}
-
 export function getKnowledgeBase(): KnowledgeBaseData {
-  ensureKbFile();
-  return JSON.parse(fs.readFileSync(KB_DATA_PATH, 'utf-8'));
+  return {
+    documents: Array.from(DEMO_STORAGE.values()),
+    lastUpdated: new Date().toISOString(),
+  };
 }
 
 export function saveKnowledgeBase(data: KnowledgeBaseData) {
-  ensureKbFile();
-  fs.writeFileSync(KB_DATA_PATH, JSON.stringify(data, null, 2));
+  DEMO_STORAGE.clear();
+  data.documents.forEach(doc => {
+    DEMO_STORAGE.set(doc.id, doc);
+  });
 }
 
 
