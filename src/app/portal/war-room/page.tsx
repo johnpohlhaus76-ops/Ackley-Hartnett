@@ -258,51 +258,48 @@ export default function WarRoomPage() {
         <div className="backdrop-blur-xl bg-slate-900/80 border border-slate-700/50 rounded-xl p-6 shadow-2xl mb-6">
           <h2 className="text-xl font-bold text-gray-100 mb-4">Critical Shipping Routes</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {data.shippingRoutes.map((route, idx) => (
+            {corridors.map((route, idx) => (
               <div
                 key={idx}
                 className={`p-4 rounded-lg border backdrop-blur-sm transition-all ${
-                  route.status === 'restricted'
-                    ? 'bg-orange-500/10 border-orange-500/30'
-                    : route.status === 'closed'
-                      ? 'bg-red-500/10 border-red-500/30'
-                      : 'bg-green-500/10 border-green-500/30'
+                  route.riskLevel === 'critical'
+                    ? 'bg-red-500/10 border-red-500/30'
+                    : route.riskLevel === 'high'
+                      ? 'bg-orange-500/10 border-orange-500/30'
+                      : route.riskLevel === 'medium'
+                        ? 'bg-yellow-500/10 border-yellow-500/30'
+                        : 'bg-green-500/10 border-green-500/30'
                 }`}
               >
                 <div className="flex items-start justify-between mb-3">
                   <div>
                     <div className="font-semibold text-gray-100">{route.name}</div>
-                    <div className="text-xs text-gray-400 mt-1">{route.volume}</div>
+                    <div className="text-xs text-gray-400 mt-1">{route.dailyVolume} vessels/day | {route.tankerDaily} tankers | {route.containerDaily} containers</div>
                   </div>
                   <div
-                    className={`text-2xl font-bold ${
-                      route.status === 'open'
-                        ? 'text-green-400'
-                        : route.status === 'restricted'
-                          ? 'text-yellow-400'
-                          : 'text-red-400'
+                    className={`px-3 py-1 rounded font-bold text-sm text-white ${
+                      route.riskLevel === 'critical'
+                        ? 'bg-red-600'
+                        : route.riskLevel === 'high'
+                          ? 'bg-orange-600'
+                          : route.riskLevel === 'medium'
+                            ? 'bg-yellow-600'
+                            : 'bg-green-600'
                     }`}
                   >
-                    {getShippingStatusIcon(route.status)}
+                    {route.riskLevel.toUpperCase()}
                   </div>
                 </div>
                 <div className="mb-3">
-                  <div className="text-xs text-gray-400 mb-2">Risk Level</div>
-                  <div className="w-full bg-slate-700/50 rounded-full h-2">
-                    <div
-                      className={`h-2 rounded-full ${
-                        route.risk >= 80
-                          ? 'bg-red-500'
-                          : route.risk >= 60
-                            ? 'bg-orange-500'
-                            : 'bg-yellow-500'
-                      }`}
-                      style={{ width: `${route.risk}%` }}
-                    ></div>
-                  </div>
+                  <div className="text-xs text-gray-400 mb-2">Transit Time</div>
+                  <div className="font-semibold text-gray-200">{route.avgTransitTime}h</div>
                 </div>
                 <div className="text-xs text-gray-400">
-                  <span className="font-semibold">Alternatives:</span> {route.alternatives.join(', ')}
+                  {route.alternativeRoute && (
+                    <>
+                      <span className="font-semibold">Alternative:</span> {route.alternativeRoute} (+{route.alternativeTransitTime! - route.avgTransitTime}h)
+                    </>
+                  )}
                 </div>
               </div>
             ))}
