@@ -15,14 +15,29 @@ import {
   X,
   ExternalLink,
   Brain,
+  Search,
+  AlertTriangle,
+  TrendingUp,
+  BarChart3,
+  Bell,
+  Package,
+  FileDown,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const NAV = [
   { href: "/portal", label: "Dashboard", icon: LayoutDashboard },
   { href: "/portal/crm", label: "CRM (HubSpot)", icon: Contact },
-  { href: "/portal/accounts", label: "Accounts 360", icon: Building2 },
+  { href: "/portal/accounts-360-pro", label: "Accounts 360 Pro", icon: Building2 },
   { href: "/portal/map", label: "Global Map", icon: Globe2 },
+  { href: "/portal/market-pro", label: "Market Pro", icon: TrendingUp },
+  { href: "/portal/maintenance-alerts", label: "Maintenance Alerts", icon: AlertTriangle },
+  { href: "/portal/sales-pipeline", label: "Sales Pipeline", icon: TrendingUp },
+  { href: "/portal/plant-performance", label: "Plant Performance", icon: BarChart3 },
+  { href: "/portal/smart-alerts", label: "Smart Alerts", icon: Bell },
+  { href: "/portal/order-status", label: "Order Status", icon: Package },
+  { href: "/portal/reports", label: "Reports", icon: FileDown },
+  { href: "/portal/search", label: "Global Search", icon: Search },
   // { href: "/portal/catalog", label: "Equipment Catalog", icon: Boxes }, // Hidden - available in git history if needed
   { href: "/portal/quote", label: "Quote Builder", icon: FileText },
   { href: "/portal/datasheets", label: "Datasheets", icon: BookOpen },

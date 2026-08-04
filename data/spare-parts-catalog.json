@@ -1,0 +1,136 @@
+{
+  "parts": [
+    {
+      "id": "SP-001",
+      "partNumber": "AH-SEAL-PRIMARY-001",
+      "name": "Primary Seal Assembly",
+      "category": "Seals & Gaskets",
+      "description": "Main sealing assembly for tablet compression",
+      "price": 1250,
+      "leadTime": "2-3 weeks",
+      "applicableModels": ["FB1", "FB2", "TB200", "TB300"],
+      "minStockLevel": 5,
+      "reorderQuantity": 10,
+      "weight": 2.5,
+      "supplier": "Ackley-Hartnett Supply"
+    },
+    {
+      "id": "SP-002",
+      "partNumber": "AH-BELT-DRIVE-002",
+      "name": "Drive Belt Assembly",
+      "category": "Power Transmission",
+      "description": "Main drive belt for machine rotation",
+      "price": 850,
+      "leadTime": "1-2 weeks",
+      "applicableModels": ["FB1", "FB2"],
+      "minStockLevel": 3,
+      "reorderQuantity": 8,
+      "weight": 1.2,
+      "supplier": "Ackley-Hartnett Supply"
+    },
+    {
+      "id": "SP-003",
+      "partNumber": "AH-BEARING-MAIN-003",
+      "name": "Main Bearing Assembly",
+      "category": "Bearings",
+      "description": "Primary bearing for main shaft",
+      "price": 2100,
+      "leadTime": "3-4 weeks",
+      "applicableModels": ["TB200", "TB300", "TB500"],
+      "minStockLevel": 2,
+      "reorderQuantity": 5,
+      "weight": 4.0,
+      "supplier": "Ackley-Hartnett Supply"
+    },
+    {
+      "id": "SP-004",
+      "partNumber": "AH-VALVE-PRESS-004",
+      "name": "Pressure Valve Assembly",
+      "category": "Hydraulics",
+      "description": "System pressure relief valve",
+      "price": 1850,
+      "leadTime": "2-3 weeks",
+      "applicableModels": ["TB200", "TB300"],
+      "minStockLevel": 4,
+      "reorderQuantity": 8,
+      "weight": 3.1,
+      "supplier": "Ackley-Hartnett Supply"
+    },
+    {
+      "id": "SP-005",
+      "partNumber": "AH-PUMP-GEAR-005",
+      "name": "Gear Pump Assembly",
+      "category": "Pumps",
+      "description": "Internal gear pump for circulation",
+      "price": 3200,
+      "leadTime": "4-5 weeks",
+      "applicableModels": ["TB300", "TB500"],
+      "minStockLevel": 1,
+      "reorderQuantity": 3,
+      "weight": 6.5,
+      "supplier": "Ackley-Hartnett Supply"
+    }
+  ],
+  "locations": {
+    "location_USA_NJ": {
+      "address": "Newark, NJ Warehouse",
+      "country": "USA",
+      "region": "Northeast",
+      "capacity": 50000
+    },
+    "location_USA_CA": {
+      "address": "Los Angeles, CA Warehouse",
+      "country": "USA",
+      "region": "West Coast",
+      "capacity": 40000
+    },
+    "location_EU_NL": {
+      "address": "Amsterdam, Netherlands Hub",
+      "country": "Netherlands",
+      "region": "Europe",
+      "capacity": 30000
+    },
+    "location_APAC_SG": {
+      "address": "Singapore Regional Center",
+      "country": "Singapore",
+      "region": "APAC",
+      "capacity": 25000
+    }
+  },
+  "inventory": {
+    "location_USA_NJ": {
+      "SP-001": {
+        "quantity": 12,
+        "lastRestocked": "2026-07-15",
+        "nextShipment": "2026-09-01"
+      },
+      "SP-002": {
+        "quantity": 5,
+        "lastRestocked": "2026-06-10",
+        "nextShipment": null
+      },
+      "SP-003": {
+        "quantity": 2,
+        "lastRestocked": "2026-08-01",
+        "nextShipment": "2026-09-15"
+      }
+    },
+    "location_USA_CA": {
+      "SP-001": {
+        "quantity": 8,
+        "lastRestocked": "2026-07-20",
+        "nextShipment": "2026-08-20"
+      },
+      "SP-002": {
+        "quantity": 3,
+        "lastRestocked": "2026-05-20",
+        "nextShipment": "2026-09-10"
+      },
+      "SP-004": {
+        "quantity": 1,
+        "lastRestocked": "2026-07-01",
+        "nextShipment": "2026-08-15"
+      }
+    }
+  }
+}

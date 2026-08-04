@@ -69,6 +69,17 @@ export interface POItem {
   deliveryDate?: string;
 }
 
+export interface Contact {
+  id: string;
+  name: string;
+  title: string;
+  email: string;
+  phone: string;
+  mobile?: string;
+  department: 'operations' | 'procurement' | 'quality' | 'logistics' | 'management';
+  isPrimary?: boolean;
+}
+
 export interface PlantData {
   id: string;
   name: string;
@@ -79,6 +90,7 @@ export interface PlantData {
   quotes: Quote[];
   uploads: UploadRequest[];
   pos: PO[];
+  contacts: Contact[];
   metrics: {
     totalMachines: number;
     activeMachines: number;
@@ -86,12 +98,53 @@ export interface PlantData {
     totalOrderValue: number;
     totalQuoteValue: number;
     pendingPOs: number;
+    totalContacts: number;
   };
 }
 
 // Sample data generators
 export function generatePlantData(plantName: string, country: string, machines: Machine[]): PlantData {
   const plantId = plantName.toLowerCase().replace(/\s+/g, '-');
+
+  // Generate sample contacts
+  const contacts: Contact[] = [
+    {
+      id: `contact_${plantId}_001`,
+      name: 'John Smith',
+      title: 'Plant Manager',
+      email: `john.smith@${plantId}.com`,
+      phone: '+1-555-0101',
+      mobile: '+1-555-0111',
+      department: 'management',
+      isPrimary: true,
+    },
+    {
+      id: `contact_${plantId}_002`,
+      name: 'Sarah Johnson',
+      title: 'Operations Director',
+      email: `sarah.johnson@${plantId}.com`,
+      phone: '+1-555-0102',
+      mobile: '+1-555-0112',
+      department: 'operations',
+    },
+    {
+      id: `contact_${plantId}_003`,
+      name: 'Michael Chen',
+      title: 'Procurement Manager',
+      email: `michael.chen@${plantId}.com`,
+      phone: '+1-555-0103',
+      mobile: '+1-555-0113',
+      department: 'procurement',
+    },
+    {
+      id: `contact_${plantId}_004`,
+      name: 'Lisa Rodriguez',
+      title: 'Quality Assurance Lead',
+      email: `lisa.rodriguez@${plantId}.com`,
+      phone: '+1-555-0104',
+      department: 'quality',
+    },
+  ];
 
   // Generate sample orders
   const orders: Order[] = [
@@ -244,6 +297,7 @@ export function generatePlantData(plantName: string, country: string, machines: 
     quotes,
     uploads,
     pos,
+    contacts,
     metrics: {
       totalMachines: machines.length,
       activeMachines: machines.filter((m) => m.status === 'active').length,
@@ -251,6 +305,7 @@ export function generatePlantData(plantName: string, country: string, machines: 
       totalOrderValue: orders.reduce((sum, o) => sum + o.value, 0),
       totalQuoteValue: quotes.reduce((sum, q) => sum + q.value, 0),
       pendingPOs: pos.filter((p) => p.status === 'draft' || p.status === 'ordered').length,
+      totalContacts: contacts.length,
     },
   };
 }

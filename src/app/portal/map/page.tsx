@@ -25,6 +25,8 @@ export default function MapPage() {
   const [loading, setLoading] = useState(true);
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null);
   const [searchTerm, setSearchTerm] = useState('');
+  const [selectedPlant, setSelectedPlant] = useState<any>(null);
+  const [plantContacts, setPlantContacts] = useState<any[]>([]);
 
   useEffect(() => {
     const loadMachines = async () => {
@@ -42,6 +44,19 @@ export default function MapPage() {
 
     loadMachines();
   }, []);
+
+  const loadPlantContacts = async (plantId: string) => {
+    try {
+      const res = await fetch(`/api/plants/operations?plantId=${plantId}`);
+      const data = await res.json();
+      if (data.plant) {
+        setSelectedPlant(data.plant);
+        setPlantContacts(data.plant.contacts || []);
+      }
+    } catch (error) {
+      console.error('Failed to load plant contacts:', error);
+    }
+  };
 
   const filteredMachines = machines.filter(m =>
     m.customer.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -172,7 +187,7 @@ export default function MapPage() {
                       </div>
                     </div>
 
-                    <div className="space-y-2 text-xs text-gray-600 border-t pt-3">
+                    <div className="space-y-2 text-xs text-gray-600 border-t pt-3 pb-3">
                       <p>
                         <span className="font-medium">Model:</span> {machine.model}
                       </p>
@@ -183,6 +198,13 @@ export default function MapPage() {
                         <span className="font-medium">Location:</span> {machine.address}
                       </p>
                     </div>
+
+                    <button
+                      onClick={() => loadPlantContacts(machine.customer.toLowerCase().replace(/\s+/g, '-'))}
+                      className="w-full mt-2 bg-blue-600 text-white text-xs py-1.5 rounded hover:bg-blue-700 transition-colors font-medium"
+                    >
+                      👥 View Contacts
+                    </button>
                   </div>
                 ))}
               </div>
@@ -205,6 +227,72 @@ export default function MapPage() {
           </div>
         )}
       </main>
+
+      {/* Plant Contacts Modal */}
+      {selectedPlant && (
+        <div className="fixed inset-0 z-50 bg-black/50 flex items-center justify-center p-4">
+          <div className="bg-white rounded-lg max-w-2xl w-full max-h-96 overflow-y-auto">
+            <div className="sticky top-0 bg-white border-b p-4 flex justify-between items-center">
+              <h2 className="text-xl font-bold text-gray-900">👥 {selectedPlant.name} - Contacts</h2>
+              <button
+                onClick={() => setSelectedPlant(null)}
+                className="text-gray-600 hover:text-gray-900"
+              >
+                ✕
+              </button>
+            </div>
+
+            <div className="p-4 space-y-4">
+              {plantContacts.length > 0 ? (
+                plantContacts.map((contact: any) => (
+                  <div key={contact.id} className="border rounded-lg p-4 bg-gray-50">
+                    <div className="flex justify-between items-start mb-2">
+                      <div>
+                        <h3 className="font-semibold text-gray-900">{contact.name}</h3>
+                        <p className="text-sm text-blue-600 font-medium">{contact.title}</p>
+                      </div>
+                      {contact.isPrimary && (
+                        <span className="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded font-medium">
+                          PRIMARY
+                        </span>
+                      )}
+                    </div>
+                    <div className="space-y-1 text-sm">
+                      <p>
+                        <span className="font-medium">Email:</span>{' '}
+                        <a href={`mailto:${contact.email}`} className="text-blue-600 hover:underline">
+                          {contact.email}
+                        </a>
+                      </p>
+                      <p>
+                        <span className="font-medium">Phone:</span>{' '}
+                        <a href={`tel:${contact.phone}`} className="text-blue-600 hover:underline">
+                          {contact.phone}
+                        </a>
+                      </p>
+                      {contact.mobile && (
+                        <p>
+                          <span className="font-medium">Mobile:</span>{' '}
+                          <a href={`tel:${contact.mobile}`} className="text-blue-600 hover:underline">
+                            {contact.mobile}
+                          </a>
+                        </p>
+                      )}
+                      <p className="text-xs text-gray-600 mt-2">
+                        <span className="inline-block bg-gray-300 text-gray-800 px-2 py-1 rounded">
+                          {contact.department}
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                ))
+              ) : (
+                <p className="text-gray-600">No contacts found for this plant.</p>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

@@ -13,6 +13,7 @@ interface PlantData {
   quotes: any[];
   uploads: any[];
   pos: any[];
+  contacts: any[];
   metrics: {
     totalMachines: number;
     activeMachines: number;
@@ -28,7 +29,7 @@ export default function Accounts360Page() {
   const [selectedPlant, setSelectedPlant] = useState<PlantData | null>(null);
   const [loading, setLoading] = useState(true);
   const [expandedSection, setExpandedSection] = useState<string>('machines');
-  const [activeTab, setActiveTab] = useState<'machines' | 'orders' | 'quotes' | 'uploads' | 'pos'>('machines');
+  const [activeTab, setActiveTab] = useState<'machines' | 'orders' | 'quotes' | 'uploads' | 'pos' | 'contacts'>('machines');
   const [filterCategory, setFilterCategory] = useState<string>('all');
   const [filterDateRange, setFilterDateRange] = useState<'all' | '30days' | '90days' | '1year'>('all');
 
@@ -136,7 +137,7 @@ export default function Accounts360Page() {
 
             {/* Tabs */}
             <div className="flex gap-4 mb-6 border-b border-gray-200 overflow-x-auto">
-              {['machines', 'orders', 'quotes', 'uploads', 'pos'].map((tab) => (
+              {['machines', 'orders', 'quotes', 'uploads', 'pos', 'contacts'].map((tab) => (
                 <button
                   key={tab}
                   onClick={() => setActiveTab(tab as any)}
@@ -151,6 +152,7 @@ export default function Accounts360Page() {
                   {tab === 'quotes' && <FileText className="inline mr-2" size={16} />}
                   {tab === 'uploads' && <Upload className="inline mr-2" size={16} />}
                   {tab === 'pos' && <Truck className="inline mr-2" size={16} />}
+                  {tab === 'contacts' && '👥'}
                   {tab.charAt(0).toUpperCase() + tab.slice(1)}
                 </button>
               ))}
@@ -317,6 +319,54 @@ export default function Accounts360Page() {
                     <div className="pt-3 border-t flex justify-between">
                       <span className="text-sm font-medium text-gray-700">{po.category.toUpperCase()}</span>
                       <p className="text-lg font-bold text-gray-900">${po.totalValue.toLocaleString()}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+
+            {/* Contacts Tab */}
+            {activeTab === 'contacts' && (
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {selectedPlant.contacts.map((contact: any) => (
+                  <div key={contact.id} className="bg-gray-50 rounded-lg p-4 border border-gray-200">
+                    <div className="flex justify-between items-start mb-2">
+                      <div>
+                        <h3 className="font-semibold text-gray-900">{contact.name}</h3>
+                        <p className="text-sm text-blue-600 font-medium">{contact.title}</p>
+                      </div>
+                      {contact.isPrimary && (
+                        <span className="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded font-medium">
+                          PRIMARY
+                        </span>
+                      )}
+                    </div>
+                    <div className="space-y-2 text-sm">
+                      <p className="text-gray-700">
+                        <span className="font-medium">Email:</span>
+                        <a href={`mailto:${contact.email}`} className="text-blue-600 hover:underline ml-1">
+                          {contact.email}
+                        </a>
+                      </p>
+                      <p className="text-gray-700">
+                        <span className="font-medium">Phone:</span>
+                        <a href={`tel:${contact.phone}`} className="text-blue-600 hover:underline ml-1">
+                          {contact.phone}
+                        </a>
+                      </p>
+                      {contact.mobile && (
+                        <p className="text-gray-700">
+                          <span className="font-medium">Mobile:</span>
+                          <a href={`tel:${contact.mobile}`} className="text-blue-600 hover:underline ml-1">
+                            {contact.mobile}
+                          </a>
+                        </p>
+                      )}
+                      <p className="text-gray-600">
+                        <span className="inline-block bg-gray-200 text-gray-800 px-2 py-1 rounded text-xs mt-2">
+                          {contact.department}
+                        </span>
+                      </p>
                     </div>
                   </div>
                 ))}
