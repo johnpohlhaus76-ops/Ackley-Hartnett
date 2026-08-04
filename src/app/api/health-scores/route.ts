@@ -7,24 +7,27 @@ export async function GET(request: NextRequest) {
     const customerId = searchParams.get('customerId');
     const bulk = searchParams.get('bulk') === 'true';
 
-    if (bulk) {
+    // Return bulk scores by default if no customerId provided
+    if (bulk || !customerId) {
       const scores = calculateBulkHealthScores();
-      return NextResponse.json({ scores });
-    }
-
-    if (!customerId) {
-      return NextResponse.json(
-        { error: 'customerId required' },
-        { status: 400 }
-      );
+      return NextResponse.json({
+        success: true,
+        scores,
+        total: scores.length,
+        timestamp: new Date().toISOString()
+      });
     }
 
     const score = getHealthScore(customerId);
-    return NextResponse.json({ score });
+    return NextResponse.json({
+      success: true,
+      score,
+      timestamp: new Date().toISOString()
+    });
   } catch (error) {
     console.error('Health score error:', error);
     return NextResponse.json(
-      { error: 'Failed to calculate health score' },
+      { success: false, error: 'Failed to calculate health score' },
       { status: 500 }
     );
   }
