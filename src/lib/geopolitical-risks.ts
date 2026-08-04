@@ -28,11 +28,14 @@ export interface GeopoliticalData {
     status: 'open' | 'restricted' | 'closed';
     risk: number;
     alternatives: string[];
+    volume: string;
   }[];
   commodityCorrelation: {
     commodity: string;
     priceImpact: number; // % impact when tensions rise
     primaryRegion: string;
+    basePrice: number;
+    crisisPrice: number;
   }[];
   timestamp: string;
 }

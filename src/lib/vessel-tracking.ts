@@ -236,7 +236,7 @@ export function getTrackedVessels(): Vessel[] {
     // Suez Canal
     {
       id: 'vessel_suez_001',
-      name: 'Pharaoh's Pride',
+      name: "Pharaoh's Pride",
       type: 'container',
       flag: 'Greece',
       position: { lat: 30.4, lng: 32.0 },
