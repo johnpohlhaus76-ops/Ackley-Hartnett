@@ -1,19 +1,19 @@
 'use client';
 
-import React, { useState, useRef } from 'react';
-import Image from 'next/image';
+import React, { useState, useRef, useEffect } from 'react';
 import Link from 'next/link';
 
 export default function WeiLinAssistant() {
   const [speaking, setSpeaking] = useState(false);
   const [listening, setListening] = useState(false);
+  const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState('');
   const [responses, setResponses] = useState<Array<{ role: string; text: string }>>([]);
-  const speechSynthesisRef = useRef<SpeechSynthesisUtterance | null>(null);
+  const audioRef = useRef<HTMLAudioElement>(null);
   const recognitionRef = useRef<any>(null);
 
   // Initialize speech recognition
-  React.useEffect(() => {
+  useEffect(() => {
     const SpeechRecognition = (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
     if (SpeechRecognition) {
       recognitionRef.current = new SpeechRecognition();
@@ -30,19 +30,31 @@ export default function WeiLinAssistant() {
     }
   }, []);
 
-  const speak = (text: string) => {
-    // Cancel any existing speech
-    window.speechSynthesis.cancel();
+  const speak = async (text: string) => {
+    setSpeaking(true);
+    try {
+      const res = await fetch('/api/ai/speak', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ text }),
+      });
 
-    speechSynthesisRef.current = new SpeechSynthesisUtterance(text);
-    speechSynthesisRef.current.rate = 1;
-    speechSynthesisRef.current.pitch = 1.2;
-    speechSynthesisRef.current.volume = 1;
-
-    speechSynthesisRef.current.onstart = () => setSpeaking(true);
-    speechSynthesisRef.current.onend = () => setSpeaking(false);
-
-    window.speechSynthesis.speak(speechSynthesisRef.current);
+      if (res.ok) {
+        const audioBlob = await res.blob();
+        const audioUrl = URL.createObjectURL(audioBlob);
+        if (audioRef.current) {
+          audioRef.current.src = audioUrl;
+          audioRef.current.play();
+          audioRef.current.onended = () => setSpeaking(false);
+        }
+      } else {
+        setSpeaking(false);
+        console.error('Speech generation failed');
+      }
+    } catch (error) {
+      setSpeaking(false);
+      console.error('Speech error:', error);
+    }
   };
 
   const handleListen = () => {
@@ -52,42 +64,48 @@ export default function WeiLinAssistant() {
   };
 
   const handleSend = async () => {
-    if (!message.trim()) return;
+    if (!message.trim() || loading) return;
 
     setResponses((prev) => [...prev, { role: 'user', text: message }]);
+    const userMessage = message;
     setMessage('');
+    setLoading(true);
 
-    // Simulate AI response (in real app, call your API)
-    const responses_map: Record<string, string> = {
-      'update quotes': 'I can help! Go to /portal/quick-upload to bulk update your quotes. Download the template, edit in Excel, and upload in 30 seconds.',
-      'export data':
-        'You can export your data as CSV or JSON from the export endpoints. I recommend CSV for Excel editing.',
-      'how are you':
-        "I'm Wei Lin, your AI assistant! I can help you manage quotes, orders, and data. Just ask me anything!",
-      'help': 'I can help with: updating quotes, exporting data, importing files, checking order status, and more!',
-      'hello':
-        'Hey there! I am Wei Lin, your personal AI assistant. How can I help you manage your business today?',
-    };
+    try {
+      const res = await fetch('/api/ai/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          message: userMessage,
+          conversationHistory: responses,
+        }),
+      });
 
-    const lowerMsg = message.toLowerCase();
-    let response = 'I understand. How can I help you with your quotes and orders?';
+      const data = await res.json();
 
-    for (const [key, value] of Object.entries(responses_map)) {
-      if (lowerMsg.includes(key)) {
-        response = value;
-        break;
+      if (data.success) {
+        const aiResponse = data.response;
+        setResponses((prev) => [...prev, { role: 'assistant', text: aiResponse }]);
+        await speak(aiResponse);
+      } else {
+        const errorMsg = 'I encountered an issue. Please try again.';
+        setResponses((prev) => [...prev, { role: 'assistant', text: errorMsg }]);
+        await speak(errorMsg);
       }
+    } catch (error) {
+      console.error('Chat error:', error);
+      const errorMsg = 'Connection error. Please try again.';
+      setResponses((prev) => [...prev, { role: 'assistant', text: errorMsg }]);
+    } finally {
+      setLoading(false);
     }
-
-    // Add delay for natural feel
-    setTimeout(() => {
-      setResponses((prev) => [...prev, { role: 'assistant', text: response }]);
-      speak(response);
-    }, 500);
   };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-black p-6">
+      {/* Hidden audio element for playback */}
+      <audio ref={audioRef} />
+
       <div className="max-w-2xl mx-auto">
         {/* Header */}
         <div className="mb-8">
@@ -134,15 +152,15 @@ export default function WeiLinAssistant() {
           <div className="flex gap-3 justify-center">
             <button
               onClick={handleListen}
-              disabled={speaking || listening}
-              className="px-6 py-3 bg-yellow-600 hover:bg-yellow-700 disabled:opacity-50 rounded-lg font-semibold text-white transition"
+              disabled={speaking || listening || loading}
+              className="px-6 py-3 bg-yellow-600 hover:bg-yellow-700 disabled:opacity-50 disabled:cursor-not-allowed rounded-lg font-semibold text-white transition"
             >
               🎤 Listen
             </button>
             <button
-              onClick={() => speak('Hello! I am Wei Lin, your AI assistant.')}
-              disabled={speaking}
-              className="px-6 py-3 bg-cyan-600 hover:bg-cyan-700 disabled:opacity-50 rounded-lg font-semibold text-white transition"
+              onClick={() => speak('Hello! I am Wei Lin, your AI assistant. How can I help you today?')}
+              disabled={speaking || loading}
+              className="px-6 py-3 bg-cyan-600 hover:bg-cyan-700 disabled:opacity-50 disabled:cursor-not-allowed rounded-lg font-semibold text-white transition"
             >
               🗣️ Test Voice
             </button>
@@ -179,6 +197,14 @@ export default function WeiLinAssistant() {
             )}
           </div>
 
+          {/* Status for loading */}
+          {loading && (
+            <div className="mb-4 flex items-center gap-2 text-cyan-400">
+              <div className="animate-spin rounded-full h-4 w-4 border-2 border-cyan-400 border-t-transparent"></div>
+              <span className="text-sm">Wei Lin is thinking...</span>
+            </div>
+          )}
+
           {/* Input */}
           <div className="flex gap-3">
             <input
@@ -187,14 +213,15 @@ export default function WeiLinAssistant() {
               onChange={(e) => setMessage(e.target.value)}
               onKeyPress={(e) => e.key === 'Enter' && handleSend()}
               placeholder="Type your message or click Listen..."
-              className="flex-1 px-4 py-3 bg-slate-800 border border-slate-700 rounded-lg text-gray-200 placeholder-gray-500 focus:outline-none focus:border-cyan-500"
+              disabled={loading || speaking}
+              className="flex-1 px-4 py-3 bg-slate-800 border border-slate-700 rounded-lg text-gray-200 placeholder-gray-500 focus:outline-none focus:border-cyan-500 disabled:opacity-50"
             />
             <button
               onClick={handleSend}
-              disabled={!message.trim() || speaking}
-              className="px-6 py-3 bg-cyan-600 hover:bg-cyan-700 disabled:opacity-50 rounded-lg font-semibold text-white transition"
+              disabled={!message.trim() || speaking || loading}
+              className="px-6 py-3 bg-cyan-600 hover:bg-cyan-700 disabled:opacity-50 disabled:cursor-not-allowed rounded-lg font-semibold text-white transition"
             >
-              Send
+              {loading ? '...' : 'Send'}
             </button>
           </div>
         </div>
