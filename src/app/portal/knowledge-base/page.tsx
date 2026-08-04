@@ -1,7 +1,20 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
-import { Upload, Send, Loader2, FileText, Video, Trash2, Plus } from 'lucide-react';
+import { Upload, Send, Loader2, FileText, Video, Trash2, Plus, Monitor, Globe } from 'lucide-react';
+import { DocumentViewer } from '@/components/DocumentViewer';
+import { ScreenShare } from '@/components/ScreenShare';
+
+type Language = 'en' | 'zh' | 'th' | 'vi' | 'ko' | 'ja';
+
+const LANGUAGES = {
+  en: { name: 'English', flag: '🇬🇧' },
+  zh: { name: '中文', flag: '🇨🇳' },
+  th: { name: 'ไทย', flag: '🇹🇭' },
+  vi: { name: 'Việt Nam', flag: '🇻🇳' },
+  ko: { name: '한국어', flag: '🇰🇷' },
+  ja: { name: '日本語', flag: '🇯🇵' },
+};
 
 interface Document {
   id: string;
@@ -10,6 +23,7 @@ interface Document {
   url: string;
   uploadedAt: string;
   summary?: string;
+  translations?: Record<Language, { summary?: string }>;
 }
 
 interface Message {
@@ -17,6 +31,7 @@ interface Message {
   type: 'user' | 'assistant';
   content: string;
   timestamp: string;
+  originalLanguage?: Language;
 }
 
 export default function KnowledgeBasePage() {
@@ -28,6 +43,10 @@ export default function KnowledgeBasePage() {
   const [file, setFile] = useState<File | null>(null);
   const [fileTitle, setFileTitle] = useState('');
   const [fileDescription, setFileDescription] = useState('');
+  const [language, setLanguage] = useState<Language>('en');
+  const [selectedDoc, setSelectedDoc] = useState<Document | null>(null);
+  const [screenShareOpen, setScreenShareOpen] = useState(false);
+  const [sessionId] = useState(`session_${Date.now()}`);
   const messagesEnd = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -153,6 +172,19 @@ export default function KnowledgeBasePage() {
   };
 
   return (
+    <>
+    <DocumentViewer
+      title={selectedDoc?.title || ''}
+      type={selectedDoc?.type || 'pdf'}
+      url={selectedDoc?.url || ''}
+      isOpen={!!selectedDoc}
+      onClose={() => setSelectedDoc(null)}
+    />
+    <ScreenShare
+      isOpen={screenShareOpen}
+      onClose={() => setScreenShareOpen(false)}
+      sessionId={sessionId}
+    />
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 p-8 max-w-7xl mx-auto">
       {/* Left: Documents */}
       <div className="lg:col-span-1">
@@ -217,8 +249,11 @@ export default function KnowledgeBasePage() {
             ) : (
               documents.map(doc => (
                 <div key={doc.id} className="flex items-start justify-between p-3 bg-gray-50 rounded-lg group hover:bg-gray-100 transition-colors">
-                  <div className="flex-1 min-w-0">
-                    <div className="flex items-center gap-2 mb-1">
+                  <button
+                    onClick={() => setSelectedDoc(doc)}
+                    className="flex-1 min-w-0 text-left"
+                  >
+                    <div className="flex items-center gap-2 mb-1 hover:text-blue-600 transition-colors">
                       {doc.type === 'pdf' ? (
                         <FileText size={16} className="text-red-500 flex-shrink-0" />
                       ) : (
@@ -232,7 +267,7 @@ export default function KnowledgeBasePage() {
                     <p className="text-xs text-gray-400 mt-1">
                       {new Date(doc.uploadedAt).toLocaleDateString()}
                     </p>
-                  </div>
+                  </button>
                   <button
                     onClick={() => handleDeleteDocument(doc.id)}
                     className="opacity-0 group-hover:opacity-100 transition-opacity p-1 text-gray-400 hover:text-red-600 flex-shrink-0"
@@ -249,7 +284,28 @@ export default function KnowledgeBasePage() {
       {/* Right: Q&A Chat */}
       <div className="lg:col-span-2">
         <div className="bg-white rounded-xl border shadow-sm p-6 h-full flex flex-col">
-          <h2 className="text-xl font-semibold text-gray-900 mb-4">Ask Questions</h2>
+          <div className="flex items-center justify-between mb-4">
+            <h2 className="text-xl font-semibold text-gray-900">Ask Questions</h2>
+            <div className="flex items-center gap-2">
+              <button
+                onClick={() => setScreenShareOpen(true)}
+                className="p-2 hover:bg-gray-100 rounded-lg text-gray-600 transition-colors" title="Start screen share"
+              >
+                <Monitor size={18} />
+              </button>
+              <select
+                value={language}
+                onChange={(e) => setLanguage(e.target.value as Language)}
+                className="px-2 py-1 border rounded-lg text-sm bg-white hover:bg-gray-50"
+              >
+                {Object.entries(LANGUAGES).map(([code, { name, flag }]) => (
+                  <option key={code} value={code}>
+                    {flag} {name}
+                  </option>
+                ))}
+              </select>
+            </div>
+          </div>
 
           {/* Messages */}
           <div className="flex-1 overflow-y-auto space-y-4 mb-4 min-h-96 max-h-96 pb-4">
@@ -307,5 +363,6 @@ export default function KnowledgeBasePage() {
         </div>
       </div>
     </div>
+    </>
   );
 }
