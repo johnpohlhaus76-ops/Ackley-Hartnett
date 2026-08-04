@@ -1,0 +1,46 @@
+{
+  "version": "1.0",
+  "name": "Ackley Hartnett Portal - China Optimization",
+  "description": "Cloudflare configuration for optimal China performance",
+  "rules": [
+    {
+      "name": "Cache Everything",
+      "pattern": "ackley-hartnett-portal.vercel.app/*",
+      "actions": {
+        "cache_level": "cache_everything",
+        "browser_cache_ttl": 1800,
+        "edge_cache_ttl": 18000
+      }
+    },
+    {
+      "name": "API Cache (5 minutes)",
+      "pattern": "ackley-hartnett-portal.vercel.app/api/*",
+      "actions": {
+        "cache_level": "cache_everything",
+        "browser_cache_ttl": 300,
+        "edge_cache_ttl": 300
+      }
+    }
+  ],
+  "optimizations": {
+    "compression": "brotli",
+    "minify": {
+      "html": true,
+      "css": true,
+      "js": true
+    },
+    "early_hints": true,
+    "http2_to_origin": true,
+    "0rtt_connection_resumption": true
+  },
+  "security": {
+    "ssl_tls": "flexible",
+    "always_use_https": true,
+    "minimum_tls_version": "1.2"
+  },
+  "performance": {
+    "image_optimization": true,
+    "rocket_loader": true,
+    "polish": "lossless"
+  }
+}
