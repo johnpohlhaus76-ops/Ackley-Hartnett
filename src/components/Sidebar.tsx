@@ -23,7 +23,7 @@ const NAV = [
   { href: "/portal/crm", label: "CRM (HubSpot)", icon: Contact },
   { href: "/portal/accounts", label: "Accounts 360", icon: Building2 },
   { href: "/portal/map", label: "Global Map", icon: Globe2 },
-  { href: "/portal/catalog", label: "Equipment Catalog", icon: Boxes },
+  // { href: "/portal/catalog", label: "Equipment Catalog", icon: Boxes }, // Hidden - available in git history if needed
   { href: "/portal/quote", label: "Quote Builder", icon: FileText },
   { href: "/portal/datasheets", label: "Datasheets", icon: BookOpen },
   { href: "/portal/knowledge-base", label: "Knowledge Base", icon: Brain },
