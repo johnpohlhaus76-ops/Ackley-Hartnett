@@ -34,17 +34,15 @@ export default function QuotesOrdersManagement() {
   const loadData = async () => {
     setLoading(true);
     try {
-      const [quotesRes, ordersRes] = await Promise.all([
-        fetch('/api/quotes').catch(() => ({ ok: false })),
-        fetch('/api/orders').catch(() => ({ ok: false })),
-      ]);
+      const quotesRes = await fetch('/api/quotes').catch(() => null);
+      const ordersRes = await fetch('/api/orders').catch(() => null);
 
-      if (quotesRes.ok) {
+      if (quotesRes?.ok) {
         const data = await quotesRes.json();
         setQuotes(Array.isArray(data) ? data : data.quotes || []);
       }
 
-      if (ordersRes.ok) {
+      if (ordersRes?.ok) {
         const data = await ordersRes.json();
         setOrders(Array.isArray(data) ? data : data.orders || []);
       }
