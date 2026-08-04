@@ -35,9 +35,13 @@ export async function GET() {
 
     const plantMap = new Map();
 
+    // Handle both array and object with installations property
+    const machines = Array.isArray(machinesData) ? machinesData : (machinesData.installations || []);
+
     // Build plants with complete data
-    machinesData.installations?.forEach((machine: any) => {
-      const account = accountsData.accounts?.find((a: any) => a.name === machine.account);
+    machines.forEach((machine: any) => {
+      const customerName = machine.Customer || machine.account || machine.name;
+      const account = accountsData.accounts?.find((a: any) => a.name === customerName || a.name?.includes(customerName));
       if (!account) return;
 
       const plantKey = account.name;
@@ -65,10 +69,10 @@ export async function GET() {
 
       // Add machine with full details
       const machineEntry = {
-        id: machine.serialNumber,
-        model: machine.model,
-        serialNumber: machine.serialNumber,
-        installDate: machine.installDate || '2024-01-01',
+        id: machine['Serial Number'] || machine.serialNumber,
+        model: machine.Description || machine.model || 'Tablet Marking System',
+        serialNumber: machine['Serial Number'] || machine.serialNumber,
+        installDate: machine.Shipped || machine.installDate || '2024-01-01',
         status: machine.status || 'active',
         capabilities: machine.capabilities || [],
         lastServiceDate: '2024-06-15',
