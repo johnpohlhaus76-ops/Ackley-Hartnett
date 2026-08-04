@@ -14,6 +14,7 @@ import {
   Menu,
   X,
   ExternalLink,
+  Brain,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -25,6 +26,7 @@ const NAV = [
   { href: "/portal/catalog", label: "Equipment Catalog", icon: Boxes },
   { href: "/portal/quote", label: "Quote Builder", icon: FileText },
   { href: "/portal/datasheets", label: "Datasheets", icon: BookOpen },
+  { href: "/portal/knowledge-base", label: "Knowledge Base", icon: Brain },
 ];
 
 export function Sidebar() {
